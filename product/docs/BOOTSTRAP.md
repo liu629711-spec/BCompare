@@ -24,6 +24,8 @@ cd D:\Rea
     C:\Python314\python.exe tools\fetch_fixtures.py
 ::     安装不在默认位置时：
 ::     ... fetch_fixtures.py --source BCompare-5.2.6="E:\path\BCompare.exe"
+::     ⚠ 顺序重要：product/cli/tests/script_exec.rs 的 verfix 用例直接读
+::     tests/verfix/*.com|.exe（不自动 skip）——fetch 之前跑 cargo test 会红。
 :: (e) Rust 引擎
 cd product\core    && cargo build --release && cargo test --release
 cd ..\cli          && cargo test --release
