@@ -59,12 +59,22 @@ def main():
     verify_only = "--verify" in sys.argv
     entries = json.load(open(MANIFEST, encoding="utf-8"))
     missing_src = {}
+    patched = []
     ok = copied = bad = already = 0
     for rel, meta in entries.items():
         target = os.path.join(ROOT, rel.replace("/", os.sep))
         want = meta["sha256"]
         if want is None:  # ghidra zip: document, don't fetch
             print(f"[download] {rel}: fetch ghidra 11.2.1 release zip manually")
+            continue
+        if meta["source"] == "BComp.com-patched":
+            # NOT a plain copy: byte-patched version-resource variant.
+            # Regenerate via product/verify/probes/m112b_ver_fields_probe.py
+            # (opens a BC instance; harness-only path, engine dev never needs it).
+            if os.path.exists(target) and sha(target) == want:
+                already += 1
+                continue
+            patched.append(rel)
             continue
         if os.path.exists(target) and sha(target) == want:
             already += 1

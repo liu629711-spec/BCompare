@@ -121,3 +121,7 @@ nul
 /help/
 /extracted/resources/
 /extracted/rcdata/
+
+# Ghidra decompilation output of the reference binary (derivative
+# of proprietary code) — kept local, not published to this public repo.
+/extracted/pseudocode/
