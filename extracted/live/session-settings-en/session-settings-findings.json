@@ -1,0 +1,19 @@
+{
+  "provenance": "tools/live-session-settings-probe.py, ref 5.2.6, serial Job Object, residue 0; modes ok-yes/ok-no/cancel (2026-10-25). Fixture: Text Merge view L/R/C/OUT (OUT preset PRESETPANE_OUT); Left re-pointed to left2.txt via ValuePattern+TAB commit (read-back confirmed).",
+  "open_ring": "Session menu (physical click, retry-until-popup-has-item) -> Session Settings... -> TSessionDialog 599x602; 4 TUiSpecComboBox top-order Left/Right/Center/Output; TUiOkBtn/TUiCancelBtn.",
+  "commit_rule": "set_edit_text writes the visible field (UIA Edit read-back may lag; dialog pixel diff confirms); TAB commits the combo VALUE pattern (read-back then returns the new path); element wrappers go STALE after TAB -> re-acquire the dialog wrapper before touching buttons.",
+  "ok_ring": {
+    "invoke_effective": "uia invoke IS effective on TUiOkBtn (dialog button family) — NOT the toolbar TUiSpeedButton invoke-ineffective family; do not extrapolate.",
+    "confirm_modal": "OK raises a MODAL TFileConfirmSaveDialog 'Save merge output?' (Yes/No/Cancel) whenever the current merge output document differs from the on-disk target (probe never hand-edited the output, yet it prompted -> BC treats dirty = merged-result != target-bytes, not just user edits). Cancel on the Settings dialog does NOT raise it.",
+    "yes": "Yes writes the PRE-application (old-spec) merged document to the target file (out-after = LEFT-ONE-ORIGINAL..., the old take-left result, NOT left2's), THEN applies the new spec.",
+    "no": "No skips the write (out stays PRESETPANE_OUT), then applies + re-compares.",
+    "both_recompare_in_place": "after Yes or No the source panes RE-COMPARE with main TViewForm handle UNCHANGED (main-replaced=false, left-pane pixel diff 611 = L->left2 took effect); title stays '{out} - Text Merge' (does NOT track the new Left path).",
+    "cancel": "Cancel closes the Settings dialog with ZERO side effects: no confirm, no re-compare (leftpane diff 0), output file untouched, spec edits discarded.",
+    "stacking_lesson": "while the confirm modal is up, TSessionDialog still reports visible — the earlier 'OK did nothing' readings were this stack (four input routes fired while the modal swallowed them); dialog rings must be walked modal-by-modal, window-present != interactable."
+  },
+  "not_measured_deferred": [
+    "confirm-modal answered Cancel (probe never tested it) -> tier-1 GUI defines its own: abandon the OK, keep the Settings dialog open (presentation self-design, annotated).",
+    "non-merge views (text/hex/folder) have no 'dirty output document' concept; BC's confirm behaviour there untested -> first tier prompts ONLY on the merge view (semantic choice, annotated).",
+    "Format/Importance/Alignment tabs and the Copy/Swap spec buttons are OUT of tier-1 Specs (in案 follow-ups)."
+  ]
+}

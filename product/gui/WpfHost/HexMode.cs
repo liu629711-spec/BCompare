@@ -99,7 +99,9 @@ namespace ReaCompare.Gui
     /// char 0 in both panes).</summary>
     internal sealed class HexViewState
     {
-        public readonly HexModel Model;
+        public HexModel Model;   // NOT readonly: Session Settings re-points the
+        // pair and re-runs --hex3 in place (measured ok ring: the main window
+        // handle survives, the panes re-compare — docs/19 §6.22)
         public int TopRow;
         public int SelectedSlot = -1;
         public int VisibleRows = 40;
@@ -114,6 +116,20 @@ namespace ReaCompare.Gui
             // "first actionable row" rule, same family)
             SelectedSlot = m.Slots.FindIndex(s => !s.matched);
             if (SelectedSlot < 0 && m.Slots.Count > 0) SelectedSlot = 0;
+        }
+
+        /// <summary>In-place model swap for Session Settings OK (docs/19
+        /// §6.22: re-compare without closing the window): adopt the new model,
+        /// reset cursor+viewport to the fresh-view rules, repaint every pane.
+        /// Viewers hold THIS state object (not the old model), so nothing else
+        /// re-wires.</summary>
+        public void ApplyNewModel(HexModel m)
+        {
+            Model = m;
+            TopRow = 0;
+            SelectedSlot = m.Slots.FindIndex(s => !s.matched);
+            if (SelectedSlot < 0 && m.Slots.Count > 0) SelectedSlot = 0;
+            Raise();
         }
 
         public void ClickSlot(int slot)

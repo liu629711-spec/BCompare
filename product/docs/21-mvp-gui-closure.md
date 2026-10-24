@@ -106,13 +106,35 @@
 ## 施工顺序与验收（每步全套回归 + 文档三件套）
 
 1. ✅ **A 状态栏接线**（2026-10-24 收口）：LiveName 引擎聚合 + DriveInfo free；uia-folder-check 第三断言（4/24、4/26 + free 形状）+ 负向注入全绿。
-2. **B 工具栏渲染第一档**（2026-10-24 实现+树级验证收口）：文字按钮面
+2. ✅ **B 工具栏渲染第一档（完全收口）**（2026-10-24 实现+树级验证；
+   2026-10-25 桌面恢复后活体像素三模补跑全绿）：文字按钮面
    （39px 实测高+44px 行、1px 分隔、Fluent hover/pressed、dark.json
    toolbar 键、radio 底色照旧+文字叠加、无命令钮按下弹回）。
-   uia-toolbar-check 三模脚本就位；**树级证明全绿（12 golden 逐字节、
-   离线 845/410/290、负向树 386 节点一致）；活体像素三模因环境屏保锁定
-   待补跑（见 docs/19 §6.21 收口状态）**。
-3. **C 探针（OK 行为环）→ Session Settings 对话框**（1–2 天级）。
+   uia-toolbar-check 三模 = positive/negative/dark 全绿（树 386 节点
+   正负一致、13 钮墨水齐、dark 墨色 (226,226,226)）。
+   **门禁判据修正（像素首跑暴露的三处自身不鲁棒，产品零缺陷）**：
+   绝对亮度带 max(r,g,b)<140 → **距声明墨色 Chebyshev≤128**（选中态
+   radio 蓝底把抗锯齿像素抬出亮度带，短词"All"仅 13px 误报；蓝底距墨色
+   仍>128 不混入）；色识别加核心半径 48（蓝底距 light 墨 93 会毒化 top
+   色）；dark 色判定逐通道→**亮度均值 ±28**（ClearType 子像素彩边
+   (204,219,193) 是渲染器属性非产品填色）。负向注入 ink==0 判据不变、
+   牙齿实测保留。
+3. 🔄 **C Session Settings 对话框**（2026-10-25 实现+树级/引擎回归绿；
+   对话框活体环待桌面恢复补跑）：探针先行实测 OK 行为环全环（docs/19 §6.22，
+   session-settings-en R5：4 模式 ok-yes/ok-no/cancel/text-ok/text-cancel）——
+   **核心答案**：OK 原地重比较（主窗句柄存活 main-replaced=false）、标题跟随
+   新对（text 环）、双文件视图只 2 字段（n_spec_combos=2）、text 视图不弹
+   确认框、Cancel 零副作用。方法论教训：BC 改路径 OK 先弹模态
+   TFileConfirmSaveDialog「Save merge output?」——窗口存在≠可交互，模态栈须
+   逐层走。实现（SessionSettingsDialog.cs + MenuMode/MenuHost 接线）：
+   自家 WPF Specs 对话框（两字段预填活对 + 浏览钮，UIA 名 LeftPath/RightPath），
+   OK=原地重跑视图引擎通道换 model（三视图各注册 in-place 闭包，窗口不关=
+   实测照抄），Cancel/Esc 丢弃；菜单→对话框管线=SessionEditAction 项挂
+   Click（BcMenuItemPeer 改 MenuItemAutomationPeer 恢复 ExpandCollapse 模式，
+   纯 UIA 门禁不依赖鼠标）。门禁 tools/uia-session-settings-check.py 就位+
+   桌面预检（env-block exit3 与产品红区分）。**待补跑**：开框/预填/OK 重比较/
+   Cancel 四断言 + 负向 REACMP_SSET_NEG（Screen-saver 阻塞 WPF 弹出子项进 UIA，
+   同 B 像素先例）。合并视图四字段+确认框环随合并窗菜单=在案后续。
 4. **D 报告向导第一档**（1 天级，与 C 共用菜单管线）→ MVP 判据全勾。
 5. **E folder 展开探针→实现**（P1，MVP 后第一个）。
 6. 里程碑尾：docs/20 §4-4 的"BC vs 我们"人工走查一次（探针基建出对照

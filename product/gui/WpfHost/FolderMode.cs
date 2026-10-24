@@ -151,7 +151,10 @@ namespace ReaCompare.Gui
     /// aligned list.</summary>
     internal sealed class FolderViewState
     {
-        public readonly FolderModel Model;
+        public FolderModel Model;   // NOT readonly: Session Settings re-points
+        // the pair and re-runs --dir3 in place (docs/19 §6.22 ok ring: window
+        // handle survives, the list re-compares). Rows stays the SAME List
+        // instance (views iterate it) — ApplyNewModel clears + refills it.
         public readonly List<FolderRow> Rows;
         public int TopRow;
         public int SelectedRow = -1;
@@ -165,6 +168,19 @@ namespace ReaCompare.Gui
             Model = m;
             Rows = m.Visible.ToList();
             SelectedRow = Rows.Count > 0 ? 0 : -1;
+        }
+
+        /// <summary>In-place model swap for Session Settings OK: re-point the
+        /// pair, re-run the engine, keep THIS state object (views hold it),
+        /// reset cursor+viewport to the fresh-view rule, repaint.</summary>
+        public void ApplyNewModel(FolderModel m)
+        {
+            Model = m;
+            Rows.Clear();
+            Rows.AddRange(m.Visible);
+            TopRow = 0;
+            SelectedRow = Rows.Count > 0 ? 0 : -1;
+            Raise();
         }
 
         public void ClickRow(int row)

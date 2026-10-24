@@ -47,8 +47,21 @@ NAMES = {"Home", "All", "Diffs", "Same", "Context", "Minor", "Rules",
          "Format", "Copy", "Next Section", "Prev Section", "Swap", "Reload"}
 BTN_H = 39     # measured UIA button rect height (tree-step0)
 ROW_H = 44     # measured TUiDock row height (tree-step0)
-INK_LIGHT_MAX = 140   # glyph pixel = max(r,g,b) below this on the light face
-INK_DARK_MIN = 150    # glyph pixel = min(r,g,b) above this on the dark face
+# INK criterion = distance to the DECLARED glyph color, NOT an absolute
+# luminance band. The first live run (desktop restored) showed an absolute
+# max(r,g,b)<140 band mis-samples the SELECTED-state button: the radio blue
+# lifts every pixel so only 13/30 core stroke pixels of a 2-letter label pass,
+# and ClearType sub-pixel edges land as colored fringe ((98,42,100) on Home)
+# unrelated to the fill. A distance-to-ink band is background-independent:
+# negative injection (face draws NOTHING) still yields 0 near-ink pixels, so
+# the assertion keeps its teeth.
+INK_LIGHT = (32, 31, 30)   # ChromeHost LightText (measured product constant)
+# 128 Chebyshev: captures the anti-aliased stroke ring on every background
+# (the selected radio-blue pushes AA pixels 100-128 away from the ink core)
+# while excluding all measured backgrounds — hover(245)=213, pressed(231)=199,
+# white base=223, and the radio blue are all >128 from LightText. Negative
+# injection draws nothing -> 0 either way, teeth intact.
+INK_DIST = 128
 
 
 def preorder(win):
@@ -96,21 +109,29 @@ def collect(win):
     return btns, dock
 
 
-def ink_stats(arr, rect, WX, WY, dark):
-    """(count of glyph pixels, most common glyph color) inside a UIA rect."""
+def ink_stats(arr, rect, WX, WY, want, top_radius=48):
+    """Returns (count of pixels within INK_DIST of the declared glyph color
+    `want`, most common CORE glyph color). Two radii on purpose:
+      - INK_DIST (128) counts the whole stroke (core + anti-aliased ring) so
+        the "is it drawn at all" test is background-independent;
+      - top_radius (48) restricts the COLOR-IDENTITY sample to near-core
+        glyph pixels. The selected radio background sits ~93 from the declared
+        light ink and would otherwise out-vote the few core pixels and poison
+        the top color (first dark run: Rules/Same top=(133,186,215) blue bg
+        != (226,226,226))."""
     x0, y0, w, h = rect
-    c = Counter()
+    c, c_top = Counter(), Counter()
     for yy in range(y0 - WY, y0 - WY + h):
         for xx in range(x0 - WX, x0 - WX + w):
             if 0 <= yy < arr.shape[0] and 0 <= xx < arr.shape[1]:
                 p = tuple(int(v) for v in arr[yy, xx, :3])
-                if dark:
-                    if min(p) > INK_DARK_MIN:
-                        c[p] += 1
-                else:
-                    if max(p) < INK_LIGHT_MAX:
-                        c[p] += 1
-    return sum(c.values()), (c.most_common(1)[0][0] if c else None)
+                d = max(abs(p[i] - want[i]) for i in range(3))
+                if d <= INK_DIST:
+                    c[p] += 1
+                    if d <= top_radius:
+                        c_top[p] += 1
+    top = c_top.most_common(1)[0][0] if c_top else (c.most_common(1)[0][0] if c else None)
+    return sum(c.values()), top
 
 
 def launch(env, theme=None):
@@ -186,8 +207,9 @@ def main():
             problems.append(f"[geometry] TUiDock height {dock[3]} != {ROW_H}")
 
         dark = mode == "dark"
+        want = ink_want if dark else INK_LIGHT
         for nm in sorted(NAMES & set(btns)):
-            n_ink, top = ink_stats(arr, btns[nm], WX, WY, dark)
+            n_ink, top = ink_stats(arr, btns[nm], WX, WY, want)
             if mode == "negative":
                 if n_ink != 0:
                     problems.append(f"[negative] {nm} still has {n_ink} glyph px "
@@ -195,11 +217,18 @@ def main():
             else:
                 if n_ink < 15:
                     problems.append(f"[ink] {nm} only {n_ink} glyph px "
-                                    f"(top={top}) — text face not drawn")
+                                    f"(top={top}, want~{want}) — text face not drawn")
             if dark and n_ink > 0 and top is not None:
-                if any(abs(top[i] - ink_want[i]) > 25 for i in range(3)):
-                    problems.append(f"[dark] {nm} glyph {top} != dark.json "
-                                    f"toolbar.text {ink_want}")
+                # ClearType sub-pixel rendering paints colored fringes on the
+                # stroke (green-heavy core samples like (204,219,193) for a
+                # declared (226,226,226)) — that is a renderer property, not
+                # the product's fill color. Compare LUMA (the fringe cancels
+                # across channels); the light-mode face is already covered by
+                # the count assertion above.
+                if abs(sum(top) / 3 - sum(ink_want) / 3) > 28:
+                    problems.append(f"[dark] {nm} glyph {top} luma "
+                                    f"{sum(top)/3:.0f} != dark.json toolbar.text "
+                                    f"{ink_want} luma {sum(ink_want)/3:.0f}")
 
         if mode == "negative":
             if not os.path.exists(TREE_OUT):

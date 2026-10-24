@@ -1,0 +1,222 @@
+{
+ "mode": "ok",
+ "title-before": "out.txt - Text Merge - Beyond Compare",
+ "rect": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "statusbar-before": [
+  "Important Left Change",
+  "\tInsert",
+  "Load time: 0.2 seconds",
+  "1: 1",
+  "Default text",
+  "1: 1",
+  "Default text",
+  "Editing disabled",
+  "1: 1",
+  "Default text",
+  "Editing disabled",
+  "1: 1",
+  "Default text",
+  "Editing disabled"
+ ],
+ "session-item-found": 1,
+ "popup-attempt": 1,
+ "popup-class": "TTBPopupWindow",
+ "popup-found": "TTBPopupWindow",
+ "sub-found": 1,
+ "dialog-open": true,
+ "n_spec_combos": 4,
+ "dialog-rect": [
+  454,
+  157,
+  599,
+  602
+ ],
+ "left-before-value": "val:D:\\Rea\\extracted\\live\\session-settings-en\\R5-ok\\left.txt",
+ "set-result": "set_edit_text->read:<empty>",
+ "commit": "tab-sent",
+ "left-after-set-value": "val:D:\\Rea\\extracted\\live\\session-settings-en\\R5-ok\\left2.txt",
+ "win32-child-classes": [
+  "Edit",
+  "TLineAlignDefFrame",
+  "TTextMergeSessionAlignmentFrame",
+  "TTextMergeSessionFormatsFrame",
+  "TTextMergeSessionImportanceFrame",
+  "TTextMergeSessionSpecsFrame",
+  "TUiBitBtn",
+  "TUiBtnPanel",
+  "TUiCancelBtn",
+  "TUiCheckListBox",
+  "TUiCodePageEdit",
+  "TUiComboBox",
+  "TUiListBox",
+  "TUiMemo",
+  "TUiOkBtn",
+  "TUiPageControl",
+  "TUiPanel",
+  "TUiRadioButton",
+  "TUiSpecComboBar",
+  "TUiSpecComboBox",
+  "TUiSpinEdit",
+  "TUiTabSheet"
+ ],
+ "win32-okbtn-found": 1,
+ "uia-buttons-rect": {
+  "Cancel": [
+   939,
+   710,
+   96,
+   31
+  ],
+  "OK": [
+   834,
+   710,
+   96,
+   31
+  ]
+ },
+ "confirm-after-invoke": {
+  "handle": 6689960,
+  "texts": [
+   [
+    "Window",
+    "Beyond Compare"
+   ],
+   [
+    "Button",
+    "Cancel"
+   ],
+   [
+    "Button",
+    "No"
+   ],
+   [
+    "Button",
+    "Yes"
+   ],
+   [
+    "Button",
+    "关闭"
+   ]
+  ]
+ },
+ "act-routes": [
+  [
+   "uia-invoke",
+   false,
+   [
+    [
+     "TFileConfirmSaveDialog",
+     "Beyond Compare"
+    ],
+    [
+     "TSessionDialog",
+     "Session Settings - Text Merge"
+    ],
+    [
+     "TViewForm",
+     "out.txt - Text Merge - Beyond Compare"
+    ],
+    [
+     "TApplication",
+     ""
+    ]
+   ]
+  ],
+  [
+   "uia-click_input(raised)True",
+   false,
+   [
+    [
+     "TFileConfirmSaveDialog",
+     "Beyond Compare"
+    ],
+    [
+     "TSessionDialog",
+     "Session Settings - Text Merge"
+    ],
+    [
+     "TViewForm",
+     "out.txt - Text Merge - Beyond Compare"
+    ],
+    [
+     "TApplication",
+     ""
+    ]
+   ]
+  ],
+  [
+   "raw-click(raised)True",
+   false,
+   [
+    [
+     "TFileConfirmSaveDialog",
+     "Beyond Compare"
+    ],
+    [
+     "TSessionDialog",
+     "Session Settings - Text Merge"
+    ],
+    [
+     "TViewForm",
+     "out.txt - Text Merge - Beyond Compare"
+    ],
+    [
+     "TApplication",
+     ""
+    ]
+   ]
+  ],
+  [
+   "global-keys(raised)True",
+   false,
+   [
+    [
+     "TFileConfirmSaveDialog",
+     "Beyond Compare"
+    ],
+    [
+     "TSessionDialog",
+     "Session Settings - Text Merge"
+    ],
+    [
+     "TViewForm",
+     "out.txt - Text Merge - Beyond Compare"
+    ],
+    [
+     "TApplication",
+     ""
+    ]
+   ]
+  ]
+ ],
+ "act-closed-dialog": false,
+ "dialog-still-open": true,
+ "main-handle-before": 3539794,
+ "main-handles-after": [
+  3539794
+ ],
+ "main-replaced": false,
+ "title-after": "out.txt - Text Merge - Beyond Compare",
+ "statusbar-after": [
+  "Important Left Change",
+  "\tInsert",
+  "Load time: 0.2 seconds",
+  "1: 1",
+  "Default text",
+  "1: 1",
+  "Default text",
+  "Editing disabled",
+  "1: 1",
+  "Default text",
+  "Editing disabled",
+  "1: 1",
+  "Default text",
+  "Editing disabled"
+ ],
+ "leftpane_diffpx": 0
+}

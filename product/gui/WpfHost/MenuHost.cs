@@ -83,11 +83,14 @@ namespace ReaCompare.Gui
         public static string ApplyBrand(string s) =>
             s == null ? null : s.Replace("Beyond Compare", "LiuCompare");
 
-        /// <summary>
-        /// Build the WPF menu bar. Returns the Menu plus a per-view item ledger
-        /// (label+shortcut+enabled in Oracle name format) for verification.
-        /// </summary>
-        public static (Menu, List<(string menu, string label, string shortcut, bool enabled)>) Build(MenuSpec spec)
+        /// <param name="sessionSlot">optional mutable one-element slot:
+        /// MenuMode fills slot[0] AFTER this call (the apply closure needs the
+        /// per-view state objects that only exist later), and the wiring below
+        /// reads it at CLICK time. Clicking is invisible to the UIA tree (Name
+        /// = Header+gesture), so the 845/410/290 ledger and 12-golden replay
+        /// stay byte-identical; the offline ledger path passes null.</param>
+        public static (Menu, List<(string menu, string label, string shortcut, bool enabled)>) Build(
+            MenuSpec spec, Action<Window>[] sessionSlot = null)
         {
             var menu = new Menu();
             var ledger = new List<(string, string, string, bool)>();
@@ -148,6 +151,12 @@ namespace ReaCompare.Gui
                     if (!string.IsNullOrEmpty(act.Key))
                         System.Windows.Automation.AutomationProperties.SetAutomationId(child, act.Key);
                     child.Tag = act;
+                    // measured SessionEditAction ('Session Settings...') opens
+                    // the Specs dialog. Click is invisible to the UIA tree; the
+                    // handler lives in slot[0] (filled by MenuMode after Build)
+                    // and the owner window is resolved at click time.
+                    if (sessionSlot != null && act.Key == "TSESSIONACTIONS.SessionEditAction")
+                        child.Click += (s, e) => sessionSlot[0]?.Invoke(Window.GetWindow(child));
                     mi.Items.Add(child);
                     ledger.Add((topName, label, sc, child.IsEnabled));
                 }
@@ -329,13 +338,18 @@ namespace ReaCompare.Gui
         protected override AutomationPeer OnCreateAutomationPeer() => new BcMenuItemPeer(this);
     }
 
-    internal sealed class BcMenuItemPeer : FrameworkElementAutomationPeer
+    internal sealed class BcMenuItemPeer : MenuItemAutomationPeer
     {
-        public BcMenuItemPeer(BcMenuItem owner) : base(owner) { }
+        // MenuItemAutomationPeer (NOT the bare FrameworkElementAutomationPeer)
+        // is what exposes the ExpandCollapse pattern on top-level headers and
+        // Invoke on leaf items — the Session Settings live gate opens the menu
+        // through ExpandCollapse with NO mouse, which is the only way the gate
+        // stays runnable while the input desktop is locked (a bare framework
+        // peer answers NoPatternInterfaceError to expand()/invoke()).
+        public BcMenuItemPeer(MenuItem owner) : base(owner) { }
 
-        // FrameworkElementAutomationPeer defaults these from the owner; state them
-        // explicitly so the item stays in the control view (a peer that reports
-        // IsControlElement=false is pruned — that is what dropped our items).
+        // state the control-view facts explicitly so items are never pruned
+        // (a peer reporting IsControlElement=false drops the whole subtree).
         protected override bool IsControlElementCore() => true;
         protected override AutomationControlType GetAutomationControlTypeCore()
             => AutomationControlType.MenuItem;

@@ -1,0 +1,111 @@
+{
+ "mode": "text-ok",
+ "title-before": "left.txt <--> right.txt - Text Compare - Beyond Compare",
+ "rect": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "statusbar-before": [
+  "Important Difference",
+  "\tInsert",
+  "Load time: 0.09 seconds",
+  "1: 1",
+  "Default text",
+  "1: 1",
+  "Default text"
+ ],
+ "session-item-found": 1,
+ "popup-attempt": 1,
+ "popup-class": "TTBPopupWindow",
+ "popup-found": "TTBPopupWindow",
+ "sub-found": 1,
+ "dialog-open": true,
+ "n_spec_combos": 2,
+ "dialog-rect": [
+  454,
+  157,
+  599,
+  602
+ ],
+ "left-before-value": "val:D:\\Rea\\extracted\\live\\session-settings-en\\R5-text-ok\\left.txt",
+ "set-result": "set_edit_text->read:<empty>",
+ "commit": "tab-sent",
+ "left-after-set-value": "val:D:\\Rea\\extracted\\live\\session-settings-en\\R5-text-ok\\left2.txt",
+ "win32-child-classes": [
+  "Edit",
+  "TLineAlignDefFrame",
+  "TTextSessionAlignmentFrame",
+  "TTextSessionFormatsFrame",
+  "TTextSessionImportanceFrame",
+  "TTextSessionReplacementsFrame",
+  "TTextSessionSpecsFrame",
+  "TUiBitBtn",
+  "TUiBtnPanel",
+  "TUiCancelBtn",
+  "TUiCheckBox",
+  "TUiCheckListBox",
+  "TUiCodePageEdit",
+  "TUiComboBox",
+  "TUiListBox",
+  "TUiListTable",
+  "TUiListTableListBox",
+  "TUiMemo",
+  "TUiOkBtn",
+  "TUiPageControl",
+  "TUiPanel",
+  "TUiSpecComboBar",
+  "TUiSpecComboBox",
+  "TUiSpinEdit",
+  "TUiTabSheet"
+ ],
+ "win32-okbtn-found": 1,
+ "uia-buttons-rect": {
+  "Cancel": [
+   939,
+   710,
+   96,
+   31
+  ],
+  "OK": [
+   834,
+   710,
+   96,
+   31
+  ]
+ },
+ "out-before": "PRESETPANE_OUT\n",
+ "confirm-raised": false,
+ "confirm-buttons": [],
+ "act-closed-dialog": true,
+ "windows-after": [
+  [
+   "TViewForm",
+   "left2.txt <--> right.txt - Text Compare - Beyond Compare"
+  ],
+  [
+   "TApplication",
+   ""
+  ]
+ ],
+ "dialog-still-open": false,
+ "main-handle-before": 15010392,
+ "main-handles-after": [
+  15010392
+ ],
+ "main-replaced": false,
+ "title-after": "left2.txt <--> right.txt - Text Compare - Beyond Compare",
+ "statusbar-after": [
+  "Important Difference",
+  "\tInsert",
+  "Load time: 0.04 seconds",
+  "1: 1",
+  "Default text",
+  "1: 1",
+  "Default text"
+ ],
+ "out-after": "PRESETPANE_OUT\n",
+ "leftpane_diffpx": 690,
+ "whole_diffpx": 3078
+}

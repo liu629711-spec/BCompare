@@ -1129,15 +1129,67 @@ toolbar.text ±25）；③**树不变**：负向注入 `REACMP_TB_NEG=1`（面�
 尺寸布局不变）→ 全树 preorder (ct,cls,name) 与正向逐字节一致（386 节点
 实测一致）+ 按钮区墨水归零被抓。
 
-**⚠️ 收口状态（2026-10-24 深夜）**：实现+树级验证全绿（离线 845/410/290、
-dispatch 13、**12 golden 逐字节**、core 278+5+1、cli 146+206+118、
-Debug+Release 0 error、零残留）；**活体像素三模因环境屏保锁定（输入桌面
-= Screen-saver，PrintWindow 对 DirectX 面返回空白、鼠标注入被拒）暂未
-跑绿**——门禁脚本已就位且被证"拒收垃圾"（dark 模式对空白像素 exit 1 而非
-假绿）。桌面恢复后补跑：
-`C:/Python314/python.exe tools/uia-toolbar-check.py _tmp/layout-left.txt _tmp/layout-right.txt {positive,negative,dark}`
-+ 全套活体门禁（filter/theme-dark/overview/interact/d3/find/content/
-merge 三件/hex/folder 串行）。
+**✅ 收口状态（2026-10-25 桌面恢复，补跑完成）**：实现+树级验证全绿（离线
+845/410/290、dispatch 13、**12 golden 逐字节**、core 278+5+1、cli 146+206+118、
+Debug+Release 0 error、零残留）。屏保锁定原因存档：输入桌面=Screen-saver 时
+PrintWindow 对 WPF DirectX 面返回空白、鼠标注入被拒（OpenInputDesktop 判定
+命令见 BOOTSTRAP §4）。桌面恢复=Default 后补跑：
+`tools/uia-toolbar-check.py` 三模 positive/negative/dark **全绿**；全套活体
+门禁串行复跑（d3 / interact 正负 / overview 正负 / find 正负 / content /
+filter All+Diffs+Same / theme-dark 正负 / merge 一档正负 / merge-edit 二档
+正负 / merge-to 三态 positive+mergeto+swap / hex 正负 / folder 正负）
+**全绿、零残留**（merge-check 首次 "window not found"=窗口显示偶发时序竞态，
+复跑即稳——同 §interact 在案偶发类，非缺陷）。
+
+**像素判据修正三处（补跑首红暴露的门禁自身不鲁棒；产品渲染零缺陷，
+截图目检 13 钮文字面全画出）**：
+1. "绝对亮度带 max(r,g,b)<140" → **"距声明墨色 (32,31,30) Chebyshev≤128"**：
+   选中态 radio 蓝底把整段抗锯齿像素抬出亮度带（"All"两字母仅剩 13 核心
+   像素<15 误报），而蓝底距墨色恒>128 不混入；hover(245)/pressed(231)/白底
+   距墨色 199–223 同样排除。负向注入=面不画 → 计数 0 判据不变（牙齿实测）。
+2. dark 模式色识别加**核心半径 48**：选中蓝底距 light 墨 93 落在 128 带内、
+   会毒化 top 色众数（dark 首跑 Rules/Same top=(133,186,215)≠(226,226,226)）。
+3. dark 色判定从逐通道 ±25 改**亮度均值 ±28**：ClearType 子像素渲染在笔画
+   边缘产生固有彩边（绿偏 (204,219,193)），是渲染器属性而非产品填色；三通道
+   彩边在亮度上抵消，luma 均值仍命中 (226,226,226)。
+
 
 **在案后续**：图标集自绘（版权禁区）；无命令钮的第二档命令接线；禁用态
 数据源；hover/按压的活体像素验证并入上述补跑。
+
+### 6.22 Session Settings OK 行为环探针（2026-10-25；session-settings-en R5）
+
+探针 `tools/live-session-settings-probe.py`（Job Object 串行、三场景
+ok-yes/ok-no/cancel 各一次、零残留）。证据 `session-settings-findings.json`。
+
+**开框环**（结构锚点承 §6.18 R4）：Session 菜单物理点击开 TSessionDialog；
+首击偶发被吞（前台过渡），探针改"重试直到弹层含目标项"（同工具栏弹层家族）。
+Specs 帧=4 个 TUiSpecComboBox（顶序 Left/Right/Center/Output），
+**ValuePattern 可读初值**（BC 自家 combo 不暴露路径 name，但读得到值）。
+
+**写入/提交环**：`set_edit_text` 写可见字段（UIA Edit 读回可能滞后，像素差
+证写入）；**TAB 提交**后 combo 值读回新路径=进模型；TAB 会使旧包装器失效
+（COM 'no subscribers'，重取再操作——对话框包装器复用 §6.18 stale 教训）。
+
+**OK 环（本轮核心答案，全部实测）**：
+1. **OK 对 TUiOkBtn 用 uia invoke 有效**（与工具栏 TUiSpeedButton 的
+   invoke-无效家族不同——别外推）。
+2. OK 先弹 **TFileConfirmSaveDialog "Save merge output?"（Yes/No/Cancel，
+   模态）**——条件=当前输出文档≠磁盘目标（探针从未手工编辑仍弹=BC 以
+   "目标文件内容与合并结果不同"判脏，不是仅看用户编辑）；Cancel 关设置框
+   **不弹**此框（实测）。
+3. **Yes** = 先把 **改路径前（旧 spec）的合并文档**写入目标
+   （out=LEFT-ONE-ORIGINAL…=旧 take-left 结果，非 left2），**再**应用新
+   spec；**No** = 跳过写入、直接应用；两者之后 **原地重比较**：主窗
+   TViewForm **句柄不变**（main-replaced=false）、左窗格像素 diff=611
+   （L→left2 生效）、标题仍 `{out} - Text Merge`（**不**随新 Left 走）。
+4. 模态未处理时 TSessionDialog 仍"可见"——此前所有"OK 没反应"的误读
+   全是这层叠加（四路输入全被确认框吞掉），**方法论教训：对话框环要按
+   模态栈逐层处理，窗口存在≠可交互**。
+5. **Cancel 环**：直接关设置框、零副作用（无重比较 diff=0、目标文件未动、
+   spec 编辑丢弃）——实测。
+
+**未实测=在案**：确认框答 Cancel 的行为（探针未覆盖）；自家 GUI 对确认框
+Cancel 定义为"放弃本次 OK、留在设置框"（表现自设计，已标注）。非 merge
+视图（text/hex/folder）无"输出文档脏"概念，BC 是否弹同类确认未测——
+自家第一档按语义只在 merge 视图弹。

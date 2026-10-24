@@ -30,6 +30,16 @@ namespace ReaCompare.Gui
             // --dispatch resolves the view from the measured cell table, exactly
             // like BC opening a file pair (U-gui-5): task-only views reject,
             // unknown extensions fall back (measured: .zqq -> Text Compare).
+            // the LIVE session pair (mutable for Session Settings OK, docs/21 C
+            // / docs/19 §6.22 measured: apply in place, title follows the pair
+            // in the text view). Every engine channel reads THIS, never the
+            // raw argv, so one re-point + re-run replaces the session.
+            // dispTab/opt0/sessionSlot are the supporting mutable state the
+            // live pair needs for re-runs and the title template.
+            string sessLeft = null, sessRight = null;
+            string opt0 = "";
+            DispatchTable dispTab = null;
+            var sessionSlot = new Action<Window>[1];
             string dispatchVia = null;
             if (dLeft != null)
             {
@@ -42,6 +52,8 @@ namespace ReaCompare.Gui
                 }
                 view = dv;
                 dispatchVia = via;
+                dispTab = dt;
+                sessLeft = Path.GetFullPath(dLeft); sessRight = Path.GetFullPath(dRight);
                 Console.WriteLine($"DISPATCH: {dLeft} {dRight} -> {dv} ({via})");
                 Console.WriteLine("DISPATCH-TITLE: " + dt.Title(dLeft, dRight, dv));
             }
@@ -117,7 +129,11 @@ namespace ReaCompare.Gui
                 foreach (var node in skv.EnumerateArray())
                     spec.Skeleton.Add(LoadSkelNode(node));
 
-            var (menu, ledger) = MenuBuilder.Build(spec);
+            // sessionSlot is only wired for dispatched sessions (the live
+            // engine views own a Session Settings apply); the offline ledger
+            // path (gui-self-check / menu-offline) never passes it — its menu
+            // items have NO Click handler at all (UIA tree unchanged).
+            var (menu, ledger) = MenuBuilder.Build(spec, dLeft != null ? sessionSlot : null);
             ChromeBuilder.BuildRows(spec.Toolbars, out var tbLedger);
             ChromeBuilder.BuildRows(spec.Statusbars, out var sbLedger);
             var skelLedger = new List<Dictionary<string, object>>();
@@ -147,7 +163,6 @@ namespace ReaCompare.Gui
             PaneStyle style = null;
             ReacmpEngine engine = null;
             FilterMap fmap = null;
-            string absLeft = null, absRight = null;
             if (dLeft != null && view == "Text Compare")
             {
                 string colors = colorsPath ?? DefaultColorsPath();
@@ -162,18 +177,16 @@ namespace ReaCompare.Gui
                     style.LoadFindMarks(marks);
                     theme?.Apply(style);
                     engine = new ReacmpEngine(enginePath ?? ReacmpEngine.DefaultExe());
-                    absLeft = Path.GetFullPath(dLeft); absRight = Path.GetFullPath(dRight);
                     // --display NAME selects the initial filter (measured radio
                     // trio All/Diffs/Same; unknown names are the engine's error,
                     // never the GUI's invention — Compare() fails closed as 4).
-                    string opt0 = "";
                     if (displayOpt != null)
                     {
                         var fm0 = File.Exists(DefaultFilterMapPath()) ? FilterMap.Load(DefaultFilterMapPath()) : null;
                         if (fm0 == null || !fm0.ButtonToOption.TryGetValue(displayOpt, out opt0))
                         { Console.Error.WriteLine($"FILTER: unknown display button '{displayOpt}'"); return 4; }
                     }
-                    diff = engine.Compare(absLeft, absRight, opt0);
+                    diff = engine.Compare(sessLeft, sessRight, opt0);
                     Console.WriteLine($"ENGINE: {diff.Rows.Count} rows from {engine.ExePath}");
                 }
                 catch (Exception e)
@@ -191,6 +204,30 @@ namespace ReaCompare.Gui
             // the GUI renders the FLAT slot stream; it never re-classifies.
             HexModel hexModel = null;
             HexViewState hexState = null;
+            Func<string, string, HexModel> runHex3 = (hl, hr) =>
+            {
+                string hexExe = enginePath ?? ReacmpEngine.DefaultExe();
+                if (hexExe == null || !File.Exists(hexExe))
+                    throw new InvalidOperationException("reacmp.exe not found (set --engine or REACMP)");
+                string jsonOut = Path.Combine(Path.GetTempPath(), $"reacmp-hex-{Guid.NewGuid():N}.json");
+                var psi = new System.Diagnostics.ProcessStartInfo(hexExe,
+                    $"--hex3 \"{hl}\" \"{hr}\" \"{jsonOut}\"")
+                { UseShellExecute = false, RedirectStandardError = true, CreateNoWindow = true };
+                int code; string err;
+                using (var p = System.Diagnostics.Process.Start(psi))
+                {
+                    err = p.StandardError.ReadToEnd();
+                    p.WaitForExit();
+                    code = p.ExitCode;
+                }
+                try
+                {
+                    if (code != 0 || !File.Exists(jsonOut))
+                        throw new InvalidOperationException($"reacmp --hex3 exit {code}: {(err ?? "").Trim()}");
+                    return HexModel.Load(jsonOut);
+                }
+                finally { try { File.Delete(jsonOut); } catch { } }
+            };
             if (dLeft != null && view == "Hex Compare")
             {
                 string colors = colorsPath ?? DefaultColorsPath();
@@ -200,25 +237,8 @@ namespace ReaCompare.Gui
                 {
                     style = PaneStyle.Load(colors);
                     theme?.Apply(style);
-                    string hexExe = enginePath ?? ReacmpEngine.DefaultExe();
-                    if (hexExe == null || !File.Exists(hexExe))
-                    { Console.Error.WriteLine("ENGINE: reacmp.exe not found (set --engine or REACMP)"); return 4; }
-                    string jsonOut = Path.Combine(Path.GetTempPath(), $"reacmp-hex-{Guid.NewGuid():N}.json");
-                    var psi = new System.Diagnostics.ProcessStartInfo(hexExe,
-                        $"--hex3 \"{Path.GetFullPath(dLeft)}\" \"{Path.GetFullPath(dRight)}\" \"{jsonOut}\"")
-                    { UseShellExecute = false, RedirectStandardError = true, CreateNoWindow = true };
-                    int code; string err;
-                    using (var p = System.Diagnostics.Process.Start(psi))
-                    {
-                        err = p.StandardError.ReadToEnd();
-                        p.WaitForExit();
-                        code = p.ExitCode;
-                    }
-                    if (code != 0 || !File.Exists(jsonOut))
-                        throw new InvalidOperationException($"reacmp --hex3 exit {code}: {(err ?? "").Trim()}");
-                    hexModel = HexModel.Load(jsonOut);
+                    hexModel = runHex3(sessLeft, sessRight);
                     hexState = new HexViewState(hexModel);
-                    try { File.Delete(jsonOut); } catch { }
                     Console.WriteLine($"ENGINE: {hexModel.Slots.Count} hex slots " +
                         $"(same={hexModel.Same} l-orphan={hexModel.LeftOrphan} " +
                         $"r-orphan={hexModel.RightOrphan} diff={hexModel.Difference})");
@@ -236,6 +256,30 @@ namespace ReaCompare.Gui
             // or re-classifies.
             FolderModel folderModel = null;
             FolderViewState folderState = null;
+            Func<string, string, FolderModel> runDir3 = (dl, dr) =>
+            {
+                string dirExe = enginePath ?? ReacmpEngine.DefaultExe();
+                if (dirExe == null || !File.Exists(dirExe))
+                    throw new InvalidOperationException("reacmp.exe not found (set --engine or REACMP)");
+                string jsonOut = Path.Combine(Path.GetTempPath(), $"reacmp-dir-{Guid.NewGuid():N}.json");
+                var psi = new System.Diagnostics.ProcessStartInfo(dirExe,
+                    $"--dir3 \"{dl}\" \"{dr}\" \"{jsonOut}\"")
+                { UseShellExecute = false, RedirectStandardError = true, CreateNoWindow = true };
+                int code; string err;
+                using (var p = System.Diagnostics.Process.Start(psi))
+                {
+                    err = p.StandardError.ReadToEnd();
+                    p.WaitForExit();
+                    code = p.ExitCode;
+                }
+                try
+                {
+                    if (code != 0 || !File.Exists(jsonOut))
+                        throw new InvalidOperationException($"reacmp --dir3 exit {code}: {(err ?? "").Trim()}");
+                    return FolderModel.Load(jsonOut);
+                }
+                finally { try { File.Delete(jsonOut); } catch { } }
+            };
             if (dLeft != null && view == "Folder Compare")
             {
                 string colors = colorsPath ?? DefaultColorsPath();
@@ -245,25 +289,8 @@ namespace ReaCompare.Gui
                 {
                     style = PaneStyle.Load(colors);
                     theme?.Apply(style);
-                    string dirExe = enginePath ?? ReacmpEngine.DefaultExe();
-                    if (dirExe == null || !File.Exists(dirExe))
-                    { Console.Error.WriteLine("ENGINE: reacmp.exe not found (set --engine or REACMP)"); return 4; }
-                    string jsonOut = Path.Combine(Path.GetTempPath(), $"reacmp-dir-{Guid.NewGuid():N}.json");
-                    var psi = new System.Diagnostics.ProcessStartInfo(dirExe,
-                        $"--dir3 \"{Path.GetFullPath(dLeft)}\" \"{Path.GetFullPath(dRight)}\" \"{jsonOut}\"")
-                    { UseShellExecute = false, RedirectStandardError = true, CreateNoWindow = true };
-                    int code; string err;
-                    using (var p = System.Diagnostics.Process.Start(psi))
-                    {
-                        err = p.StandardError.ReadToEnd();
-                        p.WaitForExit();
-                        code = p.ExitCode;
-                    }
-                    if (code != 0 || !File.Exists(jsonOut))
-                        throw new InvalidOperationException($"reacmp --dir3 exit {code}: {(err ?? "").Trim()}");
-                    folderModel = FolderModel.Load(jsonOut);
+                    folderModel = runDir3(sessLeft, sessRight);
                     folderState = new FolderViewState(folderModel);
-                    try { File.Delete(jsonOut); } catch { }
                     Console.WriteLine($"ENGINE: {folderState.Rows.Count} folder rows");
                 }
                 catch (Exception e)
@@ -344,6 +371,13 @@ namespace ReaCompare.Gui
                 Action<ChromeElement, ChromeItem> decorate = null;
                 // shared engine-view objects (hoisted to show-scope so the
                 // find-bar block below the skeleton loop can drive them too)
+                // Session Settings apply holder + window holder: each engine
+                // view below installs its own in-place re-run closure (capturing
+                // its local state objects); the menu slot fires after the
+                // window exists. Holders avoid disturbing the existing
+                // per-block variable scoping (the closures capture block locals).
+                var applyHolder = new Action<string, string>[1];
+                var winHolder = new Window[1];
                 var panes = new List<TextPaneView>();
                 var bands = new List<DetailsBandView>();
                 var overviews = new List<OverviewStripView>();
@@ -463,7 +497,7 @@ namespace ReaCompare.Gui
                             DiffResult nd;
                             try
                             {
-                                nd = engine.Compare(absLeft, absRight, fmap.ButtonToOption[it.Name]);
+                                nd = engine.Compare(sessLeft, sessRight, fmap.ButtonToOption[it.Name]);
                             }
                             catch (Exception e)
                             {
@@ -481,6 +515,38 @@ namespace ReaCompare.Gui
                             foreach (var f in footerEls) f.Peer?.RaiseNameChanged();
                             foreach (var r in radioEls) r.InvalidateVisual();
                         };
+                    };
+                    // Session Settings (text): re-point the pair, re-run the
+                    // SAME engine channel with the CURRENT filter option, swap
+                    // state IN PLACE (measured ring docs/19 §6.22: window
+                    // survives, panes re-compare, and the TITLE follows the
+                    // new pair in the text view). Fresh cursor rule = first
+                    // different row (same measured initial rule as view open,
+                    // §6.13). A find bar left OPEN is an unmeasured BC edge —
+                    // documented, the bar recomputes on its next keystroke.
+                    applyHolder[0] = (nl, nr) =>
+                    {
+                        sessLeft = nl; sessRight = nr;
+                        DiffResult nd;
+                        try { nd = engine.Compare(sessLeft, sessRight, opt0); }
+                        catch (Exception e)
+                        {
+                            Console.Error.WriteLine("ENGINE-FAIL: " + e.Message);
+                            return; // keep the old session; never fake results
+                        }
+                        state[0] = nd;
+                        int first = nd.Rows.FindIndex(r => r.Status == "different");
+                        if (first < 0) first = nd.Rows.FindIndex(r => r.Status != "same");
+                        if (first < 0) first = 0;
+                        viewState.SelectedRow = first;
+                        viewState.Column = 1;
+                        viewState.TopRow = 0;
+                        foreach (var p in panes) { p.Diff = nd; p.InvalidateVisual(); }
+                        foreach (var b in bands) { b.Diff = nd; b.InvalidateVisual(); }
+                        foreach (var o in overviews) { o.Diff = nd; o.InvalidateVisual(); }
+                        foreach (var f in footerEls) f.Peer?.RaiseNameChanged();
+                        if (winHolder[0] != null)
+                            winHolder[0].Title = dispTab?.Title(sessLeft, sessRight, view);
                     };
                 }
 
@@ -502,6 +568,22 @@ namespace ReaCompare.Gui
                     {
                         foreach (var p in hexPanes) p.InvalidateVisual();
                     };
+                    // Session Settings (hex): re-point the pair, re-run --hex3
+                    // IN PLACE, swap the model into the stable hexState the
+                    // panes already hold (measured ring docs/19 §6.22).
+                    applyHolder[0] = (nl, nr) =>
+                    {
+                        sessLeft = nl; sessRight = nr;
+                        try { hexState.ApplyNewModel(runHex3(sessLeft, sessRight)); }
+                        catch (Exception e)
+                        {
+                            Console.Error.WriteLine("ENGINE-FAIL: " + e.Message);
+                            return;
+                        }
+                        foreach (var p in hexPanes) p.InvalidateVisual();
+                        if (winHolder[0] != null)
+                            winHolder[0].Title = dispTab?.Title(sessLeft, sessRight, view);
+                    };
                 }
 
                 if (diff == null && hexState == null && folderState != null)
@@ -517,6 +599,27 @@ namespace ReaCompare.Gui
                     folderState.Changed += () =>
                     {
                         foreach (var v in folderViews) v.InvalidateVisual();
+                    };
+                    // Session Settings (folder): re-point the pair, re-run
+                    // --dir3 IN PLACE, swap the model into the live folderState
+                    // (the status-bar census closures Counts()/Free() read
+                    // folderState + sessLeft/sessRight BY REFERENCE, so the
+                    // numbers refresh; folderViews repaint; title recomputes —
+                    // measured ring docs/19 §6.22).
+                    applyHolder[0] = (nl, nr) =>
+                    {
+                        sessLeft = nl; sessRight = nr;
+                        FolderModel fm;
+                        try { fm = runDir3(sessLeft, sessRight); }
+                        catch (Exception e)
+                        {
+                            Console.Error.WriteLine("ENGINE-FAIL: " + e.Message);
+                            return;
+                        }
+                        folderState.ApplyNewModel(fm);
+                        foreach (var v in folderViews) v.InvalidateVisual();
+                        if (winHolder[0] != null)
+                            winHolder[0].Title = dispTab?.Title(sessLeft, sessRight, view);
                     };
                 }
 
@@ -546,7 +649,7 @@ namespace ReaCompare.Gui
                         try
                         {
                             string root = Path.GetPathRoot(
-                                Path.GetFullPath(left ? dLeft : dRight)) ?? "C:\\";
+                                Path.GetFullPath(left ? sessLeft : sessRight)) ?? "C:\\";
                             var di = new System.IO.DriveInfo(root);
                             return $"{di.AvailableFreeSpace / (1L << 30)} GB free on {di.Name}";
                         }
@@ -672,9 +775,12 @@ namespace ReaCompare.Gui
                     // structure '{L} <--> {R} - {View} - <brand>' with our brand
                     // token (D1, docs/20) — DispatchTable.Load swaps the Oracle
                     // name to 'LiuCompare', so a live Win32 read cross-checks
-                    // the structure verbatim.
+                    // the structure verbatim. sessLeft/sessRight are the LIVE
+                    // pair: Session Settings OK recomputes the title with the
+                    // new values (measured text-view ring: title follows the
+                    // pair — docs/19 §6.22).
                     Title = dLeft != null
-                        ? DispatchTable.Load(r.GetProperty("dispatch")).Title(dLeft, dRight, view)
+                        ? dispTab.Title(sessLeft, sessRight, view)
                         : "menu-check: " + view,
                     // D2 (docs/20): default size follows BC — the measured
                     // session window rect is 1456x864 (gui-text-session-en.json
@@ -688,6 +794,26 @@ namespace ReaCompare.Gui
                 // skeleton panes don't cover; light (no key) keeps the default.
                 if (theme?.WindowBg is System.Windows.Media.Color wbCol)
                     win.Background = new System.Windows.Media.SolidColorBrush(wbCol);
+                winHolder[0] = win;
+                // Session Settings (docs/21 C): the menu slot fires the Specs
+                // dialog (2 fields — the dispatched views here are the two-sided
+                // Text/Hex/Folder; the merge window has no menu bar in tier-1,
+                // in案). Only wired when an engine view installed a handler
+                // (applyHolder[0]); non-engine dispatched views leave the item
+                // inert, never faking a session it did not build.
+                // REACMP_SSET_NEG=1 is a TEST-INJECTION ONLY: the dialog still
+                // opens and OK still closes it, but the re-run is NOT applied
+                // — simulating the fault "OK not bound to the engine channel"
+                // so the gate's title/rows assertions are proven to have
+                // teeth. Never set in product use.
+                sessionSlot[0] = owner =>
+                {
+                    if (applyHolder[0] == null) return;
+                    var res = SessionSettingsDialog.Show(owner ?? win, view, sessLeft, sessRight);
+                    if (res.Applied &&
+                        Environment.GetEnvironmentVariable("REACMP_SSET_NEG") != "1")
+                        applyHolder[0](res.Left, res.Right);
+                };
                 wireFindKeys?.Invoke(win);
                 var app = new Application();
                 win.Show();

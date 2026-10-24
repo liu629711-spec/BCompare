@@ -18,7 +18,11 @@
 
 ## 已收口（勿回退）
 - 引擎：文本比较（字节级 golden）、目录五 criteria、HEX/表格/图片/注册表/版本通道、BC 兼容 CLI 脚本契约。
-- GUI：12 视图骨架+chrome（845/410/290）、12 golden 回放、D3 无障碍、亮/暗主题、双窗格共享光标/视口、Ctrl+F 查找条、左缘 overview 缩略条（2026-10-23）、**文本合并通道两档**（--merge L R C [Out]：引擎 merge3+CLI --merge3+四窗格 GUI；输出=紧凑可编辑文档、初值 auto-merge、仅 Ctrl+S 落盘 LF/无BOM/无尾换行；docs/19 §6.15-6.17）、**Merge to 落盘目标+Swap Sides**（2026-10-24，docs/19 §6.18：单选=Ctrl+S 目标、标题跟随目标文件名、路径框显示当前目标、Swap 侧互换+重着色；Session Settings 对话框=显式在案后续，TSessionDialog 结构已探明）。
+- GUI：12 视图骨架+chrome（845/410/290）、12 golden 回放、D3 无障碍、亮/暗主题、双窗格共享光标/视口、Ctrl+F 查找条、左缘 overview 缩略条（2026-10-23）、**文本合并通道两档**（--merge L R C [Out]：引擎 merge3+CLI --merge3+四窗格 GUI；输出=紧凑可编辑文档、初值 auto-merge、仅 Ctrl+S 落盘 LF/无BOM/无尾换行；docs/19 §6.15-6.17）、**Merge to 落盘目标+Swap Sides**（2026-10-24，docs/19 §6.18：单选=Ctrl+S 目标、标题跟随目标文件名、路径框显示当前目标、Swap 侧互换+重着色）。
+- GUI：…（追加 2026-10-25）**docs/21 B 工具栏文字钮像素三模已绿**（docs/19 §6.21）
+  **+C Session Settings 对话框第一档实现**（docs/19 §6.22 实测环：OK 原地重跑引擎
+  换 model、窗口存活、text 环标题跟随新对、Cancel 零副作用、双文件=2 字段；
+  活体四断言待桌面补跑 REACMP_SSET_NEG 已就位）。
 - GUI：…（追加 2026-10-24）**Hex Compare 双栏视图第一档**（docs/19 §6.19：--hex3 自家动词+HexPaneView 16 字节 2×8 组/逐字节红粉/hatch/共享青 caret；视图行模型≠M7 报告 8 槽是实测事实）。
 - GUI：…（追加 2026-10-24）**Folder Compare 列视图第一档**（docs/19 §6.20：--dir3 自家动词+全宽双画侧列表/五状态文字色/斑马/光标跟随+BuildFolderRootArea；**新视图接线两件套=根布局分支+overlay MeasureOverride，缺一即空白窗**）。
 - 门禁工具：menu-offline-check / dispatch-check / gui-self-check / uia-d3-check / uia-text-interact-check / uia-text-find-check / theme-dark-check / uia-overview-check / uia-text-merge-check / uia-text-merge-edit-check / uia-text-merge-to-check（三态）/ uia-hex-check（正负）/ uia-folder-check（正负）。
