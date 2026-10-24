@@ -32,23 +32,28 @@ cd ..\gui\WpfHost  && dotnet build -c Release && dotnet build -c Debug
 :: 冒烟：双击 LiuCompare.cmd，或 LiuCompare.cmd fileA fileB
 ```
 
-## 1b. ZCode 持久记忆（在仓库外，换设备必须手工拷）
+## 1b. ZCode 持久记忆（已随仓库入库，克隆即得）
 
-`.workbuddy/memory/` 随 git 走（已入库），但 ZCode 自动记忆在**用户目录**下，
-不在仓库里。从旧设备整目录拷到新设备同结构路径：
+ZCode 记忆文件本体在用户目录下（不在 git 仓库里），换设备拷不了——所以
+2026-10-24 已把它们**导出进仓库**：`memory-export/`（28 个 .md，经密钥扫描
+干净）。`.workbuddy/memory/` 每日日志同样在仓库里。
 
+新设备就位命令（克隆后跑一次即可，幂等）：
+
+```bat
+C:\Python314\python.exe tools\install_memory.py
+:: 目标位置自动解析：C:\Users\<user>\.zcode\cli\memories\projects\rea-<key>\memory\
+:: （本仓库若放 D:\Rea，key 与旧设备一致；脚本找不到现有键目录时按工作区
+::   路径哈希新建同名规则目录并打印落点）
 ```
-<旧设备>\Users\<user>\.zcode\cli\memories\projects\rea-7a160a47489c005e\memory\
-→ <新设备>\Users\<新用户名>\.zcode\cli\memories\projects\rea-7a160a47489c005e\memory\
-```
 
-目录键 `rea-7a160a47489c005e` 由工作区路径哈希而来——只要新设备也克隆到
-`D:\Rea` 就一致。不拷也能开工（docs 19/20/21 + .workbuddy 日志是权威事实源），
-但跨会话纪律/在案教训会退化到"重新积累"。
+跑完**重启该设备的 ZCode 会话**记忆才会自动加载。跳过的后果：不影响开工
+（docs 19/20/21 + .workbuddy 日志 + 本节是权威事实源），但跨会话纪律/在案
+教训要重新积累。旧设备上的原始记忆目录不用带走——仓库里就是最新导出。
 
 ## 2. 活体门禁的 Python 环境（解释器有硬性要求）
 
-- **必须** `C:/Python314/python.exe`（路径纪律见 §1b/(b)）：
+- **必须** `C:/Python314/python.exe`（路径纪律见 §1(b)）：
   `pip install pywinauto keyboard numpy`
 - 离线门禁任意 python3 + 标准库即可。
 - BC Oracle 探针（tools/live-*.py）另需 `pefile`。
