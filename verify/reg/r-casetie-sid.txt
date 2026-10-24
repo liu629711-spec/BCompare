@@ -1,0 +1,12 @@
+Registry Compare
+Produced: 2026/10/19 20:46:22
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-casetie-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\AA
+Right file: D:\Rea\verify\reg\r-casetie-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\AA
+Left error: Deletes/Duplicates Skipped
+Right error: Deletes/Duplicates Skipped
+Name Type   Data   Name Type   Data
+-----------------------------------
+v    REG_SZ 1    = v    REG_SZ 1
+-----------------------------------

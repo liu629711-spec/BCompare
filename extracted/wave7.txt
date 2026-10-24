@@ -1,0 +1,2 @@
+140dc6a00	emit single-line record A
+140dc6b20	emit single-line record B

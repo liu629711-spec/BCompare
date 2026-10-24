@@ -1,0 +1,171 @@
+{
+ "t-sbs-changed": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "T1 lineage: header + one changed row pair, `=`/`<>` markers",
+  "exit_code": 0,
+  "bytes": 320,
+  "report": "D:\\Rea\\verify\\table\\t-sbs-changed.txt"
+ },
+ "t-int-changed": {
+  "layout": "interleaved",
+  "ext": "csv",
+  "title": null,
+  "note": "same pair on interleaved: `<>` pair shares ONE block",
+  "exit_code": 0,
+  "bytes": 314,
+  "report": "D:\\Rea\\verify\\table\\t-int-changed.txt"
+ },
+ "t-summary-mixed": {
+  "layout": "summary",
+  "ext": "csv",
+  "title": null,
+  "note": "E/F lineage: 2 same + 1 important difference + 1 important right orphan",
+  "exit_code": 0,
+  "bytes": 236,
+  "report": "D:\\Rea\\verify\\table\\t-summary-mixed.txt"
+ },
+ "t-swap-tie": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "T13 tie direction: k3+- / k4= / -+k3 (anchor at EARLIER right index)",
+  "exit_code": 0,
+  "bytes": 289,
+  "report": "D:\\Rea\\verify\\table\\t-swap-tie.txt"
+ },
+ "t-dups-positional": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "T14 duplicates consume positionally: two `=` then one `+-`",
+  "exit_code": 0,
+  "bytes": 285,
+  "report": "D:\\Rea\\verify\\table\\t-dups-positional.txt"
+ },
+ "t-zip-gap": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "P1: 2x2 all-different gap zips to two `<>`, never four orphans",
+  "exit_code": 0,
+  "bytes": 260,
+  "report": "D:\\Rea\\verify\\table\\t-zip-gap.txt"
+ },
+ "t-quoted-newline": {
+  "layout": "interleaved",
+  "ext": "csv",
+  "title": null,
+  "note": "T21: quoted embedded newline is ONE row; NUL in the display cell",
+  "exit_code": 0,
+  "bytes": 274,
+  "report": "D:\\Rea\\verify\\table\\t-quoted-newline.txt"
+ },
+ "t-ragged-cols": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "T18: global column count from the wider side; empty column on the left",
+  "exit_code": 0,
+  "bytes": 266,
+  "report": "D:\\Rea\\verify\\table\\t-ragged-cols.txt"
+ },
+ "t-nums-sbs": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "W1/W3: numeric cells right-justified per-side (widths from that side)",
+  "exit_code": 0,
+  "bytes": 293,
+  "report": "D:\\Rea\\verify\\table\\t-nums-sbs.txt"
+ },
+ "t-nums-int2digit": {
+  "layout": "interleaved",
+  "ext": "csv",
+  "title": null,
+  "note": "W3: interleaved number fields rjust to the digit width of the last row",
+  "exit_code": 0,
+  "bytes": 573,
+  "report": "D:\\Rea\\verify\\table\\t-nums-int2digit.txt"
+ },
+ "t-eof-phantom": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "m64 E1: a blank line before EOF is a real right-orphan row on the right",
+  "exit_code": 0,
+  "bytes": 256,
+  "report": "D:\\Rea\\verify\\table\\t-eof-phantom.txt"
+ },
+ "t-letters-aa": {
+  "layout": "side-by-side",
+  "ext": "csv",
+  "title": null,
+  "note": "m64c2 C2: 29 single-char columns; letters A..Z,AA,AB,AC set width floors",
+  "exit_code": 0,
+  "bytes": 814,
+  "report": "D:\\Rea\\verify\\table\\t-letters-aa.txt"
+ },
+ "t-detect-tab": {
+  "layout": "side-by-side",
+  "ext": "txt",
+  "title": null,
+  "note": "D6: non-.csv auto-detects the tab delimiter",
+  "exit_code": 0,
+  "bytes": 249,
+  "report": "D:\\Rea\\verify\\table\\t-detect-tab.txt"
+ },
+ "t-detect-prio": {
+  "layout": "side-by-side",
+  "ext": "txt",
+  "title": null,
+  "note": "G-tc: comma beats tab in the priority chain",
+  "exit_code": 0,
+  "bytes": 268,
+  "report": "D:\\Rea\\verify\\table\\t-detect-prio.txt"
+ },
+ "t-rawline": {
+  "layout": "side-by-side",
+  "ext": "txt",
+  "title": null,
+  "note": "S1: no candidate outside quotes -> rawline fallback, one cell per line",
+  "exit_code": 0,
+  "bytes": 256,
+  "report": "D:\\Rea\\verify\\table\\t-rawline.txt"
+ },
+ "t-title": {
+  "layout": "summary",
+  "ext": "csv",
+  "title": "MyTitle",
+  "note": "X4: title:\"MyTitle\" REPLACES the frame's first line",
+  "exit_code": 0,
+  "bytes": 171,
+  "report": "D:\\Rea\\verify\\table\\t-title.txt"
+ },
+ "t-mixed-csvp": {
+  "layout": "side-by-side",
+  "ext": "txt",
+  "note": "MX6: mixed .txt/.csv with NO comma anywhere -> ONE column: either file .csv pins fixed comma for BOTH files (docs/13 §8.2)",
+  "exit_code": 0,
+  "bytes": 229,
+  "report": "D:\\Rea\\verify\\table\\t-mixed-csvp.txt",
+  "ext_right": "csv"
+ },
+ "t-int-rawline": {
+  "layout": "interleaved",
+  "ext": "txt",
+  "note": "IR1: interleaved rawline -- leading whitespace dropped (SP10), single column, verbatim equality otherwise",
+  "exit_code": 0,
+  "bytes": 244,
+  "report": "D:\\Rea\\verify\\table\\t-int-rawline.txt"
+ },
+ "t-int-num": {
+  "layout": "interleaved",
+  "ext": "txt",
+  "note": "IR3: numeric rawline cells left-justify in interleaved (T19/T21 rule holds for rawline too)",
+  "exit_code": 0,
+  "bytes": 230,
+  "report": "D:\\Rea\\verify\\table\\t-int-num.txt"
+ }
+}

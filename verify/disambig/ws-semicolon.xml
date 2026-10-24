@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:37:04">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:37:04">
+		<filename1>D:\Rea\verify\disambig\ws-semicolon-L.txt</filename1>
+		<filename2>D:\Rea\verify\disambig\ws-semicolon-R.txt</filename2>
+		<linecomp status="similar">
+			<text ltid="1">x = 1 ;</text>
+			<text rtid="1">x = 1;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,8 @@
+PROBE V1-sbs-equal: eng ld=26 rn=95 rd=120 rule=188 | ln=24 lv=68 rn_c=24 rv=68 | want ld=28 m=99 rn=100 rd=128 rule=191
+PROBE V3-sbs-diff: eng ld=26 rn=95 rd=120 rule=188 | ln=24 lv=68 rn_c=24 rv=68 | want ld=28 m=99 rn=101 rd=129 rule=192
+PROBE V5-sbs-com: eng ld=26 rn=95 rd=120 rule=188 | ln=24 lv=68 rn_c=24 rv=68 | want ld=28 m=99 rn=101 rd=111 rule=174
+PROBE V6-sbs-ms: eng ld=9 rn=55 rd=63 rule=108 | ln=7 lv=45 rn_c=7 rv=45 | want ld=10 m=58 rn=60 rd=70 rule=110
+PROBE V23-sbs-reg-pair: eng ld=9 rn=78 rd=86 rule=154 | ln=7 lv=68 rn_c=7 rv=68 | want ld=10 m=81 rn=82 rd=92 rule=155
+PROBE V24-sbs-dll: eng ld=26 rn=95 rd=120 rule=165 | ln=24 lv=68 rn_c=24 rv=45 | want ld=28 m=98 rn=101 rd=111 rule=151
+PROBE W1-one-field: eng ld=9 rn=78 rd=86 rule=154 | ln=7 lv=68 rn_c=7 rv=68 | want ld=10 m=81 rn=83 rd=93 rule=156
+PROBE W8-truncated-pe: eng ld=9 rn=36 rd=44 rule=112 | ln=7 lv=26 rn_c=7 rv=68 | want ld=10 m=51 rn=53 rd=63 rule=126

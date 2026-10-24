@@ -1,0 +1,35 @@
+========================================================================
+SRC: f0028.oracle.xml  fmt: cpp
+L: ['node beta', 'beta tmp int  ', 'data gamma gamma node', '// alpha int tmp gamma', 'yy x int', 'data gamma gamma node']
+R: ['gamma', '// alpha int tmp gamma', 'beta tmp int  ', 'data gamma gamma node', 'yy x int']
+want: [['different', 1, 1], ['rightsimilar', None, 2], ['same', 2, 3], ['same', 3, 4], ['leftsimilar', 4, None], ['same', 5, 5], ['leftorphan', 6, None]]
+base: [['different', 1, 1], ['rightsimilar', None, 2], ['same', 2, 3], ['same', 3, 4], ['leftsimilar', 4, None], ['same', 5, 5], ['leftorphan', 6, None]]
+nwf : [['rightorphan', None, 1], ['different', 1, 2], ['same', 2, 3], ['same', 3, 4], ['leftsimilar', 4, None], ['same', 5, 5], ['leftorphan', 6, None]]
+========================================================================
+SRC: f0040.oracle.xml  fmt: cpp
+L: ['int gamma', 'delta tmp', 'int gamma', 'YY DELTA DELTA', 'yy tmp x beta', '', 'tmp alpha']
+R: ['', '', 'int gamma', 'yy delta delta', '', 'yy delta delta', 'tmp alpha']
+want: [['rightsimilar', None, 1], ['rightsimilar', None, 2], ['same', 1, 3], ['different', 2, 4], ['different', 3, 5], ['leftorphan', 4, None], ['different', 5, 6], ['leftsimilar', 6, None], ['same', 7, 7]]
+base: [['rightsimilar', None, 1], ['rightsimilar', None, 2], ['same', 1, 3], ['different', 2, 4], ['different', 3, 5], ['leftorphan', 4, None], ['different', 5, 6], ['leftsimilar', 6, None], ['same', 7, 7]]
+nwf : [['rightsimilar', None, 1], ['rightsimilar', None, 2], ['same', 1, 3], ['different', 2, 4], ['leftorphan', 3, None], ['leftorphan', 4, None], ['leftorphan', 5, None], ['same', 6, 5], ['rightorphan', None, 6], ['same', 7, 7]]
+========================================================================
+SRC: f0057.oracle.xml  fmt: plain
+L: ['delta x', 'delta data', 'alpha node item value', 'delta data']
+R: ['delta x', 'INT YY INT', 'delta data', 'yy beta', 'ITEM VALUE YY VALUE']
+want: [['same', 1, 1], ['rightorphan', None, 2], ['same', 2, 3], ['leftorphan', 3, None], ['different', 4, 4], ['rightorphan', None, 5]]
+base: [['same', 1, 1], ['rightorphan', None, 2], ['same', 2, 3], ['different', 3, 4], ['different', 4, 5]]
+nwf : [['same', 1, 1], ['rightorphan', None, 2], ['same', 2, 3], ['leftorphan', 3, None], ['different', 4, 4], ['rightorphan', None, 5]]
+========================================================================
+SRC: f0083.oracle.xml  fmt: plain
+L: ['gamma delta delta value', '']
+R: ['yy node']
+want: [['leftorphan', 1, None], ['different', 2, 1]]
+base: [['different', 1, 1], ['leftsimilar', 2, None]]
+nwf : [['leftorphan', 1, None], ['different', 2, 1]]
+========================================================================
+SRC: f0092.oracle.xml  fmt: plain
+L: ['delta', 'value value alpha', 'x node beta', 'beta']
+R: ['DELTA', 'Node']
+want: [['similar', 1, 1], ['leftorphan', 2, None], ['different', 3, 2], ['leftorphan', 4, None]]
+base: [['similar', 1, 1], ['leftorphan', 2, None], ['different', 3, 2], ['leftorphan', 4, None]]
+nwf : [['similar', 1, 1], ['leftorphan', 2, None], ['leftorphan', 3, None], ['different', 4, 2]]

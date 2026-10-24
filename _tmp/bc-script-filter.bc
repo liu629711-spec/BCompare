@@ -1,0 +1,1 @@
+text-report layout:xml options:display-mismatches output-to:"D:\Rea\_tmp\bc-mismatch.xml" "D:\Rea\tools\textcolor\content-left.txt" "D:\Rea\tools\textcolor\content-right.txt"

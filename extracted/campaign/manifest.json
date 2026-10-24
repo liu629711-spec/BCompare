@@ -1,0 +1,298 @@
+{
+ "phases": {
+  "01-foundation": {
+   "units": [
+    "SsClasses.pas",
+    "SsPersistent.pas",
+    "SsXML.pas",
+    "SsLineList.pas",
+    "SsLineParse.pas",
+    "SsStrProcs.pas",
+    "SsCodePage.pas",
+    "SsMapTree.pas",
+    "SsFileAPI.pas",
+    "SsRegistry.pas",
+    "SsEditStack.pas",
+    "SsBcd.pas",
+    "SsGraphics.pas",
+    "SsSingleInst.pas"
+   ],
+   "count": 1806,
+   "batches": [
+    "01-foundation-batch01.txt",
+    "01-foundation-batch02.txt",
+    "01-foundation-batch03.txt",
+    "01-foundation-batch04.txt",
+    "01-foundation-batch05.txt"
+   ]
+  },
+  "02-text-engine": {
+   "units": [
+    "TextContent.pas",
+    "TextMap.pas",
+    "TextSession.pas",
+    "TextFormat.pas",
+    "TextFiltered.pas",
+    "TextOutput.pas",
+    "TextREParser.pas",
+    "DlgTextGoTo.pas",
+    "DlgTextFindInFiles.pas",
+    "DlgTextGrammarItem.pas",
+    "DlgTextInsigItem.pas",
+    "DlgTextReplacementItem.pas",
+    "DlgTextReport.pas"
+   ],
+   "count": 889,
+   "batches": [
+    "02-text-engine-batch01.txt",
+    "02-text-engine-batch02.txt",
+    "02-text-engine-batch03.txt"
+   ]
+  },
+  "03-bc-core": {
+   "units": [
+    "BcAlign.pas",
+    "BcAlignLines.pas",
+    "BcFileFormat.pas",
+    "BcSyntaxElements.pas",
+    "BcSession.pas",
+    "BcLineSession.pas",
+    "BcJobs.pas",
+    "BcFileSessionJobs.pas",
+    "BcActions.pas",
+    "BcViews.pas",
+    "BcGeneralPrefs.pas",
+    "BcPrefs.pas",
+    "BcProfile.pas",
+    "BcColors.pas",
+    "BcVersion.pas"
+   ],
+   "count": 2244,
+   "batches": [
+    "03-bc-core-batch01.txt",
+    "03-bc-core-batch02.txt",
+    "03-bc-core-batch03.txt",
+    "03-bc-core-batch04.txt",
+    "03-bc-core-batch05.txt",
+    "03-bc-core-batch06.txt"
+   ]
+  },
+  "04-folder": {
+   "units": [
+    "DirSession.pas",
+    "DirSessionState.pas",
+    "DirTree.pas",
+    "DirTreeView.pas",
+    "DirFilters.pas",
+    "DirColors.pas",
+    "ViewDir.pas",
+    "ViewDirBase.pas",
+    "ViewDirSync.pas",
+    "OpBase.pas",
+    "OpCopy.pas",
+    "OpMoveBoth.pas",
+    "OpSync.pas",
+    "DlgDirAlignWithItem.pas",
+    "DlgDirFind.pas",
+    "DlgDirLegend.pas",
+    "DlgDirOpErrors.pas",
+    "DlgDirOtherFilterItem.pas",
+    "DlgDirReport.pas",
+    "DlgDirScript.pas",
+    "FrameDirOpProgress.pas",
+    "FrameDirSessionComparison.pas"
+   ],
+   "count": 2012,
+   "batches": [
+    "04-folder-batch01.txt",
+    "04-folder-batch02.txt",
+    "04-folder-batch03.txt",
+    "04-folder-batch04.txt",
+    "04-folder-batch05.txt",
+    "04-folder-batch06.txt"
+   ]
+  },
+  "05-merge": {
+   "units": [
+    "FrameLineAlignDef.pas",
+    "DlgTagReport.pas",
+    "FrameTagSession.pas",
+    "BcTagSession.pas",
+    "BcAsyncSync.pas"
+   ],
+   "count": 231,
+   "batches": [
+    "05-merge-batch01.txt"
+   ]
+  },
+  "06-table-hex-reg": {
+   "units": [
+    "TableContent.pas",
+    "TableDetect.pas",
+    "TableFiltered.pas",
+    "TableMap.pas",
+    "TableRules.pas",
+    "TableSession.pas",
+    "ViewTable.pas",
+    "HexContent.pas",
+    "HexFiltered.pas",
+    "HexMap.pas",
+    "HexSession.pas",
+    "ViewHex.pas",
+    "RegContent.pas",
+    "RegMap.pas",
+    "RegSession.pas",
+    "ViewReg.pas",
+    "VerContent.pas",
+    "VerRules.pas",
+    "ViewVer.pas"
+   ],
+   "count": 1890,
+   "batches": [
+    "06-table-hex-reg-batch01.txt",
+    "06-table-hex-reg-batch02.txt",
+    "06-table-hex-reg-batch03.txt",
+    "06-table-hex-reg-batch04.txt",
+    "06-table-hex-reg-batch05.txt"
+   ]
+  },
+  "07-pix-media-ver": {
+   "units": [
+    "PixColors.pas",
+    "PixContent.pas",
+    "PixMap.pas",
+    "PixRules.pas",
+    "ViewPix.pas",
+    "MediaContent.pas",
+    "ViewMedia.pas"
+   ],
+   "count": 746,
+   "batches": [
+    "07-pix-media-ver-batch01.txt",
+    "07-pix-media-ver-batch02.txt"
+   ]
+  },
+  "08-reports": {
+   "units": [
+    "BcReport.pas",
+    "DlgReport.pas",
+    "DlgQuickCompare.pas",
+    "BcSpecDlgs.pas",
+    "DlgFileFormatManager.pas",
+    "FrameFileFormat.pas",
+    "FrameFileFormatConversion.pas",
+    "FrameFileSessionFormats.pas",
+    "DlgExport.pas",
+    "DlgImport.pas",
+    "DlgProfileManager.pas",
+    "DlgWorkspaceManager.pas",
+    "DlgProgOptions.pas",
+    "DlgFileConfirmSave.pas",
+    "DlgProfileBrowse.pas",
+    "DlgProfileFileOpen.pas",
+    "DlgProfileSaveAs.pas",
+    "DlgSessionSaveAs.pas",
+    "DlgBrowseRegistry.pas",
+    "FrameSession.pas",
+    "FrameProfile.pas",
+    "FrameProfileBrowseRemote.pas",
+    "BcDropFiles.pas",
+    "BcDynImages.pas",
+    "BcImages.pas",
+    "BcExplorerMenu.pas",
+    "BcForms.pas",
+    "BcLog.pas",
+    "BcStartup.pas",
+    "BcTranslateDFMs.pas",
+    "BcUpgrade3.pas",
+    "BcUpgrade4.pas",
+    "ViewFile.pas",
+    "ViewGeneral.pas",
+    "ViewHome.pas",
+    "ViewSession.pas",
+    "BcExternalSession.pas",
+    "BcClearCase.pas",
+    "BcSccPrefs.pas"
+   ],
+   "count": 2640,
+   "batches": [
+    "08-reports-batch01.txt",
+    "08-reports-batch02.txt",
+    "08-reports-batch03.txt",
+    "08-reports-batch04.txt",
+    "08-reports-batch05.txt",
+    "08-reports-batch06.txt",
+    "08-reports-batch07.txt"
+   ]
+  },
+  "09-vfs": {
+   "units": [
+    "VfsEntryImpl.pas",
+    "VfsMain.pas",
+    "VfsManagerImpl.pas",
+    "VfsFileCache.pas",
+    "VfsJobs.pas",
+    "VfsLocalResourceImpl.pas",
+    "VfsArchiveResourceImpl.pas",
+    "Vfs7zipResourceImpl.pas",
+    "VfsAbArchiveResourceImpl.pas",
+    "VfsFtpResourceImpl.pas",
+    "VfsFtpIndy10Connection.pas",
+    "VfsWebDAVResourceImpl.pas",
+    "VfsAmazonS3ResourceImpl.pas",
+    "VfsOneDriveResourceImpl.pas",
+    "VfsPortableDeviceResourceImpl.pas",
+    "VfsSyncMemoryResourceImpl.pas"
+   ],
+   "count": 2089,
+   "batches": [
+    "09-vfs-batch01.txt",
+    "09-vfs-batch02.txt",
+    "09-vfs-batch03.txt",
+    "09-vfs-batch04.txt",
+    "09-vfs-batch05.txt",
+    "09-vfs-batch06.txt"
+   ]
+  },
+  "10-ui": {
+   "units": [
+    "UiComCtrls.pas",
+    "UiTextEditor.pas",
+    "UiUtils.pas",
+    "UiMapTreeView.pas",
+    "UiSpecCtrls.pas",
+    "UiDropCtrls.pas",
+    "UiActionTree.pas",
+    "UiAutoComplete.pas",
+    "UiCodePageEdit.pas",
+    "UiEdits.pas",
+    "UiHexEditor.pas",
+    "UiListTable.pas",
+    "UiMainControl.pas",
+    "UiSpeedBar.pas",
+    "UiSpeedHeader.pas",
+    "UiTabFooter.pas",
+    "UiTabHeader.pas",
+    "UiTableEditor.pas",
+    "UiThemes.pas",
+    "UiThumb.pas",
+    "UiVirtualListBox.pas",
+    "UiWebBrowser.pas"
+   ],
+   "count": 3088,
+   "batches": [
+    "10-ui-batch01.txt",
+    "10-ui-batch02.txt",
+    "10-ui-batch03.txt",
+    "10-ui-batch04.txt",
+    "10-ui-batch05.txt",
+    "10-ui-batch06.txt",
+    "10-ui-batch07.txt",
+    "10-ui-batch08.txt"
+   ]
+  }
+ },
+ "total": 17635,
+ "done": 0,
+ "missing_units": []
+}

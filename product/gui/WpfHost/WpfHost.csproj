@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>reacmp-gui</AssemblyName>
+    <RootNamespace>ReaCompare.Gui</RootNamespace>
+    <!-- P2 high DPI: ship the app.manifest (PerMonitorV2), docs/20 §3 -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ship the theme files next to the exe (Theme.ResolvePath checks
+         BaseDirectory/themes first, then the repo source layout) -->
+    <Content Include="..\themes\*.json" Link="themes\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

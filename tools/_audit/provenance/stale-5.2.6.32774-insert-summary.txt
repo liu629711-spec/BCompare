@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2026/10/13 13:04:31
+
+Left file: D:\Rea\verify\layouts\insert-L.txt     Right file: D:\Rea\verify\layouts\insert-R.txt
+2 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)

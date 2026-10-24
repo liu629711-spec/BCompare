@@ -1,0 +1,13 @@
+文本比较(T)
+已产生： 2026/10/13 13:04:17
+
+模式：  全部
+左边文件： D:\Rea\verify\layouts\mixed-L.txt     右边文件： D:\Rea\verify\layouts\mixed-R.txt
+same line   =  same line
+--------------------------
+case diff   <> CASE DIFF
+real diff 1    real diff 9
+real diff 2
+--------------------------
+tail        =  tail
+--------------------------

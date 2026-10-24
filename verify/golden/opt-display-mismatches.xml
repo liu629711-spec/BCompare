@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:24:33">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:24:33">
+		<filename1>D:\Rea\verify\golden\opt-pair-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\opt-pair-R.txt</filename2>
+		<mode>Differences</mode>
+		<linecomp status="similar">
+			<text ltid="3">Case Diff</text>
+			<text rtid="3">CASE DIFF</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="4">ws diff </text>
+			<text rtid="4">ws diff</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="5">real diff 1</text>
+			<text rtid="5">real diff 9</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

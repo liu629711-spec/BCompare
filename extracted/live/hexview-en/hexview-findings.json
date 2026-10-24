@@ -1,0 +1,41 @@
+{
+ "provenance": "live probe 2026-10-24 tools/live-hex-view-probe.py (ref 5.2.6, 2 serial launches, residue 0); A-small fixture: L=0x00..0x2F with 0x08..0x0B=AA BB CC DD + tail 30 31 32 33 (52 bytes), R= same head with 11 22 33 44 + tail F0 F1 (50 bytes); B-600 = verify/hex golden pair",
+ "window_model_win_rel": {
+  "title": "{L} <--> {R} - Hex Compare - <brand>",
+  "view": "THexCompareView [8,58,1440,798]",
+  "toolbar_TUiDock": "[8,58,1440,44] one row: Home/Sessions/All/Diffs/Same/Rules/Format/Copy/Next Diff/Prev Diff/Swap/Reload (full width)",
+  "per_side_panel": "LEFT TUiPanel [60,102,694,729] / RIGHT [758,102,690,729]: path combo bar (y~88-114, per-side file path + reload/browse/save buttons) + file info line (~y114-154): '{date time}  {N} bytes  Everything Else v'",
+  "editors": "THexEditor LEFT [60,154,694,677] / RIGHT [758,154,690,677]",
+  "thumbnail": "TUiThumbnail [8,102,52,729] (DFM-named, same slot as text view)",
+  "statusbar": "window bottom; UIA texts only '\tInsert' + 'Load time: N seconds' - NO section counts in the hex view status bar (measured both launches)"
+ },
+ "editor_row_model": {
+  "bytes_per_row": 16,
+  "groups": "2 x 8 (wider gap after byte 8) in BOTH hex zone and ascii zone",
+  "row_pitch_px": 17.5,
+  "body_starts": "right at editor top (no sub-toolbar)",
+  "hex_zone": "offset column (8 hex digits, gray) then 16 bytes 'XX '",
+  "measured_geometry_row0": "offset digits x62-115 (gray ink); byte glyph pairs at x124,146,167,188,209,230,251,272 (pitch ~21.1, group gap 284->300); ascii zone starts x476, char pitch ~7.13, 16 chars",
+  "offset_ink": [
+   105,
+   105,
+   105
+  ],
+  "note": "geometry values are the BC reference (layout-only); our renderer derives its own metrics from its own face (biaoxian-axis), structure + colors are the fidelity contract"
+ },
+ "colors_measured": {
+  "ink_normal": "black (0,0,0) hex bytes and ascii chars (ClearType fringes ignored)",
+  "ink_offset": "gray (105,105,105)",
+  "changed_byte_text": "RED (255,0,0) - applies per BYTE in both hex and ascii zones (0C 0D normal black in the same row as red AA BB CC DD)",
+  "changed_byte_band": "pink (255,227,227) behind the changed byte's hex slots AND its ascii char - same family as text-view different tint",
+  "orphan_byte": "RED text + pink band, identical to changed bytes (L-only 30 31 32 33 measured red)",
+  "empty_slot_hatch": "diagonal hatch light gray (230,230,230) on white for slots where the side has no byte (partial tail row: L row3 = 4 bytes + hatch, R row3 = 2 bytes + hatch)",
+  "caret": "CYAN block (0,255,255) at the current byte - measured sitting on the ASCII-zone cell (row0 char0 both panes)"
+ },
+ "uia": "pane content NOT exposed to UIA (only status-bar texts); THexEditor/THexCompareView/TUiPanel classes visible with rects",
+ "residuals": [
+  "per-side offset shown when a row is fully empty for that side: unmeasured (A-small rows all have bytes both sides) - our rule: blank offset, biaoxian-zisheji",
+  "caret navigation via keyboard / Next Diff buttons: unprobed (buttons are chrome shell only this tier)",
+  "BC's own info strip shows '{N} bytes' - our per-side byte counts come from --hex3 sizes"
+ ]
+}

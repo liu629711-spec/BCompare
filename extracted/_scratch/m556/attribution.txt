@@ -1,0 +1,59 @@
+### FUZZ flips: inc FAIL -> incNWf PASS
+  f0002: inc FAIL -> incNWf PASS
+  f0028: inc PASS -> incNWf FAIL
+  f0040: inc PASS -> incNWf FAIL
+  f0043: inc FAIL -> incNWf PASS
+  f0052: inc FAIL -> incNWf PASS
+  f0075: inc FAIL -> incNWf PASS
+  f0083: inc FAIL -> incNWf PASS
+  f0088: inc FAIL -> incNWf PASS
+  f0093: inc FAIL -> incNWf PASS
+  f0094: inc FAIL -> incNWf PASS
+  f0097: inc PASS -> incNWf FAIL
+  f0112: inc FAIL -> incNWf PASS
+  f0116: inc FAIL -> incNWf PASS
+incNWf fuzz passes gained 10
+
+### FUZZ flips: inc FAIL -> saNf PASS
+  f0000: inc PASS -> saNf FAIL
+  f0001: inc FAIL -> saNf PASS
+  f0002: inc FAIL -> saNf PASS
+  f0010: inc FAIL -> saNf PASS
+  f0017: inc FAIL -> saNf PASS
+  f0021: inc FAIL -> saNf PASS
+  f0022: inc FAIL -> saNf PASS
+  f0023: inc PASS -> saNf FAIL
+  f0028: inc PASS -> saNf FAIL
+  f0036: inc FAIL -> saNf PASS
+  f0039: inc PASS -> saNf FAIL
+  f0040: inc PASS -> saNf FAIL
+  f0041: inc PASS -> saNf FAIL
+  f0043: inc FAIL -> saNf PASS
+  f0052: inc FAIL -> saNf PASS
+  f0073: inc FAIL -> saNf PASS
+  f0075: inc FAIL -> saNf PASS
+  f0080: inc FAIL -> saNf PASS
+  f0083: inc FAIL -> saNf PASS
+  f0087: inc FAIL -> saNf PASS
+  f0088: inc FAIL -> saNf PASS
+  f0093: inc FAIL -> saNf PASS
+  f0094: inc FAIL -> saNf PASS
+  f0097: inc PASS -> saNf FAIL
+  f0098: inc PASS -> saNf FAIL
+  f0103: inc PASS -> saNf FAIL
+  f0112: inc FAIL -> saNf PASS
+  f0115: inc FAIL -> saNf PASS
+  f0116: inc FAIL -> saNf PASS
+  f0117: inc PASS -> saNf FAIL
+saNf fuzz passes gained 20
+
+### f0017 detail
+left : ['', '', 'tmp yy item', 'value yy int gamma', 'Alpha']
+right: ['', '', 'tmp yy item', 'value yy int gamma', 'Alpha', 'Alpha', 'Node alpha yy']
+inc: pass=False
+   want: [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['same', 5, 5], ['rightorphan', None, 6], ['rightorphan', None, 7]]
+   got : [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['rightorphan', None, 5], ['same', 5, 6], ['rightorphan', None, 7]]
+incNWf: pass=False
+   want: [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['same', 5, 5], ['rightorphan', None, 6], ['rightorphan', None, 7]]
+   got : [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['rightorphan', None, 5], ['same', 5, 6], ['rightorphan', None, 7]]
+saNf: pass=True

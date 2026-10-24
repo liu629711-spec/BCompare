@@ -1,0 +1,5 @@
+{
+  "name": "light",
+  "provenance": "docs/20 D5/§6 step-3: light theme == the MEASURED baseline. It declares NO color keys, so Theme.Apply leaves every value at its measured source — pane colors stay extracted/live/textcolor-en/colors.json (reference 5.2.6 probe), radio colors stay filter-map.json button_selection_pixels. Nothing is hand-copied here. The file exists only so --theme has one symmetric resolution path and the light baseline is explicit, not accidental.",
+  "schema": "optional flat keys, all of which dark.json may set: pane_base{left,right}, ink{left,right}, gutter{bg,digits}, status_rows{<status>:{left,right}}, hatch{left_stripe,right_stripe}, radio{selected,unselected}, window_bg[r,g,b]. Absent key => that field keeps its measured value (never invented)."
+}

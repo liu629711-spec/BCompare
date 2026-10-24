@@ -1,0 +1,10 @@
+Registry Compare
+Produced: 2026/10/19 20:46:24
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-depth3-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A\B\C
+Right file: D:\Rea\verify\reg\r-depth3-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A\B\C
+Name Type   Data   Name Type   Data
+-----------------------------------
+x    REG_SZ 1    = x    REG_SZ 1
+-----------------------------------

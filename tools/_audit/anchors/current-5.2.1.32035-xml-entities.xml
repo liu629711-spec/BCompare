@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:08:20">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 14:08:20">
+		<filename1>D:\Rea\verify\golden\xml-entities-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\xml-entities-R.txt</filename2>
+		<linecomp status="different">
+			<text ltid="1">a &amp; b &lt; c > d</text>
+			<text rtid="1">a &amp; b &lt; c > e</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

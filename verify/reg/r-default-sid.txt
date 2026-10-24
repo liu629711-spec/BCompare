@@ -1,0 +1,11 @@
+Registry Compare
+Produced: 2026/10/19 20:46:17
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-default-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-default-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name      Type   Data    Name      Type   Data
+----------------------------------------------
+(Default) REG_SZ dd   <> (Default) REG_SZ ee
+v         REG_SZ 1    =  v         REG_SZ 1
+----------------------------------------------

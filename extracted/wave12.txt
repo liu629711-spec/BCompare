@@ -1,0 +1,6 @@
+140e72f50	align strategy mode1 method
+140e75a70	align strategy mode1 method 2
+140e719c0	align strategy mode1 method 3
+140e71ea0	align strategy mode2 method
+140e715d8	align strategy mode3 method A
+140e71600	align strategy mode3 method B

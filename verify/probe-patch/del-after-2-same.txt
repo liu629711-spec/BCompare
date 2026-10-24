@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\del-after-2-same-L.txt D:\Rea\verify\probe-patch\del-after-2-same-R.txt
+3d2
+< DOOM

@@ -1,0 +1,3548 @@
+{
+ "views": [
+  "Home",
+  "Text Compare",
+  "Text Merge",
+  "Hex Compare",
+  "Table Compare",
+  "Picture Compare",
+  "Registry Compare",
+  "Version Compare",
+  "Folder Compare",
+  "Folder Merge",
+  "Folder Sync",
+  "Media Compare"
+ ],
+ "top_menus_per_view": {
+  "Home": [
+   "Session",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Text Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Text Merge": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Hex Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Table Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Picture Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Registry Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Version Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Folder Compare": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Folder Merge": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Folder Sync": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "Media Compare": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ]
+ },
+ "capability_items": [
+  {
+   "menu": "Actions",
+   "item": "Back",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Browse for Folder",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Clear Session",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Close Tab",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Compare Contents...",
+   "present_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Compare Parent Folders",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Copy Filename",
+   "present_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Copy to Output...",
+   "present_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Exclude",
+   "present_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Exit",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Folder Compare Info",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Folder Compare Report...",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Forward",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Ignored",
+   "present_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Load Workspace",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Locked",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Merge Base Folders",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Merge...",
+   "present_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "New Session",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "New Tab",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "New Window",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Open Session",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Refresh Selection",
+   "present_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Session",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Session As...",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Workspace As...",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Session Settings...",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Swap Sides",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Sync Base Folders",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Up One Level",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Align With...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Collapse All",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Compare Selection to Clipboard",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Conflict",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Convert File",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy Cells to Right",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy Line to Right",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy to Right",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Cut",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Decrease Indent",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete Column",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete Row",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Expand All",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Export All...",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Full Refresh",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Increase Indent",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Column After",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Column Before",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Row After",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Row Before",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Invert Selection",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Isolate",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Modify...",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "New Key",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "New Value",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Paste",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Redo",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Refresh",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Rename",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Replacement...",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Select All",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Select All Files",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Newer",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Orphans",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Section",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Sort...",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Center",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Center Line",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left Line",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left Then Right",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right Line",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right Then Left",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Undo",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Explorer",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Open Clipboard",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Open File...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Open With",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Open...",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Play",
+   "present_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Save File",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Save File As...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "About Beyond Compare",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Check for Updates",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Contents",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Context Sensitive Help",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Enter Key...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Scooter Software on the Web",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Help",
+   "item": "Support",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Clear Bookmarks",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Clear Conflict Section, Next",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Filename...",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Next",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Next Filename",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Previous",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Previous Filename",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Go To...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Go to Bookmark",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Conflict",
+   "present_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Conflict Section",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Bytes",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Cell",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Item",
+   "present_in": [
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Row",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Section",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Edit",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Left Taken",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Replacement",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Next Right Taken",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Conflict",
+   "present_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Conflict Section",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Bytes",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Cell",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Item",
+   "present_in": [
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Row",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Section",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Edit",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Left Taken",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Replacement",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Right Taken",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Replace...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Toggle Bookmark",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Auto Sync",
+   "present_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Back",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Browse for Folder",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Clear Session",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Close Tab",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Base Folders",
+   "present_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Files Using",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Parent Folders",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Compare to Output",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Exit",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Compare Info",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Compare Report...",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Merge Info",
+   "present_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Sync Info",
+   "present_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Forward",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Hex Compare Info",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Hex Compare Report...",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Load Workspace",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Locked",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Media Compare Info",
+   "present_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Media Compare Report...",
+   "present_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Base Folders",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Files",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Parent Folders",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "New Session",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "New Tab",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "New Window",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Open Session",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Picture Compare Info",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Picture Compare Report...",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Play Both",
+   "present_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Recompare",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Recompare Files",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Registry Compare Info",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Registry Compare Report...",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Reload",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Reload Files",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Save Session",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Save Session As...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Save Workspace As...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Session Settings...",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Swap Sides",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Sync Base Folders",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Table Compare Info",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Table Compare Report...",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Text Compare Info",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Text Compare Report...",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Text Merge Info",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Up One Level",
+   "present_in": [
+    "Registry Compare",
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Version Compare Info",
+   "present_in": [
+    "Version Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Version Compare Report...",
+   "present_in": [
+    "Version Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Edit Text File",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Export Settings...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "File Formats...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Import Settings...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Options...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Profiles...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Restore Factory Defaults...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "Save Snapshot...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Tools",
+   "item": "View Patch...",
+   "present_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Alignment Details",
+   "present_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Always Show Folders",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Auto Scale",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Big Endian Values",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Blend Mode",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Blend Toggle",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Byte Address = 00000000",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Byte Addresses",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Center Pane",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Collapse All",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Columns",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Compare Files and Folder Structure",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Compare Metadata",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Detached Output Pane",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Expand All",
+   "present_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Favor Left Changes",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Favor Right Changes",
+   "present_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "File Info",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Flip Horizontally",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Flip Vertically",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Full Screen",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Hex Details",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Hide Same Columns",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Folder Structure",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Same Changes",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Unimportant Differences",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Ignored",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Layout...",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Legend",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Line Numbers",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Little Endian Values",
+   "present_in": [
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Log",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Maximize Session Management",
+   "present_in": [
+    "Home"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Mismatch Range Mode",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Only Compare Files",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Over-Under Layout",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Reset Difference Offset",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Resize Columns to Fit",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Rotate Clockwise",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Rotate Counterclockwise",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Row Numbers",
+   "present_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Ruler",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show All",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Changes",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Conflicts",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Context",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Differences",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Differences but No Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Changes",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Newer",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Newer and Left Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Mergeable",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show No Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Changes",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Newer",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Newer and Right Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Orphans",
+   "present_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Same",
+   "present_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Session Management",
+   "present_in": [
+    "Home"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Unchanged",
+   "present_in": [
+    "Text Merge",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Show Web Resources",
+   "present_in": [
+    "Home"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Side-by-Side Layout",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Suppress Filters",
+   "present_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Syntax Highlighting",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Text Details",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Thumbnail",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Tolerance Mode",
+   "present_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Toolbar",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Visible Whitespace",
+   "present_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Webpages",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Word Wrap",
+   "present_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Zoom",
+   "present_in": [
+    "Picture Compare"
+   ]
+  }
+ ],
+ "item_order": {
+  "Home|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Close Tab",
+   "Exit"
+  ],
+  "Home|View": [
+   "Show Session Management",
+   "Maximize Session Management",
+   "Show Web Resources"
+  ],
+  "Home|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Home|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Text Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Text Compare Report...",
+   "Text Compare Info",
+   "Compare Files Using",
+   "Merge Files",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Text Compare|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Open With",
+   "Save File",
+   "Save File As...",
+   "Explorer"
+  ],
+  "Text Compare|Edit": [
+   "Undo",
+   "Redo",
+   "Align With...",
+   "Isolate",
+   "Replacement...",
+   "Copy to Right",
+   "Copy Line to Right",
+   "Increase Indent",
+   "Decrease Indent",
+   "Cut",
+   "Copy",
+   "Paste",
+   "Delete",
+   "Select All",
+   "Select Section",
+   "Compare Selection to Clipboard",
+   "Convert File"
+  ],
+  "Text Compare|Search": [
+   "Next Difference",
+   "Previous Difference",
+   "Next Difference Section",
+   "Previous Difference Section",
+   "Next Replacement",
+   "Previous Replacement",
+   "Next Edit",
+   "Previous Edit",
+   "Find...",
+   "Replace...",
+   "Find Next",
+   "Find Previous",
+   "Go To...",
+   "Toggle Bookmark",
+   "Go to Bookmark",
+   "Clear Bookmarks"
+  ],
+  "Text Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Show Context",
+   "Ignore Unimportant Differences",
+   "Ignored",
+   "Visible Whitespace",
+   "Line Numbers",
+   "Syntax Highlighting",
+   "Word Wrap",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Webpages",
+   "Thumbnail",
+   "Text Details",
+   "Hex Details",
+   "Alignment Details",
+   "Ruler",
+   "File Info",
+   "Toolbar"
+  ],
+  "Text Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Text Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Text Merge|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Text Merge Info",
+   "Compare to Output",
+   "Merge Parent Folders",
+   "Exit"
+  ],
+  "Text Merge|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Save File As..."
+  ],
+  "Text Merge|Edit": [
+   "Undo",
+   "Redo",
+   "Align With...",
+   "Isolate",
+   "Conflict",
+   "Take Left",
+   "Take Center",
+   "Take Right",
+   "Take Left Then Right",
+   "Take Right Then Left",
+   "Take Left Line",
+   "Take Center Line",
+   "Take Right Line",
+   "Copy",
+   "Select All",
+   "Select Section",
+   "Compare Selection to Clipboard"
+  ],
+  "Text Merge|Search": [
+   "Clear Conflict Section, Next",
+   "Next Conflict Section",
+   "Previous Conflict Section",
+   "Next Difference",
+   "Previous Difference",
+   "Next Difference Section",
+   "Previous Difference Section",
+   "Next Left Taken",
+   "Previous Left Taken",
+   "Next Right Taken",
+   "Previous Right Taken",
+   "Next Edit",
+   "Previous Edit",
+   "Find...",
+   "Replace...",
+   "Find Next",
+   "Find Previous",
+   "Go To...",
+   "Toggle Bookmark",
+   "Go to Bookmark",
+   "Clear Bookmarks"
+  ],
+  "Text Merge|View": [
+   "Show All",
+   "Show Changes",
+   "Show Conflicts",
+   "Show Left Changes",
+   "Show Right Changes",
+   "Show Mergeable",
+   "Show Unchanged",
+   "Show Context",
+   "Ignore Unimportant Differences",
+   "Ignore Same Changes",
+   "Favor Left Changes",
+   "Favor Right Changes",
+   "Ignored",
+   "Visible Whitespace",
+   "Line Numbers",
+   "Syntax Highlighting",
+   "Word Wrap",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Detached Output Pane",
+   "Webpages",
+   "Thumbnail",
+   "Center Pane",
+   "Text Details",
+   "Hex Details",
+   "Ruler",
+   "File Info",
+   "Toolbar"
+  ],
+  "Text Merge|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Text Merge|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Hex Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Hex Compare Report...",
+   "Hex Compare Info",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Hex Compare|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Open With",
+   "Save File",
+   "Save File As...",
+   "Explorer"
+  ],
+  "Hex Compare|Edit": [
+   "Undo",
+   "Redo",
+   "Copy to Right",
+   "Cut",
+   "Copy",
+   "Paste",
+   "Delete",
+   "Select All"
+  ],
+  "Hex Compare|Search": [
+   "Next Difference Bytes",
+   "Previous Difference Bytes",
+   "Find...",
+   "Replace...",
+   "Find Next",
+   "Find Previous",
+   "Go To..."
+  ],
+  "Hex Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Byte Address = 00000000",
+   "Little Endian Values",
+   "Big Endian Values",
+   "Byte Addresses",
+   "Layout...",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Thumbnail",
+   "File Info",
+   "Toolbar"
+  ],
+  "Hex Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Hex Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Table Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Table Compare Report...",
+   "Table Compare Info",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Table Compare|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Open With",
+   "Save File",
+   "Save File As...",
+   "Explorer"
+  ],
+  "Table Compare|Edit": [
+   "Undo",
+   "Redo",
+   "Align With...",
+   "Copy to Right",
+   "Copy Cells to Right",
+   "Cut",
+   "Copy",
+   "Paste",
+   "Delete",
+   "Delete Row",
+   "Delete Column",
+   "Insert Row Before",
+   "Insert Row After",
+   "Insert Column Before",
+   "Insert Column After",
+   "Modify...",
+   "Sort...",
+   "Select All"
+  ],
+  "Table Compare|Search": [
+   "Next Difference Cell",
+   "Previous Difference Cell",
+   "Next Difference Row",
+   "Previous Difference Row",
+   "Next Edit",
+   "Previous Edit",
+   "Find...",
+   "Replace...",
+   "Find Next",
+   "Find Previous",
+   "Go To..."
+  ],
+  "Table Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Ignore Unimportant Differences",
+   "Hide Same Columns",
+   "Resize Columns to Fit",
+   "Visible Whitespace",
+   "Row Numbers",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Thumbnail",
+   "Text Details",
+   "File Info",
+   "Toolbar"
+  ],
+  "Table Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Table Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Picture Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Picture Compare Report...",
+   "Picture Compare Info",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Picture Compare|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Open With",
+   "Explorer"
+  ],
+  "Picture Compare|Edit": [
+   "Copy"
+  ],
+  "Picture Compare|View": [
+   "Tolerance Mode",
+   "Mismatch Range Mode",
+   "Blend Mode",
+   "Ignore Unimportant Differences",
+   "Auto Scale",
+   "Rotate Clockwise",
+   "Rotate Counterclockwise",
+   "Flip Horizontally",
+   "Flip Vertically",
+   "Reset Difference Offset",
+   "Compare Metadata",
+   "Blend Toggle",
+   "File Info",
+   "Full Screen",
+   "Zoom",
+   "Toolbar"
+  ],
+  "Picture Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Picture Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Registry Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Up One Level",
+   "Reload",
+   "Recompare",
+   "Registry Compare Report...",
+   "Registry Compare Info",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Registry Compare|File": [
+   "Open...",
+   "Open Clipboard"
+  ],
+  "Registry Compare|Edit": [
+   "Undo",
+   "Redo",
+   "Copy to Right",
+   "Delete",
+   "Rename",
+   "New Key",
+   "New Value",
+   "Export All...",
+   "Select All"
+  ],
+  "Registry Compare|Search": [
+   "Next Difference Item",
+   "Previous Difference Item",
+   "Find...",
+   "Find Next",
+   "Find Previous"
+  ],
+  "Registry Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Expand All",
+   "Collapse All",
+   "Visible Whitespace",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Text Details",
+   "Hex Details",
+   "File Info",
+   "Toolbar"
+  ],
+  "Registry Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Registry Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Version Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Version Compare Report...",
+   "Version Compare Info",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Version Compare|File": [
+   "Open File...",
+   "Open Clipboard"
+  ],
+  "Version Compare|Edit": [
+   "Copy",
+   "Select All"
+  ],
+  "Version Compare|Search": [
+   "Next Difference Item",
+   "Previous Difference Item",
+   "Find...",
+   "Find Next",
+   "Find Previous"
+  ],
+  "Version Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Ignore Unimportant Differences",
+   "Visible Whitespace",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Text Details",
+   "File Info",
+   "Toolbar"
+  ],
+  "Version Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Version Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Folder Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Back",
+   "Forward",
+   "Browse for Folder",
+   "Up One Level",
+   "Folder Compare Report...",
+   "Folder Compare Info",
+   "Merge Base Folders",
+   "Sync Base Folders",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Folder Compare|Actions": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Back",
+   "Forward",
+   "Browse for Folder",
+   "Up One Level",
+   "Folder Compare Report...",
+   "Folder Compare Info",
+   "Merge Base Folders",
+   "Sync Base Folders",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Folder Compare|Edit": [
+   "Expand All",
+   "Collapse All",
+   "Select All",
+   "Select All Files",
+   "Select Newer",
+   "Select Orphans",
+   "Invert Selection",
+   "Refresh",
+   "Full Refresh"
+  ],
+  "Folder Compare|Search": [
+   "Next Difference",
+   "Previous Difference",
+   "Find Filename...",
+   "Find Next Filename",
+   "Find Previous Filename"
+  ],
+  "Folder Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Show No Orphans",
+   "Show Differences but No Orphans",
+   "Show Orphans",
+   "Show Left Newer",
+   "Show Right Newer",
+   "Show Left Newer and Left Orphans",
+   "Show Right Newer and Right Orphans",
+   "Show Left Orphans",
+   "Show Right Orphans",
+   "Always Show Folders",
+   "Compare Files and Folder Structure",
+   "Only Compare Files",
+   "Ignore Folder Structure",
+   "Ignore Unimportant Differences",
+   "Suppress Filters",
+   "Columns",
+   "Legend",
+   "Log",
+   "Toolbar"
+  ],
+  "Folder Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Folder Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Folder Merge|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Back",
+   "Forward",
+   "Browse for Folder",
+   "Up One Level",
+   "Folder Merge Info",
+   "Compare to Output",
+   "Merge Parent Folders",
+   "Exit"
+  ],
+  "Folder Merge|Actions": [
+   "Compare Contents...",
+   "Merge...",
+   "Copy to Output...",
+   "Exclude",
+   "Copy Filename",
+   "Ignored",
+   "Refresh Selection"
+  ],
+  "Folder Merge|Edit": [
+   "Expand All",
+   "Collapse All",
+   "Select All",
+   "Select All Files",
+   "Select Newer",
+   "Select Orphans",
+   "Invert Selection",
+   "Refresh",
+   "Full Refresh"
+  ],
+  "Folder Merge|Search": [
+   "Next Difference",
+   "Previous Difference",
+   "Find Filename...",
+   "Find Next Filename",
+   "Find Previous Filename"
+  ],
+  "Folder Merge|View": [
+   "Show All",
+   "Show Changes",
+   "Show Conflicts",
+   "Show Left Changes",
+   "Show Right Changes",
+   "Show Mergeable",
+   "Show Unchanged",
+   "Always Show Folders",
+   "Compare Files and Folder Structure",
+   "Only Compare Files",
+   "Ignore Folder Structure",
+   "Ignore Unimportant Differences",
+   "Ignore Same Changes",
+   "Suppress Filters",
+   "Center Pane",
+   "Columns",
+   "Legend",
+   "Log",
+   "Toolbar"
+  ],
+  "Folder Merge|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Folder Merge|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Folder Sync|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Folder Sync Info",
+   "Auto Sync",
+   "Compare Base Folders",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Folder Sync|Actions": [
+   "Exclude",
+   "Copy Filename",
+   "Refresh Selection"
+  ],
+  "Folder Sync|Edit": [
+   "Expand All",
+   "Collapse All",
+   "Select All",
+   "Invert Selection",
+   "Refresh",
+   "Full Refresh"
+  ],
+  "Folder Sync|Search": [
+   "Next Conflict",
+   "Previous Conflict",
+   "Find Filename...",
+   "Find Next Filename",
+   "Find Previous Filename"
+  ],
+  "Folder Sync|View": [
+   "Ignore Unimportant Differences",
+   "Suppress Filters",
+   "Columns",
+   "Legend",
+   "Log",
+   "Toolbar"
+  ],
+  "Folder Sync|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Folder Sync|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ],
+  "Media Compare|Session": [
+   "New Session",
+   "New Tab",
+   "New Window",
+   "Open Session",
+   "Load Workspace",
+   "Save Workspace As...",
+   "Save Session",
+   "Save Session As...",
+   "Session Settings...",
+   "Locked",
+   "Clear Session",
+   "Close Tab",
+   "Swap Sides",
+   "Reload Files",
+   "Recompare Files",
+   "Media Compare Report...",
+   "Media Compare Info",
+   "Play Both",
+   "Compare Files Using",
+   "Compare Parent Folders",
+   "Exit"
+  ],
+  "Media Compare|File": [
+   "Open File...",
+   "Open Clipboard",
+   "Play"
+  ],
+  "Media Compare|Edit": [
+   "Copy",
+   "Select All"
+  ],
+  "Media Compare|Search": [
+   "Next Difference Item",
+   "Previous Difference Item",
+   "Find...",
+   "Find Next",
+   "Find Previous"
+  ],
+  "Media Compare|View": [
+   "Show All",
+   "Show Differences",
+   "Show Same",
+   "Ignore Unimportant Differences",
+   "Visible Whitespace",
+   "Side-by-Side Layout",
+   "Over-Under Layout",
+   "Text Details",
+   "File Info",
+   "Toolbar"
+  ],
+  "Media Compare|Tools": [
+   "Options...",
+   "File Formats...",
+   "Profiles...",
+   "Export Settings...",
+   "Import Settings...",
+   "Restore Factory Defaults...",
+   "Save Snapshot...",
+   "Edit Text File",
+   "View Patch..."
+  ],
+  "Media Compare|Help": [
+   "Contents",
+   "Context Sensitive Help",
+   "Scooter Software on the Web",
+   "Check for Updates",
+   "Support",
+   "Enter Key...",
+   "About Beyond Compare"
+  ]
+ }
+}

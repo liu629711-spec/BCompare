@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\del-mid-L.txt D:\Rea\verify\probe-patch\del-mid-R.txt
+2d0
+< b

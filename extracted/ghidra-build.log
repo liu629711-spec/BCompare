@@ -1,0 +1,433 @@
+[20:17:06] D:\Ghidra\ghidra_12.1.4_PUBLIC\support\analyzeHeadless.bat D:\Rea\ghidra-project bcompare -import D:\bc-official\app\BCompare.exe ...
+INFO  Using log config file: jar:file:/D:/Ghidra/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (794 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Starting cache cleanup: C:\Users\liuxinlong\AppData\Local\ghidra\fscache2 (FileCacheMaintenanceDaemon)  
+INFO  Finished cache cleanup, estimated storage used: 0 (FileCacheMaintenanceDaemon)  
+INFO  Headless startup complete (2275 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: D:\Rea\ghidra-project\bcompare (HeadlessAnalyzer)  
+INFO  Creating project: D:\Rea\ghidra-project\bcompare (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: D:\Rea\ghidra-project\bcompare (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///D:/bc-official/app/BCompare.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\Windows\SysWOW64, C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot\bin, C:\Windows\Sun\Java\bin, C:\Windows\system32, C:\Windows, C:\Users\liuxinlong\bin, D:\Git\mingw64\bin, D:\Git\usr\local\bin, D:\Git\usr\bin, C:\Program Files\YunShu\utils, C:\Python314\Scripts, C:\Python314, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0, C:\Windows\System32\OpenSSH, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\nodejs, C:\ProgramData\chocolatey\bin, C:\Program Files\Docker\Docker\resources\bin, C:\Program Files\GitHub CLI, C:\Program Files\Go\bin, C:\Program Files\dotnet, C:\Program Files\CMake\bin, D:\Git\cmd, C:\Strawberry\c\bin, C:\Strawberry\perl\site\bin, C:\Strawberry\perl\bin, C:\Program Files\TortoiseSVN\bin, C:\Program Files\SlikSvn\bin, D:\Trae CN\bin, C:\Users\liuxinlong\AppData\Local\hermes\hermes-agent\venv\Scripts, C:\Users\liuxinlong\AppData\Local\hermes\bin, C:\Users\liuxinlong\AppData\Local\codegraph\current\bin, C:\Users\liuxinlong\.cargo\bin, C:\Users\liuxinlong\AppData\Local\Microsoft\WindowsApps, C:\Users\liuxinlong\AppData\Roaming\npm, D:\cursor\cursor\resources\app\bin, D:\Microsoft VS Code\bin, C:\Users\liuxinlong\AppData\Local\Microsoft\WinGet\Packages\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\ripgrep-15.1.0-x86_64-pc-windows-msvc, C:\Users\liuxinlong\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin, C:\Users\liuxinlong\AppData\Local\Programs\Cua\cua-driver\bin, D:\UCompare, C:\Users\liuxinlong\.local\bin, C:\Users\liuxinlong\.bun\bin, C:\Users\liuxinlong\go\bin, C:\Users\liuxinlong\.dotnet\tools, C:\Users\liuxinlong\AppData\Local\Programs\orca\resources\bin, D:\InsCode, D:\Obsidian, D:\Zcode\resources\tools\ripgrep, D:\Zcode\resources\tools\ugrep, D:\Git\usr\bin\vendor_perl, D:\Git\usr\bin\core_perl] (ProgramLoader)  
+INFO  TLS callbacks at 14200a020 (TLSDirectory)  
+WARN  Invalid or missing function at 180098100 (ExportDataDirectory)  
+INFO  TLS callbacks at 1800bd398 (TLSDirectory)  
+INFO  TLS callbacks at 1801422e0 (TLSDirectory)  
+WARN  Invalid or missing function at 180157bb0 (ExportDataDirectory)  
+INFO  TLS callbacks at 180080708 (TLSDirectory)  
+INFO  TLS callbacks at 1800e2880 (TLSDirectory)  
+INFO  TLS callbacks at 1800ae9c8 (TLSDirectory)  
+WARN  Invalid or missing function at 1800c24a8 (ExportDataDirectory)  
+INFO  TLS callbacks at 1800b37d0 (TLSDirectory)  
+WARN  Invalid or missing function at 1800db44c (ExportDataDirectory)  
+INFO  TLS callbacks at 18060b050 (TLSDirectory)  
+WARN  Invalid or missing function at 1806ec618 (ExportDataDirectory)  
+INFO  TLS callbacks at 18003ee60 (TLSDirectory)  
+INFO  TLS callbacks at 1802fb880 (TLSDirectory)  
+INFO  TLS callbacks at 18013bd58 (TLSDirectory)  
+WARN  Invalid or missing function at 180167e1c (ExportDataDirectory)  
+WARN  Invalid or missing function at 1800be228 (ExportDataDirectory)  
+INFO  TLS callbacks at 1800898d0 (TLSDirectory)  
+INFO  TLS callbacks at 1801be5a8 (TLSDirectory)  
+INFO  TLS callbacks at 1802302c0 (TLSDirectory)  
+INFO  TLS callbacks at 180070288 (TLSDirectory)  
+WARN  Invalid or missing function at 18008a654 (ExportDataDirectory)  
+WARN  Invalid or missing function at 180003948 (ExportDataDirectory)  
+INFO  TLS callbacks at 18001ba88 (TLSDirectory)  
+INFO  Additional info:
+Loading file:///D:/bc-official/app/BCompare.exe?MD5=4203bfce97585dd21344793b0cdc38e5...
+------------------------------------------------
+
+Searching 45 paths for library ADVAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/advapi32.dll
+Loading file:///C:/Windows/System32/advapi32.dll?MD5=71fba6094ecad516eec1dde140d37be7...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library API-MS-WIN-CRT-STRING-L1-1-0.DLL...
+Loading file:///C:/Program Files/Microsoft/jdk-21.0.12.101-hotspot/bin/api-ms-win-crt-string-l1-1-0.dll?MD5=f9886e4d00a5fa4aa0dfd31c9f82bfa4...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\api-ms-win-crt-string-l1-1-0.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library COMCTL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/comctl32.dll
+Loading file:///C:/Windows/System32/comctl32.dll?MD5=8288ef22780ef408433e43810d7bc256...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\comctl32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library COMDLG32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/comdlg32.dll
+Loading file:///C:/Windows/System32/comdlg32.dll?MD5=4f5be7ae10b96e366252f36fd3027ebf...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\comdlg32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library CRYPT32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/crypt32.dll
+Loading file:///C:/Windows/System32/crypt32.dll?MD5=bfb13d0f44ed3d8c3dd2fe9ad0f69c71...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\crypt32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library DWMAPI.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/dwmapi.dll
+Loading file:///C:/Windows/System32/dwmapi.dll?MD5=35d2419b614baf26d13b8537346a2572...
+[dwmapi.dll]: failed to create WEVTResource at 1800299a0: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\dwmapi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library GDI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/gdi32.dll
+Loading file:///C:/Windows/System32/gdi32.dll?MD5=f84f3ab11af1c95970d2f6d007a62332...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library GDIPLUS.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/GdiPlus.dll
+Loading file:///C:/Windows/System32/GdiPlus.dll?MD5=66a2abccabcace388b223265036b0eba...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\gdiplus.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library IMM32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/imm32.dll
+Loading file:///C:/Windows/System32/imm32.dll?MD5=9205b8428e5b7ffdf1bcc99d7a4d820d...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\imm32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library KERNEL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/kernel32.dll
+Loading file:///C:/Windows/System32/kernel32.dll?MD5=14075bbb6e0f41ab535a36fc34cbabfd...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library MPR.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/mpr.dll
+Loading file:///C:/Windows/System32/mpr.dll?MD5=270e57ac9dbbd5ee4425532bfa4a9e50...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\mpr.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library MSIMG32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/msimg32.dll
+Loading file:///C:/Windows/System32/msimg32.dll?MD5=5dfcf82276154b9502ae9261e306df74...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\msimg32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library MSVCRT.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/msvcrt.dll
+Loading file:///C:/Windows/System32/msvcrt.dll?MD5=a1835c41ab3193d946c27b36f0e87402...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\msvcrt.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library OLE32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/ole32.dll
+Loading file:///C:/Windows/System32/ole32.dll?MD5=631e0f3cb5134b68f1dbfdc6f0d15a92...
+[ole32.dll]: failed to create WEVTResource at 180181740: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\ole32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library OLEAUT32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/oleaut32.dll
+Loading file:///C:/Windows/System32/oleaut32.dll?MD5=e145d3f8e2433d0772401094444ba55b...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\oleaut32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library RPCRT4.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/rpcrt4.dll
+Loading file:///C:/Windows/System32/rpcrt4.dll?MD5=f441bbfcfea6f87f4b0268147e69b04d...
+Index 10 out of bounds for length 10
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\rpcrt4.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library SECUR32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/secur32.dll
+Loading file:///C:/Windows/System32/secur32.dll?MD5=93b35a445f1aedb6d85e8a836d781c5c...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\secur32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library SHCORE.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/SHCore.dll
+Loading file:///C:/Windows/System32/SHCore.dll?MD5=119e5a14bea140de61ad8102112c5d92...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shcore.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library SHELL32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/shell32.dll
+Loading file:///C:/Windows/System32/shell32.dll?MD5=473c485211e7e301ae71159d31d84351...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shell32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library SHLWAPI.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/shlwapi.dll
+Loading file:///C:/Windows/System32/shlwapi.dll?MD5=21094c149b715d58b710e0c793259732...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shlwapi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library UIAUTOMATIONCORE.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/UIAutomationCore.dll
+Loading file:///C:/Windows/System32/UIAutomationCore.dll?MD5=6a2b48fc1fd3b3190e7521327285ce7d...
+[UIAutomationCore.dll]: failed to create WEVTResource at 18040e208: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\uiautomationcore.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library URLMON.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/urlmon.dll
+Loading file:///C:/Windows/System32/urlmon.dll?MD5=fa0eeaf03db35ada4facd692c6a8adfa...
+[urlmon.dll]: failed to create WEVTResource at 18018bd50: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\urlmon.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library USER32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/user32.dll
+Loading file:///C:/Windows/System32/user32.dll?MD5=6228cb1ebb6dbebe657b427fe475c57c...
+[user32.dll]: failed to create WEVTResource at 1800dda70: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library UXTHEME.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/uxtheme.dll
+Loading file:///C:/Windows/System32/uxtheme.dll?MD5=32f30f43da679dca5153c2d8dd3b6bbc...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\uxtheme.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library VERSION.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/version.dll
+Loading file:///C:/Windows/System32/version.dll?MD5=0793e3f7fad65b159b5f242400bfc140...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\version.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WINDOWSCODECS.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/WindowsCodecs.dll
+Loading file:///C:/Windows/System32/WindowsCodecs.dll?MD5=e08605782f8c85f096694e5b9b3c76e7...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\windowscodecs.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WINHTTP.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/winhttp.dll
+Loading file:///C:/Windows/System32/winhttp.dll?MD5=bb2ed44e79c4f069ff3b4de59e783c75...
+[winhttp.dll]: failed to create WEVTResource at 1801244a8: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\winhttp.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WININET.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/wininet.dll
+Loading file:///C:/Windows/System32/wininet.dll?MD5=a00ea7d54022bd19c51e3a96e9be9e62...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\wininet.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WINMM.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/winmm.dll
+Loading file:///C:/Windows/System32/winmm.dll?MD5=93215a632e026339bc92702685062379...
+[winmm.dll]: failed to create WEVTResource at 180030310: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\winmm.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WINSPOOL.DRV...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/winspool.drv
+Loading file:///C:/Windows/System32/winspool.drv?MD5=563eec9c332c0c223465ce57446450c9...
+[winspool.drv]: failed to create WEVTResource at 1800994b8: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\winspool.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WSOCK32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/wsock32.dll
+Loading file:///C:/Windows/System32/wsock32.dll?MD5=1acb04f4c2e31c78121cb1be86c4b7af...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\wsock32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 45 paths for library WTSAPI32.DLL...
+Skipping library which is the wrong architecture: file:///C:/Windows/SysWOW64/wtsapi32.dll
+Loading file:///C:/Windows/System32/wtsapi32.dll?MD5=8dbee646e287d28559261f2ea66dfb93...
+Created exports file: C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\wtsapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\mpr.exports
+Applying cached symbols from WINMM.DLL
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shlwapi.exports
+Applying cached symbols from WININET.DLL
+Applying cached symbols from WINSPOOL.DRV
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\comdlg32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\comctl32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shell32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\urlmon.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\user32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\version.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\uiautomationcore.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\oleaut32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\msvcrt.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\wtsapi32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\advapi32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\winhttp.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\kernel32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\crypt32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\wsock32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\ole32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\api-ms-win-crt-string-l1-1-0.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\gdi32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\msimg32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\rpcrt4.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\windowscodecs.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\imm32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\uxtheme.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\dwmapi.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\shcore.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\secur32.exports
+Applying C:\Users\liuxinlong\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win64\gdiplus.exports
+Linking the External Programs of 'BCompare.exe' to imported libraries...
+  [MPR.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [SHLWAPI.DLL] -> not found in project
+  [WININET.DLL] -> not found in project
+  [WINSPOOL.DRV] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [URLMON.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [VERSION.DLL] -> not found in project
+  [UIAUTOMATIONCORE.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+  [MSVCRT.DLL] -> not found in project
+  [WTSAPI32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [WINHTTP.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [CRYPT32.DLL] -> not found in project
+  [WSOCK32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [API-MS-WIN-CRT-STRING-L1-1-0.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [MSIMG32.DLL] -> not found in project
+  [RPCRT4.DLL] -> not found in project
+  [WINDOWSCODECS.DLL] -> not found in project
+  [IMM32.DLL] -> not found in project
+  [UXTHEME.DLL] -> not found in project
+  [DWMAPI.DLL] -> not found in project
+  [SHCORE.DLL] -> not found in project
+  [SECUR32.DLL] -> not found in project
+  [GDIPLUS.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///D:/bc-official/app/BCompare.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: D:\Ghidra\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: failed to locate PDB file in configured locations (PdbUniversalAnalyzer)  
+INFO  Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis). (PdbUniversalAnalyzer)  
+ERROR Invalid PNG data at 1401b33f8 (PngDataType)  
+ERROR Invalid GIF data at 14118359c (GifDataType)  
+ERROR Invalid GIF data at 1411835a3 (GifDataType)  
+ERROR Invalid PNG data at 141cd73a1 (PngDataType)  
+ERROR Invalid PNG data at 141e59fa0 (PngDataType)  
+ERROR Invalid PNG data at 141eca4d0 (PngDataType)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 14000dce0: Unable to read bytes at ram:10fa800d7e08fa80 (DecompileCallback)  
+INFO  Packed database cache: C:\Users\liuxinlong\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              2.479 secs
+    Apply Data Archives                        2.441 secs
+    Call Convention ID                         1.290 secs
+    Call-Fixup Installer                       0.714 secs
+    Create Address Tables                     23.156 secs
+    Create Address Tables - One Time         683.524 secs
+    Create Function                            0.389 secs
+    Data Reference                            23.913 secs
+    Decompiler Switch Analysis               174.359 secs
+    Decompiler Switch Analysis - One Time     63.717 secs
+    Demangler Microsoft                        0.307 secs
+    Disassemble                                0.002 secs
+    Disassemble Entry Points                 137.269 secs
+    Embedded Media                             0.424 secs
+    External Entry References                  0.000 secs
+    Function ID                               65.619 secs
+    Function Start Search                      0.717 secs
+    Non-Returning Functions - Discovered      19.141 secs
+    Non-Returning Functions - Known            0.498 secs
+    PDB Universal                              0.031 secs
+    Reference                                 26.674 secs
+    Scalar Operand References                 53.293 secs
+    Shared Return Calls                        6.883 secs
+    Stack                                    181.189 secs
+    Subroutine References                     11.894 secs
+    Subroutine References - One Time           0.000 secs
+    WindowsResourceReference                  14.072 secs
+    x86 Constant Reference Analyzer          244.404 secs
+-----------------------------------------------------
+     Total Time   1738 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///D:/bc-official/app/BCompare.exe (HeadlessAnalyzer)  
+INFO  /BCompare.exe: file created (liuxinlong) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /BCompare.exe (bcompare:/BCompare.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  
+[20:47:25] exit=0 in 1818s

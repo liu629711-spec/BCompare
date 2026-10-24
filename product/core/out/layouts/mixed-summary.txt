@@ -1,0 +1,10 @@
+Text Compare
+Produced: 2026/10/13 13:43:41
+
+Left file: D:\Rea\verify\layouts\mixed-L.txt     Right file: D:\Rea\verify\layouts\mixed-R.txt
+2 same line(s)
+1 unimportant difference line(s)
+1 important left orphan line(s)
+1 important difference line(s)
+
+1 difference section(s)

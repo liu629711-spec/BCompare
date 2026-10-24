@@ -1,0 +1,13 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:17
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-swap-tie-L.csv     右边文件： D:\Rea\verify\table\t-swap-tie-R.csv
+A  B    A  B
+------------
+k1 a =  k1 a
+k2 b =  k2 b
+k3 c +-
+k4 d =  k4 d
+     -+ k3 c
+------------

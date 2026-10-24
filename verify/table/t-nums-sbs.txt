@@ -1,0 +1,12 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:19
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-nums-sbs-L.csv     右边文件： D:\Rea\verify\table\t-nums-sbs-R.csv
+A  B     A  B
+--------------
+h   1 =  h   1
+a1  2 =  a1  2
+a2 10 =  a2 10
+a3  9 <> a3 99
+--------------

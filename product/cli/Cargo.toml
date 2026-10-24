@@ -1,0 +1,43 @@
+[package]
+name = "reacmp-cli"
+version = "0.1.0"
+edition = "2021"
+description = "ReaCompare command-line text comparison (reacmp)"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate. The empty `[workspace]` table keeps this package its own
+# workspace root, so nothing placed above it by a parallel task can absorb it and
+# `target/` stays exactly where the verification harness expects it:
+#   D:\Rea\product\cli\target\release\reacmp.exe
+#
+# Every dependency is a path dependency, so no registry access is needed and the
+# build is hermetic.
+#
+# `reacmp-dir` and `reacmp-vfs` are required by the M4 script executor: the
+# frozen interface (`product/docs/09-m4-interfaces.md` §3) types the executor's
+# own state as `reacmp_dir::Criteria` and hands it a `reacmp_dir` comparison to
+# render, and `font`-free real-time stamping goes through `reacmp_vfs`. They are
+# pull-only here — this crate gains no new ownership of either.
+#
+# `reacmp-pic` is required by the M9 picture channel (docs/16): the executor
+# hands it the two comparison files and renders a `reacmp_pic::report` output.
+# It is a path dependency, so the build stays hermetic.
+#
+# `reacmp-reg` is required by the M11 registry channel (docs/17): the same
+# split — parse the two files, render a `reacmp_reg::report` output.
+[workspace]
+
+[dependencies]
+reacmp-core = { path = "../core" }
+reacmp-dir = { path = "../dir" }
+reacmp-vfs = { path = "../vfs" }
+reacmp-pic = { path = "../pic" }
+reacmp-reg = { path = "../reg" }
+
+# `reacmp-ver` is required by the M112 version channel (docs/18): the same
+# split — parse the two files, render a `reacmp_ver::report` output.
+reacmp-ver = { path = "../ver" }
+
+[[bin]]
+name = "reacmp"
+path = "src/main.rs"

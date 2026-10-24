@@ -1,0 +1,122 @@
+140e71a10	BcAlignLines.pas - line alignment algorithm
+140de3950	BcAlign.pas - alignment core
+140de3b80	BcAlign.pas - alignment core
+140de3d30	BcAlign.pas - alignment core
+1410227d0	TextMap.pas - text diff map
+141023e40	TextMap.pas - text diff map
+141024010	TextMap.pas - text diff map
+141024530	TextMap.pas - text diff map
+141024670	TextMap.pas - text diff map
+141024e00	TextMap.pas - text diff map
+141025090	TextMap.pas - text diff map
+141025440	TextMap.pas - text diff map
+141025520	TextMap.pas - text diff map
+141025910	TextMap.pas - text diff map
+141025e10	TextMap.pas - text diff map
+141026eb0	TextMap.pas - text diff map
+1410270c0	TextMap.pas - text diff map
+1410276d0	TextMap.pas - text diff map
+141028c10	TextMap.pas - text diff map
+141028ec0	TextMap.pas - text diff map
+14102a070	TextMap.pas - text diff map
+14102a4f0	TextMap.pas - text diff map
+14102aad0	TextMap.pas - text diff map
+14102af70	TextMap.pas - text diff map
+14102b990	TextMap.pas - text diff map
+14102bd00	TextMap.pas - text diff map
+14102caf0	TextMap.pas - text diff map
+14100c670	TextContent.pas - text content model
+14100ce40	TextContent.pas - text content model
+14100d630	TextContent.pas - text content model
+14100e5b0	TextContent.pas - text content model
+14100ee90	TextContent.pas - text content model
+14100ef90	TextContent.pas - text content model
+14100f0d0	TextContent.pas - text content model
+14100f310	TextContent.pas - text content model
+14100fba0	TextContent.pas - text content model
+141010660	TextContent.pas - text content model
+141010970	TextContent.pas - text content model
+141011db0	TextContent.pas - text content model
+141012190	TextContent.pas - text content model
+1410122b0	TextContent.pas - text content model
+1410123f0	TextContent.pas - text content model
+1410125a0	TextContent.pas - text content model
+141012810	TextContent.pas - text content model
+141012980	TextContent.pas - text content model
+141012ff0	TextContent.pas - text content model
+141014e10	TextContent.pas - text content model
+14051e860	SsLineParse.pas - line lexer/parser
+14051ed40	SsLineParse.pas - line lexer/parser
+14051f410	SsLineParse.pas - line lexer/parser
+14051f690	SsLineParse.pas - line lexer/parser
+1405202b0	SsLineParse.pas - line lexer/parser
+14066c190	SsLineList.pas - line list storage
+14066c2d0	SsLineList.pas - line list storage
+14066c3b0	SsLineList.pas - line list storage
+14066c610	SsLineList.pas - line list storage
+14066c700	SsLineList.pas - line list storage
+14066c9e0	SsLineList.pas - line list storage
+14066cac0	SsLineList.pas - line list storage
+14066d640	SsLineList.pas - line list storage
+14066d9e0	SsLineList.pas - line list storage
+14066de20	SsLineList.pas - line list storage
+14066e470	SsLineList.pas - line list storage
+14066eb30	SsLineList.pas - line list storage
+14066eea0	SsLineList.pas - line list storage
+14066f0b0	SsLineList.pas - line list storage
+140670060	SsLineList.pas - line list storage
+140670930	SsLineList.pas - line list storage
+140671010	SsLineList.pas - line list storage
+140671200	SsLineList.pas - line list storage
+1406713a0	SsLineList.pas - line list storage
+140671600	SsLineList.pas - line list storage
+140671800	SsLineList.pas - line list storage
+140671e90	SsLineList.pas - line list storage
+140671f90	SsLineList.pas - line list storage
+1406723b0	SsLineList.pas - line list storage
+1406725b0	SsLineList.pas - line list storage
+140672920	SsLineList.pas - line list storage
+140672a90	SsLineList.pas - line list storage
+140672d70	SsLineList.pas - line list storage
+140672f60	SsLineList.pas - line list storage
+140673470	SsLineList.pas - line list storage
+140ffdf70	TextFormat.pas - text format/grammar
+140ffe960	TextFormat.pas - text format/grammar
+140ffea50	TextFormat.pas - text format/grammar
+141002300	TextREParser.pas - regex parser
+141007050	TextREParser.pas - regex parser
+141034a10	TextSession.pas - text compare session
+141034b70	TextSession.pas - text compare session
+141034d30	TextSession.pas - text compare session
+141034f20	TextSession.pas - text compare session
+141035d80	TextSession.pas - text compare session
+1410361c0	TextSession.pas - text compare session
+141036bf0	TextSession.pas - text compare session
+141037d20	TextSession.pas - text compare session
+14102de50	TextFiltered.pas - filtered text view
+14102e560	TextFiltered.pas - filtered text view
+14102e850	TextFiltered.pas - filtered text view
+14102f5a0	TextFiltered.pas - filtered text view
+14102fed0	TextFiltered.pas - filtered text view
+1410305e0	TextFiltered.pas - filtered text view
+140de4ee0	BcSyntaxElements.pas - syntax elements
+140de5040	BcSyntaxElements.pas - syntax elements
+140de5730	BcSyntaxElements.pas - syntax elements
+140de5840	BcSyntaxElements.pas - syntax elements
+140de5a40	BcSyntaxElements.pas - syntax elements
+140de90e0	BcFileFormat.pas - file format layer
+140de9b20	BcFileFormat.pas - file format layer
+140dea0f0	BcFileFormat.pas - file format layer
+140dea610	BcFileFormat.pas - file format layer
+140dea860	BcFileFormat.pas - file format layer
+140dea940	BcFileFormat.pas - file format layer
+140dead70	BcFileFormat.pas - file format layer
+140deb140	BcFileFormat.pas - file format layer
+140deb2f0	BcFileFormat.pas - file format layer
+140deb430	BcFileFormat.pas - file format layer
+140debc70	BcFileFormat.pas - file format layer
+140dec3a0	BcFileFormat.pas - file format layer
+140ded300	BcFileFormat.pas - file format layer
+140ded530	BcFileFormat.pas - file format layer
+140dede10	BcFileFormat.pas - file format layer
+140deef00	BcFileFormat.pas - file format layer

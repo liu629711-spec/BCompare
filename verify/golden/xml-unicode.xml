@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:24:31">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:24:31">
+		<filename1>D:\Rea\verify\golden\xml-unicode-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\xml-unicode-R.txt</filename2>
+		<linecomp status="different">
+			<text ltid="1">中文行</text>
+			<text rtid="1">中文行2</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">emoji 😀</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

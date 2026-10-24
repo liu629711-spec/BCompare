@@ -1,0 +1,11 @@
+Text Compare
+Produced: 2026/10/13 13:43:42
+
+Mode:  All
+Left file: D:\Rea\verify\layouts\orphans-L.txt     Right file: D:\Rea\verify\layouts\orphans-R.txt
+only-left +-
+-----------------------
+shared    =  shared
+-----------------------
+          -+ only-right
+-----------------------

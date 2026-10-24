@@ -1,0 +1,11 @@
+HEAD line
+beta
+TOTALLY other words here
+TAIL line
+X1
+X2
+X3
+X4
+TAILER
+M1
+M2

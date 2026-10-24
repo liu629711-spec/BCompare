@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:05:37">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:05:37">
+		<filename1>D:\Rea\verify\golden\enc-latin1-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\enc-latin1-R.txt</filename2>
+		<error1>文件编码错误 (第 1 行)</error1>
+		<linecomp status="different">
+			<text ltid="1">caf�</text>
+			<text rtid="1">café</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

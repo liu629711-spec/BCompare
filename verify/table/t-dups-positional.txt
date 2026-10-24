@@ -1,0 +1,14 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:17
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-dups-positional-L.csv
+右边文件： D:\Rea\verify\table\t-dups-positional-R.csv
+A B    A B
+----------
+k v =  k v
+r 1 =  r 1
+r 1 =  r 1
+r 1 +-
+z 9 =  z 9
+----------

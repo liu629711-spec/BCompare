@@ -1,0 +1,33 @@
+### RECORDED flips (inc vs incNWf, inc vs saNf)
+
+incNWf: gains=3 losses=2
+  gains:
+    + cs-check.oracle.xml                              plain
+    + cs-check.oracle.xml                              plain
+    + f0083.oracle.xml                                 plain
+  losses:
+    - f0028.oracle.xml                                 cpp
+    - f0040.oracle.xml                                 cpp
+
+saNf: gains=8 losses=11
+  gains:
+    + cs-check.oracle.xml                              plain
+    + cs-check.oracle.xml                              plain
+    + f0022.oracle.xml                                 cpp
+    + f0036.oracle.xml                                 python
+    + f0073.oracle.xml                                 cpp
+    + f0080.oracle.xml                                 python
+    + f0083.oracle.xml                                 plain
+    + f0087.oracle.xml                                 python
+  losses:
+    - comment-lead-c.oracle.xml                        cpp
+    - comment-middle-c.oracle.xml                      cpp
+    - comment-lead-c.oracle.xml                        cpp
+    - comment-middle-c.oracle.xml                      cpp
+    - f0000.oracle.xml                                 python
+    - f0028.oracle.xml                                 cpp
+    - f0039.oracle.xml                                 cpp
+    - f0040.oracle.xml                                 cpp
+    - f0103.oracle.xml                                 cpp
+    - extra-comment-both.xml                           cpp
+    - mixed-comment-and-code.xml                       cpp

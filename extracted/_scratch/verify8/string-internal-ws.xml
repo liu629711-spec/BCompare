@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/16 3:36:11">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/16 3:36:11">
+		<filename1>D:\Rea\product\verify\runs\u2-probe-20261013T172214Z\fixtures\string-internal-ws-L.c</filename1>
+		<filename2>D:\Rea\product\verify\runs\u2-probe-20261013T172214Z\fixtures\string-internal-ws-R.c</filename2>
+		<linecomp status="different">
+			<text ltid="1">char *a = "a b";</text>
+			<text rtid="1">char *a = "a  b";</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

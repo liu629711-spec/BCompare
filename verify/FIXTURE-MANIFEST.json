@@ -1,0 +1,330 @@
+{
+ "product/cli/tests/verfix/ver-cmd.exe": {
+  "source": "cmd.exe",
+  "sha256": "14cc8ab1dcf0d9f19e8fb82deb547cf8c462c56a0e43f7addc02641ab3c81651"
+ },
+ "product/cli/tests/verfix/ver-diff-L.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/cli/tests/verfix/ver-notepad.exe": {
+  "source": "notepad.exe",
+  "sha256": "643a6da238eb90719d8a5fca65ccbd1c7a1cead7f1ae860b68ae008faf887389"
+ },
+ "product/cli/tests/verfix/ver-same-L.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/cli/tests/verfix/ver-same-R.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/V1-sbs-equal-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/V1-sbs-equal-R.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/V23-sbs-reg-pair-L.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/V23-sbs-reg-pair-R.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/V24-sbs-dll-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/V3-sbs-diff-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/V3-sbs-diff-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "product/ver/tests/fixtures/V5-sbs-com-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/V5-sbs-com-R.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/V6-sbs-ms-L.exe": {
+  "source": "notepad.exe",
+  "sha256": "643a6da238eb90719d8a5fca65ccbd1c7a1cead7f1ae860b68ae008faf887389"
+ },
+ "product/ver/tests/fixtures/V6-sbs-ms-R.exe": {
+  "source": "cmd.exe",
+  "sha256": "14cc8ab1dcf0d9f19e8fb82deb547cf8c462c56a0e43f7addc02641ab3c81651"
+ },
+ "product/ver/tests/fixtures/V7-sbs-plain-vs-pe-R.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "product/ver/tests/fixtures/W1-one-field-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W11-ignore-one-field-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W12-tail-differs-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W2a-filedescription-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W2b-originalfilename-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W2c-legaltrademarks-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W3-blank-comments-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W5-long-value-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W7-same-res-diff-size-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "product/ver/tests/fixtures/W8-truncated-pe-R.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-one-field-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-opt-dmatch-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-opt-dmatch-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-opt-dmism-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-opt-dmism-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-opt-ignore-unimp-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-opt-ignore-unimp-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-sbs-com-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-com-R.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-sbs-diff-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-diff-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-sbs-dll-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-equal-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-equal-R.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-ms-L.exe": {
+  "source": "notepad.exe",
+  "sha256": "643a6da238eb90719d8a5fca65ccbd1c7a1cead7f1ae860b68ae008faf887389"
+ },
+ "verify/ver/v-sbs-ms-R.exe": {
+  "source": "cmd.exe",
+  "sha256": "14cc8ab1dcf0d9f19e8fb82deb547cf8c462c56a0e43f7addc02641ab3c81651"
+ },
+ "verify/ver/v-sbs-plain-vs-pe-R.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sbs-reg-pair-L.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-sbs-reg-pair-R.com": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-sum-diff-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sum-diff-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-sum-equal-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-sum-equal-R.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-title-L.exe": {
+  "source": "BCompare-5.2.6",
+  "sha256": "7b6033aa8b2777f5d009e4af5fd2e0ff4045c20d7fe646ac4ceb9acfb35ce762"
+ },
+ "verify/ver/v-title-R.exe": {
+  "source": "BCompare-official",
+  "sha256": "4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"
+ },
+ "verify/ver/v-w11-ignore-one-field-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w12-tail-differs-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w2a-filedescription-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w2b-originalfilename-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w2c-legaltrademarks-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w3-blank-comments-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w5-long-value-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w7-same-res-diff-size-L.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "verify/ver/v-w8-truncated-pe-R.exe": {
+  "source": "BComp.com",
+  "sha256": "d8d9d88a203feb473761b54f0979520d405baf198ea2eee59833a8e1e0359cc9"
+ },
+ "tools/ghidra/ghidra_11.2.1.zip": {
+  "source": "ghidra-11.2.1-release-zip",
+  "sha256": null
+ },
+ "product/ver/tests/fixtures/W1-one-field-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "6fb2a3b94641052475c0eb5931bf25289c5f21ff56f408cd8cd808595dd5b799"
+ },
+ "product/ver/tests/fixtures/W11-ignore-one-field-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "6fb2a3b94641052475c0eb5931bf25289c5f21ff56f408cd8cd808595dd5b799"
+ },
+ "product/ver/tests/fixtures/W2a-filedescription-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "80f653c727ac8722fef7aef2e01ffb6f4b0464a2ce3bc29e31e6a891938b5281"
+ },
+ "product/ver/tests/fixtures/W2b-originalfilename-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "e4ab1c92dc1c5f23a1dd6e4bf01fd1f9f8d5757d4b5b551cd3c9d3a944c30c93"
+ },
+ "product/ver/tests/fixtures/W2c-legaltrademarks-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "1fda72ef3f967c8ccfc172ce386f24f675e83f96db0d4bce825e930626830c0b"
+ },
+ "product/ver/tests/fixtures/W3-blank-comments-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "fa4c8f0c8d03756643406ef41f92f929397f38f97346cbe5a489f78519c95808"
+ },
+ "product/ver/tests/fixtures/W5-long-value-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "346fb7b3d7468b34fbc0820ad208d1018a5a2839d5ec8b692476e20d771a60f7"
+ },
+ "verify/ver/v-one-field-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "6fb2a3b94641052475c0eb5931bf25289c5f21ff56f408cd8cd808595dd5b799"
+ },
+ "verify/ver/v-w11-ignore-one-field-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "6fb2a3b94641052475c0eb5931bf25289c5f21ff56f408cd8cd808595dd5b799"
+ },
+ "verify/ver/v-w2a-filedescription-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "80f653c727ac8722fef7aef2e01ffb6f4b0464a2ce3bc29e31e6a891938b5281"
+ },
+ "verify/ver/v-w2b-originalfilename-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "e4ab1c92dc1c5f23a1dd6e4bf01fd1f9f8d5757d4b5b551cd3c9d3a944c30c93"
+ },
+ "verify/ver/v-w2c-legaltrademarks-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "1fda72ef3f967c8ccfc172ce386f24f675e83f96db0d4bce825e930626830c0b"
+ },
+ "verify/ver/v-w3-blank-comments-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "fa4c8f0c8d03756643406ef41f92f929397f38f97346cbe5a489f78519c95808"
+ },
+ "verify/ver/v-w5-long-value-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "346fb7b3d7468b34fbc0820ad208d1018a5a2839d5ec8b692476e20d771a60f7"
+ },
+ "product/ver/tests/fixtures/W12-tail-differs-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "5db237b1007e076176b23dff739f746be8c43ad775f881fa6bfc07619c5112e6"
+ },
+ "product/ver/tests/fixtures/W7-same-res-diff-size-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "9608e77a652b60cbf2b3c488d7cb9e98025cef3612672cc08ec2b1dfa74766c1"
+ },
+ "product/ver/tests/fixtures/W8-truncated-pe-L.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "4c74ab991c861704b39a2d8a33b9dd097528f89a52021aa43ed27a179978acc0"
+ },
+ "verify/ver/v-w12-tail-differs-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "5db237b1007e076176b23dff739f746be8c43ad775f881fa6bfc07619c5112e6"
+ },
+ "verify/ver/v-w7-same-res-diff-size-R.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "9608e77a652b60cbf2b3c488d7cb9e98025cef3612672cc08ec2b1dfa74766c1"
+ },
+ "verify/ver/v-w8-truncated-pe-L.exe": {
+  "source": "BComp.com-patched",
+  "sha256": "4c74ab991c861704b39a2d8a33b9dd097528f89a52021aa43ed27a179978acc0"
+ }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:05:44">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:05:44">
+		<filename1>D:\Rea\verify\golden\al-empty-both-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-empty-both-R.txt</filename2>
+	</filecomparison>
+</bcreport>

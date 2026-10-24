@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:56">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:56">
+		<filename1>D:\Rea\verify\golden\m53p-bash-plain-var-L.sh</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-bash-plain-var-R.sh</filename2>
+		<linecomp status="similar">
+			<text ltid="1">echo $FOO</text>
+			<text rtid="1">echo $foo</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

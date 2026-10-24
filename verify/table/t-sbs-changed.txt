@@ -1,0 +1,11 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:15
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-sbs-changed-L.csv     右边文件： D:\Rea\verify\table\t-sbs-changed-R.csv
+A      B    A      B
+--------------------
+h      1 =  h      1
+banana 5 <> cherry 2
+c      3 =  c      3
+--------------------

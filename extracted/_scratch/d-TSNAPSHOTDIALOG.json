@@ -1,0 +1,249 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "children": [
+      {
+       "children": [],
+       "cls": "TUiLabel",
+       "name": "DirLbl",
+       "props": {
+        "Caption": "Fol&der:",
+        "FocusControl": "DirEdit",
+        "Height": 13,
+        "Left": 8,
+        "Top": 8
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiLabel",
+       "name": "IncludeLbl",
+       "props": {
+        "Caption": "Include:",
+        "Height": 13,
+        "Left": 8,
+        "Top": 117
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiRadioButton",
+       "name": "DirUseLeftEdit",
+       "props": {
+        "Caption": "&Left base folder",
+        "Height": 17,
+        "Left": 8,
+        "OnClick": "DirUseClick",
+        "TabOrder": 0,
+        "Top": 25
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiRadioButton",
+       "name": "DirUseRightEdit",
+       "props": {
+        "Caption": "&Right base folder",
+        "Height": 17,
+        "Left": 8,
+        "OnClick": "DirUseClick",
+        "TabOrder": 1,
+        "Top": 46
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiRadioButton",
+       "name": "DirUseOtherEdit",
+       "props": {
+        "Caption": "&Other:",
+        "Height": 17,
+        "Left": 8,
+        "OnClick": "DirUseClick",
+        "TabOrder": 2,
+        "Top": 67
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiSpecBar",
+       "name": "DirEdit",
+       "props": {
+        "AutoCompleteEx": "acDirs",
+        "Images": "BcImages.MainImages",
+        "Left": 24,
+        "OnBrowse": "DirEditBrowse",
+        "OnChange": "DirEditChange",
+        "OnUpdateTitles": "DirEditUpdateTitles",
+        "SupportsProfile": true,
+        "TabOrder": 3,
+        "Top": 88,
+        "Width": 361
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeCRCsEdit",
+       "props": {
+        "Caption": "&CRCs",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 4,
+        "Top": 138
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeExeVersionsEdit",
+       "props": {
+        "Caption": "Exe &versions",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 5,
+        "Top": 159
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeArchiveContentsEdit",
+       "props": {
+        "Caption": "&Archive contents",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 6,
+        "Top": 180
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeEmptyDirsEdit",
+       "props": {
+        "Caption": "&Empty folders",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 7,
+        "Top": 201
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeSymlinkTargetsEdit",
+       "props": {
+        "Caption": "&Symbolic link targets",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 8,
+        "Top": 222
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiCheckBox",
+       "name": "IncludeFilteredEdit",
+       "props": {
+        "Caption": "Items excluded by &file filters",
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 9,
+        "Top": 243
+       }
+      }
+     ],
+     "cls": "TUiActivePanel",
+     "name": "ConfirmPanel",
+     "props": {}
+    },
+    {
+     "children": [
+      {
+       "children": [],
+       "cls": "TUiLabel",
+       "name": "ProgressLbl",
+       "props": {
+        "Caption": "Saving snapshot",
+        "Height": 13,
+        "Left": 8,
+        "Top": 8
+       }
+      },
+      {
+       "children": [],
+       "cls": "TUiProgressBar",
+       "name": "ProgressBar",
+       "props": {
+        "Height": 17,
+        "Left": 8,
+        "TabOrder": 0,
+        "Top": 25,
+        "Width": 377
+       }
+      }
+     ],
+     "cls": "TUiActivePanel",
+     "name": "ProgressPanel",
+     "props": {}
+    }
+   ],
+   "cls": "TUiActivePanelView",
+   "name": "PanelView",
+   "props": {
+    "Height": 260,
+    "Left": 0,
+    "TabOrder": 0,
+    "Top": 0,
+    "Width": 393
+   }
+  },
+  {
+   "children": [
+    {
+     "children": [],
+     "cls": "TUiOkBtn",
+     "name": "OkBtn",
+     "props": {
+      "OnClick": "OkClick"
+     }
+    },
+    {
+     "children": [],
+     "cls": "TUiCancelBtn",
+     "name": "CancelBtn",
+     "props": {}
+    }
+   ],
+   "cls": "TUiBtnPanel",
+   "name": "BtnPanel",
+   "props": {
+    "Left": 0,
+    "TabOrder": 1,
+    "Top": 260,
+    "Width": 393
+   }
+  }
+ ],
+ "cls": "TSnapshotDialog",
+ "name": "SnapshotDialog",
+ "props": {
+  "BorderIcons": [
+   "biSystemMenu",
+   "biHelp"
+  ],
+  "Caption": "Save Snapshot",
+  "ClientHeight": 299,
+  "ClientWidth": 393,
+  "HelpKeyword": "DlgSnapshot",
+  "HelpType": "htKeyword",
+  "OnCloseQuery": "FormCloseQuery",
+  "OnCreate": "FormCreate",
+  "OnShow": "FormShow",
+  "PixelsPerInch": 96,
+  "TextHeight": 13
+ }
+}

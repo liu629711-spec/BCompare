@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 2:40:41">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 2:40:41">
+		<filename1>D:\Rea\verify\golden\m2-js-regex-literal-L.js</filename1>
+		<filename2>D:\Rea\verify\golden\m2-js-regex-literal-R.js</filename2>
+		<linecomp status="different">
+			<text ltid="1">var r = /ab/g;</text>
+			<text rtid="1">var r = /ac/g;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,2 @@
+scan_exact pred=zero     recorded 275/290  fuzz 105/120  fails=['f0001', 'f0026', 'f0029', 'f0046', 'f0068', 'f0075', 'f0081', 'f0089', 'f0091', 'f0092', 'f0103', 'f0105', 'f0107', 'f0108', 'f0109']
+scan_exact pred=nonzero  recorded 279/290  fuzz 112/120  fails=['f0001', 'f0026', 'f0040', 'f0046', 'f0068', 'f0075', 'f0089', 'f0092']

@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 9:43:09
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\verify\layouts\mixed-L.txt,D:\Rea\verify\layouts\mixed-R.txt,5,0,1,1,0,0,0,1

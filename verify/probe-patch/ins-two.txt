@@ -1,0 +1,4 @@
+diff -r D:\Rea\verify\probe-patch\ins-two-L.txt D:\Rea\verify\probe-patch\ins-two-R.txt
+0a2,3
+> b
+> c

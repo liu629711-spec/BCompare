@@ -1,0 +1,37 @@
+{
+  "roots": [
+    {
+      "class": "TTextSessionReplacementsFrame",
+      "name": "TextSessionReplacementsFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextReplacements",
+        "Caption": "Replacements"
+      },
+      "children": []
+    }
+  ],
+  "consumed": 144,
+  "size": 1390,
+  "flat": [
+    {
+      "class": "TTextSessionReplacementsFrame",
+      "name": "TextSessionReplacementsFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextReplacements",
+        "Caption": "Replacements"
+      }
+    }
+  ]
+}

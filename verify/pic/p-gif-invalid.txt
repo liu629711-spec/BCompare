@@ -1,0 +1,6 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:49
+
+左边文件： D:\Rea\verify\pic\p-gif-invalid-L.gif     右边文件： D:\Rea\verify\pic\p-gif-invalid-R.gif
+左边错误： 无效图像
+右边错误： 无效图像

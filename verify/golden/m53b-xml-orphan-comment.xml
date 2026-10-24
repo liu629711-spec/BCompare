@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:32">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:32">
+		<filename1>D:\Rea\verify\golden\m53b-xml-orphan-comment-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-orphan-comment-R.xml</filename2>
+		<linecomp status="different">
+			<text ltid="1">&lt;a/></text>
+			<text rtid="1">&lt;x/></text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="2">&lt;b/></text>
+		</linecomp>
+		<linecomp status="leftsimilar">
+			<text ltid="3">&lt;!-- c --></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

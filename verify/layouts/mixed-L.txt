@@ -1,0 +1,5 @@
+same line
+case diff
+real diff 1
+real diff 2
+tail

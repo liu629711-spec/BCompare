@@ -1,0 +1,47 @@
+{
+ "provenance": "reference 5.2.6.32774, tools/live-text-filter-probe.py (serial, zero residue); tooltip strings read from UIA Text elements with mouse resting on the clicked button. Filter buttons expose NO UIA Toggle/legacy selection state (all None across steps) - selection is pixel-only (BC VCL-drawn).",
+ "button_tooltips": {
+  "Diffs": "Shows left orphan, right orphan and difference lines.",
+  "Same": "Shows same lines.",
+  "Context": "Shows lines surrounding difference.",
+  "Minor": "Treats unimportant differences as same."
+ },
+ "button_to_option": {
+  "All": "display-all",
+  "Diffs": "display-mismatches",
+  "Same": "display-matches",
+  "Context": "display-context",
+  "Minor": "ignore-unimportant"
+ },
+ "option_to_mode": {
+  "display-all": null,
+  "display-mismatches": "Differences",
+  "display-matches": "Same",
+  "display-context": "Differences, With Context",
+  "ignore-unimportant": null
+ },
+ "engine_note": "three-path `reacmp L R out --opt=<opt>` filters (corpus row counts all=12 mismatches=7 matches=5 context=12 ignore=12); the @script text-report channel accepts options: but does NOT filter (exec.rs uses ReportOptions::default()) - GUI uses the filtering three-path channel.",
+ "button_selection_pixels": {
+  "selected": [
+   194,
+   220,
+   245
+  ],
+  "unselected": [
+   240,
+   240,
+   240
+  ],
+  "radio_group": [
+   "All",
+   "Diffs",
+   "Same"
+  ],
+  "provenance": "probe2 click-All/Diffs/Same captures, single-color columns at button x 153/212/271 y 88..126: the tint moves with the clicked button (All selected at step0/click-All, Diffs at click-Diffs, Same at click-Same); Context/Minor additivity unresolved (recorded residual).",
+  "button_size_px": [
+   59,
+   39
+  ],
+  "size_provenance": "reference 5.2.6 probe4 UIA Button rects (textfilter4-en): All/Diffs/Same/Context/Minor/Rules all 59x39"
+ }
+}

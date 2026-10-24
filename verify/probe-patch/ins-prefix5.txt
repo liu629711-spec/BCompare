@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\ins-prefix5-L.txt D:\Rea\verify\probe-patch\ins-prefix5-R.txt
+5a6
+> NEW

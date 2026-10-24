@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:05:42">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:05:42">
+		<filename1>D:\Rea\verify\golden\al-replace-block-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-replace-block-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">h1</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">x</text>
+			<text rtid="2">p</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="3">y</text>
+			<text rtid="3">q</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="4">z</text>
+			<text rtid="4">r</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="5" rtid="5">h2</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,11 @@
+Registry Compare
+Produced: 2026/10/19 20:46:16
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-noval-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-noval-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name  Type   Data   Name Type   Data
+------------------------------------
+Empty
+z     REG_SZ 1    = z    REG_SZ 1
+------------------------------------

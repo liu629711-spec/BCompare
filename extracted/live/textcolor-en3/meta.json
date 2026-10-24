@@ -1,0 +1,108 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "left": "D:\\Rea\\tools\\textcolor\\content-left.txt",
+ "right": "D:\\Rea\\tools\\textcolor\\content-right.txt",
+ "profile": "D:\\Rea\\extracted\\live\\textcolor-en3\\_profile",
+ "title": "content-left.txt <--> content-right.txt - Text Compare - Beyond Compare",
+ "window_rect": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "png_size": [
+  1456,
+  864
+ ],
+ "editor_count": 2,
+ "details_count": 2,
+ "clicked_pane": 0,
+ "editors": [
+  {
+   "png": "editor0.png",
+   "screen_rect": [
+    784,
+    180,
+    690,
+    627
+   ],
+   "crop_box": [
+    758,
+    154,
+    1448,
+    781
+   ]
+  },
+  {
+   "png": "editor1.png",
+   "screen_rect": [
+    86,
+    180,
+    694,
+    627
+   ],
+   "crop_box": [
+    60,
+    154,
+    754,
+    781
+   ]
+  }
+ ],
+ "text_names": [
+  "",
+  "Same",
+  "\tInsert",
+  "Load time: 0.18 seconds",
+  "1: 1",
+  "Default text",
+  "",
+  "1: 1",
+  "Default text",
+  ""
+ ],
+ "button_names": [
+  "Home",
+  "All",
+  "Diffs",
+  "Same",
+  "Context",
+  "Minor",
+  "Rules",
+  "Format",
+  "Copy",
+  "Next Section",
+  "Prev Section",
+  "Swap",
+  "Reload",
+  "左移一列",
+  "右移一列",
+  "上一行",
+  "下一行",
+  "左移一列",
+  "右移一列",
+  "打开",
+  "",
+  "",
+  "",
+  "上一行",
+  "下一行",
+  "左移一列",
+  "右移一列",
+  "打开",
+  "",
+  "",
+  "",
+  "Session",
+  "File",
+  "Edit",
+  "Search",
+  "View",
+  "Tools",
+  "Help",
+  "系统",
+  "最小化",
+  "最大化",
+  "关闭"
+ ]
+}

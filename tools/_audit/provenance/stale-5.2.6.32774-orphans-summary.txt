@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/13 13:04:39
+
+Left file: D:\Rea\verify\layouts\orphans-L.txt     Right file: D:\Rea\verify\layouts\orphans-R.txt
+1 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)

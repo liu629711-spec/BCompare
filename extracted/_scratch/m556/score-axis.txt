@@ -1,0 +1,2 @@
+freqscore in shipped framework: recorded 244 / 290
+freqscore in shipped framework: fuzz 79 / 120

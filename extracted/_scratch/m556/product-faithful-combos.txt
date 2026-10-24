@@ -1,0 +1,18 @@
+myers+lcs(base)   recorded 245/290  fuzz 82/120
+myers+nwf         recorded 244/290  fuzz 90/120
+myers+nwf_lcs     recorded 235/290  fuzz 79/120
+scan+lcs          recorded 230/290  fuzz 86/120
+scan+nwf          recorded 239/290  fuzz 92/120
+
+myers+nwf: recorded +2/-3  fuzz +11/-3
+   rec gains: ['f0057.oracle.xml', 'f0083.oracle.xml']
+   rec losses: ['f0028.oracle.xml', 'f0040.oracle.xml', 'f0092.oracle.xml']
+myers+nwf_lcs: recorded +1/-11  fuzz +1/-4
+   rec gains: ['f0066.oracle.xml']
+   rec losses: ['all-kinds-txt.oracle.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml', 'all-kinds-txt.oracle.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml', 'score-vs-count.oracle.xml', 'tie-2v1.oracle.xml']...
+scan+lcs: recorded +3/-18  fuzz +15/-11
+   rec gains: ['f0036.oracle.xml', 'f0073.oracle.xml', 'f0080.oracle.xml']
+   rec losses: ['al-swap-blocks.xml', 'case-swap-align.xml', 'similar-preference.xml', 'm2-align-swap-trailing-comment.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml']...
+scan+nwf: recorded +7/-13  fuzz +20/-10
+   rec gains: ['f0022.oracle.xml', 'f0036.oracle.xml', 'f0057.oracle.xml', 'f0073.oracle.xml', 'f0080.oracle.xml', 'f0083.oracle.xml', 'f0087.oracle.xml']
+   rec losses: ['case-swap-align.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml', 'comment-lead-c.oracle.xml', 'comment-middle-c.oracle.xml', 'f0000.oracle.xml', 'f0028.oracle.xml', 'f0039.oracle.xml']...

@@ -1,0 +1,10 @@
+Text Compare
+Produced: 2026/10/13 12:29:53
+
+Mode:  Differences
+Left file: D:\Rea\verify\left.txt     Right file: D:\Rea\verify\right.txt
+line two <> line TWO changed
+----------------------------
+----------------------------
+         -+ added at end
+----------------------------

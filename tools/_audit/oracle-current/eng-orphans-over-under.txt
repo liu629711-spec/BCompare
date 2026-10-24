@@ -1,0 +1,12 @@
+Text Compare
+Produced: 2026/10/13 13:01:33
+
+Mode:  All
+Left file: D:\Rea\tools\_audit\oracle-current\orphans-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\orphans-R.txt
+1   only-left
+--------------
+2 1 shared
+--------------
+  2 only-right
+--------------

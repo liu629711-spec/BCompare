@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2026/10/13 13:43:42
+
+Left file: D:\Rea\verify\layouts\similar-L.txt     Right file: D:\Rea\verify\layouts\similar-R.txt
+1 same line(s)
+1 unimportant difference line(s)
+
+1 difference section(s)

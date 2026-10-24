@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:24:36">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:24:36">
+		<filename1>D:\Rea\verify\cases\pure-deletion-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\pure-deletion-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="2">b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="2">c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

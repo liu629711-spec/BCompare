@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/16 2:44:26">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/16 2:44:26">
+		<filename1>D:/Rea/verify/golden/m2-py-indent-L.py</filename1>
+		<filename2>D:/Rea/verify/golden/m2-py-indent-R.py</filename2>
+		<linecomp status="different">
+			<text ltid="1">x = 1</text>
+			<text rtid="1">    x = 1</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

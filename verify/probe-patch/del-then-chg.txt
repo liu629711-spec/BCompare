@@ -1,0 +1,5 @@
+diff -r D:\Rea\verify\probe-patch\del-then-chg-L.txt D:\Rea\verify\probe-patch\del-then-chg-R.txt
+2d0
+< x
+3a3
+> z

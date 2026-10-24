@@ -1,0 +1,6069 @@
+[
+ {
+  "name": "TABOUTDIALOG",
+  "size": 60215,
+  "status": "ok",
+  "objects": 23,
+  "events": 8,
+  "classes": [
+   [
+    "TUiLabel",
+    9
+   ],
+   [
+    "TUiActivePanel",
+    3
+   ],
+   [
+    "TUiLinkLabel",
+    2
+   ],
+   [
+    "TUiMemo",
+    2
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TAboutDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TACTIONS",
+  "size": 135,
+  "status": "ok",
+  "objects": 3,
+  "events": 0,
+  "classes": [
+   [
+    "TActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCACTIONS",
+  "size": 12196,
+  "status": "ok",
+  "objects": 51,
+  "events": 42,
+  "classes": [
+   [
+    "TUiAction",
+    48
+   ],
+   [
+    "TBcActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCDIALOG",
+  "size": 186,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TBcDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES",
+  "size": 633724,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_125",
+  "size": 985992,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_150",
+  "size": 1415648,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_200",
+  "size": 2508742,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_DARK",
+  "size": 633724,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_DARK_125",
+  "size": 985992,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_DARK_150",
+  "size": 1415648,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_DARK_200",
+  "size": 2508742,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCIMAGES_STUB",
+  "size": 1384,
+  "status": "ok",
+  "objects": 13,
+  "events": 0,
+  "classes": [
+   [
+    "TUiImageList",
+    12
+   ],
+   [
+    "TBcImages",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBCVIEW",
+  "size": 480,
+  "status": "ok",
+  "objects": 6,
+  "events": 0,
+  "classes": [
+   [
+    "TBcView",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiLinkLabel",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBETAEXPIREDDIALOG",
+  "size": 916,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TBetaExpiredDialog",
+    1
+   ],
+   [
+    "TUiWebBrowser",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBROWSEMACHINEDIALOG",
+  "size": 627,
+  "status": "ok",
+  "objects": 5,
+  "events": 5,
+  "classes": [
+   [
+    "TBrowseMachineDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TBROWSEREGISTRYDIALOG",
+  "size": 591,
+  "status": "ok",
+  "objects": 5,
+  "events": 6,
+  "classes": [
+   [
+    "TBrowseRegistryDialog",
+    1
+   ],
+   [
+    "TUiTreeView",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TCHECKFORUPDATESDIALOG",
+  "size": 797,
+  "status": "ok",
+  "objects": 5,
+  "events": 7,
+  "classes": [
+   [
+    "TCheckForUpdatesDialog",
+    1
+   ],
+   [
+    "TUiWebBrowser",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRACTIONS",
+  "size": 25964,
+  "status": "ok",
+  "objects": 119,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    116
+   ],
+   [
+    "TDirActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRALIGNWITHITEMDIALOG",
+  "size": 4194,
+  "status": "ok",
+  "objects": 47,
+  "events": 34,
+  "classes": [
+   [
+    "TUiMenuItem",
+    27
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TUiSpeedButton",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TDIRBASEACTIONS",
+  "size": 8260,
+  "status": "ok",
+  "objects": 39,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    36
+   ],
+   [
+    "TDirBaseActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRBASEVIEW",
+  "size": 2039,
+  "status": "ok",
+  "objects": 22,
+  "events": 14,
+  "classes": [
+   [
+    "TUiMenuItem",
+    4
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ],
+   [
+    "TTimer",
+    2
+   ],
+   [
+    "TDirBaseView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRFINDDIALOG",
+  "size": 3391,
+  "status": "ok",
+  "objects": 37,
+  "events": 28,
+  "classes": [
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiCheckBox",
+    8
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TDirFindDialog",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRLEGENDDIALOG",
+  "size": 451,
+  "status": "ok",
+  "objects": 4,
+  "events": 6,
+  "classes": [
+   [
+    "TDirLegendDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCloseBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRLOADERRORDIALOG",
+  "size": 764,
+  "status": "ok",
+  "objects": 6,
+  "events": 5,
+  "classes": [
+   [
+    "TDirLoadErrorDialog",
+    1
+   ],
+   [
+    "TUiSpecComboBar",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRNAMEFILTERPRESETDIALOG",
+  "size": 773,
+  "status": "ok",
+  "objects": 9,
+  "events": 4,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TDirNameFilterPresetDialog",
+    1
+   ],
+   [
+    "TUiLinkLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIROPERRORSDIALOG",
+  "size": 841,
+  "status": "ok",
+  "objects": 9,
+  "events": 0,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TDirOpErrorsDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIROPPROGRESSFRAME",
+  "size": 1027,
+  "status": "ok",
+  "objects": 10,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiImage",
+    2
+   ],
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TDirOpProgressFrame",
+    1
+   ],
+   [
+    "TUiLinkLabel",
+    1
+   ],
+   [
+    "TUiProgressBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIROTHERFILTERITEMDIALOG",
+  "size": 7694,
+  "status": "ok",
+  "objects": 80,
+  "events": 46,
+  "classes": [
+   [
+    "TUiRadioButton",
+    18
+   ],
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiPanel",
+    8
+   ],
+   [
+    "TUiLabel",
+    7
+   ],
+   [
+    "TUiActivePanel",
+    6
+   ],
+   [
+    "TUiBevel",
+    5
+   ]
+  ]
+ },
+ {
+  "name": "TDIRREPORTDIALOG",
+  "size": 1676,
+  "status": "ok",
+  "objects": 21,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    10
+   ],
+   [
+    "TUiPanel",
+    5
+   ],
+   [
+    "TUiActivePanelView",
+    2
+   ],
+   [
+    "TDirReportDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSCRIPTDIALOG",
+  "size": 1869,
+  "status": "ok",
+  "objects": 22,
+  "events": 8,
+  "classes": [
+   [
+    "TUiTabSheet",
+    3
+   ],
+   [
+    "TUiListBox",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TUiMenuItem",
+    2
+   ],
+   [
+    "TDirScriptDialog",
+    1
+   ],
+   [
+    "TShape",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONCOMPARISONFRAME",
+  "size": 3294,
+  "status": "ok",
+  "objects": 27,
+  "events": 19,
+  "classes": [
+   [
+    "TUiCheckBox",
+    14
+   ],
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TDirSessionComparisonFrame",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ],
+   [
+    "TUiCheckListComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONHANDLINGFRAME",
+  "size": 2399,
+  "status": "ok",
+  "objects": 18,
+  "events": 12,
+  "classes": [
+   [
+    "TUiCheckBox",
+    9
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TDirSessionHandlingFrame",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONMISCFRAME",
+  "size": 2344,
+  "status": "ok",
+  "objects": 14,
+  "events": 23,
+  "classes": [
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TUiMenuItem",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TDirSessionMiscFrame",
+    1
+   ],
+   [
+    "TUiListTable",
+    1
+   ],
+   [
+    "TUiListView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONNAMEFILTERFRAME",
+  "size": 1883,
+  "status": "ok",
+  "objects": 15,
+  "events": 6,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiImage",
+    4
+   ],
+   [
+    "TUiMemo",
+    4
+   ],
+   [
+    "TUiButton",
+    2
+   ],
+   [
+    "TDirSessionNameFilterFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONOTHERFILTERSFRAME",
+  "size": 1239,
+  "status": "ok",
+  "objects": 7,
+  "events": 10,
+  "classes": [
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TDirSessionOtherFiltersFrame",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSESSIONSPECSFRAME",
+  "size": 2737,
+  "status": "ok",
+  "objects": 20,
+  "events": 24,
+  "classes": [
+   [
+    "TUiLabel",
+    6
+   ],
+   [
+    "TUiSpecComboBar",
+    4
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TDirSessionSpecsFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSYNCACTIONS",
+  "size": 2301,
+  "status": "ok",
+  "objects": 12,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    9
+   ],
+   [
+    "TDirSyncActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSYNCSESSIONHANDLINGFRAME",
+  "size": 2005,
+  "status": "ok",
+  "objects": 17,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    9
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TDirSyncSessionHandlingFrame",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSYNCSESSIONOPSFRAME",
+  "size": 3347,
+  "status": "ok",
+  "objects": 30,
+  "events": 12,
+  "classes": [
+   [
+    "TUiLabel",
+    10
+   ],
+   [
+    "TUiComboBox",
+    9
+   ],
+   [
+    "TUiImage",
+    8
+   ],
+   [
+    "TDirSyncSessionOpsFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDIRSYNCVIEW",
+  "size": 2957,
+  "status": "ok",
+  "objects": 26,
+  "events": 15,
+  "classes": [
+   [
+    "TUiPanel",
+    5
+   ],
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiSpeedButton",
+    3
+   ],
+   [
+    "TUiArrowShape",
+    3
+   ],
+   [
+    "TUiBitBtn",
+    3
+   ],
+   [
+    "TUiSpecComboBar",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TDIRVIEW",
+  "size": 136,
+  "status": "ok",
+  "objects": 3,
+  "events": 0,
+  "classes": [
+   [
+    "TDirView",
+    1
+   ],
+   [
+    "TLogFrame",
+    1
+   ],
+   [
+    "TUiVirtualListBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TDOWNLOADUPDATEDIALOG",
+  "size": 5768,
+  "status": "ok",
+  "objects": 24,
+  "events": 7,
+  "classes": [
+   [
+    "TUiLabel",
+    8
+   ],
+   [
+    "TUiActivePanel",
+    4
+   ],
+   [
+    "TUiDlgIcon",
+    3
+   ],
+   [
+    "TDownloadUpdateDialog",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TEDITFILEFORMATCONVERSIONFRAME",
+  "size": 456,
+  "status": "ok",
+  "objects": 4,
+  "events": 4,
+  "classes": [
+   [
+    "TEditFileFormatConversionFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TEMPTYVIEW",
+  "size": 28,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TEmptyView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TEXPORTDIALOG",
+  "size": 3982,
+  "status": "ok",
+  "objects": 28,
+  "events": 24,
+  "classes": [
+   [
+    "TUiBitBtn",
+    8
+   ],
+   [
+    "TUiActivePanel",
+    4
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiCheckListBox",
+    4
+   ],
+   [
+    "TExportDialog",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TEXTERNALFORMATGENERALFRAME",
+  "size": 1368,
+  "status": "ok",
+  "objects": 11,
+  "events": 12,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiSpecBar",
+    4
+   ],
+   [
+    "TExternalFormatGeneralFrame",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEACTIONS",
+  "size": 13347,
+  "status": "ok",
+  "objects": 57,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    54
+   ],
+   [
+    "TFileActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILECODEPAGEERRORDIALOG",
+  "size": 594,
+  "status": "ok",
+  "objects": 7,
+  "events": 0,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TFileCodePageErrorDialog",
+    1
+   ],
+   [
+    "TUiCodePageEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILECONFIRMSAVEDIALOG",
+  "size": 704,
+  "status": "ok",
+  "objects": 10,
+  "events": 3,
+  "classes": [
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TFileConfirmSaveDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiYesBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFINDFRAME",
+  "size": 4815,
+  "status": "ok",
+  "objects": 50,
+  "events": 41,
+  "classes": [
+   [
+    "TUiMenuItem",
+    27
+   ],
+   [
+    "TUiSpeedButton",
+    6
+   ],
+   [
+    "TUiButton",
+    5
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiComboBox",
+    3
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFORMATCONVERSIONFRAME",
+  "size": 490,
+  "status": "ok",
+  "objects": 4,
+  "events": 4,
+  "classes": [
+   [
+    "TFileFormatConversionFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFORMATFRAME",
+  "size": 59,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TFileFormatFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFORMATGENERALFRAME",
+  "size": 469,
+  "status": "ok",
+  "objects": 5,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TFileFormatGeneralFrame",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFORMATMANAGERDIALOG",
+  "size": 3631,
+  "status": "ok",
+  "objects": 29,
+  "events": 34,
+  "classes": [
+   [
+    "TUiPanel",
+    4
+   ],
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TUiButton",
+    4
+   ],
+   [
+    "TUiMenuItem",
+    4
+   ],
+   [
+    "TUiBevel",
+    3
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TFILEFORMATSAVEASDIALOG",
+  "size": 456,
+  "status": "ok",
+  "objects": 5,
+  "events": 7,
+  "classes": [
+   [
+    "TFileFormatSaveAsDialog",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEREPORTDIALOG",
+  "size": 71,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TFileReportDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILESESSIONFORMATSFRAME",
+  "size": 609,
+  "status": "ok",
+  "objects": 6,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TFileSessionFormatsFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILESESSIONSPECSFRAME",
+  "size": 2592,
+  "status": "ok",
+  "objects": 20,
+  "events": 24,
+  "classes": [
+   [
+    "TUiLabel",
+    6
+   ],
+   [
+    "TUiSpecComboBar",
+    4
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TFileSessionSpecsFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFILEVIEW",
+  "size": 811,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TFileView",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ],
+   [
+    "TUiProgressBar",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TFORMATTEDSPECFRAME",
+  "size": 314,
+  "status": "ok",
+  "objects": 4,
+  "events": 0,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TFormattedSpecFrame",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXACTIONS",
+  "size": 4717,
+  "status": "ok",
+  "objects": 25,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    22
+   ],
+   [
+    "THexActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXFINDFRAME",
+  "size": 2202,
+  "status": "ok",
+  "objects": 20,
+  "events": 13,
+  "classes": [
+   [
+    "TUiSpeedButton",
+    4
+   ],
+   [
+    "TUiButton",
+    4
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiSimpleHexEditor",
+    2
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ],
+   [
+    "THexFindFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXGOTODIALOG",
+  "size": 1025,
+  "status": "ok",
+  "objects": 14,
+  "events": 4,
+  "classes": [
+   [
+    "TUiRadioButton",
+    4
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "THexGoToDialog",
+    1
+   ],
+   [
+    "TUiNumEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXLAYOUTDIALOG",
+  "size": 1085,
+  "status": "ok",
+  "objects": 11,
+  "events": 5,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiSpinEdit",
+    3
+   ],
+   [
+    "THexLayoutDialog",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXREPORTDIALOG",
+  "size": 422,
+  "status": "ok",
+  "objects": 8,
+  "events": 0,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "THexReportDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ],
+   [
+    "TUiActivePanel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXSESSIONFRAME",
+  "size": 882,
+  "status": "ok",
+  "objects": 8,
+  "events": 4,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "THexSessionFrame",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THEXVIEW",
+  "size": 1368,
+  "status": "ok",
+  "objects": 13,
+  "events": 10,
+  "classes": [
+   [
+    "TUiPanel",
+    6
+   ],
+   [
+    "TUiMenuItem",
+    2
+   ],
+   [
+    "THexView",
+    1
+   ],
+   [
+    "TUiThumbnail",
+    1
+   ],
+   [
+    "TUiSplitter",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THOMEACTIONS",
+  "size": 709,
+  "status": "ok",
+  "objects": 7,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    4
+   ],
+   [
+    "THomeActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "THOMEVIEW",
+  "size": 25393,
+  "status": "ok",
+  "objects": 81,
+  "events": 62,
+  "classes": [
+   [
+    "TUiLabel",
+    11
+   ],
+   [
+    "TUiMenuItem",
+    11
+   ],
+   [
+    "TUiPanel",
+    9
+   ],
+   [
+    "TUiImage",
+    9
+   ],
+   [
+    "TUiButton",
+    9
+   ],
+   [
+    "TPaintBox",
+    5
+   ]
+  ]
+ },
+ {
+  "name": "TIMPORTDIALOG",
+  "size": 5299,
+  "status": "ok",
+  "objects": 38,
+  "events": 33,
+  "classes": [
+   [
+    "TUiLabel",
+    8
+   ],
+   [
+    "TUiBitBtn",
+    8
+   ],
+   [
+    "TUiActivePanel",
+    6
+   ],
+   [
+    "TUiCheckListBox",
+    4
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TImportDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TINFODIALOG",
+  "size": 265,
+  "status": "ok",
+  "objects": 3,
+  "events": 0,
+  "classes": [
+   [
+    "TInfoDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCloseBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TJOBSCANCELDIALOG",
+  "size": 453,
+  "status": "ok",
+  "objects": 6,
+  "events": 3,
+  "classes": [
+   [
+    "TJobsCancelDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiProgressBar",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ],
+   [
+    "TTimer",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TKEYUPGRADEDIALOG",
+  "size": 574,
+  "status": "ok",
+  "objects": 6,
+  "events": 2,
+  "classes": [
+   [
+    "TKeyUpgradeDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiLinkLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCloseBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TLINEALIGNDEFFRAME",
+  "size": 1192,
+  "status": "ok",
+  "objects": 10,
+  "events": 7,
+  "classes": [
+   [
+    "TUiRadioButton",
+    4
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TLineAlignDefFrame",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TLINEFILEFORMATCONVERSIONFRAME",
+  "size": 480,
+  "status": "ok",
+  "objects": 5,
+  "events": 2,
+  "classes": [
+   [
+    "TLineFileFormatConversionFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiCodePageEdit",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TLINESESSIONFORMATSFRAME",
+  "size": 944,
+  "status": "ok",
+  "objects": 9,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiCodePageEdit",
+    3
+   ],
+   [
+    "TLineSessionFormatsFrame",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TLOGFRAME",
+  "size": 659,
+  "status": "ok",
+  "objects": 5,
+  "events": 4,
+  "classes": [
+   [
+    "TUiSpeedButton",
+    2
+   ],
+   [
+    "TLogFrame",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiVirtualListBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMADEXCEPT",
+  "size": 2996,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TMadExcept",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMECONTACTFORM",
+  "size": 845,
+  "status": "ok",
+  "objects": 9,
+  "events": 1,
+  "classes": [
+   [
+    "INVButton",
+    3
+   ],
+   [
+    "INVLabel",
+    2
+   ],
+   [
+    "INVEdit",
+    2
+   ],
+   [
+    "TMEContactForm",
+    1
+   ],
+   [
+    "INVCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMEDETAILSFORM",
+  "size": 551,
+  "status": "ok",
+  "objects": 6,
+  "events": 1,
+  "classes": [
+   [
+    "INVButton",
+    3
+   ],
+   [
+    "TMEDetailsForm",
+    1
+   ],
+   [
+    "INVLabel",
+    1
+   ],
+   [
+    "INVEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMEDIAACTIONS",
+  "size": 1280,
+  "status": "ok",
+  "objects": 7,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    4
+   ],
+   [
+    "TMediaActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMEDIAREPORTDIALOG",
+  "size": 103,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TMediaReportDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMEDIAVIEW",
+  "size": 893,
+  "status": "ok",
+  "objects": 10,
+  "events": 4,
+  "classes": [
+   [
+    "TUiPanel",
+    7
+   ],
+   [
+    "TMediaView",
+    1
+   ],
+   [
+    "TUiSplitter",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TMESCRSHOTFORM",
+  "size": 674,
+  "status": "ok",
+  "objects": 7,
+  "events": 1,
+  "classes": [
+   [
+    "INVButton",
+    3
+   ],
+   [
+    "TMEScrShotForm",
+    1
+   ],
+   [
+    "INVCheckBox",
+    1
+   ],
+   [
+    "INVImage",
+    1
+   ],
+   [
+    "INVLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TNAGDIALOG",
+  "size": 1669,
+  "status": "ok",
+  "objects": 16,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiPanel",
+    4
+   ],
+   [
+    "TUiButton",
+    4
+   ],
+   [
+    "TNagDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPBASEDIALOG",
+  "size": 2582,
+  "status": "ok",
+  "objects": 29,
+  "events": 8,
+  "classes": [
+   [
+    "TUiLabel",
+    11
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TOpBaseDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCOMPAREDIALOG",
+  "size": 1049,
+  "status": "ok",
+  "objects": 13,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TOpCompareDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCOMPARERESULTSDIALOG",
+  "size": 610,
+  "status": "ok",
+  "objects": 3,
+  "events": 6,
+  "classes": [
+   [
+    "TOpCompareResultsDialog",
+    1
+   ],
+   [
+    "TUiSimpleTreeView",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCONFIRMREPLACEFILEDIALOG",
+  "size": 1058,
+  "status": "ok",
+  "objects": 17,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    9
+   ],
+   [
+    "TOpConfirmReplaceFileDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiYesBtn",
+    1
+   ],
+   [
+    "TUiYesToAllBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCOPYDIALOG",
+  "size": 644,
+  "status": "ok",
+  "objects": 9,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TOpCopyDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCOPYTODIALOG",
+  "size": 1221,
+  "status": "ok",
+  "objects": 14,
+  "events": 4,
+  "classes": [
+   [
+    "TUiPanel",
+    4
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TOpCopyToDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiSpecComboBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPCOPYTOOUTPUTDIALOG",
+  "size": 1547,
+  "status": "ok",
+  "objects": 27,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    11
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiBevel",
+    3
+   ],
+   [
+    "TOpCopyToOutputDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPDELETEDIALOG",
+  "size": 793,
+  "status": "ok",
+  "objects": 11,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TOpDeleteDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPDOSATTRIBDIALOG",
+  "size": 842,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiCheckBox",
+    5
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TOpDOSAttribDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPENWITHITEMDIALOG",
+  "size": 2210,
+  "status": "ok",
+  "objects": 20,
+  "events": 16,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiCheckBox",
+    5
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TOpenWithItemDialog",
+    1
+   ],
+   [
+    "TUiShortCutEdit",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPEXCLUDEDIALOG",
+  "size": 888,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TOpExcludeDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPFILTEREDDIALOG",
+  "size": 988,
+  "status": "ok",
+  "objects": 9,
+  "events": 5,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TOpFilteredDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiVirtualListBox",
+    1
+   ],
+   [
+    "TUiStaticText",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPMERGEDIALOG",
+  "size": 912,
+  "status": "ok",
+  "objects": 11,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TOpMergeDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPMOVEBOTHDIALOG",
+  "size": 657,
+  "status": "ok",
+  "objects": 9,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TOpMoveBothDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPMOVEDIALOG",
+  "size": 829,
+  "status": "ok",
+  "objects": 11,
+  "events": 1,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TOpMoveDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPMOVETODIALOG",
+  "size": 580,
+  "status": "ok",
+  "objects": 9,
+  "events": 0,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TOpMoveToDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPNEWFOLDERDIALOG",
+  "size": 622,
+  "status": "ok",
+  "objects": 8,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TOpNewFolderDialog",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPRENAMEDIALOG",
+  "size": 826,
+  "status": "ok",
+  "objects": 10,
+  "events": 4,
+  "classes": [
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TOpRenameDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPSYNCDIALOG",
+  "size": 1402,
+  "status": "ok",
+  "objects": 14,
+  "events": 4,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TOpSyncDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPTOUCHDIALOG",
+  "size": 1641,
+  "status": "ok",
+  "objects": 18,
+  "events": 8,
+  "classes": [
+   [
+    "TUiPanel",
+    5
+   ],
+   [
+    "TUiRadioButton",
+    4
+   ],
+   [
+    "TOpTouchDialog",
+    1
+   ],
+   [
+    "TUiWindowShape",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TOPUNIXATTRIBDIALOG",
+  "size": 2200,
+  "status": "ok",
+  "objects": 23,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    9
+   ],
+   [
+    "TUiLabel",
+    7
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TOpUnixAttribDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXACTIONS",
+  "size": 5410,
+  "status": "ok",
+  "objects": 23,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    20
+   ],
+   [
+    "TPixActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXFULLSCREENDIALOG",
+  "size": 996,
+  "status": "ok",
+  "objects": 11,
+  "events": 9,
+  "classes": [
+   [
+    "TUiMenuItem",
+    4
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TPixFullScreenDialog",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ],
+   [
+    "TUiPopupMenu",
+    1
+   ],
+   [
+    "TUiSeparatorItem",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXREPLACEMENTITEMDIALOG",
+  "size": 1099,
+  "status": "ok",
+  "objects": 12,
+  "events": 5,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiColorEdit",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TPixReplacementItemDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXREPORTDIALOG",
+  "size": 101,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TPixReportDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXSESSIONREPLACEMENTSFRAME",
+  "size": 1387,
+  "status": "ok",
+  "objects": 6,
+  "events": 14,
+  "classes": [
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TPixSessionReplacementsFrame",
+    1
+   ],
+   [
+    "TUiListTable",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPIXVIEW",
+  "size": 6380,
+  "status": "ok",
+  "objects": 48,
+  "events": 64,
+  "classes": [
+   [
+    "TUiPanel",
+    15
+   ],
+   [
+    "TUiLabel",
+    11
+   ],
+   [
+    "TUiSpeedButton",
+    4
+   ],
+   [
+    "TUiSplitter",
+    3
+   ],
+   [
+    "TUiScrollBox",
+    3
+   ],
+   [
+    "TUiImage",
+    3
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEBROWSEDIALOG",
+  "size": 4198,
+  "status": "ok",
+  "objects": 41,
+  "events": 36,
+  "classes": [
+   [
+    "TUiBevel",
+    5
+   ],
+   [
+    "TUiMenuItem",
+    5
+   ],
+   [
+    "TUiPanel",
+    4
+   ],
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TUiActivePanel",
+    4
+   ],
+   [
+    "TUiLabel",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEBROWSEREMOTEFRAME",
+  "size": 341,
+  "status": "ok",
+  "objects": 2,
+  "events": 5,
+  "classes": [
+   [
+    "TProfileBrowseRemoteFrame",
+    1
+   ],
+   [
+    "TUiTreeView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEFILEOPENDIALOG",
+  "size": 2011,
+  "status": "ok",
+  "objects": 15,
+  "events": 16,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TProfileFileOpenDialog",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEFILESAVEDIALOG",
+  "size": 847,
+  "status": "ok",
+  "objects": 11,
+  "events": 0,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TProfileFileSaveDialog",
+    1
+   ],
+   [
+    "TUiListView",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEFRAME",
+  "size": 53,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TProfileFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILEMANAGERDIALOG",
+  "size": 3062,
+  "status": "ok",
+  "objects": 26,
+  "events": 30,
+  "classes": [
+   [
+    "TUiButton",
+    4
+   ],
+   [
+    "TUiMenuItem",
+    4
+   ],
+   [
+    "TUiBevel",
+    3
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TPROFILESAVEASDIALOG",
+  "size": 1510,
+  "status": "ok",
+  "objects": 13,
+  "events": 16,
+  "classes": [
+   [
+    "TUiMenuItem",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TProfileSaveAsDialog",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiTreeView",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TPROGOPTIONSDIALOG",
+  "size": 38294,
+  "status": "ok",
+  "objects": 305,
+  "events": 202,
+  "classes": [
+   [
+    "TUiLabel",
+    84
+   ],
+   [
+    "TUiCheckBox",
+    69
+   ],
+   [
+    "TUiPanel",
+    21
+   ],
+   [
+    "TUiRadioButton",
+    18
+   ],
+   [
+    "TUiColorEdit",
+    18
+   ],
+   [
+    "TUiBevel",
+    17
+   ]
+  ]
+ },
+ {
+  "name": "TQUICKCOMPAREDIALOG",
+  "size": 1257,
+  "status": "ok",
+  "objects": 14,
+  "events": 7,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TQuickCompareDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGACTIONS",
+  "size": 5983,
+  "status": "ok",
+  "objects": 32,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    29
+   ],
+   [
+    "TRegActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGBROWSEDIALOG",
+  "size": 1471,
+  "status": "ok",
+  "objects": 14,
+  "events": 10,
+  "classes": [
+   [
+    "TUiRadioButton",
+    4
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiSpecBar",
+    2
+   ],
+   [
+    "TRegBrowseDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGFINDFRAME",
+  "size": 582,
+  "status": "ok",
+  "objects": 10,
+  "events": 3,
+  "classes": [
+   [
+    "TUiButton",
+    5
+   ],
+   [
+    "TUiCheckBox",
+    4
+   ],
+   [
+    "TRegFindFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGISTERDIALOG",
+  "size": 629,
+  "status": "ok",
+  "objects": 8,
+  "events": 2,
+  "classes": [
+   [
+    "TRegisterDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGREPORTDIALOG",
+  "size": 298,
+  "status": "ok",
+  "objects": 6,
+  "events": 0,
+  "classes": [
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TRegReportDialog",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGVALDIALOG",
+  "size": 1799,
+  "status": "ok",
+  "objects": 22,
+  "events": 11,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiActivePanel",
+    4
+   ],
+   [
+    "TUiMemo",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TRegValDialog",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREGVIEW",
+  "size": 887,
+  "status": "ok",
+  "objects": 10,
+  "events": 4,
+  "classes": [
+   [
+    "TUiPanel",
+    7
+   ],
+   [
+    "TRegView",
+    1
+   ],
+   [
+    "TUiSplitter",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREPORTDIALOG",
+  "size": 4917,
+  "status": "ok",
+  "objects": 49,
+  "events": 25,
+  "classes": [
+   [
+    "TUiLabel",
+    8
+   ],
+   [
+    "TUiPanel",
+    7
+   ],
+   [
+    "TUiRadioButton",
+    6
+   ],
+   [
+    "TUiButton",
+    6
+   ],
+   [
+    "TUiActivePanel",
+    5
+   ],
+   [
+    "TUiCheckBox",
+    4
+   ]
+  ]
+ },
+ {
+  "name": "TREPORTPREVIEWDIALOG",
+  "size": 1113,
+  "status": "ok",
+  "objects": 6,
+  "events": 14,
+  "classes": [
+   [
+    "TShape",
+    2
+   ],
+   [
+    "TReportPreviewDialog",
+    1
+   ],
+   [
+    "TUiScrollBox",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiImage",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TREPORTSETUPDIALOG",
+  "size": 2438,
+  "status": "ok",
+  "objects": 27,
+  "events": 12,
+  "classes": [
+   [
+    "TUiLabel",
+    7
+   ],
+   [
+    "TUiEdit",
+    4
+   ],
+   [
+    "TUiButton",
+    3
+   ],
+   [
+    "TShape",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TReportSetupDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSCCCHOOSEPROVIDERDIALOG",
+  "size": 475,
+  "status": "ok",
+  "objects": 6,
+  "events": 2,
+  "classes": [
+   [
+    "TSccChooseProviderDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSCCOPDIALOG",
+  "size": 719,
+  "status": "ok",
+  "objects": 8,
+  "events": 3,
+  "classes": [
+   [
+    "TSccOpDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSESSIONACTIONS",
+  "size": 4036,
+  "status": "ok",
+  "objects": 19,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    16
+   ],
+   [
+    "TSessionActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSESSIONFRAME",
+  "size": 53,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TSessionFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSESSIONSAVEASDIALOG",
+  "size": 1686,
+  "status": "ok",
+  "objects": 14,
+  "events": 16,
+  "classes": [
+   [
+    "TUiMenuItem",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TSessionSaveAsDialog",
+    1
+   ],
+   [
+    "TUiTreeView",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSESSIONVIEW",
+  "size": 86,
+  "status": "ok",
+  "objects": 2,
+  "events": 1,
+  "classes": [
+   [
+    "TSessionView",
+    1
+   ],
+   [
+    "TUiPopupMenu",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSETTINGSFRAME",
+  "size": 78,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TSettingsFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSNAPSHOTDIALOG",
+  "size": 1922,
+  "status": "ok",
+  "objects": 21,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    6
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiActivePanel",
+    2
+   ],
+   [
+    "TSnapshotDialog",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSOURCECONTROLMANAGERDIALOG",
+  "size": 1812,
+  "status": "ok",
+  "objects": 13,
+  "events": 14,
+  "classes": [
+   [
+    "TUiButton",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TSourceControlManagerDialog",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TSUPPORTDIALOG",
+  "size": 1268,
+  "status": "ok",
+  "objects": 10,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiLinkLabel",
+    3
+   ],
+   [
+    "TSupportDialog",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCloseBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEACTIONS",
+  "size": 9114,
+  "status": "ok",
+  "objects": 46,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    43
+   ],
+   [
+    "TTableActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLECOLHANDLINGDIALOG",
+  "size": 2015,
+  "status": "ok",
+  "objects": 18,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    5
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiComboBox",
+    3
+   ],
+   [
+    "TTableColHandlingDialog",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ],
+   [
+    "TUiNumEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLECOLRESIZEDIALOG",
+  "size": 484,
+  "status": "ok",
+  "objects": 7,
+  "events": 1,
+  "classes": [
+   [
+    "TTableColResizeDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEFMTFRAME",
+  "size": 2461,
+  "status": "ok",
+  "objects": 24,
+  "events": 17,
+  "classes": [
+   [
+    "TUiCheckBox",
+    8
+   ],
+   [
+    "TUiRadioButton",
+    6
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiActivePanel",
+    2
+   ],
+   [
+    "TUiCharEdit",
+    2
+   ],
+   [
+    "TTableFmtFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEFORMATTYPEFRAME",
+  "size": 647,
+  "status": "ok",
+  "objects": 6,
+  "events": 2,
+  "classes": [
+   [
+    "TTableFormatTypeFrame",
+    1
+   ],
+   [
+    "TTableFmtFrame",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEGOTODIALOG",
+  "size": 978,
+  "status": "ok",
+  "objects": 13,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiNumEdit",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TTableGoToDialog",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEREPORTDIALOG",
+  "size": 531,
+  "status": "ok",
+  "objects": 9,
+  "events": 1,
+  "classes": [
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TTableReportDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ],
+   [
+    "TUiActivePanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLERGNFRAME",
+  "size": 1081,
+  "status": "ok",
+  "objects": 10,
+  "events": 5,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiCharEdit",
+    3
+   ],
+   [
+    "TTableRgnFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLESESSIONCOLUMNSFRAME",
+  "size": 1671,
+  "status": "ok",
+  "objects": 11,
+  "events": 19,
+  "classes": [
+   [
+    "TUiBitBtn",
+    3
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TUiButton",
+    2
+   ],
+   [
+    "TTableSessionColumnsFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiVirtualTableView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLESESSIONROWSFRAME",
+  "size": 895,
+  "status": "ok",
+  "objects": 8,
+  "events": 4,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TTableSessionRowsFrame",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TLineAlignDefFrame",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLESESSIONSHEETSFRAME",
+  "size": 1029,
+  "status": "ok",
+  "objects": 6,
+  "events": 13,
+  "classes": [
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TTableSessionSheetsFrame",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiVirtualTableView",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLESORTDIALOG",
+  "size": 949,
+  "status": "ok",
+  "objects": 10,
+  "events": 7,
+  "classes": [
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TTableSortDialog",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiScrollBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLESORTITEMFRAME",
+  "size": 447,
+  "status": "ok",
+  "objects": 6,
+  "events": 0,
+  "classes": [
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TTableSortItemFrame",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABLEVIEW",
+  "size": 1828,
+  "status": "ok",
+  "objects": 17,
+  "events": 15,
+  "classes": [
+   [
+    "TUiPanel",
+    8
+   ],
+   [
+    "TUiPopupMenu",
+    2
+   ],
+   [
+    "TUiMenuItem",
+    2
+   ],
+   [
+    "TTableView",
+    1
+   ],
+   [
+    "TUiThumbnail",
+    1
+   ],
+   [
+    "TUiSplitter",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTABSCONFIRMCLOSEDIALOG",
+  "size": 757,
+  "status": "ok",
+  "objects": 7,
+  "events": 3,
+  "classes": [
+   [
+    "TTabsConfirmCloseDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiYesToAllBtn",
+    1
+   ],
+   [
+    "TUiYesBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTAGREPORTDIALOG",
+  "size": 155,
+  "status": "ok",
+  "objects": 3,
+  "events": 0,
+  "classes": [
+   [
+    "TTagReportDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTAGSESSIONFRAME",
+  "size": 643,
+  "status": "ok",
+  "objects": 5,
+  "events": 4,
+  "classes": [
+   [
+    "TUiBitBtn",
+    2
+   ],
+   [
+    "TTagSessionFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiCheckListBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTACTIONS",
+  "size": 28722,
+  "status": "ok",
+  "objects": 115,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    112
+   ],
+   [
+    "TTextActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTFINDINFILESDIALOG",
+  "size": 3179,
+  "status": "ok",
+  "objects": 33,
+  "events": 28,
+  "classes": [
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiCheckBox",
+    4
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TTextFindInFilesDialog",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTFORMATCONVERSIONFRAME",
+  "size": 680,
+  "status": "ok",
+  "objects": 6,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TTextFormatConversionFrame",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTFORMATGRAMMARFRAME",
+  "size": 2325,
+  "status": "ok",
+  "objects": 13,
+  "events": 22,
+  "classes": [
+   [
+    "TUiBitBtn",
+    9
+   ],
+   [
+    "TTextFormatGrammarFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ],
+   [
+    "TUiListTable",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTFORMATMISCFRAME",
+  "size": 693,
+  "status": "ok",
+  "objects": 6,
+  "events": 4,
+  "classes": [
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TTextFormatMiscFrame",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiSpinEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTGOTODIALOG",
+  "size": 953,
+  "status": "ok",
+  "objects": 13,
+  "events": 2,
+  "classes": [
+   [
+    "TUiRadioButton",
+    4
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiNumEdit",
+    2
+   ],
+   [
+    "TTextGoToDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTGRAMMARITEMDIALOG",
+  "size": 7415,
+  "status": "ok",
+  "objects": 76,
+  "events": 45,
+  "classes": [
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiLabel",
+    12
+   ],
+   [
+    "TUiCheckBox",
+    12
+   ],
+   [
+    "TUiRadioButton",
+    5
+   ],
+   [
+    "TUiActivePanel",
+    5
+   ],
+   [
+    "TUiSpeedButton",
+    5
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTINSIGITEMDIALOG",
+  "size": 2450,
+  "status": "ok",
+  "objects": 28,
+  "events": 22,
+  "classes": [
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TTextInsigItemDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTREPLACEMENTITEMDIALOG",
+  "size": 4252,
+  "status": "ok",
+  "objects": 47,
+  "events": 36,
+  "classes": [
+   [
+    "TUiMenuItem",
+    27
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TUiSpeedButton",
+    2
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTREPORTDIALOG",
+  "size": 1247,
+  "status": "ok",
+  "objects": 16,
+  "events": 6,
+  "classes": [
+   [
+    "TUiCheckBox",
+    4
+   ],
+   [
+    "TUiActivePanel",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiPanel",
+    2
+   ],
+   [
+    "TTextReportDialog",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTSESSIONALIGNMENTFRAME",
+  "size": 914,
+  "status": "ok",
+  "objects": 8,
+  "events": 3,
+  "classes": [
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TTextSessionAlignmentFrame",
+    1
+   ],
+   [
+    "TLineAlignDefFrame",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTSESSIONIMPORTANCEFRAME",
+  "size": 2053,
+  "status": "ok",
+  "objects": 15,
+  "events": 14,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TUiButton",
+    2
+   ],
+   [
+    "TUiCheckBox",
+    2
+   ],
+   [
+    "TTextSessionImportanceFrame",
+    1
+   ],
+   [
+    "TUiListBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTSESSIONREPLACEMENTSFRAME",
+  "size": 1390,
+  "status": "ok",
+  "objects": 6,
+  "events": 14,
+  "classes": [
+   [
+    "TUiBitBtn",
+    4
+   ],
+   [
+    "TTextSessionReplacementsFrame",
+    1
+   ],
+   [
+    "TUiListTable",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTVIEW",
+  "size": 3135,
+  "status": "ok",
+  "objects": 26,
+  "events": 28,
+  "classes": [
+   [
+    "TUiPanel",
+    11
+   ],
+   [
+    "TUiMenuItem",
+    5
+   ],
+   [
+    "TUiSplitter",
+    3
+   ],
+   [
+    "TUiPopupMenu",
+    3
+   ],
+   [
+    "TUiThumbnail",
+    2
+   ],
+   [
+    "TTextView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTEXTWEIGHTITEMDIALOG",
+  "size": 2685,
+  "status": "ok",
+  "objects": 30,
+  "events": 24,
+  "classes": [
+   [
+    "TUiMenuItem",
+    16
+   ],
+   [
+    "TUiCheckBox",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TTextWeightItemDialog",
+    1
+   ],
+   [
+    "TUiSpeedButton",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTIPDIALOG",
+  "size": 1042,
+  "status": "ok",
+  "objects": 12,
+  "events": 3,
+  "classes": [
+   [
+    "TUiBevel",
+    4
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TTipDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TTOTALCMDRPACKERDIALOG",
+  "size": 1499,
+  "status": "ok",
+  "objects": 19,
+  "events": 7,
+  "classes": [
+   [
+    "TUiLabel",
+    6
+   ],
+   [
+    "TUiActivePanel",
+    2
+   ],
+   [
+    "TUiLinkLabel",
+    2
+   ],
+   [
+    "TTotalCmdrPackerDialog",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVERACTIONS",
+  "size": 865,
+  "status": "ok",
+  "objects": 5,
+  "events": 0,
+  "classes": [
+   [
+    "TUiAction",
+    2
+   ],
+   [
+    "TVerActions",
+    1
+   ],
+   [
+    "TUiActionList",
+    1
+   ],
+   [
+    "TUiActionTree",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVERREPORTDIALOG",
+  "size": 101,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TVerReportDialog",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVERVIEW",
+  "size": 889,
+  "status": "ok",
+  "objects": 10,
+  "events": 4,
+  "classes": [
+   [
+    "TUiPanel",
+    7
+   ],
+   [
+    "TVerView",
+    1
+   ],
+   [
+    "TUiSplitter",
+    1
+   ],
+   [
+    "TUiStatusBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSAMAZONS3LOGINDIALOG",
+  "size": 714,
+  "status": "ok",
+  "objects": 9,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TVfsAmazonS3LoginDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSAMAZONS3PROFILEGENERALFRAME",
+  "size": 2061,
+  "status": "ok",
+  "objects": 20,
+  "events": 7,
+  "classes": [
+   [
+    "TUiLabel",
+    8
+   ],
+   [
+    "TUiEdit",
+    5
+   ],
+   [
+    "TUiActivePanel",
+    3
+   ],
+   [
+    "TVfsAmazonS3ProfileGeneralFrame",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSARCHIVEPASSWORDDIALOG",
+  "size": 880,
+  "status": "ok",
+  "objects": 10,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TVfsArchivePasswordDialog",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSDROPBOXAUTHCODEDIALOG",
+  "size": 503,
+  "status": "ok",
+  "objects": 6,
+  "events": 2,
+  "classes": [
+   [
+    "TVfsDropboxAuthCodeDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSDROPBOXPROFILEGENERALFRAME",
+  "size": 1243,
+  "status": "ok",
+  "objects": 8,
+  "events": 3,
+  "classes": [
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TVfsDropboxProfileGeneralFrame",
+    1
+   ],
+   [
+    "TImage",
+    1
+   ],
+   [
+    "TPaintBox",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPLOGINDIALOG",
+  "size": 878,
+  "status": "ok",
+  "objects": 11,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TVfsFtpLoginDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILECONNECTIONFRAME",
+  "size": 2367,
+  "status": "ok",
+  "objects": 19,
+  "events": 12,
+  "classes": [
+   [
+    "TUiLabel",
+    6
+   ],
+   [
+    "TUiCheckBox",
+    6
+   ],
+   [
+    "TUiSpinEdit",
+    2
+   ],
+   [
+    "TUiNumEdit",
+    2
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TVfsFtpProfileConnectionFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILEFRAME",
+  "size": 157,
+  "status": "ok",
+  "objects": 2,
+  "events": 1,
+  "classes": [
+   [
+    "TVfsFtpProfileFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILEGLOBALFRAME",
+  "size": 1945,
+  "status": "ok",
+  "objects": 18,
+  "events": 8,
+  "classes": [
+   [
+    "TUiPanel",
+    4
+   ],
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TUiBevel",
+    3
+   ],
+   [
+    "TUiSpecBar",
+    2
+   ],
+   [
+    "TUiButton",
+    2
+   ],
+   [
+    "TVfsFtpProfileGlobalFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILELISTINGFRAME",
+  "size": 1774,
+  "status": "ok",
+  "objects": 16,
+  "events": 10,
+  "classes": [
+   [
+    "TUiCheckBox",
+    8
+   ],
+   [
+    "TUiPanel",
+    3
+   ],
+   [
+    "TUiLabel",
+    2
+   ],
+   [
+    "TUiRadioButton",
+    2
+   ],
+   [
+    "TVfsFtpProfileListingFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILELOGINFRAME",
+  "size": 2845,
+  "status": "ok",
+  "objects": 30,
+  "events": 15,
+  "classes": [
+   [
+    "TUiLabel",
+    8
+   ],
+   [
+    "TUiActivePanel",
+    4
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TUiButton",
+    3
+   ],
+   [
+    "TUiActivePanelView",
+    2
+   ],
+   [
+    "TUiSpecBar",
+    2
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILEPROXYFRAME",
+  "size": 1228,
+  "status": "ok",
+  "objects": 12,
+  "events": 6,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TVfsFtpProfileProxyFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiNumEdit",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILESERVERFRAME",
+  "size": 910,
+  "status": "ok",
+  "objects": 8,
+  "events": 4,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TVfsFtpProfileServerFrame",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiCodePageEdit",
+    1
+   ],
+   [
+    "TUiTimeZoneEdit",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSFTPPROFILETRANSFERFRAME",
+  "size": 1604,
+  "status": "ok",
+  "objects": 13,
+  "events": 9,
+  "classes": [
+   [
+    "TUiCheckBox",
+    4
+   ],
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiRadioButton",
+    3
+   ],
+   [
+    "TUiSpinEdit",
+    2
+   ],
+   [
+    "TVfsFtpProfileTransferFrame",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSGENERATESSHKEYSDIALOG",
+  "size": 1953,
+  "status": "ok",
+  "objects": 19,
+  "events": 8,
+  "classes": [
+   [
+    "TUiLabel",
+    9
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TVfsGenerateSSHKeysDialog",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSGENERATESSLCERTDIALOG",
+  "size": 2433,
+  "status": "ok",
+  "objects": 24,
+  "events": 14,
+  "classes": [
+   [
+    "TUiLabel",
+    10
+   ],
+   [
+    "TUiEdit",
+    7
+   ],
+   [
+    "TVfsGenerateSSLCertDialog",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiDateTimePicker",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSHTTPLOGINDIALOG",
+  "size": 757,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TVfsHttpLoginDialog",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSOAUTHPROFILEGENERALFRAME",
+  "size": 599,
+  "status": "ok",
+  "objects": 7,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TVfsOAuthProfileGeneralFrame",
+    1
+   ],
+   [
+    "TUiMemo",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSFTPKEYBOARDAUTHDIALOG",
+  "size": 249,
+  "status": "ok",
+  "objects": 4,
+  "events": 0,
+  "classes": [
+   [
+    "TVfsSftpKeyboardAuthDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSFTPPASSPHRASEDIALOG",
+  "size": 841,
+  "status": "ok",
+  "objects": 10,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    4
+   ],
+   [
+    "TVfsSftpPassphraseDialog",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiEdit",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSFTPVALIDATECHANGEDKEYDIALOG",
+  "size": 841,
+  "status": "ok",
+  "objects": 11,
+  "events": 0,
+  "classes": [
+   [
+    "TUiLabel",
+    7
+   ],
+   [
+    "TVfsSftpValidateChangedKeyDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSFTPVALIDATEKEYDIALOG",
+  "size": 911,
+  "status": "ok",
+  "objects": 12,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    6
+   ],
+   [
+    "TVfsSftpValidateKeyDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSVNLOGINDIALOG",
+  "size": 875,
+  "status": "ok",
+  "objects": 11,
+  "events": 1,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TVfsSVNLoginDialog",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSSVNPROFILEGENERALFRAME",
+  "size": 1205,
+  "status": "ok",
+  "objects": 14,
+  "events": 4,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiEdit",
+    2
+   ],
+   [
+    "TUiActivePanel",
+    2
+   ],
+   [
+    "TVfsSVNProfileGeneralFrame",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiActivePanelView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSVALIDATESSLCERTDIALOG",
+  "size": 9011,
+  "status": "ok",
+  "objects": 15,
+  "events": 2,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiImage",
+    4
+   ],
+   [
+    "TVfsValidateSSLCertDialog",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSVIEWSSLCERTDIALOG",
+  "size": 3256,
+  "status": "ok",
+  "objects": 46,
+  "events": 0,
+  "classes": [
+   [
+    "TUiLabel",
+    41
+   ],
+   [
+    "TUiBevel",
+    2
+   ],
+   [
+    "TVfsViewSSLCertDialog",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiCloseBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVFSWEBDAVPROFILEGENERALFRAME",
+  "size": 1458,
+  "status": "ok",
+  "objects": 13,
+  "events": 8,
+  "classes": [
+   [
+    "TUiLabel",
+    5
+   ],
+   [
+    "TUiEdit",
+    3
+   ],
+   [
+    "TVfsWebDAVProfileGeneralFrame",
+    1
+   ],
+   [
+    "TUiSpecBar",
+    1
+   ],
+   [
+    "TUiButton",
+    1
+   ],
+   [
+    "TUiCheckBox",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TVIEW",
+  "size": 69,
+  "status": "ok",
+  "objects": 1,
+  "events": 0,
+  "classes": [
+   [
+    "TView",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TWEBBROWSERFRAME",
+  "size": 820,
+  "status": "ok",
+  "objects": 7,
+  "events": 6,
+  "classes": [
+   [
+    "TUiSpeedButton",
+    3
+   ],
+   [
+    "TWebBrowserFrame",
+    1
+   ],
+   [
+    "TUiWebBrowser",
+    1
+   ],
+   [
+    "TUiPanel",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TWINDOWSCONFIRMCLOSEDIALOG",
+  "size": 549,
+  "status": "ok",
+  "objects": 8,
+  "events": 0,
+  "classes": [
+   [
+    "TWindowsConfirmCloseDialog",
+    1
+   ],
+   [
+    "TUiDlgIcon",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiBevel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TWORKSPACEMANAGERDIALOG",
+  "size": 1682,
+  "status": "ok",
+  "objects": 15,
+  "events": 14,
+  "classes": [
+   [
+    "TUiLabel",
+    3
+   ],
+   [
+    "TUiComboBox",
+    2
+   ],
+   [
+    "TUiMenuItem",
+    2
+   ],
+   [
+    "TWorkspaceManagerDialog",
+    1
+   ],
+   [
+    "TUiListView",
+    1
+   ],
+   [
+    "TUiBitBtn",
+    1
+   ]
+  ]
+ },
+ {
+  "name": "TWORKSPACESAVEASDIALOG",
+  "size": 558,
+  "status": "ok",
+  "objects": 6,
+  "events": 7,
+  "classes": [
+   [
+    "TWorkspaceSaveAsDialog",
+    1
+   ],
+   [
+    "TUiLabel",
+    1
+   ],
+   [
+    "TUiComboBox",
+    1
+   ],
+   [
+    "TUiBtnPanel",
+    1
+   ],
+   [
+    "TUiOkBtn",
+    1
+   ],
+   [
+    "TUiCancelBtn",
+    1
+   ]
+  ]
+ }
+]

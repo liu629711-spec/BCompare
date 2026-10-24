@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:05:43">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:05:43">
+		<filename1>D:\Rea\verify\golden\al-swap-blocks-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-swap-blocks-R.txt</filename2>
+		<linecomp status="leftorphan">
+			<text ltid="1">a</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="2">b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="1">c</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="2">d</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="3">a</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="4">b</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

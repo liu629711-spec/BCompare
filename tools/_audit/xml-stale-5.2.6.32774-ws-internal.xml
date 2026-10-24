@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:05:56">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:05:56">
+		<filename1>D:\Rea\verify\golden\ws-internal-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\ws-internal-R.txt</filename2>
+		<linecomp status="similar">
+			<text ltid="1">void main( )</text>
+			<text rtid="1">void main()</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

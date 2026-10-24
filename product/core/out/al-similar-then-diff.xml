@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:41:36">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:41:36">
+		<filename1>D:\Rea\verify\golden\al-similar-then-diff-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-similar-then-diff-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">same</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">beta</text>
+			<text rtid="2">BETA</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="3">diff1</text>
+			<text rtid="3">diff2</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

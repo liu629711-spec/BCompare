@@ -1,0 +1,5 @@
+2026/10/13 9:26:19  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 9:26:19  >> log verbose "D:\Rea\verify\probe2\ignore-all-whitespace.log"
+2026/10/13 9:26:19  >> text-report layout:xml options:ignore-all-whitespace output-to:"D:\Rea\verify\probe2\ignore-all-whitespace.xml" "D:\Rea\verify\probe2\L.txt" "D:\Rea\verify\probe2\R.txt"
+2026/10/13 9:26:19  Fatal Scripting Error: Unexpected argument(s) "ignore-all-whitespace"
+2026/10/13 9:26:19  Script completed in 0.04 seconds

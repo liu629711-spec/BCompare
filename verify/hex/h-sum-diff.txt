@@ -1,0 +1,6 @@
+16 进制比较(H)
+已产生： 2026/10/18 19:02:14
+
+左边文件： D:\Rea\verify\hex\h-sum-diff-L.bin     右边文件： D:\Rea\verify\hex\h-sum-diff-R.bin
+63 个相同字节
+1 个差异字节

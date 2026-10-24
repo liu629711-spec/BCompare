@@ -1,0 +1,151 @@
+{
+ "provenance": "reference 5.2.6.32774 (D:/bc-official/app/BCompare.exe), probe extracted/live/textcolor-en (tools/live-text-color-probe.py, 2026-10-21, corpus tools/textcolor/content-left|right.txt, statuses from the same-pair reacmp XML content.xml); focus-independence verified by textcolor-en3 (--click-pane 0).",
+ "geometry": {
+  "row_pitch_px": 15,
+  "first_row_y": 0,
+  "gutter_x": 41,
+  "body_start_x": 42,
+  "sampled_from": "editor crops, DPI 100%, physical px; band census y=0..194 (same rows -> base, colored rows -> tint); gutter grey columns 2..41 (all-rows full-grey scan), first tint column on a 'different' row = 42"
+ },
+ "pane_base": {
+  "left": [
+   255,
+   255,
+   255
+  ],
+  "right": [
+   252,
+   252,
+   252
+  ],
+  "note": "same rows show the plain pane base (no status tint); right pane uniformly 3/255 dimmer; NOT focus-dependent (textcolor-en3 --click-pane 0: identical colors)"
+ },
+ "status_rows": {
+  "same": {
+   "left": [
+    255,
+    255,
+    255
+   ],
+   "right": [
+    252,
+    252,
+    252
+   ],
+   "grid_row": 9
+  },
+  "similar": {
+   "left": [
+    238,
+    238,
+    255
+   ],
+   "right": [
+    238,
+    238,
+    252
+   ],
+   "grid_row": 1
+  },
+  "different": {
+   "left": [
+    255,
+    227,
+    227
+   ],
+   "right": [
+    252,
+    230,
+    230
+   ],
+   "grid_row": 2
+  },
+  "leftorphan": {
+   "left": [
+    255,
+    227,
+    227
+   ],
+   "right": [
+    252,
+    252,
+    252
+   ],
+   "grid_row": 6
+  },
+  "rightorphan": {
+   "left": [
+    255,
+    255,
+    255
+   ],
+   "right": [
+    252,
+    230,
+    230
+   ],
+   "grid_row": 11
+  }
+ },
+ "orphan_empty_side_hatch": {
+  "right_empty_for_leftorphan": {
+   "stripe": [
+    191,
+    191,
+    191
+   ],
+   "period_px": 8,
+   "phase_mod": 8,
+   "phase_eq": 7,
+   "base": [
+    252,
+    252,
+    252
+   ]
+  },
+  "left_empty_for_rightorphan": {
+   "stripe": [
+    230,
+    230,
+    230
+   ],
+   "period_px": 1,
+   "phase_mod": 1,
+   "phase_eq": 0,
+   "base": [
+    255,
+    255,
+    255
+   ]
+  },
+  "note": "empty side = pane base + sparse diagonal dot hatch. Right: measured 8px x-period, phase (x+y)%8==7 (down-left diagonal), stripe 191. Left: denser - x-spacings alternate 3/5 (period not a clean 8), stripe 230; recorded as measured, full left lattice model deferred (both render as a diagonal dot hatch of the same family)"
+ },
+ "ink": {
+  "left": [
+   0,
+   0,
+   0
+  ],
+  "right": [
+   48,
+   48,
+   48
+  ],
+  "note": "darkest text pixels per pane; right pane ink is the same 0.98-blend family as its base/stripes (measured, not derived)"
+ },
+ "gutter": {
+  "bg": [
+   240,
+   240,
+   240
+  ],
+  "digits": [
+   [
+    100,
+    100,
+    100
+   ]
+  ]
+ },
+ "word_level_marks_residual": "inline word tints observed (gold 251,222,112 marker; orange 212,113,37; word-change blue 0,0,255 on similar) - NOT modelled in P1 first cut (recorded residual)"
+}

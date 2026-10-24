@@ -1,0 +1,8 @@
+Text Compare
+Produced: 2026/10/13 9:43:22
+
+Mode:  All
+Left file: D:\Rea\verify\layouts\identical-L.txt     Right file: D:\Rea\verify\layouts\identical-R.txt
+x = x
+y   y
+-----

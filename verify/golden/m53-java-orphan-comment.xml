@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:06">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:06">
+		<filename1>D:\Rea\verify\golden\m53-java-orphan-comment-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-orphan-comment-R.java</filename2>
+		<linecomp status="different">
+			<text ltid="1">int a;</text>
+			<text rtid="1">int x;</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="2">int b;</text>
+		</linecomp>
+		<linecomp status="leftsimilar">
+			<text ltid="3">// c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

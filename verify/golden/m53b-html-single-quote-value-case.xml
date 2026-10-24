@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:42">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:42">
+		<filename1>D:\Rea\verify\golden\m53b-html-single-quote-value-case-L.html</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-html-single-quote-value-case-R.html</filename2>
+		<linecomp status="different">
+			<text ltid="1">&lt;a t='X'>y&lt;/a></text>
+			<text rtid="1">&lt;a t='x'>y&lt;/a></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

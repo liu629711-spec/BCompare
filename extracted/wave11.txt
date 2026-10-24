@@ -1,0 +1,4 @@
+140db6d90	string case/whitespace insignificance rule
+140db71d0	string case/whitespace insignificance rule 2
+1417938d0	insignificance rule engine A
+1417948c0	insignificance rule engine B

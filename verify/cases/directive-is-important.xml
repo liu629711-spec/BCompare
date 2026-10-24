@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:24:34">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:24:34">
+		<filename1>D:\Rea\verify\cases\directive-is-important-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\directive-is-important-R.txt</filename2>
+		<linecomp status="different">
+			<text ltid="1">#include &lt;stdio.h></text>
+			<text rtid="1">#include &lt;stdlib.h></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

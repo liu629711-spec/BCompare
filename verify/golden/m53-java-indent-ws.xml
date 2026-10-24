@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:03">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:03">
+		<filename1>D:\Rea\verify\golden\m53-java-indent-ws-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-indent-ws-R.java</filename2>
+		<linecomp status="similar">
+			<text ltid="1">    int x = 1;</text>
+			<text rtid="1">int x = 1;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

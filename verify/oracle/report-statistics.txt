@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 12:29:51
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\verify\left.txt,D:\Rea\verify\right.txt,4,1,0,1,0,0,0,0

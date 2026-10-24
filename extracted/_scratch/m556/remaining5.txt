@@ -1,0 +1,35 @@
+========================================================================
+f0021  (.txt)
+  L: ['value gamma', 'item', '', '', 'item', 'x', 'item', 'beta beta value int']
+  R: ['value gamma', 'item', '', '', 'GAMMA NODE', 'item', 'x', 'item', 'item', 'beta beta value int']
+  want: [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['rightorphan', None, 5], ['same', 5, 6], ['same', 6, 7], ['same', 7, 8], ['rightorphan', None, 9], ['same', 8, 10]]
+  got : [['same', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['rightorphan', None, 5], ['same', 5, 6], ['same', 6, 7], ['rightorphan', None, 8], ['same', 7, 9], ['same', 8, 10]]
+  first divergence at row 7: want=['same', 7, 8] got=['rightorphan', None, 8]
+========================================================================
+f0040  (.c)
+  L: ['int gamma', 'delta tmp', 'int gamma', 'YY DELTA DELTA', 'yy tmp x beta', '', 'tmp alpha']
+  R: ['', '', 'int gamma', 'yy delta delta', '', 'yy delta delta', 'tmp alpha']
+  want: [['rightsimilar', None, 1], ['rightsimilar', None, 2], ['same', 1, 3], ['different', 2, 4], ['different', 3, 5], ['leftorphan', 4, None], ['different', 5, 6], ['leftsimilar', 6, None], ['same', 7, 7]]
+  got : [['different', 1, 1], ['different', 2, 2], ['same', 3, 3], ['leftorphan', 4, None], ['different', 5, 4], ['same', 6, 5], ['rightorphan', None, 6], ['same', 7, 7]]
+  first divergence at row 0: want=['rightsimilar', None, 1] got=['different', 1, 1]
+========================================================================
+f0073  (.c)
+  L: ['X INT GAMMA', 'value']
+  R: ['YY VALUE', 'gamma tmp', 'value', 'tmp beta item data', 'value']
+  want: [['different', 1, 1], ['rightorphan', None, 2], ['same', 2, 3], ['rightorphan', None, 4], ['rightorphan', None, 5]]
+  got : [['different', 1, 1], ['rightorphan', None, 2], ['rightorphan', None, 3], ['rightorphan', None, 4], ['same', 2, 5]]
+  first divergence at row 2: want=['same', 2, 3] got=['rightorphan', None, 3]
+========================================================================
+f0092  (.txt)
+  L: ['delta', 'value value alpha', 'x node beta', 'beta']
+  R: ['DELTA', 'Node']
+  want: [['similar', 1, 1], ['leftorphan', 2, None], ['different', 3, 2], ['leftorphan', 4, None]]
+  got : [['similar', 1, 1], ['leftorphan', 2, None], ['leftorphan', 3, None], ['different', 4, 2]]
+  first divergence at row 2: want=['different', 3, 2] got=['leftorphan', 3, None]
+========================================================================
+f0115  (.txt)
+  L: ['delta delta yy int', 'DATA BETA NODE', 'value value yy', '', '', 'DATA BETA NODE', 'item', 'Data gamma gamma beta', 'x item', 'gamma gamma int', 'delta node alpha yy']
+  R: ['item', 'DATA BETA NODE', 'value value yy', '', 'value value yy', 'DATA BETA NODE', 'item', 'Data gamma gamma beta', 'Data gamma gamma beta', 'x item', 'gamma gamma int', 'delta node alpha yy']
+  want: [['different', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['different', 5, 5], ['same', 6, 6], ['same', 7, 7], ['same', 8, 8], ['rightorphan', None, 9], ['same', 9, 10], ['same', 10, 11], ['same', 11, 12]]
+  got : [['different', 1, 1], ['same', 2, 2], ['same', 3, 3], ['same', 4, 4], ['different', 5, 5], ['same', 6, 6], ['same', 7, 7], ['rightorphan', None, 8], ['same', 8, 9], ['same', 9, 10], ['same', 10, 11], ['same', 11, 12]]
+  first divergence at row 7: want=['same', 8, 8] got=['rightorphan', None, 8]

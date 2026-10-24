@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:40:59">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:40:59">
+		<filename1>D:\Rea\verify\golden\m53e-pas-comment-paren-span-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-comment-paren-span-R.pas</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">(*</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">body</text>
+			<text rtid="2">body two</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">*) x := 1;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

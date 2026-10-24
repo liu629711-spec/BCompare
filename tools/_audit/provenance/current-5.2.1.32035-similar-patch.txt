@@ -1,0 +1,5 @@
+diff -r D:\Rea\verify\layouts\similar-L.txt D:\Rea\verify\layouts\similar-R.txt
+1c1
+< alpha
+---
+> ALPHA

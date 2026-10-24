@@ -1,0 +1,17 @@
+score-text sweep under the final structure (P1 scan + suffix gate + handler):
+  strip    recorded 281/290  fuzz 119/120  fails=['f0092']
+  nospace  recorded 282/290  fuzz 118/120  fails=['f0059', 'f0062']
+
+flip detail strip vs nospace:
+  nospace wins: f0092.oracle.xml
+    L=['delta', 'value value alpha', 'x node beta', 'beta']
+    R=['DELTA', 'Node']
+  strip wins: f0059
+    L=['', 'tmp gamma', 'tmp gamma', '# x beta gamma', 'x beta']
+    R=['', 'tmp gamma', '# x beta gamma', 'tmp gamma', 'x int', 'tmp gamma']
+  strip wins: f0062
+    L=['x', 'node', '', 'yy', 'BETA DELTA GAMMA ITEM', 'yy alpha tmp', '// delta']
+    R=['// delta', 'NODE', '', 'yy', 'BETA DELTA GAMMA ITEM', 'yy alpha tmp', '// DELTA']
+  nospace wins: f0092
+    L=['delta', 'value value alpha', 'x node beta', 'beta']
+    R=['DELTA', 'Node']

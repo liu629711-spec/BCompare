@@ -1,0 +1,18 @@
+======================================================================
+SRC: verify/golden/disambig/case-swap-align.xml
+LEFT : ['a', 'B']
+RIGHT: ['b', 'A']
+keysL: ['a', 'b']
+keysR: ['b', 'a']
+want: [['leftorphan', 1, None], ['similar', 2, 1], ['rightorphan', None, 2]]
+inc : [['leftorphan', 1, None], ['similar', 2, 1], ['rightorphan', None, 2]]
+sa0 : [['rightorphan', None, 1], ['similar', 1, 2], ['leftorphan', 2, None]]
+======================================================================
+SRC: verify/golden/disambig/similar-preference.xml
+LEFT : ['alpha', 'beta', 'gamma']
+RIGHT: ['beta', 'alpha', 'gamma']
+keysL: ['alpha', 'beta', 'gamma']
+keysR: ['beta', 'alpha', 'gamma']
+want: [['leftorphan', 1, None], ['same', 2, 1], ['rightorphan', None, 2], ['same', 3, 3]]
+inc : [['leftorphan', 1, None], ['same', 2, 1], ['rightorphan', None, 2], ['same', 3, 3]]
+sa0 : [['rightorphan', None, 1], ['same', 1, 2], ['leftorphan', 2, None], ['same', 3, 3]]

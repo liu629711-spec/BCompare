@@ -1,0 +1,715 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "pid": 10888,
+ "windows": [
+  {
+   "hwnd": 3214884,
+   "class": "TViewForm",
+   "title": "Home - Beyond Compare"
+  }
+ ],
+ "tree": [
+  {
+   "d": 0,
+   "ct": "Window",
+   "name": "Home - Beyond Compare",
+   "aid": "",
+   "cls": "TViewForm",
+   "rect": [
+    208,
+    168,
+    1456,
+    864
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "aid": "1775442",
+   "cls": "THomeView",
+   "rect": [
+    216,
+    226,
+    1440,
+    798
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "aid": "4722140",
+   "cls": "TUiPanel",
+   "rect": [
+    216,
+    893,
+    1440,
+    131
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Edit",
+   "name": "",
+   "aid": "4523338",
+   "cls": "TUiEdit",
+   "rect": [
+    237,
+    943,
+    188,
+    25
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "aid": "11210880",
+   "cls": "TUiPanel",
+   "rect": [
+    216,
+    888,
+    1440,
+    5
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "aid": "2104460",
+   "cls": "TUiPanel",
+   "rect": [
+    216,
+    226,
+    1440,
+    662
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "aid": "3611370",
+   "cls": "TUiPanel",
+   "rect": [
+    511,
+    229,
+    1145,
+    659
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "aid": "5770468",
+   "cls": "TUiPanel",
+   "rect": [
+    511,
+    385,
+    1145,
+    482
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Text Edit",
+   "aid": "725382",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1397,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Version Compare",
+   "aid": "3805540",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1162,
+    705,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Table Compare",
+   "aid": "4395326",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1005,
+    705,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Registry Compare",
+   "aid": "15405100",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    848,
+    705,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Picture Compare",
+   "aid": "5836602",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1162,
+    613,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Media Compare",
+   "aid": "5049764",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1005,
+    613,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Hex Compare",
+   "aid": "658804",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    848,
+    613,
+    157,
+    92
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Text Merge",
+   "aid": "4985058",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1240,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Text Compare",
+   "aid": "2691280",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    1083,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Folder Sync",
+   "aid": "3147528",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    926,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Folder Merge",
+   "aid": "1443564",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    769,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "Folder Compare",
+   "aid": "1574190",
+   "cls": "THomeTaskBtn",
+   "rect": [
+    612,
+    451,
+    157,
+    131
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "aid": "1840636",
+   "cls": "TUiPanel",
+   "rect": [
+    511,
+    229,
+    1145,
+    156
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "aid": "3020800",
+   "cls": "TFormattedSpecFrame",
+   "rect": [
+    516,
+    313,
+    1130,
+    21
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "aid": "2430704",
+   "cls": "TFormattedSpecFrame",
+   "rect": [
+    516,
+    287,
+    1130,
+    20
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "aid": "988848",
+   "cls": "TFormattedSpecFrame",
+   "rect": [
+    516,
+    260,
+    1130,
+    21
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "aid": "3343676",
+   "cls": "TUiPanel",
+   "rect": [
+    216,
+    229,
+    288,
+    659
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Edit",
+   "name": "",
+   "aid": "5050346",
+   "cls": "TUiSearchEdit",
+   "rect": [
+    289,
+    855,
+    210,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "aid": "4788538",
+   "cls": "TEditButton.TGlyph",
+   "rect": [
+    291,
+    859,
+    16,
+    16
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "aid": "4263502",
+   "cls": "TUiBitBtn",
+   "rect": [
+    253,
+    853,
+    31,
+    30
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "aid": "3738988",
+   "cls": "TUiBitBtn",
+   "rect": [
+    221,
+    853,
+    32,
+    30
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Tree",
+   "name": "",
+   "aid": "1902352",
+   "cls": "TUiTreeView",
+   "rect": [
+    216,
+    260,
+    287,
+    588
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "New",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    257,
+    260,
+    30,
+    20
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Folder Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Folder Merge",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Folder Sync",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Text Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Text Merge",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Hex Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Media Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Picture Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Registry Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Table Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "TreeItem",
+   "name": "Version Compare",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "aid": "1313422",
+   "cls": "TUiMainDock",
+   "rect": [
+    216,
+    199,
+    1440,
+    27
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "",
+   "aid": "3607220",
+   "cls": "TUiMainMenu",
+   "rect": [
+    216,
+    199,
+    1440,
+    27
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Session",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    218,
+    201,
+    56,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "View",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    274,
+    201,
+    39,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Tools",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    313,
+    201,
+    44,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Help",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    357,
+    201,
+    39,
+    23
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "TitleBar",
+   "name": "",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    232,
+    171,
+    1424,
+    28
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "系统",
+   "aid": "MenuBar",
+   "cls": "",
+   "rect": [
+    216,
+    176,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "系统",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    216,
+    176,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "最小化",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    1517,
+    169,
+    47,
+    30
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "最大化",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    1564,
+    169,
+    46,
+    30
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "关闭",
+   "aid": "",
+   "cls": "",
+   "rect": [
+    1610,
+    169,
+    47,
+    30
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 13:04:39
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\verify\layouts\orphans-L.txt,D:\Rea\verify\layouts\orphans-R.txt,2,1,1,0,0,0,0,0

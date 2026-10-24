@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:32:47">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:32:47">
+		<filename1>D:\Rea\verify\cases\unicode-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\unicode-R.txt</filename2>
+		<linecomp status="different">
+			<text ltid="1">héllo wörld</text>
+			<text rtid="1">héllo wörld!</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

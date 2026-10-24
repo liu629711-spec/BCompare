@@ -1,0 +1,146 @@
+{
+ "provenance": "live probe 2026-10-23 tools/live-text-merge-probe.py (ref 5.2.6, textmerge-en, Job Object serial, residue 0); fixture: L edits line2, R edits line5, C=base",
+ "view_geometry_window_rel": {
+  "toolbar_TUiDock": [
+   8,
+   58,
+   1440,
+   44
+  ],
+  "source_panes_row": {
+   "editors": [
+    [
+     8,
+     154,
+     479,
+     226
+    ],
+    [
+     491,
+     154,
+     474,
+     226
+    ],
+    [
+     969,
+     154,
+     479,
+     226
+    ]
+   ],
+   "order": [
+    "LEFT",
+    "CENTER(base)",
+    "RIGHT"
+   ]
+  },
+  "output_editor": [
+   60,
+   491,
+   1388,
+   340
+  ],
+  "merge_to_radio_bar": {
+   "row_y": 467,
+   "items": [
+    "Left",
+    "Right",
+    "Other:"
+   ],
+   "default": "Other:",
+   "selected_tint": [
+    194,
+    220,
+    245
+   ]
+  },
+  "window_statusbar": [
+   8,
+   831,
+   1440,
+   25
+  ],
+  "no_overview_thumbnail": true
+ },
+ "take_buttons_uia": [
+  "Conflict",
+  "Left",
+  "Center",
+  "Right",
+  "Next Conflict",
+  "Prev Conflict"
+ ],
+ "toolbar_extra": [
+  "Same OK",
+  "Favor Left",
+  "Favor Right",
+  "Swap",
+  "Rules",
+  "Context",
+  "Minor"
+ ],
+ "source_panes_readonly_marker": "'Editing disabled' text in each source pane footer",
+ "statusbar_action_text": {
+  "cell1": "Unchanged",
+  "cell2": "Insert",
+  "cell3": "Load time: <s> seconds"
+ },
+ "tint_measured": {
+  "left_change_band": [
+   218,
+   252,
+   252
+  ],
+  "left_change_band_strong": [
+   190,
+   252,
+   252
+  ],
+  "right_change_band": [
+   246,
+   230,
+   252
+  ],
+  "output_took_left_band": [
+   213,
+   255,
+   255
+  ],
+  "output_took_right_band": [
+   248,
+   227,
+   255
+  ],
+  "equal_base": [
+   252,
+   252,
+   252
+  ],
+  "void_rows_below_content": [
+   240,
+   240,
+   240
+  ],
+  "gutter_arrow_blue": [
+   102,
+   182,
+   255
+  ]
+ },
+ "statusbar_section_summary": "N difference section(s)",
+ "caveats": [
+  "row pitch assumed 15 (same engine face); source-pane y-offset inside editor not separately measured",
+  "BC merge has NO script command (SCRIPTING command list verified: no TEXT-MERGE/merge verb) - Oracle limited to UIA+pixels"
+ ],
+ "conflict_measured": {
+  "source_panes": "conflicting line keeps its side tint with gutter conflict marker",
+  "output_band": [
+   255,
+   227,
+   227
+  ],
+  "statusbar": "# N conflict section(s)  (leading # vs clean 'N difference section(s)')",
+  "output_content_rule": "unresolved conflict keeps CENTER/base content until Take resolves it",
+  "source": "live probe 2026-10-23 extracted/live/textmerge-conf-en (line2 edited BOTH sides)"
+ }
+}

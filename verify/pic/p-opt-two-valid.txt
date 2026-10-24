@@ -1,0 +1,6 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:53
+
+正在忽略不重要
+左边文件： D:\Rea\verify\pic\p-opt-two-valid-L.png     右边文件： D:\Rea\verify\pic\p-opt-two-valid-R.png
+16 个重要差异像素

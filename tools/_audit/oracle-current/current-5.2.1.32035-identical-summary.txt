@@ -1,0 +1,6 @@
+文本比较(T)
+已产生： 2026/10/13 13:00:09
+
+左边文件： D:\Rea\tools\_audit\oracle-current\identical-L.txt
+右边文件： D:\Rea\tools\_audit\oracle-current\identical-R.txt
+2 个相同行

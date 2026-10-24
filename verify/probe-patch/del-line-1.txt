@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\del-line-1-L.txt D:\Rea\verify\probe-patch\del-line-1-R.txt
+2d0
+< L1

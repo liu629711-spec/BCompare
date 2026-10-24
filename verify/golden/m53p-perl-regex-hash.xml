@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:52">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:52">
+		<filename1>D:\Rea\verify\golden\m53p-perl-regex-hash-L.pl</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-perl-regex-hash-R.pl</filename2>
+		<linecomp status="different">
+			<text ltid="1">$s = /a # b/;</text>
+			<text rtid="1">$s = /a # c/;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

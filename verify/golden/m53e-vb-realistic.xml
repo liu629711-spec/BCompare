@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:05">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:05">
+		<filename1>D:\Rea\verify\golden\m53e-vb-realistic-L.bas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-vb-realistic-R.bas</filename2>
+		<linecomp status="similar">
+			<text ltid="1">' simple module</text>
+			<text rtid="1">' simple module (v2)</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">Sub Main()</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">    Dim S As String</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="4">    S = "hi"</text>
+			<text rtid="4">    S = "HI"</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="5" rtid="5">    MsgBox S</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">End Sub</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

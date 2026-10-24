@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:33">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:33">
+		<filename1>D:\Rea\verify\golden\m53b-xml-realistic-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-realistic-R.xml</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">&lt;?xml version="1.0"?></text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">&lt;!-- configuration --></text>
+			<text rtid="2">&lt;!-- configuration (v2) --></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">&lt;config debug="true"></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">    &lt;path value="/usr/bin"/></text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="5">    &lt;name value="app"/></text>
+			<text rtid="5">    &lt;name value="App"/></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">&lt;/config></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

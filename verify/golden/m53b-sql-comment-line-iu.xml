@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:24:01">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:24:01">
+		<filename1>D:\Rea\verify\golden\m53b-sql-comment-line-iu-L.sql</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-sql-comment-line-iu-R.sql</filename2>
+		<ignoreunimportant/>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">SELECT 1; -- alpha</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

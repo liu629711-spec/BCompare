@@ -1,0 +1,6 @@
+Version Compare
+Produced: 2026/10/20 3:18:44
+
+Left file: D:\Rea\verify\ver\v-opt-dmism-L.exe     Right file: D:\Rea\verify\ver\v-opt-dmism-R.exe
+16 same item(s)
+10 important difference item(s)

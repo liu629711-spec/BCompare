@@ -1,0 +1,42 @@
+{
+ "provenance": "live probe 2026-10-24 tools/live-folder-view-probe.py + C-selcheck follow-up (ref 5.2.6, 3 serial launches incl. selection check, residue 0); fixture: L/R dirs with a.txt same, b.txt diff, c.txt L-only, d.txt R-only, newer.txt timestamp-only (utime 2020 vs 2024), sub/ dir with s.txt (2 bytes)",
+ "window_model_win_rel": {
+  "title": "{L} <--> {R} - Folder Compare - <brand>",
+  "toolbar_rows": "row1: Home/Sessions/All/Diffs/Same/Structure/Minor/Rules/Copy/Expand/Collapse/Select/Files/Refresh/Swap/Stop; row2: Filters '*.*' combo + Filters + Peek",
+  "per_side_path_bars": "L/R path combo + reload/browse buttons (same family as hex view)",
+  "list": "TDirTreeView [8,172,1440,555] ONE control spanning full width, drawing BOTH sides internally",
+  "columns_per_side": "Name | Size | Modified; left pane x~8-690, center gap ~690-737 (thin, no ink by default), right pane x~737-1448",
+  "log_frame": "TLogFrame (TUiVirtualListBox) in the skeleton - not visible in default capture region (below the list)"
+ },
+ "row_model": {
+  "band_rows": "sides scroll TOGETHER (aligned rows); an orphan row shows content on one side only, the other side BLANK (measured: c.txt row has no right-side content, d.txt no left-side)",
+  "row_pitch_px": 20.5,
+  "order": "dirs first, then files (measured: sub before a.txt)",
+  "zebra": "odd data-row index gets (248,250,249), even rows white (measured a/c/newer tinted with sub as data row 0)",
+  "selection_cursor": "light blue (168,205,241) - FOLLOWS the click (C-selcheck: click a.txt moved the tint from sub to a.txt); initial cursor = first row",
+  "size_column": "byte count (a=6, b=7/8, c=9, d=10); folder rows show the subtree aggregate (sub=2 = s.txt bytes, computed while collapsed)",
+  "timestamp_format": "2026/10/24 2:19:13 (slash date, no zero padding on month/day/hour)"
+ },
+ "status_colors_measured": {
+  "same": "black text (0,0,0)",
+  "diff": "RED text (255,0,0) (b.txt)",
+  "left_only": "PURPLE text (106,0,213) (c.txt)",
+  "right_only": "PURPLE text (106,0,213) (d.txt)",
+  "newer": "GRAY text (128,128,128) + the NEWER side's timestamp in RED (measured: newer.txt right timestamp red, left gray-black)",
+  "dir_row": "black text, folder glyph before the name"
+ },
+ "statusbar_uia_texts": [
+  "4 file(s), 24 bytes",
+  "342 GB free on D:\\",
+  "4 file(s), 26 bytes",
+  "342 GB free on D:\\"
+ ],
+ "statusbar_rule": "per-side file count + byte total, then disk free (4 files = a/b/newer/s.txt; c.txt and d.txt excluded from their own side's count... note: L shows 4 = a,b,c?+newer+s? measured both 4 - count semantics = engine per-side file census)",
+ "uia": "TDirTreeView/TLogFrame classes visible; ROW CONTENT not verified in UIA tree (runtime-drawn list)",
+ "residuals": [
+  "center comparison strip (=/≠ marks) renders nothing by default in this capture - semantics unprobed",
+  "folder size '2' for sub could be item-count vs byte aggregate - byte aggregate assumed (s.txt=2 bytes; disambiguated only if children bytes differ from count)",
+  "expand/collapse interaction, double-click child sessions: unprobed (tier 2)",
+  "status bar counts wiring: engine per-side census available via --dir3"
+ ]
+}

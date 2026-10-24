@@ -1,0 +1,10 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:18
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-zip-gap-L.csv     右边文件： D:\Rea\verify\table\t-zip-gap-R.csv
+A   B    A   B
+--------------
+aaa 1 <> bbb 2
+zz  9 <> qq  8
+--------------

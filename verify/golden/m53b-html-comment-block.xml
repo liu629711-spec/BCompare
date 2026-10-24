@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:44">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:44">
+		<filename1>D:\Rea\verify\golden\m53b-html-comment-block-L.html</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-html-comment-block-R.html</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">&lt;!--</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">body one</text>
+			<text rtid="2">body two</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">--> &lt;p/></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

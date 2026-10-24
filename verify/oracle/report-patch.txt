@@ -1,0 +1,7 @@
+diff -r D:\Rea\verify\left.txt D:\Rea\verify\right.txt
+2c2
+< line two
+---
+> line TWO changed
+4a5
+> added at end

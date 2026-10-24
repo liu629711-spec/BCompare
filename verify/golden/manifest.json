@@ -1,0 +1,2732 @@
+{
+ "le-crlf-vs-lf": {
+  "unit": "SsLineParse",
+  "note": "CRLF vs LF must compare equal",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.594,
+  "left": "D:\\Rea\\verify\\golden\\le-crlf-vs-lf-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\le-crlf-vs-lf-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\le-crlf-vs-lf.xml"
+ },
+ "le-crlf-vs-cr": {
+  "unit": "SsLineParse",
+  "note": "CRLF vs CR",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.633,
+  "left": "D:\\Rea\\verify\\golden\\le-crlf-vs-cr-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\le-crlf-vs-cr-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\le-crlf-vs-cr.xml"
+ },
+ "le-crcrlf": {
+  "unit": "SsLineParse",
+  "note": "CRCRLF vs CRLF",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.683,
+  "left": "D:\\Rea\\verify\\golden\\le-crcrlf-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\le-crcrlf-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\le-crcrlf.xml"
+ },
+ "le-mixed": {
+  "unit": "SsLineParse",
+  "note": "mixed endings in one file",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 0.631,
+  "left": "D:\\Rea\\verify\\golden\\le-mixed-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\le-mixed-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\le-mixed.xml"
+ },
+ "le-no-final-nl": {
+  "unit": "SsLineParse",
+  "note": "missing final newline",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.619,
+  "left": "D:\\Rea\\verify\\golden\\le-no-final-nl-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\le-no-final-nl-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\le-no-final-nl.xml"
+ },
+ "enc-utf8-bom": {
+  "unit": "SsLineParse",
+  "note": "UTF-8 BOM vs no BOM",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.631,
+  "left": "D:\\Rea\\verify\\golden\\enc-utf8-bom-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-utf8-bom-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-utf8-bom.xml"
+ },
+ "enc-utf16le": {
+  "unit": "SsLineParse",
+  "note": "UTF-16LE BOM vs UTF-8",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.6,
+  "left": "D:\\Rea\\verify\\golden\\enc-utf16le-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-utf16le-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-utf16le.xml"
+ },
+ "enc-utf16be": {
+  "unit": "SsLineParse",
+  "note": "UTF-16BE BOM vs UTF-8",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.637,
+  "left": "D:\\Rea\\verify\\golden\\enc-utf16be-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-utf16be-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-utf16be.xml"
+ },
+ "enc-latin1": {
+  "unit": "SsLineParse",
+  "note": "Latin-1 bytes vs UTF-8",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.653,
+  "left": "D:\\Rea\\verify\\golden\\enc-latin1-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-latin1-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-latin1.xml"
+ },
+ "enc-ctrlz-eof": {
+  "unit": "SsLineParse",
+  "note": "Ctrl-Z (0x1a) mid-file",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.626,
+  "left": "D:\\Rea\\verify\\golden\\enc-ctrlz-eof-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-ctrlz-eof-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-ctrlz-eof.xml"
+ },
+ "enc-nul-binary": {
+  "unit": "SsLineParse",
+  "note": "NUL bytes (binary-ish)",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "same"
+  ],
+  "seconds": 0.648,
+  "left": "D:\\Rea\\verify\\golden\\enc-nul-binary-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\enc-nul-binary-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\enc-nul-binary.xml"
+ },
+ "ws-trailing": {
+  "unit": "SsClasses",
+  "note": "trailing spaces (txt)",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same"
+  ],
+  "seconds": 0.621,
+  "left": "D:\\Rea\\verify\\golden\\ws-trailing-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\ws-trailing-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\ws-trailing.xml"
+ },
+ "ws-leading": {
+  "unit": "SsClasses",
+  "note": "leading spaces (txt)",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same"
+  ],
+  "seconds": 0.65,
+  "left": "D:\\Rea\\verify\\golden\\ws-leading-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\ws-leading-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\ws-leading.xml"
+ },
+ "ws-tab-vs-space": {
+  "unit": "SsClasses",
+  "note": "tab vs spaces",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.633,
+  "left": "D:\\Rea\\verify\\golden\\ws-tab-vs-space-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\ws-tab-vs-space-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\ws-tab-vs-space.xml"
+ },
+ "ws-internal": {
+  "unit": "SsClasses",
+  "note": "internal spacing",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.644,
+  "left": "D:\\Rea\\verify\\golden\\ws-internal-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\ws-internal-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\ws-internal.xml"
+ },
+ "case-txt": {
+  "unit": "SsClasses",
+  "note": "case change in .txt",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.663,
+  "left": "D:\\Rea\\verify\\golden\\case-txt-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\case-txt-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\case-txt.xml"
+ },
+ "case-c-ident": {
+  "unit": "SsClasses",
+  "note": "identifier case change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.62,
+  "left": "D:\\Rea\\verify\\golden\\case-c-ident-L.c",
+  "right": "D:\\Rea\\verify\\golden\\case-c-ident-R.c",
+  "report": "D:\\Rea\\verify\\golden\\case-c-ident.xml"
+ },
+ "case-c-string": {
+  "unit": "SsClasses",
+  "note": "string literal case change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.627,
+  "left": "D:\\Rea\\verify\\golden\\case-c-string-L.c",
+  "right": "D:\\Rea\\verify\\golden\\case-c-string-R.c",
+  "report": "D:\\Rea\\verify\\golden\\case-c-string.xml"
+ },
+ "num-c": {
+  "unit": "SsClasses",
+  "note": "number change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.642,
+  "left": "D:\\Rea\\verify\\golden\\num-c-L.c",
+  "right": "D:\\Rea\\verify\\golden\\num-c-R.c",
+  "report": "D:\\Rea\\verify\\golden\\num-c.xml"
+ },
+ "op-c": {
+  "unit": "SsClasses",
+  "note": "operator change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.602,
+  "left": "D:\\Rea\\verify\\golden\\op-c-L.c",
+  "right": "D:\\Rea\\verify\\golden\\op-c-R.c",
+  "report": "D:\\Rea\\verify\\golden\\op-c.xml"
+ },
+ "dir-c": {
+  "unit": "SsClasses",
+  "note": "directive change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.723,
+  "left": "D:\\Rea\\verify\\golden\\dir-c-L.c",
+  "right": "D:\\Rea\\verify\\golden\\dir-c-R.c",
+  "report": "D:\\Rea\\verify\\golden\\dir-c.xml"
+ },
+ "comment-c": {
+  "unit": "SsClasses",
+  "note": "comment content change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same"
+  ],
+  "seconds": 0.721,
+  "left": "D:\\Rea\\verify\\golden\\comment-c-L.c",
+  "right": "D:\\Rea\\verify\\golden\\comment-c-R.c",
+  "report": "D:\\Rea\\verify\\golden\\comment-c.xml"
+ },
+ "kw-c": {
+  "unit": "SsClasses",
+  "note": "keyword change in .c",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.647,
+  "left": "D:\\Rea\\verify\\golden\\kw-c-L.c",
+  "right": "D:\\Rea\\verify\\golden\\kw-c-R.c",
+  "report": "D:\\Rea\\verify\\golden\\kw-c.xml"
+ },
+ "txt-syntax-chars": {
+  "unit": "SsClasses",
+  "note": "syntax-looking chars in .txt",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.633,
+  "left": "D:\\Rea\\verify\\golden\\txt-syntax-chars-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\txt-syntax-chars-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\txt-syntax-chars.xml"
+ },
+ "al-insert": {
+  "unit": "SsLineList",
+  "note": "pure insertion",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "rightorphan",
+   "same"
+  ],
+  "seconds": 0.617,
+  "left": "D:\\Rea\\verify\\golden\\al-insert-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-insert-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-insert.xml"
+ },
+ "al-delete": {
+  "unit": "SsLineList",
+  "note": "pure deletion",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "leftorphan",
+   "same"
+  ],
+  "seconds": 0.613,
+  "left": "D:\\Rea\\verify\\golden\\al-delete-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-delete-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-delete.xml"
+ },
+ "al-replace-block": {
+  "unit": "SsLineList",
+  "note": "block replace",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "different",
+   "different",
+   "different",
+   "same"
+  ],
+  "seconds": 0.608,
+  "left": "D:\\Rea\\verify\\golden\\al-replace-block-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-replace-block-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-replace-block.xml"
+ },
+ "al-move-down": {
+  "unit": "SsLineList",
+  "note": "moved line",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "leftorphan",
+   "same",
+   "same",
+   "rightorphan"
+  ],
+  "seconds": 0.626,
+  "left": "D:\\Rea\\verify\\golden\\al-move-down-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-move-down-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-move-down.xml"
+ },
+ "al-swap-blocks": {
+  "unit": "SsLineList",
+  "note": "swapped blocks",
+  "exit_code": 0,
+  "statuses": [
+   "leftorphan",
+   "leftorphan",
+   "same",
+   "same",
+   "rightorphan",
+   "rightorphan"
+  ],
+  "seconds": 0.603,
+  "left": "D:\\Rea\\verify\\golden\\al-swap-blocks-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-swap-blocks-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-swap-blocks.xml"
+ },
+ "al-duplicates": {
+  "unit": "SsLineList",
+  "note": "duplicate lines (ambiguous)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "leftorphan"
+  ],
+  "seconds": 0.643,
+  "left": "D:\\Rea\\verify\\golden\\al-duplicates-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-duplicates-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-duplicates.xml"
+ },
+ "al-identical": {
+  "unit": "SsLineList",
+  "note": "identical files",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.599,
+  "left": "D:\\Rea\\verify\\golden\\al-identical-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-identical-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-identical.xml"
+ },
+ "al-empty-left": {
+  "unit": "SsLineList",
+  "note": "empty vs content",
+  "exit_code": 0,
+  "statuses": [
+   "rightorphan"
+  ],
+  "seconds": 0.644,
+  "left": "D:\\Rea\\verify\\golden\\al-empty-left-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-empty-left-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-empty-left.xml"
+ },
+ "al-empty-both": {
+  "unit": "SsLineList",
+  "note": "both empty",
+  "exit_code": 0,
+  "statuses": [],
+  "seconds": 0.62,
+  "left": "D:\\Rea\\verify\\golden\\al-empty-both-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-empty-both-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-empty-both.xml"
+ },
+ "al-similar-then-diff": {
+  "unit": "SsLineList",
+  "note": "similar + different mix",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "different"
+  ],
+  "seconds": 0.633,
+  "left": "D:\\Rea\\verify\\golden\\al-similar-then-diff-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\al-similar-then-diff-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\al-similar-then-diff.xml"
+ },
+ "xml-ctrl-chars": {
+  "unit": "SsXML",
+  "note": "control chars 0x01 0x07 0x1a 0x7f",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "different"
+  ],
+  "seconds": 0.648,
+  "left": "D:\\Rea\\verify\\golden\\xml-ctrl-chars-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-ctrl-chars-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-ctrl-chars.xml"
+ },
+ "xml-entities": {
+  "unit": "SsXML",
+  "note": "& < > \" ' in content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.618,
+  "left": "D:\\Rea\\verify\\golden\\xml-entities-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-entities-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-entities.xml"
+ },
+ "xml-quotes": {
+  "unit": "SsXML",
+  "note": "quotes in content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.657,
+  "left": "D:\\Rea\\verify\\golden\\xml-quotes-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-quotes-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-quotes.xml"
+ },
+ "xml-unicode": {
+  "unit": "SsXML",
+  "note": "CJK + emoji",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "same"
+  ],
+  "seconds": 0.656,
+  "left": "D:\\Rea\\verify\\golden\\xml-unicode-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-unicode-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-unicode.xml"
+ },
+ "xml-tabs": {
+  "unit": "SsXML",
+  "note": "tabs preserved in output",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.631,
+  "left": "D:\\Rea\\verify\\golden\\xml-tabs-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-tabs-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-tabs.xml"
+ },
+ "xml-long-line": {
+  "unit": "SsXML",
+  "note": "long line (no wrap)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.616,
+  "left": "D:\\Rea\\verify\\golden\\xml-long-line-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\xml-long-line-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\xml-long-line.xml"
+ },
+ "opt-display-all": {
+  "unit": "SsLineList",
+  "note": "options:display-all on mixed pair",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar",
+   "similar",
+   "different",
+   "same"
+  ],
+  "left": "D:\\Rea\\verify\\golden\\opt-pair-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\opt-pair-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\opt-display-all.xml"
+ },
+ "opt-display-mismatches": {
+  "unit": "SsLineList",
+  "note": "options:display-mismatches on mixed pair",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "similar",
+   "different"
+  ],
+  "left": "D:\\Rea\\verify\\golden\\opt-pair-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\opt-pair-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\opt-display-mismatches.xml"
+ },
+ "opt-display-context": {
+  "unit": "SsLineList",
+  "note": "options:display-context on mixed pair",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar",
+   "similar",
+   "different",
+   "same"
+  ],
+  "left": "D:\\Rea\\verify\\golden\\opt-pair-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\opt-pair-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\opt-display-context.xml"
+ },
+ "opt-display-matches": {
+  "unit": "SsLineList",
+  "note": "options:display-matches on mixed pair",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same"
+  ],
+  "left": "D:\\Rea\\verify\\golden\\opt-pair-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\opt-pair-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\opt-display-matches.xml"
+ },
+ "opt-ignore-unimportant": {
+  "unit": "SsLineList",
+  "note": "options:ignore-unimportant on mixed pair",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same",
+   "same",
+   "different",
+   "same"
+  ],
+  "left": "D:\\Rea\\verify\\golden\\opt-pair-L.txt",
+  "right": "D:\\Rea\\verify\\golden\\opt-pair-R.txt",
+  "report": "D:\\Rea\\verify\\golden\\opt-ignore-unimportant.xml"
+ },
+ "m2-mixed-trailing-comment": {
+  "unit": "M2Importance",
+  "note": "u2: comment-only change on a code line is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.378,
+  "left": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment.xml"
+ },
+ "m2-mixed-trailing-comment-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant folds the comment-only change (u2)",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.39,
+  "left": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-mixed-trailing-comment-iu.xml"
+ },
+ "m2-mixed-lead-comment": {
+  "unit": "M2Importance",
+  "note": "u2: leading block comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-mixed-lead-comment-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-mixed-lead-comment-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-mixed-lead-comment.xml"
+ },
+ "m2-block-comment-body": {
+  "unit": "M2Importance",
+  "note": "u2: block comment bodies are unimportant across lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same",
+   "same"
+  ],
+  "seconds": 0.383,
+  "left": "D:\\Rea\\verify\\golden\\m2-block-comment-body-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-block-comment-body-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-block-comment-body.xml"
+ },
+ "m2-block-comment-body-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant folds the block comment body (u2)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-block-comment-body-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-block-comment-body-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-block-comment-body-iu.xml"
+ },
+ "m2-block-continuation-star": {
+  "unit": "M2Importance",
+  "note": "u2: `*` continuation lines inside a block comment are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same",
+   "same"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-block-continuation-star-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-block-continuation-star-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-block-continuation-star.xml"
+ },
+ "m2-string-internal-ws": {
+  "unit": "M2Importance",
+  "note": "u2: whitespace inside a string is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.391,
+  "left": "D:\\Rea\\verify\\golden\\m2-string-internal-ws-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-string-internal-ws-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-string-internal-ws.xml"
+ },
+ "m2-string-case": {
+  "unit": "M2Importance",
+  "note": "u2: case inside a string is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-string-case-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-string-case-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-string-case.xml"
+ },
+ "m2-string-unterminated": {
+  "unit": "M2Importance",
+  "note": "u2: a string to end-of-line still carries important text",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m2-string-unterminated-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-string-unterminated-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-string-unterminated.xml"
+ },
+ "m2-string-escaped-quote": {
+  "unit": "M2Importance",
+  "note": "u2: escaped quotes keep the string one element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-string-escaped-quote-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-string-escaped-quote-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-string-escaped-quote.xml"
+ },
+ "m2-comment-syntax-swap": {
+  "unit": "M2Importance",
+  "note": "u2: comment vs comment across syntax is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-syntax-swap-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-syntax-swap-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-syntax-swap.xml"
+ },
+ "m2-comment-vs-empty": {
+  "unit": "M2Importance",
+  "note": "u2: a comment line pairs with an empty line as unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-vs-empty-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-vs-empty-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-vs-empty.xml"
+ },
+ "m2-blank-vs-ws": {
+  "unit": "M2Importance",
+  "note": "u2: empty vs whitespace-only pairs as unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-blank-vs-ws-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-blank-vs-ws-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-blank-vs-ws.xml"
+ },
+ "m2-number-hex": {
+  "unit": "M2Importance",
+  "note": "u2: hex literals are important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m2-number-hex-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-number-hex-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-number-hex.xml"
+ },
+ "m2-number-exponent": {
+  "unit": "M2Importance",
+  "note": "u2: exponent literals are important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.276,
+  "left": "D:\\Rea\\verify\\golden\\m2-number-exponent-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-number-exponent-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-number-exponent.xml"
+ },
+ "m2-align-swap-trailing-comment": {
+  "unit": "M2Importance",
+  "note": "u2: swapped trailing-comment lines align by important text only",
+  "exit_code": 0,
+  "statuses": [
+   "leftorphan",
+   "similar",
+   "rightorphan"
+  ],
+  "seconds": 0.391,
+  "left": "D:\\Rea\\verify\\golden\\m2-align-swap-trailing-comment-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-align-swap-trailing-comment-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-align-swap-trailing-comment.xml"
+ },
+ "m2-align-comments-forward": {
+  "unit": "M2Importance",
+  "note": "u2: extra comment line is leftsimilar; comments align forward",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "leftsimilar",
+   "same"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-align-comments-forward.xml"
+ },
+ "m2-align-comments-forward-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant folds leftsimilar and reuses the paired rtid (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-iu.xml"
+ },
+ "m2-py-comment": {
+  "unit": "M2Importance",
+  "note": "u2: python comments are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.275,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-comment-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-comment-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-comment.xml"
+ },
+ "m2-py-indent": {
+  "unit": "M2Importance",
+  "note": "u2: python indentation is IMPORTANT",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.279,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-indent-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-indent-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-indent.xml"
+ },
+ "m2-py-trailing-ws": {
+  "unit": "M2Importance",
+  "note": "u2: python trailing whitespace is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.386,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-trailing-ws-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-trailing-ws-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-trailing-ws.xml"
+ },
+ "m2-py-hash-midline": {
+  "unit": "M2Importance",
+  "note": "u2: python mid-line comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.392,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-hash-midline-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-hash-midline-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-hash-midline.xml"
+ },
+ "m2-py-triple-quote": {
+  "unit": "M2Importance",
+  "note": "u2: triple-quoted string bodies span lines and are important",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "different",
+   "same"
+  ],
+  "seconds": 0.381,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-triple-quote-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-triple-quote-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-triple-quote.xml"
+ },
+ "m2-py-string-case": {
+  "unit": "M2Importance",
+  "note": "u2: python string case is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-py-string-case-L.py",
+  "right": "D:\\Rea\\verify\\golden\\m2-py-string-case-R.py",
+  "report": "D:\\Rea\\verify\\golden\\m2-py-string-case.xml"
+ },
+ "m2-js-comment": {
+  "unit": "M2Importance",
+  "note": "u2: javascript comments are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.386,
+  "left": "D:\\Rea\\verify\\golden\\m2-js-comment-L.js",
+  "right": "D:\\Rea\\verify\\golden\\m2-js-comment-R.js",
+  "report": "D:\\Rea\\verify\\golden\\m2-js-comment.xml"
+ },
+ "m2-js-regex-literal": {
+  "unit": "M2Importance",
+  "note": "u2: regex literals are important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-js-regex-literal-L.js",
+  "right": "D:\\Rea\\verify\\golden\\m2-js-regex-literal-R.js",
+  "report": "D:\\Rea\\verify\\golden\\m2-js-regex-literal.xml"
+ },
+ "m2-js-regex-ws": {
+  "unit": "M2Importance",
+  "note": "u2: whitespace inside a regex literal is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-js-regex-ws-L.js",
+  "right": "D:\\Rea\\verify\\golden\\m2-js-regex-ws-R.js",
+  "report": "D:\\Rea\\verify\\golden\\m2-js-regex-ws.xml"
+ },
+ "m2-js-string-quote": {
+  "unit": "M2Importance",
+  "note": "u2: single-quoted strings are important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-js-string-quote-L.js",
+  "right": "D:\\Rea\\verify\\golden\\m2-js-string-quote-R.js",
+  "report": "D:\\Rea\\verify\\golden\\m2-js-string-quote.xml"
+ },
+ "m2-js-template-literal": {
+  "unit": "M2Importance",
+  "note": "u2: backtick content has no grammar element; important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m2-js-template-literal-L.js",
+  "right": "D:\\Rea\\verify\\golden\\m2-js-template-literal-R.js",
+  "report": "D:\\Rea\\verify\\golden\\m2-js-template-literal.xml"
+ },
+ "m2-foo-case": {
+  "unit": "M2Importance",
+  "note": "u2: unknown extensions are plain text; case is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.276,
+  "left": "D:\\Rea\\verify\\golden\\m2-foo-case-L.foo",
+  "right": "D:\\Rea\\verify\\golden\\m2-foo-case-R.foo",
+  "report": "D:\\Rea\\verify\\golden\\m2-foo-case.xml"
+ },
+ "m2-foo-comment": {
+  "unit": "M2Importance",
+  "note": "u2: unknown extensions have no comment rules",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.278,
+  "left": "D:\\Rea\\verify\\golden\\m2-foo-comment-L.foo",
+  "right": "D:\\Rea\\verify\\golden\\m2-foo-comment-R.foo",
+  "report": "D:\\Rea\\verify\\golden\\m2-foo-comment.xml"
+ },
+ "m2-foo-syntax": {
+  "unit": "M2Importance",
+  "note": "u2: unknown extensions keep text differences important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.277,
+  "left": "D:\\Rea\\verify\\golden\\m2-foo-syntax-L.foo",
+  "right": "D:\\Rea\\verify\\golden\\m2-foo-syntax-R.foo",
+  "report": "D:\\Rea\\verify\\golden\\m2-foo-syntax.xml"
+ },
+ "m2-foo-comment-vs-code": {
+  "unit": "M2Importance",
+  "note": "u2: plain text pairs comment text against code text as different",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.276,
+  "left": "D:\\Rea\\verify\\golden\\m2-foo-comment-vs-code-L.foo",
+  "right": "D:\\Rea\\verify\\golden\\m2-foo-comment-vs-code-R.foo",
+  "report": "D:\\Rea\\verify\\golden\\m2-foo-comment-vs-code.xml"
+ },
+ "m2-orphan-comment-trailing": {
+  "unit": "M2Importance",
+  "note": "u2b: leftover comment is leftsimilar beside a leftorphan",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftorphan",
+   "leftsimilar"
+  ],
+  "seconds": 0.277,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing.xml"
+ },
+ "m2-orphan-comment-trailing-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant folds leftsimilar to same with borrowed rtid (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftorphan",
+   "same"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-trailing-iu.xml"
+ },
+ "m2-orphan-comment-lead": {
+  "unit": "M2Importance",
+  "note": "u2b: leading leftover comment is leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "leftsimilar",
+   "different"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead.xml"
+ },
+ "m2-orphan-comment-lead-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant: no preceding pair means borrowed id 0 (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-lead-iu.xml"
+ },
+ "m2-orphan-comment-mid": {
+  "unit": "M2Importance",
+  "note": "u2b: mid-file leftover comment is leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftsimilar",
+   "different"
+  ],
+  "seconds": 0.383,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid.xml"
+ },
+ "m2-orphan-comment-mid-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant folds the mid-file leftsimilar (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "same",
+   "different"
+  ],
+  "seconds": 0.393,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-mid-iu.xml"
+ },
+ "m2-orphan-two-comments": {
+  "unit": "M2Importance",
+  "note": "u2b: first comment pairs as different; the leftover is leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftsimilar"
+  ],
+  "seconds": 0.381,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-two-comments-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-two-comments-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-two-comments.xml"
+ },
+ "m2-orphan-right-comment": {
+  "unit": "M2Importance",
+  "note": "u2b: right-side mirror is rightsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "rightsimilar"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment.xml"
+ },
+ "m2-orphan-right-comment-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant: folded rightsimilar is a self-closing empty text (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "same"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-right-comment-iu.xml"
+ },
+ "m2-orphan-ws-line": {
+  "unit": "M2Importance",
+  "note": "u2b: whitespace-only leftovers are leftsimilar too",
+  "exit_code": 0,
+  "statuses": [
+   "leftsimilar",
+   "same"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-ws-line-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-ws-line-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-ws-line.xml"
+ },
+ "m2-orphan-empty-line": {
+  "unit": "M2Importance",
+  "note": "u2b: empty leftovers are leftsimilar (al-empty-left's orphan has content)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "leftsimilar"
+  ],
+  "seconds": 0.386,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-empty-line-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-empty-line-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-empty-line.xml"
+ },
+ "m2-orphan-mixed-trailing-comment": {
+  "unit": "M2Importance",
+  "note": "u2b: a line with important content is never leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "leftorphan"
+  ],
+  "seconds": 0.386,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-mixed-trailing-comment-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-mixed-trailing-comment-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-mixed-trailing-comment.xml"
+ },
+ "m2-orphan-comment-inside-replace": {
+  "unit": "M2Importance",
+  "note": "u2b: comments pair as different inside a replace block",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "different"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-orphan-comment-inside-replace-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-orphan-comment-inside-replace-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-orphan-comment-inside-replace.xml"
+ },
+ "m2-comment-after-code": {
+  "unit": "M2Importance",
+  "note": "u2b: trailing comment after a paired line is leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "leftsimilar"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-after-code-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-after-code-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-after-code.xml"
+ },
+ "m2-comment-after-code-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant: fold borrows the preceding pair's rtid (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.386,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-after-code-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-after-code-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-after-code-iu.xml"
+ },
+ "m2-comment-before-code": {
+  "unit": "M2Importance",
+  "note": "u2b: leading comment before a paired line is leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "leftsimilar",
+   "same"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-before-code-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-before-code-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-before-code.xml"
+ },
+ "m2-comment-before-code-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant: fold with no preceding pair borrows id 0 (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same"
+  ],
+  "seconds": 0.392,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-before-code-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-before-code-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-before-code-iu.xml"
+ },
+ "m2-three-comments-one": {
+  "unit": "M2Importance",
+  "note": "u2b: one comment pairs; two leftovers are leftsimilar",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "leftsimilar",
+   "leftsimilar"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m2-three-comments-one-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-three-comments-one-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-three-comments-one.xml"
+ },
+ "m2-comment-vs-code": {
+  "unit": "M2Importance",
+  "note": "u2b: comment vs code is different and survives ignore-unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-vs-code-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-vs-code-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-vs-code.xml"
+ },
+ "m2-comment-vs-code-iu": {
+  "unit": "M2Importance",
+  "note": "options:ignore-unimportant: comment vs code stays different (u2b)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m2-comment-vs-code-iu-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-comment-vs-code-iu-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-comment-vs-code-iu.xml"
+ },
+ "m2-empty-vs-code": {
+  "unit": "M2Importance",
+  "note": "u2b: empty vs code pairs as different",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.383,
+  "left": "D:\\Rea\\verify\\golden\\m2-empty-vs-code-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-empty-vs-code-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-empty-vs-code.xml"
+ },
+ "m2-align-comments-forward-display-mismatches": {
+  "unit": "M2Importance",
+  "note": "u3: options:display-mismatches keeps similar and leftsimilar rows",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "leftsimilar"
+  ],
+  "seconds": 0.39,
+  "left": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-mismatches-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-mismatches-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-mismatches.xml"
+ },
+ "m2-align-comments-forward-display-matches": {
+  "unit": "M2Importance",
+  "note": "u3: options:display-matches drops leftsimilar rows",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.382,
+  "left": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-matches-L.c",
+  "right": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-matches-R.c",
+  "report": "D:\\Rea\\verify\\golden\\m2-align-comments-forward-display-matches.xml"
+ },
+ "m53-java-case-ident": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: identifier case-only change is different (M2 known difference closed)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.398,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-case-ident-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-case-ident-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-case-ident.xml"
+ },
+ "m53-java-case-keyword": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: keyword case-only change is different",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-case-keyword-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-case-keyword-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-case-keyword.xml"
+ },
+ "m53-java-mixed-case-comment": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: a matching comment does not rescue a code case change",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.418,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-mixed-case-comment-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-mixed-case-comment-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-mixed-case-comment.xml"
+ },
+ "m53-java-comment-line": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: trailing comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.391,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-line-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-line-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-line.xml"
+ },
+ "m53-java-comment-line-iu": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: options:ignore-unimportant folds the comment-only change",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.408,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-line-iu-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-line-iu-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-line-iu.xml"
+ },
+ "m53-java-comment-block": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: block comment bodies span lines and are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.394,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-block-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-block-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-block.xml"
+ },
+ "m53-java-comment-vs-blank": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: a comment line pairs with an empty line as unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same"
+  ],
+  "seconds": 0.391,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-blank-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-blank-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-blank.xml"
+ },
+ "m53-java-comment-vs-code": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: comment vs code is different and survives ignore-unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code.xml"
+ },
+ "m53-java-comment-vs-code-iu": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: options:ignore-unimportant keeps comment vs code different",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.4,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code-iu-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code-iu-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-comment-vs-code-iu.xml"
+ },
+ "m53-java-indent-ws": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: java has no Indent element; leading whitespace is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.399,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-indent-ws-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-indent-ws-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-indent-ws.xml"
+ },
+ "m53-java-string-internal-ws": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: whitespace inside a closed string is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.39,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-string-internal-ws-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-string-internal-ws-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-string-internal-ws.xml"
+ },
+ "m53-java-string-unterminated-comment": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: StopEOL string absorbs `//` as content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.508,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-string-unterminated-comment-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-string-unterminated-comment-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-string-unterminated-comment.xml"
+ },
+ "m53-java-string-escape-comment": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: Escape=92 keeps `\"` inside the string; `//` stays content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.393,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-string-escape-comment-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-string-escape-comment-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-string-escape-comment.xml"
+ },
+ "m53-java-char-literal-case": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: single-quote char literals are strings; case is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.497,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-char-literal-case-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-char-literal-case-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-char-literal-case.xml"
+ },
+ "m53-java-char-unterminated-comment": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: unterminated char literal runs to EOL as string content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.494,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-char-unterminated-comment-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-char-unterminated-comment-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-char-unterminated-comment.xml"
+ },
+ "m53-java-orphan-comment": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: leftover comment is leftsimilar beside a leftorphan",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftorphan",
+   "leftsimilar"
+  ],
+  "seconds": 0.394,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment.xml"
+ },
+ "m53-java-orphan-comment-iu": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: options:ignore-unimportant folds leftsimilar with the borrowed rtid",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftorphan",
+   "same"
+  ],
+  "seconds": 0.507,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment-iu-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment-iu-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-orphan-comment-iu.xml"
+ },
+ "m53-java-jav-ext": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: the .jav mask selects the same JAVA grammar",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-jav-ext-L.jav",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-jav-ext-R.jav",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-jav-ext.xml"
+ },
+ "m53-java-plain-fallback": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: unknown extensions stay plain text (case unimportant)",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.416,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-plain-fallback-L.foo",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-plain-fallback-R.foo",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-plain-fallback.xml"
+ },
+ "m53-java-realistic": {
+  "unit": "M5JavaGrammar",
+  "note": "m53: 16-line class with comment + case changes; row truth from runs/m53-java-*",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same",
+   "same",
+   "similar",
+   "same",
+   "same",
+   "same",
+   "different",
+   "same",
+   "same",
+   "same",
+   "same",
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m53-java-realistic-L.java",
+  "right": "D:\\Rea\\verify\\golden\\m53-java-realistic-R.java",
+  "report": "D:\\Rea\\verify\\golden\\m53-java-realistic.xml"
+ },
+ "m53b-xml-case-tag": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: XML tag-name case folds (structural comparer)",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.78,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-case-tag-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-case-tag-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-case-tag.xml"
+ },
+ "m53b-xml-attr-name-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: attribute-name case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.53,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-attr-name-case-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-attr-name-case-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-attr-name-case.xml"
+ },
+ "m53b-xml-attr-value-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: string contents compare verbatim",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.39,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-attr-value-case-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-attr-value-case-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-attr-value-case.xml"
+ },
+ "m53b-xml-text-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: text content case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.509,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-text-case-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-text-case-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-text-case.xml"
+ },
+ "m53b-xml-entity-no-element": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: XML has no entity element; `&amp;` is unclaimed text",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.496,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-entity-no-element-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-entity-no-element-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-entity-no-element.xml"
+ },
+ "m53b-xml-comment-inline": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: inline comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.405,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-comment-inline-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-comment-inline-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-comment-inline.xml"
+ },
+ "m53b-xml-comment-line-iu": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: options:ignore-unimportant folds the trailing comment change",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.402,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-comment-line-iu-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-comment-line-iu-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-comment-line-iu.xml"
+ },
+ "m53b-xml-comment-block": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: comment bodies span lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.406,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-comment-block-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-comment-block-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-comment-block.xml"
+ },
+ "m53b-xml-comment-open-persist": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: unterminated `<!--` carries the comment across lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar"
+  ],
+  "seconds": 0.516,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-comment-open-persist-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-comment-open-persist-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-comment-open-persist.xml"
+ },
+ "m53b-xml-str-unterminated": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: StopEOL string to end of line",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.617,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-str-unterminated-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-str-unterminated-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-str-unterminated.xml"
+ },
+ "m53b-xml-no-escape": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: `\\\\` is inert (no Escape attribute); `<!--` opens a comment",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.625,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-no-escape-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-no-escape-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-no-escape.xml"
+ },
+ "m53b-xml-orphan-comment": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53: leftover comment is leftsimilar beside a leftorphan",
+  "exit_code": 0,
+  "statuses": [
+   "different",
+   "leftorphan",
+   "leftsimilar"
+  ],
+  "seconds": 0.509,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-orphan-comment-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-orphan-comment-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-orphan-comment.xml"
+ },
+ "m53b-xml-realistic": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: 6-line document; row truth from runs/m53b-*",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same",
+   "same",
+   "different",
+   "same"
+  ],
+  "seconds": 0.513,
+  "left": "D:\\Rea\\verify\\golden\\m53b-xml-realistic-L.xml",
+  "right": "D:\\Rea\\verify\\golden\\m53b-xml-realistic-R.xml",
+  "report": "D:\\Rea\\verify\\golden\\m53b-xml-realistic.xml"
+ },
+ "m53b-html-case-tag": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: HTML tag-name case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.497,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-case-tag-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-case-tag-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-case-tag.xml"
+ },
+ "m53b-html-attr-name-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: attribute-name case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.619,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-attr-name-case-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-attr-name-case-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-attr-name-case.xml"
+ },
+ "m53b-html-text-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: text content case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 2.481,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-text-case-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-text-case-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-text-case.xml"
+ },
+ "m53b-html-entity-known-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: listed entity matched case-sensitively; class pair K vs O is important",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 2.264,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-entity-known-case-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-entity-known-case-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-entity-known-case.xml"
+ },
+ "m53b-html-entity-bogus-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: unlisted `&name;` is unclaimed text on both sides; folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 1.37,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-entity-bogus-case-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-entity-bogus-case-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-entity-bogus-case.xml"
+ },
+ "m53b-html-entity-numeric": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: numeric references are keyword elements",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 1.698,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-entity-numeric-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-entity-numeric-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-entity-numeric.xml"
+ },
+ "m53b-html-single-quote-value-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: single-quoted string contents compare verbatim",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.609,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-single-quote-value-case-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-single-quote-value-case-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-single-quote-value-case.xml"
+ },
+ "m53b-html-comment-block": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: comment bodies span lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 1.279,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-comment-block-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-comment-block-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-comment-block.xml"
+ },
+ "m53b-html-str-unterminated": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: StopEOL string to end of line",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 4.535,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-str-unterminated-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-str-unterminated-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-str-unterminated.xml"
+ },
+ "m53b-html-no-escape": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: `\\\\` is inert; `<!--` opens a comment",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.718,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-no-escape-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-no-escape-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-no-escape.xml"
+ },
+ "m53b-html-realistic": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: 7-line document; row truth from runs/m53b-*",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same",
+   "different",
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 2.787,
+  "left": "D:\\Rea\\verify\\golden\\m53b-html-realistic-L.html",
+  "right": "D:\\Rea\\verify\\golden\\m53b-html-realistic-R.html",
+  "report": "D:\\Rea\\verify\\golden\\m53b-html-realistic.xml"
+ },
+ "m53b-sql-case-keyword": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: keyword case folds (CaseSensitive=False elements)",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 3.131,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-case-keyword-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-case-keyword-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-case-keyword.xml"
+ },
+ "m53b-sql-ident-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: identifier case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.495,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-ident-case-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-ident-case-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-ident-case.xml"
+ },
+ "m53b-sql-comment-line": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: trailing `--` comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 5.763,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line.xml"
+ },
+ "m53b-sql-comment-line-iu": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: options:ignore-unimportant folds the comment-only change",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.515,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line-iu-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line-iu-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-comment-line-iu.xml"
+ },
+ "m53b-sql-comment-block": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: `/* */` bodies span lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.51,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-comment-block-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-comment-block-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-comment-block.xml"
+ },
+ "m53b-sql-str-unterminated-comment": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: complete-match strings leave an unterminated quote's `--` a real comment",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 1.262,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-str-unterminated-comment-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-str-unterminated-comment-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-str-unterminated-comment.xml"
+ },
+ "m53b-sql-string-absorbs-comment": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53c: a matched string absorbs `--` as content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.513,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-string-absorbs-comment-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-string-absorbs-comment-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-string-absorbs-comment.xml"
+ },
+ "m53b-sql-doubled-quote": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: `''` stays inside one string element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 7.054,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-doubled-quote-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-doubled-quote-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-doubled-quote.xml"
+ },
+ "m53b-sql-escape": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: `\\\\x` escapes stay inside the string",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.63,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-escape-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-escape-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-escape.xml"
+ },
+ "m53b-sql-nprefix-case": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53d: the n/N prefix is part of the string token; verbatim",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.512,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-nprefix-case-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-nprefix-case-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-nprefix-case.xml"
+ },
+ "m53b-sql-realistic": {
+  "unit": "M5XmlHtmlSql",
+  "note": "m53b: 7-line script; row truth from runs/m53b-*",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same",
+   "same",
+   "same",
+   "same",
+   "same",
+   "different"
+  ],
+  "seconds": 0.635,
+  "left": "D:\\Rea\\verify\\golden\\m53b-sql-realistic-L.sql",
+  "right": "D:\\Rea\\verify\\golden\\m53b-sql-realistic-R.sql",
+  "report": "D:\\Rea\\verify\\golden\\m53b-sql-realistic.xml"
+ },
+ "m53e-pas-case-ident": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: identifier case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.517,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-case-ident-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-case-ident-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-case-ident.xml"
+ },
+ "m53e-pas-case-keyword": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: keyword case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.515,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-case-keyword-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-case-keyword-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-case-keyword.xml"
+ },
+ "m53e-pas-comment-line": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `//` comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.518,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line.xml"
+ },
+ "m53e-pas-comment-line-iu": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: options:ignore-unimportant folds the comment-only change",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.512,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line-iu-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line-iu-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-line-iu.xml"
+ },
+ "m53e-pas-comment-brace": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: brace comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.621,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace.xml"
+ },
+ "m53e-pas-comment-paren": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: paren comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.513,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren.xml"
+ },
+ "m53e-pas-directive-vs-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: compiler directives are IMPORTANT (vs brace comments)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.625,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-directive-vs-comment-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-directive-vs-comment-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-directive-vs-comment.xml"
+ },
+ "m53e-pas-comment-brace-span": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: brace comment bodies span lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.617,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace-span-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace-span-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-brace-span.xml"
+ },
+ "m53e-pas-comment-paren-span": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53f: paren comment bodies span lines",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren-span-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren-span-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-comment-paren-span.xml"
+ },
+ "m53e-pas-string-doubled": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `''` stays inside one string element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.611,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-string-doubled-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-string-doubled-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-string-doubled.xml"
+ },
+ "m53e-pas-char-literal": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `#65` char literals are strings",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.506,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-char-literal-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-char-literal-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-char-literal.xml"
+ },
+ "m53e-pas-string-unterminated-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: complete-match strings leave an unterminated `'`'s `//` a real comment",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-string-unterminated-comment-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-string-unterminated-comment-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-string-unterminated-comment.xml"
+ },
+ "m53e-pas-realistic": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: 6-line program; row truth from runs/m53e-*",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar",
+   "same",
+   "different",
+   "same"
+  ],
+  "seconds": 0.502,
+  "left": "D:\\Rea\\verify\\golden\\m53e-pas-realistic-L.pas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-pas-realistic-R.pas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-pas-realistic.xml"
+ },
+ "m53e-vb-case-keyword": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: keyword case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.5,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-case-keyword-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-case-keyword-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-case-keyword.xml"
+ },
+ "m53e-vb-comment-quote": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `'` comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.514,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-comment-quote-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-comment-quote-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-comment-quote.xml"
+ },
+ "m53e-vb-comment-rem": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `rem` comments are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.618,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-comment-rem-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-comment-rem-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-comment-rem.xml"
+ },
+ "m53e-vb-rem-midline": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `rem ` matches UNANCHORED mid-line",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.391,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-rem-midline-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-rem-midline-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-rem-midline.xml"
+ },
+ "m53e-vb-string-doubled": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `` stays inside one string element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-string-doubled-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-string-doubled-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-string-doubled.xml"
+ },
+ "m53e-vb-string-unterminated": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: EOL-anchored fallback absorbs an unterminated string",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.503,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated.xml"
+ },
+ "m53e-vb-string-unterminated-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: an absorbed `'` stays string content",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated-comment-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated-comment-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-string-unterminated-comment.xml"
+ },
+ "m53e-vb-realistic": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: 6-line module; row truth from runs/m53e-*",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same",
+   "same",
+   "different",
+   "same",
+   "same"
+  ],
+  "seconds": 0.827,
+  "left": "D:\\Rea\\verify\\golden\\m53e-vb-realistic-L.bas",
+  "right": "D:\\Rea\\verify\\golden\\m53e-vb-realistic-R.bas",
+  "report": "D:\\Rea\\verify\\golden\\m53e-vb-realistic.xml"
+ },
+ "m53e-reg-line-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: line-leading `;` comments are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.417,
+  "left": "D:\\Rea\\verify\\golden\\m53e-reg-line-comment-L.ini",
+  "right": "D:\\Rea\\verify\\golden\\m53e-reg-line-comment-R.ini",
+  "report": "D:\\Rea\\verify\\golden\\m53e-reg-line-comment.xml"
+ },
+ "m53e-reg-midline-semicolon": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: mid-line `;` stays unclaimed text (line-anchored comment)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.404,
+  "left": "D:\\Rea\\verify\\golden\\m53e-reg-midline-semicolon-L.ini",
+  "right": "D:\\Rea\\verify\\golden\\m53e-reg-midline-semicolon-R.ini",
+  "report": "D:\\Rea\\verify\\golden\\m53e-reg-midline-semicolon.xml"
+ },
+ "m53e-reg-string": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: string contents compare verbatim",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m53e-reg-string-L.ini",
+  "right": "D:\\Rea\\verify\\golden\\m53e-reg-string-R.ini",
+  "report": "D:\\Rea\\verify\\golden\\m53e-reg-string.xml"
+ },
+ "m53e-reg-string-unterminated-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: StopEOL strings absorb a later `;`",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.394,
+  "left": "D:\\Rea\\verify\\golden\\m53e-reg-string-unterminated-comment-L.ini",
+  "right": "D:\\Rea\\verify\\golden\\m53e-reg-string-unterminated-comment-R.ini",
+  "report": "D:\\Rea\\verify\\golden\\m53e-reg-string-unterminated-comment.xml"
+ },
+ "m53e-reg-keyword-case": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53f: `dword` keyword is case-sensitive",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m53e-reg-keyword-case-L.ini",
+  "right": "D:\\Rea\\verify\\golden\\m53e-reg-keyword-case-R.ini",
+  "report": "D:\\Rea\\verify\\golden\\m53e-reg-keyword-case.xml"
+ },
+ "m53e-cobol-linenum": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: columns 1-6 LineNum are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 1.277,
+  "left": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum-L.cbl",
+  "right": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum-R.cbl",
+  "report": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum.xml"
+ },
+ "m53e-cobol-comment-col7": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: column-7 `*` comments the rest of the line",
+  "exit_code": 0,
+  "statuses": [
+   "similar",
+   "same"
+  ],
+  "seconds": 1.371,
+  "left": "D:\\Rea\\verify\\golden\\m53e-cobol-comment-col7-L.cbl",
+  "right": "D:\\Rea\\verify\\golden\\m53e-cobol-comment-col7-R.cbl",
+  "report": "D:\\Rea\\verify\\golden\\m53e-cobol-comment-col7.xml"
+ },
+ "m53e-cobol-linenum-trailer": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: columns 73-80 LineNum are unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 1.37,
+  "left": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum-trailer-L.cbl",
+  "right": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum-trailer-R.cbl",
+  "report": "D:\\Rea\\verify\\golden\\m53e-cobol-linenum-trailer.xml"
+ },
+ "m53e-cobol-star-not-col7": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53f: a `*` outside column 7 stays an operator",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 1.369,
+  "left": "D:\\Rea\\verify\\golden\\m53e-cobol-star-not-col7-L.cbl",
+  "right": "D:\\Rea\\verify\\golden\\m53e-cobol-star-not-col7-R.cbl",
+  "report": "D:\\Rea\\verify\\golden\\m53e-cobol-star-not-col7.xml"
+ },
+ "m53e-cobol-string": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: string contents compare verbatim",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 1.37,
+  "left": "D:\\Rea\\verify\\golden\\m53e-cobol-string-L.cbl",
+  "right": "D:\\Rea\\verify\\golden\\m53e-cobol-string-R.cbl",
+  "report": "D:\\Rea\\verify\\golden\\m53e-cobol-string.xml"
+ },
+ "m53e-dfm-case-keyword": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: keyword case folds",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.385,
+  "left": "D:\\Rea\\verify\\golden\\m53e-dfm-case-keyword-L.dfm",
+  "right": "D:\\Rea\\verify\\golden\\m53e-dfm-case-keyword-R.dfm",
+  "report": "D:\\Rea\\verify\\golden\\m53e-dfm-case-keyword.xml"
+ },
+ "m53e-dfm-char-literal": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `#65` char literals are strings",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.387,
+  "left": "D:\\Rea\\verify\\golden\\m53e-dfm-char-literal-L.dfm",
+  "right": "D:\\Rea\\verify\\golden\\m53e-dfm-char-literal-R.dfm",
+  "report": "D:\\Rea\\verify\\golden\\m53e-dfm-char-literal.xml"
+ },
+ "m53e-dfm-string-doubled": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: `''` stays inside one string element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.384,
+  "left": "D:\\Rea\\verify\\golden\\m53e-dfm-string-doubled-L.dfm",
+  "right": "D:\\Rea\\verify\\golden\\m53e-dfm-string-doubled-R.dfm",
+  "report": "D:\\Rea\\verify\\golden\\m53e-dfm-string-doubled.xml"
+ },
+ "m53e-dfm-no-comment": {
+  "unit": "M5PasVbRegCobolDfm",
+  "note": "m53e: DFM has no comment element; `{` is unclaimed text",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m53e-dfm-no-comment-L.dfm",
+  "right": "D:\\Rea\\verify\\golden\\m53e-dfm-no-comment-R.dfm",
+  "report": "D:\\Rea\\verify\\golden\\m53e-dfm-no-comment.xml"
+ },
+ "m53p-perl-verbatim-case": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: everything compares verbatim; case folds for NO element",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.517,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-verbatim-case-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-verbatim-case-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-verbatim-case.xml"
+ },
+ "m53p-perl-bare-word-case": {
+  "unit": "M5PerlGrammar",
+  "note": "m53m: bare identifier case is different (CaseSensitive=False is tokenizing only)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.512,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-bare-word-case-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-bare-word-case-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-bare-word-case.xml"
+ },
+ "m53p-perl-comment": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: `#` comment change is unimportant",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.621,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-comment-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-comment-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-comment.xml"
+ },
+ "m53p-perl-comment-iu": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: options:ignore-unimportant folds the comment-only change",
+  "exit_code": 0,
+  "statuses": [
+   "same"
+  ],
+  "seconds": 0.505,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-comment-iu-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-comment-iu-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-comment-iu.xml"
+ },
+ "m53p-perl-leading-comment": {
+  "unit": "M5PerlGrammar",
+  "note": "m53h: leading `#` is a comment (no shebang special case)",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.508,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-leading-comment-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-leading-comment-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-leading-comment.xml"
+ },
+ "m53p-perl-pod-block": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: POD bodies are unimportant; stop line is exact",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same",
+   "same"
+  ],
+  "seconds": 0.51,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-pod-block-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-pod-block-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-pod-block.xml"
+ },
+ "m53p-perl-pod-stop-tail": {
+  "unit": "M5PerlGrammar",
+  "note": "m53k: the whole stop line belongs to the comment (Z1 vs Z2 similar)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.517,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-pod-stop-tail-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-pod-stop-tail-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-pod-stop-tail.xml"
+ },
+ "m53p-perl-pod-mid-cut": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: a mid-line stop marker does NOT close the block",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar"
+  ],
+  "seconds": 0.65,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-pod-mid-cut-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-pod-mid-cut-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-pod-mid-cut.xml"
+ },
+ "m53p-perl-pod-over-back": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: =over/=back is a second POD pairing",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.641,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-pod-over-back-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-pod-over-back-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-pod-over-back.xml"
+ },
+ "m53p-perl-str-multi-hash": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: StopText-without-StopEOL: string spans lines and absorbs `#`",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "different"
+  ],
+  "seconds": 0.496,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-str-multi-hash-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-str-multi-hash-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-str-multi-hash.xml"
+ },
+ "m53p-perl-str-closed-next-line": {
+  "unit": "M5PerlGrammar",
+  "note": "m53k: a column-0 close ends the span; later `#` is a real comment",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "similar",
+   "same"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-str-closed-next-line-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-str-closed-next-line-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-str-closed-next-line.xml"
+ },
+ "m53p-perl-regex-division": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: the division-shaped `/[^/]*/` element is real",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.502,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-regex-division-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-regex-division-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-regex-division.xml"
+ },
+ "m53p-perl-regex-hash": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: a matched regex absorbs `#`",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.499,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-regex-hash-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-regex-hash-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-regex-hash.xml"
+ },
+ "m53p-perl-q-paren": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: q(...) quote-like forms are strings",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.5,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-q-paren-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-q-paren-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-q-paren.xml"
+ },
+ "m53p-perl-s-slash-hash": {
+  "unit": "M5PerlGrammar",
+  "note": "m53l: s/.../.../ absorbs `#` in its segments",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.627,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-s-slash-hash-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-s-slash-hash-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-s-slash-hash.xml"
+ },
+ "m53p-perl-s-hash-not-form": {
+  "unit": "M5PerlGrammar",
+  "note": "m53l: NO #-delimited forms -- first `#` is the comment",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.607,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-s-hash-not-form-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-s-hash-not-form-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-s-hash-not-form.xml"
+ },
+ "m53p-perl-realistic": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: 13-line script; row truth from runs/m53g-*",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "same",
+   "same",
+   "similar",
+   "same",
+   "same",
+   "same",
+   "different",
+   "same",
+   "same",
+   "same",
+   "same"
+  ],
+  "seconds": 0.599,
+  "left": "D:\\Rea\\verify\\golden\\m53p-perl-realistic-L.pl",
+  "right": "D:\\Rea\\verify\\golden\\m53p-perl-realistic-R.pl",
+  "report": "D:\\Rea\\verify\\golden\\m53p-perl-realistic.xml"
+ },
+ "m53p-bash-plain-case": {
+  "unit": "M5PerlGrammar",
+  "note": "m53j: .sh compares as plain text (case unimportant, strings included)",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.405,
+  "left": "D:\\Rea\\verify\\golden\\m53p-bash-plain-case-L.sh",
+  "right": "D:\\Rea\\verify\\golden\\m53p-bash-plain-case-R.sh",
+  "report": "D:\\Rea\\verify\\golden\\m53p-bash-plain-case.xml"
+ },
+ "m53p-bash-plain-hash": {
+  "unit": "M5PerlGrammar",
+  "note": "m53h: leading `#` differences are important text in .sh (no comment rule)",
+  "exit_code": 0,
+  "statuses": [
+   "different"
+  ],
+  "seconds": 0.388,
+  "left": "D:\\Rea\\verify\\golden\\m53p-bash-plain-hash-L.sh",
+  "right": "D:\\Rea\\verify\\golden\\m53p-bash-plain-hash-R.sh",
+  "report": "D:\\Rea\\verify\\golden\\m53p-bash-plain-hash.xml"
+ },
+ "m53p-bash-plain-var": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: env-var case folds like all plain text",
+  "exit_code": 0,
+  "statuses": [
+   "similar"
+  ],
+  "seconds": 0.389,
+  "left": "D:\\Rea\\verify\\golden\\m53p-bash-plain-var-L.sh",
+  "right": "D:\\Rea\\verify\\golden\\m53p-bash-plain-var-R.sh",
+  "report": "D:\\Rea\\verify\\golden\\m53p-bash-plain-var.xml"
+ },
+ "m53p-bash-realistic": {
+  "unit": "M5PerlGrammar",
+  "note": "m53g: 8-line script; row truth (NAME change different, comment line similar by plain fold)",
+  "exit_code": 0,
+  "statuses": [
+   "same",
+   "same",
+   "similar",
+   "same",
+   "same",
+   "different",
+   "same",
+   "same"
+  ],
+  "seconds": 0.529,
+  "left": "D:\\Rea\\verify\\golden\\m53p-bash-realistic-L.sh",
+  "right": "D:\\Rea\\verify\\golden\\m53p-bash-realistic-R.sh",
+  "report": "D:\\Rea\\verify\\golden\\m53p-bash-realistic.xml"
+ }
+}

@@ -1,0 +1,1893 @@
+{
+ "exe": "D:\\BCompare\\BCompare\\BCompare.exe",
+ "session_files": [
+  "D:\\Rea\\verify\\anchor-probe\\left.txt",
+  "D:\\Rea\\verify\\anchor-probe\\right.txt"
+ ],
+ "tops": {
+  "会话(S)": [
+   {
+    "name": "新建会话(N)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "新建标签页(T)\tCtrl+T",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "t"
+   },
+   {
+    "name": "新建窗口(W)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "打开会话(O)\tCtrl+Shift+O",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "加载工作空间(K)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "k"
+   },
+   {
+    "name": "保存工作空间为(V)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "v"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "保存会话(S)\tCtrl+Shift+S",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "保存会话为(A)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "会话设置(E)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "已锁定(L)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "l"
+   },
+   {
+    "name": "清除会话(C)\tCtrl+Shift+C",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "关闭标签页\tCtrl+W",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "交换两边(D)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "重载文件(R)\tF5",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "重新比较文件(M)\tCtrl+F5",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "m"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "文本比较(T) 报告(P)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "文本比较(T) 信息(I)\tCtrl+I",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "比较文件使用(U)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "合并文件(G)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "g"
+   },
+   {
+    "name": "比较父文件夹(F)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "退出(X)\tCtrl+Q",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   }
+  ],
+  "文件(F)": [
+   {
+    "name": "打开文件(O)...\tCtrl+O",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "打开剪贴板(C)\tCtrl+Shift+V",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "打开方式(W)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "保存文件(S)\tCtrl+S",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "s"
+   },
+   {
+    "name": "保存文件为(A)...\tF12",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "资源管理器(X)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   }
+  ],
+  "编辑(E)": [
+   {
+    "name": "撤销(U)\tCtrl+Z",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "u"
+   },
+   {
+    "name": "重做(R)\tCtrl+Y",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "r"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "对齐方式(W)...\tF7",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "隔离(S)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "替换内容(M)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "m"
+   },
+   {
+    "name": "复制到右边(Y)\tCtrl+R",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "y"
+   },
+   {
+    "name": "复制行到右边(Y)\tCtrl+Shift+R",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "y"
+   },
+   {
+    "name": "增加缩进(N)\tCtrl+Shift+I",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "减少缩进(E)\tCtrl+Shift+U",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "剪切(T)\tCtrl+X",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "t"
+   },
+   {
+    "name": "复制(C)\tCtrl+C",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "c"
+   },
+   {
+    "name": "粘贴(P)\tCtrl+V",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "删除(D)",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "d"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "全选(A)\tCtrl+A",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "选择选择内容(O)\tCtrl+D",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "把选择内容和剪贴板比较(L)",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "l"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "转换文件(V)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "v"
+   }
+  ],
+  "搜索(R)": [
+   {
+    "name": "下一个差异(T)\tCtrl+Shift+N",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "t"
+   },
+   {
+    "name": "上一个差异(U)\tCtrl+Shift+P",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "下一个差异部分(N)\tCtrl+N",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "上一个差异部分(P)\tCtrl+P",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "下一个替换(A)\tCtrl+Alt+Shift+N",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "上一个替换(M)\tCtrl+Alt+Shift+P",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "m"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "下一个编辑(E)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "上一个编辑(D)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "查找(F)...\tCtrl+F",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "替换(R)...\tCtrl+H",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "查找下一个(X)\tF3",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   },
+   {
+    "name": "查找上一个(V)\tShift+F3",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "v"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "转到(G)...\tCtrl+G",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "g"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "切换书签(B)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "b"
+   },
+   {
+    "name": "转到书签(K)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "k"
+   },
+   {
+    "name": "清除书签(L)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "l"
+   }
+  ],
+  "视图(V)": [
+   {
+    "name": "显示全部",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "显示差异",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "显示相同",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "显示上下文(C)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "忽略不重要差异(U)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "已忽略(G)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "g"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "可见空白(W)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "行号(N)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "语法加亮(H)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "h"
+   },
+   {
+    "name": "自动换行(P)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "边并排布局(S)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "上-下布局(O)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "网页(B)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "b"
+   },
+   {
+    "name": "缩略图(M)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "m"
+   },
+   {
+    "name": "文本细节(D)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "16 进制细节(X)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   },
+   {
+    "name": "对齐方式细节(A)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "标尺(R)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "文件信息(I)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "工具栏(T)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "t"
+   }
+  ],
+  "工具(T)": [
+   {
+    "name": "选项(O)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "文件格式(F)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "配置文件(P)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "导出设置(E)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "导入设置(I)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "恢复出厂默认(R)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "保存快照(H)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "h"
+   },
+   {
+    "name": "编辑文本文件(D)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "查看补丁(A)...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   }
+  ],
+  "帮助(H)": [
+   {
+    "name": "网上 Scooter Software (W)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "关于 Beyond Compare (A)",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   }
+  ]
+ },
+ "home_tree": [
+  {
+   "d": 0,
+   "ct": "Window",
+   "name": "left.txt <--> right.txt - 文本比较(T) - Beyond Compare",
+   "cls": "TViewForm",
+   "aid": "",
+   "rect": [
+    1912,
+    -8,
+    1936,
+    1048
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TTextCompareView",
+   "aid": "1773692",
+   "rect": [
+    1920,
+    50,
+    1920,
+    982
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiDock",
+   "aid": "2232626",
+   "rect": [
+    1920,
+    50,
+    1920,
+    44
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "ToolBar",
+   "name": "MainBar",
+   "cls": "TUiToolbar",
+   "aid": "3346038",
+   "rect": [
+    1920,
+    50,
+    1920,
+    43
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiTreeButton",
+   "aid": "9965066",
+   "rect": [
+    1981,
+    52,
+    52,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "主页",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1922,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2033,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "全部",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2039,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "差别",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2098,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "相同",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2157,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2216,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "上下文",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2222,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "次要",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2281,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2340,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "规则",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2346,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "MenuItem",
+   "name": "格式",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2405,
+    52,
+    69,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2474,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "复制",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2480,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2539,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "下一区段",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2545,
+    52,
+    60,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "上一部分",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2605,
+    52,
+    60,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2665,
+    52,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "交换",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2671,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "重载",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2730,
+    52,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "StatusBar",
+   "name": "",
+   "cls": "TUiStatusBar",
+   "aid": "5185102",
+   "rect": [
+    1920,
+    1007,
+    1920,
+    25
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1920,
+    1009,
+    294,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "不重要的差异",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2216,
+    1009,
+    390,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "\t插入",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2608,
+    1009,
+    90,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "加载时间： 0.16 秒",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2700,
+    1009,
+    1124,
+    23
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "4067528",
+   "rect": [
+    1972,
+    94,
+    1868,
+    913
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "3281182",
+   "rect": [
+    1972,
+    94,
+    1868,
+    913
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "3084792",
+   "rect": [
+    1972,
+    957,
+    1868,
+    50
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TTextDetailsEditor",
+   "aid": "5182836",
+   "rect": [
+    1973,
+    974,
+    1866,
+    32
+   ]
+  },
+  {
+   "d": 6,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "4857346",
+   "rect": [
+    1973,
+    989,
+    1866,
+    17
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "左移一列",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    1973,
+    989,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "右移一列",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    3822,
+    989,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TTextDetailsEditor",
+   "aid": "4198938",
+   "rect": [
+    1973,
+    958,
+    1866,
+    15
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "3150204",
+   "rect": [
+    1972,
+    94,
+    1868,
+    863
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "5640766",
+   "rect": [
+    2910,
+    94,
+    930,
+    863
+   ]
+  },
+  {
+   "d": 6,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TTextEditor",
+   "aid": "5968590",
+   "rect": [
+    2910,
+    146,
+    930,
+    811
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "3612010",
+   "rect": [
+    3822,
+    147,
+    17,
+    729
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "上一行",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    3822,
+    147,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "下一行",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    3822,
+    859,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "StatusBar",
+   "name": "",
+   "cls": "TUiStatusBar",
+   "aid": "3874104",
+   "rect": [
+    2911,
+    939,
+    360,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "2: 1",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2911,
+    941,
+    98,
+    15
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "默认文本",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3011,
+    941,
+    129,
+    15
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3142,
+    941,
+    129,
+    15
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "8068382",
+   "rect": [
+    3271,
+    939,
+    568,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "左移一列",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    3271,
+    939,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "右移一列",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    3822,
+    939,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 6,
+   "ct": "ToolBar",
+   "name": "",
+   "cls": "TUiToolbar",
+   "aid": "4332266",
+   "rect": [
+    2910,
+    94,
+    930,
+    25
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "3742508",
+   "rect": [
+    2910,
+    94,
+    848,
+    25
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    2913,
+    97,
+    825,
+    19
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    3742,
+    95,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3758,
+    95,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "MenuItem",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3781,
+    95,
+    34,
+    22
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3815,
+    95,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "4392380",
+   "rect": [
+    1972,
+    94,
+    934,
+    863
+   ]
+  },
+  {
+   "d": 6,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TTextEditor",
+   "aid": "3084704",
+   "rect": [
+    1972,
+    146,
+    934,
+    811
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "4856412",
+   "rect": [
+    2888,
+    147,
+    17,
+    792
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "上一行",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    2888,
+    147,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "下一行",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    2888,
+    922,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "StatusBar",
+   "name": "",
+   "cls": "TUiStatusBar",
+   "aid": "2431508",
+   "rect": [
+    1973,
+    939,
+    360,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "2: 1",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1973,
+    941,
+    98,
+    15
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "默认文本",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2073,
+    941,
+    129,
+    15
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2204,
+    941,
+    129,
+    15
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "1645004",
+   "rect": [
+    2333,
+    939,
+    572,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "左移一列",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    2333,
+    939,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "右移一列",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    2888,
+    939,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 6,
+   "ct": "ToolBar",
+   "name": "",
+   "cls": "TUiToolbar",
+   "aid": "4984436",
+   "rect": [
+    1972,
+    94,
+    934,
+    25
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "7737146",
+   "rect": [
+    1972,
+    94,
+    852,
+    25
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    1975,
+    97,
+    829,
+    19
+   ]
+  },
+  {
+   "d": 8,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    2808,
+    95,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2824,
+    95,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "MenuItem",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2847,
+    95,
+    34,
+    22
+   ]
+  },
+  {
+   "d": 7,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2881,
+    95,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiThumbnail",
+   "aid": "4527674",
+   "rect": [
+    1920,
+    94,
+    52,
+    913
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiMainDock",
+   "aid": "1578540",
+   "rect": [
+    1920,
+    23,
+    1920,
+    27
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "",
+   "cls": "TUiMainMenu",
+   "aid": "1906232",
+   "rect": [
+    1920,
+    23,
+    1920,
+    27
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "会话(S)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1922,
+    25,
+    51,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "文件(F)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1973,
+    25,
+    50,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "编辑(E)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2023,
+    25,
+    51,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "搜索(R)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2074,
+    25,
+    52,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "视图(V)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2126,
+    25,
+    52,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "工具(T)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2178,
+    25,
+    51,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "帮助(H)",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    2229,
+    25,
+    53,
+    23
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "TitleBar",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1936,
+    -5,
+    1904,
+    28
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "系统",
+   "cls": "",
+   "aid": "MenuBar",
+   "rect": [
+    1920,
+    0,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "系统",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1920,
+    0,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "最小化",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3699,
+    0,
+    47,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "还原",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3746,
+    0,
+    46,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "关闭",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    3792,
+    0,
+    48,
+    22
+   ]
+  }
+ ]
+}

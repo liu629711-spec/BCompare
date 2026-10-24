@@ -1,0 +1,10 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:22
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-rawline-L.txt     右边文件： D:\Rea\verify\table\t-rawline-R.txt
+A        A
+--------------
+hello =  hello
+world <> warld
+--------------

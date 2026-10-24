@@ -1,0 +1,170 @@
+{
+ "children": [
+  {
+   "children": [],
+   "cls": "TUiDlgIcon",
+   "name": "Image",
+   "props": {
+    "IconType": "diApplication",
+    "Left": 16,
+    "Top": 16
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiLabel",
+   "name": "LeftSpecLbl",
+   "props": {
+    "AutoSize": false,
+    "Caption": "%",
+    "Height": 13,
+    "Left": 64,
+    "ShowAccelChar": false,
+    "Top": 16,
+    "Width": 313
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiLabel",
+   "name": "RightSpecLbl",
+   "props": {
+    "AutoSize": false,
+    "Caption": "%",
+    "Height": 13,
+    "Left": 64,
+    "ShowAccelChar": false,
+    "Top": 33,
+    "Width": 313
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiLabel",
+   "name": "QuickCompareLbl",
+   "props": {
+    "Caption": "Quick Compare:",
+    "Height": 13,
+    "Left": 64,
+    "Top": 62
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiImage",
+   "name": "ResultsImage",
+   "props": {
+    "Height": 16,
+    "Images": "BcImages.ContentImages",
+    "Left": 64,
+    "Top": 79,
+    "Width": 28
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiLabel",
+   "name": "ResultsLbl",
+   "props": {
+    "Caption": "%",
+    "FontStyle": [
+     "fsBold"
+    ],
+    "Height": 13,
+    "Left": 92,
+    "Top": 79
+   }
+  },
+  {
+   "children": [],
+   "cls": "TUiComboBox",
+   "name": "SessionClassEdit",
+   "props": {
+    "Height": 21,
+    "Images": "BcImages.MainImages",
+    "Left": 8,
+    "OnGetImageIndex": "SessionClassEditGetImageIndex",
+    "Style": "csDropDownList",
+    "TabOrder": 0,
+    "Top": 111,
+    "Width": 135
+   }
+  },
+  {
+   "children": [
+    {
+     "children": [],
+     "cls": "TUiBevel",
+     "name": "QuickCompareShowBevel",
+     "props": {
+      "Height": 2,
+      "Left": 0,
+      "Shape": "bsTopLine",
+      "Top": 39,
+      "Width": 385
+     }
+    },
+    {
+     "children": [],
+     "cls": "TUiOkBtn",
+     "name": "OkBtn",
+     "props": {
+      "Caption": "Open &View",
+      "OnClick": "OkClick"
+     }
+    },
+    {
+     "children": [],
+     "cls": "TUiCloseBtn",
+     "name": "CloseBtn",
+     "props": {}
+    },
+    {
+     "children": [],
+     "cls": "TUiCheckBox",
+     "name": "QuickCompareShowEdit",
+     "props": {
+      "Caption": "&Show this dialog on file compare startup",
+      "Height": 17,
+      "Left": 8,
+      "TabOrder": 2,
+      "Top": 43
+     }
+    }
+   ],
+   "cls": "TUiBtnPanel",
+   "name": "BtnPanel",
+   "props": {
+    "Height": 64,
+    "Left": 0,
+    "TabOrder": 1,
+    "Top": 135,
+    "Width": 385
+   }
+  },
+  {
+   "children": [],
+   "cls": "TTimer",
+   "name": "Timer",
+   "props": {
+    "Interval": 500,
+    "Left": 8,
+    "OnTimer": "TimerTimer",
+    "Top": 8
+   }
+  }
+ ],
+ "cls": "TQuickCompareDialog",
+ "name": "QuickCompareDialog",
+ "props": {
+  "Caption": "Quick Compare",
+  "ClientHeight": 199,
+  "ClientWidth": 385,
+  "OnClose": "FormClose",
+  "OnCloseQuery": "FormCloseQuery",
+  "OnCreate": "FormCreate",
+  "OnShow": "FormShow",
+  "PixelsPerInch": 96,
+  "TextHeight": 13
+ }
+}

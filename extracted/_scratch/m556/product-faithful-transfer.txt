@@ -1,0 +1,6 @@
+recorded: incumbent 269/290  candidate 244/290
+recorded gains: ['f0057.oracle.xml', 'f0083.oracle.xml']
+recorded losses: ['comment-c.xml', 'ws-vs-empty.xml', 'm2-align-comments-forward.xml', 'm2-blank-vs-ws.xml', 'm2-block-comment-body.xml', 'm2-block-continuation-star.xml', 'm2-comment-syntax-swap.xml', 'm2-comment-vs-empty.xml', 'm2-js-comment.xml', 'm2-py-comment.xml', 'm2-three-comments-one.xml', 'comment-ws.xml', 'all-kinds-c.oracle.xml', 'comment-tail-c.oracle.xml', 'all-kinds-c.oracle.xml', 'comment-tail-c.oracle.xml', 'f0028.oracle.xml', 'f0040.oracle.xml', 'f0092.oracle.xml', 'align-comments-forward.xml', 'blank-vs-ws.xml', 'block-comment-body.xml', 'block-continuation-star.xml', 'comment-syntax-swap.xml', 'comment-vs-empty.xml', 'js-comment.xml', 'py-comment.xml']
+fuzz: incumbent 85/120  candidate 90/120
+fuzz gains: ['f0002', 'f0043', 'f0052', 'f0057', 'f0075', 'f0083', 'f0088', 'f0094', 'f0095', 'f0112', 'f0116']
+fuzz losses: ['f0027', 'f0028', 'f0040', 'f0068', 'f0081', 'f0092']

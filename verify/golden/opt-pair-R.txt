@@ -1,0 +1,6 @@
+same line
+case diff
+CASE DIFF
+ws diff
+real diff 9
+real diff 2

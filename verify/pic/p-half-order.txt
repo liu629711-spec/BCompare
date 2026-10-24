@@ -1,0 +1,6 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:45
+
+左边文件： D:\Rea\verify\pic\p-half-order-L.png     右边文件： D:\Rea\verify\pic\p-half-order-R.png
+32 个相同像素
+32 个左边独有像素

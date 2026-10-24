@@ -1,0 +1,75 @@
+14122d950	refs BC strings: Hexagon,TextArchDownCurve,TextArchDownPour,TextArchUpCurve
+140da4710	refs BC strings: AlignWith,DiffBlend,DiffFileNext,DiffFilePrev
+140dac3c0	refs BC strings: AlignKind,AlignQuick,AlignWiths,DiffMode
+140fccbf0	refs BC strings: DirDiff,DirDiffNewer,DirDiffOlder,DirDiffOrphan
+140db1a60	refs BC strings: FileComparePriority,FileUseLeftRatio,FileVertScrollBarSingle,OpClearCDReadOnly
+1411ad9e0	refs BC strings: RegKeyDiff,RegKeyDiffOrphan,RegKeyError,RegKeyHollow
+140fcec20	refs BC strings: DirItemDefault,DirItemDiff,DirItemHeader,DirItemNewer
+140db8550	refs BC strings: AlignDef,AlignKind,AlignSort,FileOwner
+14052ebf0	refs BC strings: FileContents,FileGroupDescriptor,FileGroupDescriptorW,Hexprobe HEX-Data
+1417ba560	refs BC strings: TableHeaderInsigAdd,TableHeaderInsigMod,TableHeaderKey,TableHeaderSigAdd
+140731580	refs BC strings: FileCTime,FileMTime,FileName,FileSize
+14085e040	refs BC strings: Operation,Operation:,OperationID,OperationID:
+14085e950	refs BC strings: Operation,Operation:,OperationID,OperationID:
+14085f7e0	refs BC strings: Operation,Operation:,OperationResult,OperationResult:
+14085fb70	refs BC strings: Operation,Operation:,OperationResult,OperationResult:
+140da3390	refs BC strings: DiffBGColor,DiffColor,DiffFGColor,HexFontStr
+140e6d9d0	refs BC strings: FileMenu,MergeFileMenu,SessionMenu,ViewMenu
+141a52470	refs BC strings: FileServer-V1,OpenSSH,OpenSSH_6.2p2+sftpfilecontrol-v1.3,Version ID provided by the server:
+14052e050	refs BC strings: FileContents,Hexprobe HEX-Data,RegEdit_HexData
+14052e510	refs BC strings: FileContents,Hexprobe HEX-Data,RegEdit_HexData
+140da9ad0	refs BC strings: DirectiveCaseSig,OperatorCaseSig,TextGrammarItem
+140f224f0	refs BC strings: BcSettings,BcVersion,Version
+1410e5c30	refs BC strings: Director,MediaClassPrimaryID,MediaClassSecondaryID
+1410e71f0	refs BC strings: Director,MediaClassPrimaryID,MediaClassSecondaryID
+141a3bac0	refs BC strings: OpenSSH_3.5,OpenSSH_3.6,OpenSSH_3.6.1p2
+141b9d200	refs BC strings: ViewTextEdit,ViewTextMerge,ViewTextPatch
+140150f40	refs BC strings: PixelsPerInch,VerticalOffset
+1402132c0	refs BC strings: RegisteredOrganization,RegisteredOwner
+140221d80	refs BC strings: OpenThread,ReportFault
+140a8d330	refs BC strings: OpenPGP X25519,OpenPGP X448
+140aa58a0	refs BC strings: OpenPGP X25519,OpenPGP X448
+140ed7cc0	refs BC strings: RegistryViewer,Viewers
+140f852f0	refs BC strings: OpenArchive,OpenArchiveW
+140fd0290	refs BC strings: BcFiles,BcFiles/
+1415eb240	refs BC strings: FileBinding,FileBindingName
+14164a7b0	refs BC strings: FileBinding,FileBindingName
+141793bf0	refs BC strings: AlignDef,AlignSort
+141794c30	refs BC strings: AlignDef,AlignSort
+141946b50	refs BC strings: DirSep=,Version=
+141946f20	refs BC strings: DirSep,Version
+141a6c290	refs BC strings: OpenSSH,OpenSSH_(\d+)\.(\d+)
+141aef3c0	refs BC strings: RegisteredOrganization,RegisteredOwner
+1401baf50	refs BC strings: Optional
+1401dd1b0	refs BC strings: ReportLeaks
+1401e2af0	refs BC strings: VersionVar
+140219110	refs BC strings: BcbTermination
+14021d1d0	refs BC strings: BcbTermination
+1402200f0	refs BC strings: ReportLeaksNow
+140221a70	refs BC strings: ReportLeaks
+1402a28c0	refs BC strings: OpenThemeData
+1403e43f0	refs BC strings: TextHeight
+1404480d0	refs BC strings: PixelsPerInch
+1404c25c0	refs BC strings: VertFrame
+1404c2710	refs BC strings: VertSlider
+1404e2bc0	refs BC strings: MediaPlayer
+140502280	refs BC strings: RegDeleteKeyExW
+1405301a0	refs BC strings: RegEdit_HexData
+1405305d0	refs BC strings: Version:0.9  StartHTML:aaaaaaaa  EndHTML:bbbbbbbb  StartFragment:cccccccc  EndFragment:dddddddd
+1408bc440	refs BC strings: Opening CNG key, Cont:
+1408bfb60	refs BC strings: VerifyPKI
+140dc0c70	large text-module function (2928 bytes)
+140db7710	large text-module function (2177 bytes)
+140dd6bc0	large text-module function (2025 bytes)
+140da0ef0	large text-module function (1854 bytes)
+140dc4830	large text-module function (1840 bytes)
+140dc60b0	large text-module function (1832 bytes)
+140dee3b0	large text-module function (1428 bytes)
+140dec9a0	large text-module function (1356 bytes)
+140db4be0	large text-module function (1345 bytes)
+140ddb830	large text-module function (1276 bytes)
+140dda870	large text-module function (1179 bytes)
+140dbe0f0	large text-module function (1148 bytes)
+140dec3a0	large text-module function (1135 bytes)
+140de3420	large text-module function (1134 bytes)
+140dea0f0	large text-module function (1080 bytes)

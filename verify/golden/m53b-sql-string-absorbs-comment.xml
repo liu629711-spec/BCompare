@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:24:04">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:24:04">
+		<filename1>D:\Rea\verify\golden\m53b-sql-string-absorbs-comment-L.sql</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-sql-string-absorbs-comment-R.sql</filename2>
+		<linecomp status="different">
+			<text ltid="1">SELECT 'a -- b';</text>
+			<text rtid="1">SELECT 'a -- c';</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

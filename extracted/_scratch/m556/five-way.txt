@@ -1,0 +1,26 @@
+A base: lcs+tripleDP+close     recorded 269/290  fuzz 85/120
+B lcs+NW+close                 recorded 269/290  fuzz 85/120
+C decoded+tripleDP+strip       recorded 270/290  fuzz 88/120
+D decoded+tripleDP+close       recorded 268/290  fuzz 82/120
+E decoded+NW+close             recorded 269/290  fuzz 95/120
+F decoded+NW+strip             recorded 274/290  fuzz 105/120
+
+B lcs+NW+close: rec +0/-0  fuzz +0/-0
+  rec losses: []
+  fuzz losses: []
+
+C decoded+tripleDP+strip: rec +3/-2  fuzz +7/-4
+  rec losses: ['f0040.oracle.xml', 'f0092.oracle.xml']
+  fuzz losses: ['f0031', 'f0040', 'f0092', 'f0093']
+
+D decoded+tripleDP+close: rec +2/-3  fuzz +2/-5
+  rec losses: ['f0030.oracle.xml', 'f0040.oracle.xml', 'f0092.oracle.xml']
+  fuzz losses: ['f0030', 'f0031', 'f0040', 'f0092', 'f0093']
+
+E decoded+NW+close: rec +2/-2  fuzz +12/-2
+  rec losses: ['f0028.oracle.xml', 'f0092.oracle.xml']
+  fuzz losses: ['f0028', 'f0092']
+
+F decoded+NW+strip: rec +6/-1  fuzz +21/-1
+  rec losses: ['f0092.oracle.xml']
+  fuzz losses: ['f0092']

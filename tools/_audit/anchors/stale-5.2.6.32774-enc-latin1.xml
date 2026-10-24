@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:08:29">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 14:08:29">
+		<filename1>D:\Rea\verify\golden\enc-latin1-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\enc-latin1-R.txt</filename2>
+		<error1>File Encoding Error (Line 1)</error1>
+		<linecomp status="different">
+			<text ltid="1">caf�</text>
+			<text rtid="1">café</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

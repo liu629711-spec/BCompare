@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/13 13:00:26
+
+Mode:  All
+Left file: D:\Rea\tools\_audit\oracle-current\identical-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\identical-R.txt
+1 1 x
+2 2 y
+-----

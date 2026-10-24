@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:24:13">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:24:13">
+		<filename1>D:\Rea\verify\golden\m53b-sql-realistic-L.sql</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-sql-realistic-R.sql</filename2>
+		<linecomp status="similar">
+			<text ltid="1">-- user table setup</text>
+			<text rtid="1">-- user table setup (v2)</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">CREATE TABLE users (</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">    id INT PRIMARY KEY,</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">    name VARCHAR(50) NOT NULL</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="5" rtid="5">);</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6"/>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="7">INSERT INTO users VALUES (1, 'alice');</text>
+			<text rtid="7">INSERT INTO users VALUES (1, 'Alice');</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

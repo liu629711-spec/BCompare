@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:56">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:56">
+		<filename1>D:\Rea\verify\golden\m53p-bash-plain-hash-L.sh</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-bash-plain-hash-R.sh</filename2>
+		<linecomp status="different">
+			<text ltid="1"># alpha</text>
+			<text rtid="1"># beta</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

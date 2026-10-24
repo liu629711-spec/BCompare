@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:08:26">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 14:08:26">
+		<filename1>D:\Rea\verify\golden\le-mixed-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\le-mixed-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">c</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">d</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

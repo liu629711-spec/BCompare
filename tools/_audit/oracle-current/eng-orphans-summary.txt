@@ -1,0 +1,10 @@
+Text Compare
+Produced: 2026/10/13 13:01:32
+
+Left file: D:\Rea\tools\_audit\oracle-current\orphans-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\orphans-R.txt
+1 same line(s)
+1 important left orphan line(s)
+1 important right orphan line(s)
+
+2 difference section(s)

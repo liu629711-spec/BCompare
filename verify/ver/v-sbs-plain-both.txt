@@ -1,0 +1,7 @@
+Version Compare
+Produced: 2026/10/20 3:18:39
+
+Mode:  All
+Left file: D:\Rea\verify\ver\v-sbs-plain-both-L.txt     Right file: D:\Rea\verify\ver\v-sbs-plain-both-R.txt
+Name Value  Name Value
+----------------------

@@ -1,0 +1,42 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "left": "D:\\Rea\\_tmp\\layout-left.txt",
+ "right": "D:\\Rea\\_tmp\\layout-right.txt",
+ "rect-step0": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "footers-step0": [
+  "40: 1",
+  "40: 1"
+ ],
+ "rect-after-click-deep": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "footers-after-click-deep": [
+  "59: 1"
+ ],
+ "rect-after-pagedown": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "footers-after-pagedown": [
+  "59: 1"
+ ],
+ "rect-after-ctrlend": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "footers-after-ctrlend": [
+  "59: 1"
+ ]
+}

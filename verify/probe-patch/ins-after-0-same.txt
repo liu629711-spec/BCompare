@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\ins-after-0-same-L.txt D:\Rea\verify\probe-patch\ins-after-0-same-R.txt
+0a2
+> NEW

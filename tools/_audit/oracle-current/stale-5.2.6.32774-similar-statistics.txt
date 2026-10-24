@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 13:00:21
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\tools\_audit\oracle-current\similar-L.txt,D:\Rea\tools\_audit\oracle-current\similar-R.txt,2,0,0,0,0,0,0,1

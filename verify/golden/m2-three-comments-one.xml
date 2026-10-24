@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 2:40:51">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 2:40:51">
+		<filename1>D:\Rea\verify\golden\m2-three-comments-one-L.c</filename1>
+		<filename2>D:\Rea\verify\golden\m2-three-comments-one-R.c</filename2>
+		<linecomp status="similar">
+			<text ltid="1">// a</text>
+			<text rtid="1">// z</text>
+		</linecomp>
+		<linecomp status="leftsimilar">
+			<text ltid="2">// b</text>
+		</linecomp>
+		<linecomp status="leftsimilar">
+			<text ltid="3">// c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

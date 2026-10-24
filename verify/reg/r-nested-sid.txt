@@ -1,0 +1,14 @@
+Registry Compare
+Produced: 2026/10/19 20:46:19
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-nested-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+Right file: D:\Rea\verify\reg\r-nested-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+Name  Type   Data    Name Type   Data
+-------------------------------------
+Zx
++Deep
+|\d   REG_SZ 1    +-
+\a    REG_SZ 1    +-
+m     REG_SZ 0    =  m    REG_SZ 0
+-------------------------------------

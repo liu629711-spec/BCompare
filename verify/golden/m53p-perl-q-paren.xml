@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:53">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:53">
+		<filename1>D:\Rea\verify\golden\m53p-perl-q-paren-L.pl</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-perl-q-paren-R.pl</filename2>
+		<linecomp status="different">
+			<text ltid="1">$w = q(alpha);</text>
+			<text rtid="1">$w = q(beta);</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

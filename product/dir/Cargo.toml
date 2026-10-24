@@ -1,0 +1,30 @@
+[package]
+name = "reacmp-dir"
+version = "0.1.0"
+edition = "2021"
+description = "Read-only folder comparison (tree model, criteria engine, reports) for ReaCompare"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate; the empty `[workspace]` keeps it its own workspace root so a
+# Cargo.toml placed above it by a parallel task cannot absorb it.
+[workspace]
+
+[dependencies]
+# Both dependencies are by relative path, so no registry access is needed and
+# the build is hermetic. `reacmp-core` supplies the M2 importance engine, which
+# `criteria rules-based ignore-unimportant` delegates to so the folder and text
+# paths share one definition of "unimportant".
+reacmp-vfs = { path = "../vfs" }
+reacmp-core = { path = "../core" }
+
+[features]
+# `testing` exposes the in-memory `FileSystem` double (`reacmp_dir::testing`).
+#
+# It is **default-on** so a bare `cargo test` compiles and runs the integration
+# tests in `tests/`, which need the double. The module is a few hundred lines with
+# no dependencies and no test-only side effects — it is a legitimate third
+# `FileSystem` implementation, useful to anyone embedding the engine — so there is
+# no reason to hide it behind an opt-in flag that would make the obvious command
+# fail to compile.
+default = ["testing"]
+testing = []

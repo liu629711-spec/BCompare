@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:27">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:27">
+		<filename1>D:\Rea\verify\golden\m53b-xml-case-tag-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-case-tag-R.xml</filename2>
+		<linecomp status="similar">
+			<text ltid="1">&lt;Tag v="1">x&lt;/Tag></text>
+			<text rtid="1">&lt;tag v="1">x&lt;/tag></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

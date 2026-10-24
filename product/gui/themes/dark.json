@@ -1,0 +1,170 @@
+{
+  "name": "dark",
+  "provenance": "LiuCompare OWN design (docs/20 D5: dark theme in MVP; §3 P5: hue semantics inherited from the measured reference, lightness optimized). Every value below states its design rule. Geometry is NOT themed: row pitch/gutter/body x stay the measured colors.json lattice (BC layout knowledge, docs/20 §3: 布局参考). The hue anchors: different=red-dominant, similar=blue-dominant, hatch dots on the void side, radio selected=blue fill — same semantic families as extracted/live/textcolor-en/colors.json and filter-map.json; only luminance channels are ours.",
+  "pane_base": {
+    "left": [
+      30,
+      30,
+      30
+    ],
+    "right": [
+      27,
+      27,
+      27
+    ],
+    "rule": "dark surfaces ~28/255 (Fluent dark canvas family); the right pane keeps BC's subtle ~3/255 dimming direction (measured note in colors.json) as layout knowledge"
+  },
+  "ink": {
+    "left": [
+      226,
+      226,
+      226
+    ],
+    "right": [
+      199,
+      199,
+      199
+    ],
+    "rule": "light ink on dark base; measured ~12.9:1 / ~10.2:1 contrast vs pane base (WCAG AAA), right side keeps BC's lower-contrast-dimmer pairing direction"
+  },
+  "gutter": {
+    "bg": [
+      43,
+      43,
+      43
+    ],
+    "digits": [
+      150,
+      150,
+      150
+    ],
+    "rule": "gutter one step above pane base (BC direction: 240 on 252/255), digits grey ~4.8:1 vs gutter (WCAG AA)"
+  },
+  "status_rows": {
+    "same": {
+      "left": [
+        30,
+        30,
+        30
+      ],
+      "right": [
+        27,
+        27,
+        27
+      ],
+      "grid_row": 9,
+      "rule": "measured BC rule kept: same rows are the PLAIN pane base, no tint band"
+    },
+    "similar": {
+      "left": [
+        36,
+        40,
+        72
+      ],
+      "right": [
+        33,
+        37,
+        66
+      ],
+      "grid_row": 1,
+      "rule": "blue-dominant (B-R=36/33), dark family of BC's faint blue (238,238,255); light ink contrast ~9.4:1 (AAA)"
+    },
+    "different": {
+      "left": [
+        76,
+        34,
+        34
+      ],
+      "right": [
+        70,
+        32,
+        32
+      ],
+      "grid_row": 2,
+      "rule": "red-dominant (R-G=42/38), dark family of BC's light red (255,227,227); light ink contrast ~8.5:1"
+    },
+    "leftorphan": {
+      "left": [
+        76,
+        34,
+        34
+      ],
+      "right": [
+        27,
+        27,
+        27
+      ],
+      "grid_row": 6,
+      "rule": "content side red, empty side stays base (measured BC status pairing: tint on content, void hatch on opposite)"
+    },
+    "rightorphan": {
+      "left": [
+        30,
+        30,
+        30
+      ],
+      "right": [
+        70,
+        32,
+        32
+      ],
+      "grid_row": 11,
+      "rule": "mirror of leftorphan"
+    }
+  },
+  "hatch": {
+    "left_stripe": [
+      55,
+      55,
+      55
+    ],
+    "right_stripe": [
+      92,
+      92,
+      92
+    ],
+    "rule": "void side = pane base + dot lattice (BC's mechanism, measured 8px period phase 7 kept as layout reference); stripes LIGHTER than base on dark surfaces; right stripe stronger (1.4:1 vs 2.6:1 against base, mirroring BC's measured asymmetry right-191/left-230 = stronger right stripe)"
+  },
+  "radio": {
+    "selected": [
+      48,
+      79,
+      112
+    ],
+    "unselected": [
+      48,
+      48,
+      48
+    ],
+    "rule": "selected keeps BC's blue-fill semantics (measured 194,220,245) at dark luminance (ink-on-sel ~6.5:1, sel-vs-window ~2:1 = fill hue reads, not text contrast); unselected = gutter step; selection stays pixel-only like BC (UIA exposure = D3 provider work, not theme)"
+  },
+  "window_bg": [
+    30,
+    30,
+    30
+  ],
+  "toolbar": {
+    "text": [
+      226,
+      226,
+      226
+    ],
+    "hover": [
+      43,
+      43,
+      43
+    ],
+    "pressed": [
+      53,
+      53,
+      53
+    ],
+    "divider": [
+      64,
+      64,
+      64
+    ],
+    "rule": "toolbar text-button face (docs/21 B tier-1): text = ink.left family on window_bg 30 (contrast ~12.9:1, WCAG AAA, same ink the diff panes use — one surface vocabulary); hover = gutter bg step (43, one step above base, the established 'one step up' direction); pressed one more step (53); divider 64 (reads against base at ~2:1, a hairline only). Same hue-neutral grey family as gutter/window — no new hue introduced."
+  },
+  "scope_note": "dark first cut themes the diff panes + filter radio strip + window base + toolbar text-button face (docs/21 B tier-1). Menu/Dialog skins (P1 Fluent skin) are follow-on work in the same Theme mechanism; until then menus keep WPF defaults."
+}

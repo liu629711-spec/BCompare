@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:40:55">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:40:55">
+		<filename1>D:\Rea\verify\golden\m53e-pas-case-keyword-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-case-keyword-R.pas</filename2>
+		<linecomp status="similar">
+			<text ltid="1">BEGIN X := 1; END.</text>
+			<text rtid="1">begin x := 1; end.</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 2:40:46">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 2:40:46">
+		<filename1>D:\Rea\verify\golden\m2-orphan-two-comments-L.c</filename1>
+		<filename2>D:\Rea\verify\golden\m2-orphan-two-comments-R.c</filename2>
+		<linecomp status="different">
+			<text ltid="1">// a</text>
+			<text rtid="1">int x;</text>
+		</linecomp>
+		<linecomp status="leftsimilar">
+			<text ltid="2">// b</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

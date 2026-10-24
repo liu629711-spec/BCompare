@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:00">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:00">
+		<filename1>D:\Rea\verify\golden\m53-java-mixed-case-comment-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-mixed-case-comment-R.java</filename2>
+		<linecomp status="different">
+			<text ltid="1">int X = 1; // c</text>
+			<text rtid="1">int x = 1; // c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

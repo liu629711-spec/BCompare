@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 13:00:13
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\tools\_audit\oracle-current\mixed-L.txt,D:\Rea\tools\_audit\oracle-current\mixed-R.txt,5,0,1,1,0,0,0,1

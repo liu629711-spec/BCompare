@@ -1,0 +1,62 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "L": "D:\\Rea\\_scratch_merge\\lc.txt",
+ "R": "D:\\Rea\\_scratch_merge\\rc.txt",
+ "C": "D:\\Rea\\_scratch_merge\\base.txt",
+ "OUT": "D:\\Rea\\_scratch_merge\\out_preset.txt",
+ "OUT_preset": "PRESETPANE_LINE_A\nPRESETPANE_LINE_B\n",
+ "rect-step0": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "title": "out_preset.txt - Text Merge - Beyond Compare",
+ "n_editors": 4,
+ "editor0": {
+  "disabled": false,
+  "footers": [
+   "1: 1"
+  ]
+ },
+ "output_pane_index": 0,
+ "editor1": {
+  "disabled": true,
+  "footers": [
+   "1: 1"
+  ]
+ },
+ "editor2": {
+  "disabled": true,
+  "footers": [
+   "1: 1"
+  ]
+ },
+ "editor3": {
+  "disabled": true,
+  "footers": [
+   "1: 1"
+  ]
+ },
+ "OUT_after_step0": "PRESETPANE_LINE_A\nPRESETPANE_LINE_B\n",
+ "rect-typed": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "OUT_after_typed_nosave": "PRESETPANE_LINE_A\nPRESETPANE_LINE_B\n",
+ "post_ctrls_windows": [
+  [
+   "TApplication",
+   ""
+  ]
+ ],
+ "rect-saved": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "OUT_after_ctrl_s": "line one\nline two\nline three\nline four\nline five\nline six\nline seven\nline eight\nZZEDITMARKER7"
+}

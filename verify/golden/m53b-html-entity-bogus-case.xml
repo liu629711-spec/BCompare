@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:40">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:40">
+		<filename1>D:\Rea\verify\golden\m53b-html-entity-bogus-case-L.html</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-html-entity-bogus-case-R.html</filename2>
+		<linecomp status="similar">
+			<text ltid="1">&lt;p>&amp;bogus;&lt;/p></text>
+			<text rtid="1">&lt;p>&amp;BOGUS;&lt;/p></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

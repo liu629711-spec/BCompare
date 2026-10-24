@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:24:12">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:24:12">
+		<filename1>D:\Rea\verify\golden\m53b-sql-nprefix-case-L.sql</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-sql-nprefix-case-R.sql</filename2>
+		<linecomp status="different">
+			<text ltid="1">x = n'abc';</text>
+			<text rtid="1">x = N'abc';</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

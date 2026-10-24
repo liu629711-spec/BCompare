@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!-- configuration -->
+<config debug="true">
+    <path value="/usr/bin"/>
+    <name value="app"/>
+</config>

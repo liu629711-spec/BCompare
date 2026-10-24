@@ -1,0 +1,198 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "left": "D:\\Rea\\tools\\textcolor\\content-left.txt",
+ "right": "D:\\Rea\\tools\\textcolor\\content-right.txt",
+ "profile": "D:\\Rea\\extracted\\live\\textlayout-en\\_profile",
+ "click_row": 2,
+ "title": "content-left.txt <--> content-right.txt - Text Compare - Beyond Compare",
+ "rect-step0": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "bars-step0": {
+  "bar0": {
+   "rect": [
+    87,
+    839,
+    1386,
+    17
+   ],
+   "value": null
+  },
+  "bar1": {
+   "rect": [
+    1456,
+    181,
+    17,
+    545
+   ],
+   "value": null
+  },
+  "bar2": {
+   "rect": [
+    1145,
+    789,
+    328,
+    17
+   ],
+   "value": null
+  },
+  "bar3": {
+   "rect": [
+    762,
+    181,
+    17,
+    608
+   ],
+   "value": null
+  },
+  "bar4": {
+   "rect": [
+    447,
+    789,
+    332,
+    17
+   ],
+   "value": null
+  }
+ },
+ "main_editors": {
+  "editor0": [
+   784,
+   180,
+   690,
+   627
+  ],
+  "editor1": [
+   86,
+   180,
+   694,
+   627
+  ],
+  "details0": [
+   87,
+   824,
+   1386,
+   32
+  ],
+  "details1": [
+   87,
+   808,
+   1386,
+   15
+  ]
+ },
+ "click_point_windowrel": [
+  120,
+  191
+ ],
+ "rect-after-click": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "bars-step1": {
+  "bar0": {
+   "rect": [
+    87,
+    839,
+    1386,
+    17
+   ],
+   "value": null
+  },
+  "bar1": {
+   "rect": [
+    1456,
+    181,
+    17,
+    545
+   ],
+   "value": null
+  },
+  "bar2": {
+   "rect": [
+    1145,
+    789,
+    328,
+    17
+   ],
+   "value": null
+  },
+  "bar3": {
+   "rect": [
+    762,
+    181,
+    17,
+    608
+   ],
+   "value": null
+  },
+  "bar4": {
+   "rect": [
+    447,
+    789,
+    332,
+    17
+   ],
+   "value": null
+  }
+ },
+ "wheel_via": "pywinauto",
+ "rect-after-wheel": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "bars-step2": {
+  "bar0": {
+   "rect": [
+    87,
+    839,
+    1386,
+    17
+   ],
+   "value": null
+  },
+  "bar1": {
+   "rect": [
+    1456,
+    181,
+    17,
+    545
+   ],
+   "value": null
+  },
+  "bar2": {
+   "rect": [
+    1145,
+    789,
+    328,
+    17
+   ],
+   "value": null
+  },
+  "bar3": {
+   "rect": [
+    762,
+    181,
+    17,
+    608
+   ],
+   "value": null
+  },
+  "bar4": {
+   "rect": [
+    447,
+    789,
+    332,
+    17
+   ],
+   "value": null
+  }
+ }
+}

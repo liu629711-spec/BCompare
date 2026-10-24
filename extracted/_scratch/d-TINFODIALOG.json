@@ -1,0 +1,35 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "children": [],
+     "cls": "TUiCloseBtn",
+     "name": "CloseBtn",
+     "props": {}
+    }
+   ],
+   "cls": "TUiBtnPanel",
+   "name": "BtnPanel",
+   "props": {
+    "Left": 0,
+    "SizeGripper": true,
+    "TabOrder": 0,
+    "Top": 294,
+    "Width": 423
+   }
+  }
+ ],
+ "cls": "TInfoDialog",
+ "name": "InfoDialog",
+ "props": {
+  "BorderStyle": "bsSizeable",
+  "Caption": "%",
+  "ClientHeight": 333,
+  "ClientWidth": 423,
+  "Constraints.MinHeight": 104,
+  "Constraints.MinWidth": 105,
+  "PixelsPerInch": 96,
+  "TextHeight": 13
+ }
+}

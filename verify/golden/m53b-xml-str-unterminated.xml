@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:31">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:31">
+		<filename1>D:\Rea\verify\golden\m53b-xml-str-unterminated-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-str-unterminated-R.xml</filename2>
+		<linecomp status="different">
+			<text ltid="1">&lt;a href="x</text>
+			<text rtid="1">&lt;a href="y</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

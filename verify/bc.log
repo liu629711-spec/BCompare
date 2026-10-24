@@ -1,0 +1,5 @@
+2026/10/12 22:57:29  *** Beyond Compare 5 Evaluation -- 30 days remaining ***
+2026/10/12 22:57:29  >> log verbose "D:\Rea\verify\bc.log"
+2026/10/12 22:57:29  >> text-report layout:side-by-side output-to:"D:\Rea\verify\report.txt" "D:\Rea\verify\left.txt" "D:\Rea\verify\right.txt"
+2026/10/12 22:57:29  >> 
+2026/10/12 22:57:29  Script completed in 0.04 seconds

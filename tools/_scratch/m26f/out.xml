@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 14:06:36">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 14:06:36">
+		<filename1>L.c</filename1>
+		<filename2>R.c</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="1">int x;</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="1">// a</text>
+			<text rtid="2">// b</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">int p;</text>
+			<text rtid="3">int y;</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="3">// q</text>
+			<text rtid="4">// s</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="4">int r;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,40 @@
+Version Compare
+Produced: 2026/10/20 3:18:38
+
+Mode:  All
+Left file: D:\Rea\verify\ver\v-sbs-plain-vs-pe-L.txt
+Right file: D:\Rea\verify\ver\v-sbs-plain-vs-pe-R.exe
+Name Value    Name                         Value
+----------------------------------------------------------------------------------------------------------------------------
+              Code
+           -+ \Data                        50,678,944 bytes
+              PE Header
+           -+ +Operating System            Windows NT 6.0
+           -+ +Processor                   AMD64
+           -+ +Creation Date               2026/3/21 2:52:34
+           -+ +Flags                       Executable, Addresses larger than 2 GB, Debug info stripped
+           -+ +Linker Version              8.0
+           -+ +Image Base                  0x0000000000400000
+           -+ +Checksum                    0x0305D366
+           -+ +User Interface              Windows GUI 6.0
+           -+ \DLL Flags                   High entropy 64-bit addresses, Dynamic base, NX compatible, Terminal server aware
+              Fixed
+           -+ +File Version                5.2.1.32035
+           -+ +Product Version             5.2.1.32035
+           -+ +Operating System            Windows NT, Windows 32-bit
+           -+ \File Type                   Application
+              Translation
+           -+ \Languages                   英语(美国), 01252  (ANSI - 拉丁语 I)
+              Variable
+           -+ +Language                    英语(美国), 01252  (ANSI - 拉丁语 I)
+           -+ +Company Name                Scooter Software
+           -+ +File Description            Beyond Compare
+           -+ +File Version                5.2.1.32035
+           -+ +Legal Copyright             Copyright © 2026 Scooter Software, Inc.
+           -+ +Legal Trademarks            Beyond Compare ® is a registered trademark of Scooter Software, Inc.
+           -+ +Original Filename           BCompare.exe
+           -+ +Product Name                Beyond Compare
+           -+ +Product Version             5.2
+           -+ +Other (CompileDate)         Friday, March 20, 2026 01:51 PM
+           -+ \Other (Subversion Revision) 32035
+----------------------------------------------------------------------------------------------------------------------------

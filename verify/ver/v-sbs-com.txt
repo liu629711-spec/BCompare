@@ -1,0 +1,40 @@
+Version Compare
+Produced: 2026/10/20 3:18:37
+
+Mode:  All
+Left file: D:\Rea\verify\ver\v-sbs-com-L.exe     Right file: D:\Rea\verify\ver\v-sbs-com-R.com
+Name                         Value                                                                                Name               Value
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Code                                                                                                              Code
+\Data                        50,678,944 bytes                                                                  <> \Data              124,048 bytes
+PE Header                                                                                                         PE Header
++Operating System            Windows NT 6.0                                                                    <> +Operating System  Windows NT 5.0
++Processor                   AMD64                                                                             <> +Processor         I386
++Creation Date               2026/3/21 2:52:34                                                                 <> +Creation Date     2024/10/3 8:06:14
++Flags                       Executable, Addresses larger than 2 GB, Debug info stripped                       <> +Flags             Executable, Line numbers stripped, Local symbols stripped, Little endian, 32-bit words, Big endian
++Linker Version              8.0                                                                               <> +Linker Version    2.25
++Image Base                  0x0000000000400000                                                                <> +Image Base        0x00400000
++Checksum                    0x0305D366                                                                        <> +Checksum          0x0002D28D
++User Interface              Windows GUI 6.0                                                                   <> +User Interface    Windows console 5.0
+\DLL Flags                   High entropy 64-bit addresses, Dynamic base, NX compatible, Terminal server aware <> \DLL Flags         Dynamic base, NX compatible
+Fixed                                                                                                             Fixed
++File Version                5.2.1.32035                                                                       <> +File Version      5.0.3.30240
++Product Version             5.2.1.32035                                                                       <> +Product Version   5.0.3.30240
++Operating System            Windows NT, Windows 32-bit                                                        =  +Operating System  Windows NT, Windows 32-bit
+\File Type                   Application                                                                       =  \File Type         Application
+Translation                                                                                                       Translation
+\Languages                   英语(美国), 01252  (ANSI - 拉丁语 I)                                                     =  \Languages         英语(美国), 01252  (ANSI - 拉丁语 I)
+Variable                                                                                                          Variable
++Language                    英语(美国), 01252  (ANSI - 拉丁语 I)                                                     =  +Language          英语(美国), 01252  (ANSI - 拉丁语 I)
+|                                                                                                              -+ +Comments          Used to launch Beyond Compare from version control systems
++Company Name                Scooter Software                                                                  =  +Company Name      Scooter Software
++File Description            Beyond Compare                                                                    <> +File Description  Beyond Compare Launcher
++File Version                5.2.1.32035                                                                       <> +File Version      5.0.3.30240
++Legal Copyright             Copyright © 2026 Scooter Software, Inc.                                           <> +Legal Copyright   Copyright © 2024 Scooter Software, Inc.
++Legal Trademarks            Beyond Compare ® is a registered trademark of Scooter Software, Inc.              =  +Legal Trademarks  Beyond Compare ® is a registered trademark of Scooter Software, Inc.
++Original Filename           BCompare.exe                                                                      <> +Original Filename BComp.exe
++Product Name                Beyond Compare                                                                    =  +Product Name      Beyond Compare
++Product Version             5.2                                                                               <> \Product Version   5.0
++Other (CompileDate)         Friday, March 20, 2026 01:51 PM                                                   +-
+\Other (Subversion Revision) 32035                                                                             +-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

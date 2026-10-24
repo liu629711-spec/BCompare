@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:24:23">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:24:23">
+		<filename1>D:\Rea\verify\golden\al-insert-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-insert-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="2">b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="3">c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,1 @@
+diff -r D:\Rea\tools\_audit\oracle-current\identical-L.txt D:\Rea\tools\_audit\oracle-current\identical-R.txt

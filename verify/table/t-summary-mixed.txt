@@ -1,0 +1,8 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:16
+
+左边文件： D:\Rea\verify\table\t-summary-mixed-L.csv
+右边文件： D:\Rea\verify\table\t-summary-mixed-R.csv
+2 个相同排
+1 个重要右边独有排
+1 个重要差异排

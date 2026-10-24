@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:41:36">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:41:36">
+		<filename1>D:\Rea\verify\golden\le-crlf-vs-lf-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\le-crlf-vs-lf-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">b</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

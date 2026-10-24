@@ -1,0 +1,22 @@
+== gateb-width-20261015T182136Z (K=100) ==
+  [OK W-off1000] K=100 off=1000 actual=100 predicted=100  (weight 5580 > 500 and start dist 1000 <= 1992)
+  [OK W-off3000] K=100 off=3000 actual=0 predicted=0  (start dist 3000 > window W-1=1992)
+  [OK W-off4000] K=100 off=4000 actual=0 predicted=0  (start dist 4000 > window W-1=1992)
+  [OK W-off4096] K=100 off=4096 actual=0 predicted=0  (start dist 4096 > window W-1=1992)
+  [OK W-off4097] K=100 off=4097 actual=0 predicted=0  (start dist 4097 > window W-1=1992)
+  [OK W-off5000] K=100 off=5000 actual=0 predicted=0  (start dist 5000 > window W-1=1992)
+  [OK W-off6000] K=100 off=6000 actual=0 predicted=0  (start dist 6000 > window W-1=1992)
+  [OK W-off9000] K=100 off=9000 actual=0 predicted=0  (start dist 9000 > window W-1=1992)
+== gateb-width6-20261015T182844Z (K=100) ==
+  [OK W-off1989] K=100 off=1989 actual=100 predicted=100  (weight 5580 > 500 and start dist 1989 <= 1992)
+  [OK W-off1990] K=100 off=1990 actual=100 predicted=100  (weight 5580 > 500 and start dist 1990 <= 1992)
+  [OK W-off1991] K=100 off=1991 actual=100 predicted=100  (weight 5580 > 500 and start dist 1991 <= 1992)
+  [OK W-off1992] K=100 off=1992 actual=100 predicted=100  (weight 5580 > 500 and start dist 1992 <= 1992)
+  [OK W-off1993] K=100 off=1993 actual=0 predicted=0  (start dist 1993 > window W-1=1992)
+== width8: big1 (K=1, 300-char Z) ==  [anomaly (1)]
+  [big1-off1000] Z paired=0 (predicted by weight: 650>500 so SHOULD pair if pure window path)
+  [big1-off1992] Z paired=0 (predicted by weight: 650>500 so SHOULD pair if pure window path)
+  [big1-off1993] Z paired=0 (predicted by weight: 650>500 so SHOULD pair if pure window path)
+  [big1-off2500] Z paired=0 (predicted by weight: 650>500 so SHOULD pair if pure window path)
+
+replay: 13/13 K=100 cases match window+weight rules (K=1 cases reported separately above).

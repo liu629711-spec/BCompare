@@ -1,0 +1,14 @@
+ids_l: ['intgamma', 'deltatmp', 'intgamma', 'YYDELTADELTA', 'yytmpxbeta', '\x01L5', 'tmpalpha']
+ids_r: ['\x01R0', '\x01R1', 'intgamma', 'yydeltadelta', '\x01R4', 'yydeltadelta', 'tmpalpha']
+scan pairs: []
+scan intervals: [(0, 0, 6, 6)]
+  interval [0..6] x [0..6]  -> lines L[0, 1, 2, 3, 4, 5, 6] R[0, 1, 2, 3, 4, 5, 6]
+    prefix trim: 0
+    suffix trim: 1  (pairs: [(6, 6)])
+    unique pairs: []
+    handler pairs: [(0, 0), (1, 1), (2, 2), (4, 3), (5, 4), (6, 6)]
+
+model C output: [['leftorphan', 1, None], ['leftorphan', 2, None], ['leftorphan', 3, None], ['leftorphan', 4, None], ['leftorphan', 5, None], ['leftsimilar', 6, None], ['leftorphan', 7, None], ['rightsimilar', None, 1], ['rightsimilar', None, 2], ['rightorphan', None, 3], ['rightorphan', None, 4], ['rightsimilar', None, 5], ['rightorphan', None, 6], ['rightorphan', None, 7]]
+model C rows: [['different', 1, 1], ['different', 2, 2], ['same', 3, 3], ['leftorphan', 4, None], ['different', 5, 4], ['same', 6, 5], ['rightorphan', None, 6], ['same', 7, 7]]
+
+oracle rows: [['rightsimilar',None,1],['rightsimilar',None,2],['same',1,3],['different',2,4],['different',3,5],['leftorphan',4,None],['different',5,6],['leftsimilar',6,None],['same',7,7]]

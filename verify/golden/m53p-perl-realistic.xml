@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:55">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:55">
+		<filename1>D:\Rea\verify\golden\m53p-perl-realistic-L.pl</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-perl-realistic-R.pl</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">#!/usr/bin/perl</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2"># main program</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">=pod</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="5">Documentation block</text>
+			<text rtid="5">Documentation block v2</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">=cut</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="7" rtid="7"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="8" rtid="8">sub greet {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9">    my ($name) = @_;</text>
+			<text rtid="9">    my ($Name) = @_;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="10" rtid="10">    return "hello $name";</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="11" rtid="11">}</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="12" rtid="12"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="13" rtid="13">print greet("world");</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 14:57:38">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 14:57:38">
+		<filename1>L5.txt</filename1>
+		<filename2>R5.txt</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="1">gamma</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="1" rtid="2">alpha</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="3">beta</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="4">x</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="3">?next</text>
+			<text rtid="5">next</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

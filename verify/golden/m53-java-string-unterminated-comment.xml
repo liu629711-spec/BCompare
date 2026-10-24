@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:04">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:04">
+		<filename1>D:\Rea\verify\golden\m53-java-string-unterminated-comment-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-string-unterminated-comment-R.java</filename2>
+		<linecomp status="different">
+			<text ltid="1">String s = "abc // x</text>
+			<text rtid="1">String s = "abc // y</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

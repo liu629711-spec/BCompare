@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:07">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:07">
+		<filename1>D:\Rea\verify\golden\m53e-reg-keyword-case-L.ini</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-reg-keyword-case-R.ini</filename2>
+		<linecomp status="different">
+			<text ltid="1">a=dword:00000001</text>
+			<text rtid="1">a=DWORD:00000001</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

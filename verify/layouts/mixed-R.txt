@@ -1,0 +1,4 @@
+same line
+CASE DIFF
+real diff 9
+tail

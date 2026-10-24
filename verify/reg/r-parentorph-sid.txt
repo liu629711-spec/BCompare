@@ -1,0 +1,13 @@
+Registry Compare
+Produced: 2026/10/19 20:46:20
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-parentorph-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\Ap
+Right file: D:\Rea\verify\reg\r-parentorph-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\Other
+Name Type   Data    Name Type   Data
+------------------------------------
+Ch
+\y   REG_SZ 2    +-
+x    REG_SZ 1    +-
+                 -+ z    REG_SZ 0
+------------------------------------

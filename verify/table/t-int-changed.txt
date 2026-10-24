@@ -1,0 +1,14 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:16
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-int-changed-L.csv     右边文件： D:\Rea\verify\table\t-int-changed-R.csv
+    A      B
+------------
+1 1 h      1
+------------
+2   banana 5
+  2 cherry 2
+------------
+3 3 c      3
+------------

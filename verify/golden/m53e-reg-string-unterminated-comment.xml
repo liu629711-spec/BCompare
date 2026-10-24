@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:06">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:06">
+		<filename1>D:\Rea\verify\golden\m53e-reg-string-unterminated-comment-L.ini</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-reg-string-unterminated-comment-R.ini</filename2>
+		<linecomp status="different">
+			<text ltid="1">a="x ; y</text>
+			<text rtid="1">a="x ; z</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

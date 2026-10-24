@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/13 13:01:24
+
+Left file: D:\Rea\tools\_audit\oracle-current\insert-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\insert-R.txt
+2 same line(s)
+1 important right orphan line(s)
+
+1 difference section(s)

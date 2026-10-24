@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:01">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:01">
+		<filename1>D:\Rea\verify\golden\m53e-vb-case-keyword-L.bas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-vb-case-keyword-R.bas</filename2>
+		<linecomp status="similar">
+			<text ltid="1">Dim X As Integer</text>
+			<text rtid="1">dim x as integer</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

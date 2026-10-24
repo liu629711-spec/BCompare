@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:26:20">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:26:20">
+		<filename1>D:\Rea\verify\probe2\L.txt</filename1>
+		<filename2>D:\Rea\verify\probe2\R.txt</filename2>
+		<ignoreunimportant/>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">alpha</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">beta one</text>
+			<text rtid="2">beta  two</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

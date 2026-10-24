@@ -1,0 +1,5 @@
+2026/10/13 9:26:20  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 9:26:20  >> log verbose "D:\Rea\verify\probe2\ignore-line-endings.log"
+2026/10/13 9:26:20  >> text-report layout:xml options:ignore-line-endings output-to:"D:\Rea\verify\probe2\ignore-line-endings.xml" "D:\Rea\verify\probe2\L.txt" "D:\Rea\verify\probe2\R.txt"
+2026/10/13 9:26:20  Fatal Scripting Error: Unexpected argument(s) "ignore-line-endings"
+2026/10/13 9:26:20  Script completed in 0.03 seconds

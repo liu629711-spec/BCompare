@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/13 12:29:49
+
+Left file: D:\Rea\verify\left.txt     Right file: D:\Rea\verify\right.txt
+3 same line(s)
+1 important right orphan line(s)
+1 important difference line(s)
+
+2 difference section(s)

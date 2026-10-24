@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/14 3:06:41
+
+Left file: D:\Rea\verify\layouts\comments-L.c     Right file: D:\Rea\verify\layouts\comments-R.c
+1 same line(s)
+1 unimportant left orphan line(s)
+1 unimportant difference line(s)
+
+1 difference section(s)

@@ -1,0 +1,10 @@
+文本比较(T)
+已产生： 2026/10/13 13:04:21
+
+模式：  全部
+左边文件： D:\Rea\verify\layouts\similar-L.txt     右边文件： D:\Rea\verify\layouts\similar-R.txt
+1   alpha
+  1 ALPHA
+---------
+2 2 beta
+---------

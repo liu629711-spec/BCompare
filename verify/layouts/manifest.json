@@ -1,0 +1,220 @@
+{
+ "mixed-side-by-side": {
+  "layout": "side-by-side",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 339,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-side-by-side.txt"
+ },
+ "mixed-interleaved": {
+  "layout": "interleaved",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 296,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-interleaved.txt"
+ },
+ "mixed-patch": {
+  "layout": "patch",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 154,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-patch.txt"
+ },
+ "mixed-summary": {
+  "layout": "summary",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 274,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-summary.txt"
+ },
+ "mixed-statistics": {
+  "layout": "statistics",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 250,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-statistics.txt"
+ },
+ "mixed-over-under": {
+  "layout": "over-under",
+  "case": "mixed",
+  "exit_code": 0,
+  "bytes": 296,
+  "report": "D:\\Rea\\verify\\layouts\\mixed-over-under.txt"
+ },
+ "insert-side-by-side": {
+  "layout": "side-by-side",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 193,
+  "report": "D:\\Rea\\verify\\layouts\\insert-side-by-side.txt"
+ },
+ "insert-interleaved": {
+  "layout": "interleaved",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 187,
+  "report": "D:\\Rea\\verify\\layouts\\insert-interleaved.txt"
+ },
+ "insert-patch": {
+  "layout": "patch",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 86,
+  "report": "D:\\Rea\\verify\\layouts\\insert-patch.txt"
+ },
+ "insert-summary": {
+  "layout": "summary",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 213,
+  "report": "D:\\Rea\\verify\\layouts\\insert-summary.txt"
+ },
+ "insert-statistics": {
+  "layout": "statistics",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 252,
+  "report": "D:\\Rea\\verify\\layouts\\insert-statistics.txt"
+ },
+ "insert-over-under": {
+  "layout": "over-under",
+  "case": "insert",
+  "exit_code": 0,
+  "bytes": 187,
+  "report": "D:\\Rea\\verify\\layouts\\insert-over-under.txt"
+ },
+ "similar-side-by-side": {
+  "layout": "side-by-side",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 212,
+  "report": "D:\\Rea\\verify\\layouts\\similar-side-by-side.txt"
+ },
+ "similar-interleaved": {
+  "layout": "interleaved",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 202,
+  "report": "D:\\Rea\\verify\\layouts\\similar-interleaved.txt"
+ },
+ "similar-patch": {
+  "layout": "patch",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 104,
+  "report": "D:\\Rea\\verify\\layouts\\similar-patch.txt"
+ },
+ "similar-summary": {
+  "layout": "summary",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 215,
+  "report": "D:\\Rea\\verify\\layouts\\similar-summary.txt"
+ },
+ "similar-statistics": {
+  "layout": "statistics",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 254,
+  "report": "D:\\Rea\\verify\\layouts\\similar-statistics.txt"
+ },
+ "similar-over-under": {
+  "layout": "over-under",
+  "case": "similar",
+  "exit_code": 0,
+  "bytes": 202,
+  "report": "D:\\Rea\\verify\\layouts\\similar-over-under.txt"
+ },
+ "orphans-side-by-side": {
+  "layout": "side-by-side",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 282,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-side-by-side.txt"
+ },
+ "orphans-interleaved": {
+  "layout": "interleaved",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 238,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-interleaved.txt"
+ },
+ "orphans-patch": {
+  "layout": "patch",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 113,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-patch.txt"
+ },
+ "orphans-summary": {
+  "layout": "summary",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 247,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-summary.txt"
+ },
+ "orphans-statistics": {
+  "layout": "statistics",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 254,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-statistics.txt"
+ },
+ "orphans-over-under": {
+  "layout": "over-under",
+  "case": "orphans",
+  "exit_code": 0,
+  "bytes": 238,
+  "report": "D:\\Rea\\verify\\layouts\\orphans-over-under.txt"
+ },
+ "identical-side-by-side": {
+  "layout": "side-by-side",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 175,
+  "report": "D:\\Rea\\verify\\layouts\\identical-side-by-side.txt"
+ },
+ "identical-interleaved": {
+  "layout": "interleaved",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 175,
+  "report": "D:\\Rea\\verify\\layouts\\identical-interleaved.txt"
+ },
+ "identical-patch": {
+  "layout": "patch",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 84,
+  "report": "D:\\Rea\\verify\\layouts\\identical-patch.txt"
+ },
+ "identical-summary": {
+  "layout": "summary",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 161,
+  "report": "D:\\Rea\\verify\\layouts\\identical-summary.txt"
+ },
+ "identical-statistics": {
+  "layout": "statistics",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 258,
+  "report": "D:\\Rea\\verify\\layouts\\identical-statistics.txt"
+ },
+ "identical-over-under": {
+  "layout": "over-under",
+  "case": "identical",
+  "exit_code": 0,
+  "bytes": 175,
+  "report": "D:\\Rea\\verify\\layouts\\identical-over-under.txt"
+ },
+ "comments-summary": {
+  "layout": "summary",
+  "case": "comments",
+  "ext": "c",
+  "exit_code": 0,
+  "bytes": 256,
+  "report": "D:\\Rea\\verify\\layouts\\comments-summary.txt"
+ }
+}

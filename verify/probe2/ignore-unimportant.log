@@ -1,0 +1,5 @@
+2026/10/13 9:26:20  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 9:26:20  >> log verbose "D:\Rea\verify\probe2\ignore-unimportant.log"
+2026/10/13 9:26:20  >> text-report layout:xml options:ignore-unimportant output-to:"D:\Rea\verify\probe2\ignore-unimportant.xml" "D:\Rea\verify\probe2\L.txt" "D:\Rea\verify\probe2\R.txt"
+2026/10/13 9:26:20  >> 
+2026/10/13 9:26:20  Script completed in 0.03 seconds

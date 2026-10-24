@@ -1,0 +1,7 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:51
+
+左边文件： D:\Rea\verify\pic\p-opt-dmism-L.png     右边文件： D:\Rea\verify\pic\p-opt-dmism-R.png
+12 个相同像素
+2 个不重要的差异像素
+2 个重要差异像素

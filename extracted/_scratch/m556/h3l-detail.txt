@@ -1,0 +1,90 @@
+=== recorded: A -> H3L ===
+  GAIN f0022.oracle.xml
+  GAIN f0036.oracle.xml
+  LOSS f0040.oracle.xml
+  GAIN f0061.oracle.xml
+  GAIN f0080.oracle.xml
+  GAIN f0087.oracle.xml
+  GAIN f0110.oracle.xml
+
+=== fuzz: A -> H3L ===
+  GAIN f0001
+  GAIN f0010
+  GAIN f0014
+  GAIN f0017
+  GAIN f0022
+  GAIN f0036
+  LOSS f0040
+  GAIN f0061
+  GAIN f0080
+  GAIN f0087
+  GAIN f0105
+  GAIN f0110
+
+=== H3L remaining recorded failures ===
+
+m2-js-regex-ws.xml
+  L=['var r = /a b/g;']
+  R=['var r = /ab/g;']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]
+
+m2-py-indent.xml
+  L=['x = 1']
+  R=['    x = 1']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]
+
+m2-py-triple-quote.xml
+  L=["'''", 'a b', "'''"]
+  R=["'''", 'a  b', "'''"]
+  want=[['same', 1, 1], ['different', 2, 2], ['same', 3, 3]]
+  got =[['same', 1, 1], ['similar', 2, 2], ['same', 3, 3]]
+
+m2-string-internal-ws.xml
+  L=['char *a = "a b";']
+  R=['char *a = "a  b";']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]
+
+f0040.oracle.xml
+  L=['int gamma', 'delta tmp', 'int gamma', 'YY DELTA DELTA', 'yy tmp x beta', '', 'tmp alpha']
+  R=['', '', 'int gamma', 'yy delta delta', '', 'yy delta delta', 'tmp alpha']
+  want=[['rightsimilar', None, 1], ['rightsimilar', None, 2], ['same', 1, 3], ['different', 2, 4], ['different', 3, 5], ['leftorphan', 4, None], ['different', 5, 6], ['leftsimilar', 6, None], ['same', 7, 7]]
+  got =[['different', 1, 1], ['different', 2, 2], ['same', 3, 3], ['leftorphan', 4, None], ['different', 5, 4], ['same', 6, 5], ['rightorphan', None, 6], ['same', 7, 7]]
+
+f0073.oracle.xml
+  L=['X INT GAMMA', 'value']
+  R=['YY VALUE', 'gamma tmp', 'value', 'tmp beta item data', 'value']
+  want=[['different', 1, 1], ['rightorphan', None, 2], ['same', 2, 3], ['rightorphan', None, 4], ['rightorphan', None, 5]]
+  got =[['different', 1, 1], ['rightorphan', None, 2], ['rightorphan', None, 3], ['rightorphan', None, 4], ['same', 2, 5]]
+
+f0092.oracle.xml
+  L=['delta', 'value value alpha', 'x node beta', 'beta']
+  R=['DELTA', 'Node']
+  want=[['similar', 1, 1], ['leftorphan', 2, None], ['different', 3, 2], ['leftorphan', 4, None]]
+  got =[['similar', 1, 1], ['leftorphan', 2, None], ['leftorphan', 3, None], ['different', 4, 2]]
+
+js-regex-ws.xml
+  L=['var r = /a b/g;']
+  R=['var r = /ab/g;']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]
+
+py-indent.xml
+  L=['x = 1']
+  R=['    x = 1']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]
+
+py-triple-quote.xml
+  L=["'''", 'a b', "'''"]
+  R=["'''", 'a  b', "'''"]
+  want=[['same', 1, 1], ['different', 2, 2], ['same', 3, 3]]
+  got =[['same', 1, 1], ['similar', 2, 2], ['same', 3, 3]]
+
+string-internal-ws.xml
+  L=['char *a = "a b";']
+  R=['char *a = "a  b";']
+  want=[['different', 1, 1]]
+  got =[['similar', 1, 1]]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:00">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:00">
+		<filename1>D:\Rea\verify\golden\m53e-pas-string-unterminated-comment-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-string-unterminated-comment-R.pas</filename2>
+		<linecomp status="similar">
+			<text ltid="1">x := 'abc // y</text>
+			<text rtid="1">x := 'abc // z</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

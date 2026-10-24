@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:03">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:03">
+		<filename1>D:\Rea\verify\golden\m53e-vb-string-unterminated-L.bas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-vb-string-unterminated-R.bas</filename2>
+		<linecomp status="different">
+			<text ltid="1">s = "abc</text>
+			<text rtid="1">s = "abd</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

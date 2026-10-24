@@ -1,0 +1,6 @@
+{
+  "kind": "reacmp-merge3/1",
+  "counts": {"difference_sections": 2, "conflict_sections": 0},
+  "lines": {"left": ["line one","line two edited by left","line three","line four","line five","line six","line seven","line eight"], "center": ["line one","line two","line three","line four","line five","line six","line seven","line eight"], "right": ["line one","line two","line three","line four","line five changed by right","line six","line seven","line eight"]},
+  "sections": [{"kind": "equal", "base": [0, 1], "left": [0, 1], "right": [0, 1], "output_source": "center"}, {"kind": "take-left", "base": [1, 2], "left": [1, 2], "right": [1, 2], "output_source": "left"}, {"kind": "equal", "base": [2, 4], "left": [2, 4], "right": [2, 4], "output_source": "center"}, {"kind": "take-right", "base": [4, 5], "left": [4, 5], "right": [4, 5], "output_source": "right"}, {"kind": "equal", "base": [5, 8], "left": [5, 8], "right": [5, 8], "output_source": "center"}]
+}

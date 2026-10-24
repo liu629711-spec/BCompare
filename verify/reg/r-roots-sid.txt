@@ -1,0 +1,10 @@
+Registry Compare
+Produced: 2026/10/19 20:46:15
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-roots-sid-L.reg:\\HKEY_LOCAL_MACHINE\Software\ProbeA
+Right file: D:\Rea\verify\reg\r-roots-sid-R.reg:\\HKEY_CURRENT_USER\Software\ProbeB
+Name Type   Data   Name Type   Data
+-----------------------------------
+v    REG_SZ 1    = v    REG_SZ 1
+-----------------------------------

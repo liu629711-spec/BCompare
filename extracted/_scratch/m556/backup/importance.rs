@@ -1,0 +1,1096 @@
+//! Importance (M2): the real per-element engine.
+//!
+//! Replaces the M1 line-level approximation. The observable contract is the
+//! **O**-level U1/U2 behaviour tables (`product/verify/probes/U1-FINDINGS.md`,
+//! `U2-FINDINGS.md`, runs `u1-probe-*`, `u2-probe-*`, `u2b-probe-*`):
+//!
+//! 1. A changed pair of lines is **unimportant** (`similar`, folded to `same`
+//!    by `ignore-unimportant`) **iff every differing element on it is a
+//!    comment or whitespace element** (U1: directive/operator/identifier/
+//!    number/string/keyword/case differences are all important).
+//! 2. The rule is per *element*, so it holds for mixed lines too: `x = 1; //
+//!    note` vs `x = 1; // other` is `similar` (u2 `mixed-trailing-comment`).
+//! 3. Whitespace *inside* a string literal is string content, not whitespace,
+//!    and is important (u2 `string-internal-ws`). The same holds for regex
+//!    literals (u2 `js-regex-ws`) and triple-quoted Python strings, whose
+//!    bodies span lines (u2 `py-triple-quote`), so tokenization carries
+//!    cross-line state for block comments and multi-line strings.
+//! 4. A line whose elements are *entirely* comment/whitespace/empty shares one
+//!    alignment class: comments align with comments, blanks and empty lines
+//!    (u2 `comment-syntax-swap`, `comment-vs-empty`, `blank-vs-ws`).
+//! 5. Python's leading `Indent` element is important (u2 `py-indent`: `x = 1`
+//!    vs `    x = 1` is `different`); trailing whitespace is not.
+//! 6. Extensions with no known format mask are **plain text**: case-insensitive,
+//!    no comments (u2 `foo-*`: `.foo` behaves like `.txt`, not like a syntax
+//!    format). This replaces the M1 guess that unknown extensions are
+//!    syntax-aware.
+//!
+//! # What the engine deliberately does NOT model
+//!
+//! * Which elements are *forced* important in BC's strong sense (immune to
+//!   user Weights) — not CLI-observable; the tables above are the contract.
+//! * Per-element Weights (`CaseSig`) — the CLI cannot set them.
+//! * The 21 other BC formats. Their masks are recorded in [`FORMAT_SPECS`]
+//!   but their grammars are not implemented; those extensions fall back to
+//!   plain text, which is a **known difference** documented in
+//!   `product/docs/07-m2-importance.md` (e.g. a `.java` case-only change
+//!   reports `similar` where BC's JAVA grammar would report `different`).
+//! * Keyword/operator list exactness. U1 shows every non-comment/
+//!   non-whitespace class is important and compared by exact text, so the
+//!   keyword/identifier distinction cannot change a verdict; the lists below
+//!   are public language facts, kept for element classification only.
+
+/// Which grammar a file is compared under, selected by extension.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+pub enum Grammar {
+    /// Plain text: no tokens, no syntax. Case-insensitive and whitespace-
+    /// insensitive by observation (`case-txt`, `ws-*`, u2 `foo-*`).
+    PlainText,
+    /// The BC "CPP" format (`*.c;*.cc;*.cpp;*.cs;*.h;*.hpp;*.m`).
+    Cpp,
+    /// The BC "PYTHON" format (`*.py`).
+    Python,
+    /// The BC "JS" format (`*.js`).
+    JavaScript,
+}
+
+/// Format masks, as BC associates them. Factual file-name associations, not
+/// copied grammars; the three implemented grammars are [`Grammar::Cpp`],
+/// [`Grammar::Python`] and [`Grammar::JavaScript`].
+pub const FORMAT_SPECS: &[(&str, &[&str])] = &[
+    ("BASH", &["sh"]),
+    ("CPP", &["c", "cc", "cpp", "cs", "h", "hpp", "m"]),
+    ("COBOL", &["cbl", "cob", "cpy"]),
+    ("CSV", &["csv"]),
+    ("DFM", &["dfm", "fmx", "nfm", "xfm"]),
+    ("PAS", &["dpk", "dpr", "inc", "pas"]),
+    ("EXE", &["386", "bcp", "bpl", "dll", "drv", "exe", "ocx", "scr", "sys", "vxd"]),
+    ("HTML", &["ascx", "asp", "aspx", "htm", "html"]),
+    ("JAVA", &["jav", "java"]),
+    ("JS", &["js"]),
+    ("MEDIA", &["flac", "m4a", "m4b", "m4p", "m4v", "mp3", "mp4", "mpeg3", "tag", "wav"]),
+    ("MSEXCEL", &["xls", "xlsm", "xlsx"]),
+    ("MSWORD", &["doc", "docm", "docx", "dot", "dotm", "dotx"]),
+    ("OPENOFFICE", &["odb", "odf", "odg", "odm", "odp", "ods", "odt", "otg", "oth", "otp", "ots", "ott", "stc", "std", "sti", "stw", "sxc", "sxd", "sxg", "sxi", "sxm", "sxw"]),
+    ("PDF", &["pdf"]),
+    ("PERL", &["pl", "pm"]),
+    ("PIX", &["bmp", "gif", "ico", "jpg", "png", "tif"]),
+    ("PYTHON", &["py"]),
+    ("REG", &["ini", "reg"]),
+    ("RTF", &["rtf"]),
+    ("SORT", &[]),
+    ("SQL", &["dsql", "sql"]),
+    ("VB", &["bas", "cls", "ctl", "frm", "vb", "vbp", "vbs"]),
+    ("XML", &["xml", "xsd", "xsl"]),
+];
+
+/// The extensions whose grammar is actually implemented.
+const IMPLEMENTED: &[(&str, Grammar)] = &[
+    ("CPP", Grammar::Cpp),
+    ("PYTHON", Grammar::Python),
+    ("JS", Grammar::JavaScript),
+];
+
+impl Grammar {
+    /// Pick a grammar from a path's extension.
+    ///
+    /// Known format masks select their grammar when implemented. Everything
+    /// else — including extensions whose BC format exists but is not
+    /// implemented here — falls back to plain text, which u2's `foo-*` probes
+    /// show is what BC does for unknown extensions; for the not-implemented
+    /// known formats this is a recorded known difference, not an observation.
+    pub fn for_path(path: &str) -> Grammar {
+        let lower = path.to_ascii_lowercase();
+        let after_dot = lower.rfind('.').map(|i| i + 1).unwrap_or(usize::MAX);
+        let ext = if after_dot == usize::MAX || after_dot == lower.len() {
+            return Grammar::PlainText;
+        } else {
+            &lower[after_dot..]
+        };
+        // Extensions like `tar.gz` or `name.py` compare on the last suffix
+        // only; masks never carry wildcards in BC's observed table beyond the
+        // leading `*`, so a plain suffix match is the whole rule.
+        for (name, exts) in FORMAT_SPECS {
+            if exts.contains(&ext) {
+                return IMPLEMENTED
+                    .iter()
+                    .find(|(n, _)| n == name)
+                    .map(|(_, g)| *g)
+                    .unwrap_or(Grammar::PlainText);
+            }
+        }
+        // `.txt`/`.text` are in no mask and fall through here.
+        Grammar::PlainText
+    }
+
+    fn is_plain(self) -> bool {
+        matches!(self, Grammar::PlainText)
+    }
+}
+
+/// The three-way verdict for a matched pair.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord)]
+pub enum Verdict {
+    /// Byte-identical lines. Always wins.
+    Same,
+    /// The lines differ, but only in unimportant elements.
+    Similar,
+    /// The lines differ in an important way.
+    Different,
+}
+
+/// Element classes the tokenizer produces.
+///
+/// Only [`Kind::Comment`] and [`Kind::Whitespace`] are unimportant (U1); every
+/// other class — including Python's [`Kind::Indent`] (u2 `py-indent`) — is
+/// important. The distinction between the important classes is informational.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Kind {
+    Whitespace,
+    /// Python's leading-indentation element; important (u2 `py-indent`).
+    Indent,
+    Comment,
+    Str,
+    Directive,
+    Keyword,
+    Identifier,
+    Number,
+    Operator,
+    /// Any character no grammar element claims. Important, like every
+    /// non-comment/non-whitespace class (U1).
+    Other,
+}
+
+/// One token: an element class over a char-index range of the line.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub struct Spanned {
+    pub kind: Kind,
+    pub start: usize,
+    pub end: usize,
+}
+
+/// Cross-line tokenizer state: an unterminated block comment (`/*`), an
+/// unterminated multi-line string (Python `'''`/`"""`, C++ `@"`), or an
+/// unterminated JS regex literal.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+enum Cont {
+    #[default]
+    None,
+    /// Inside `/* ... */`, scanning for this stop text.
+    BlockComment(&'static str),
+    /// Inside a multi-line string scanning for this stop text.
+    MultiStr(&'static str),
+    /// Inside a C++ verbatim `@"..."` string, where `""` is an escaped quote.
+    VerbatimStr,
+}
+
+/// Tokenize one line, carrying multi-line state.
+///
+/// Comment/string elements absorb whatever follows their start marker up to
+/// the stop marker or end of line, which is what makes u2's block-comment and
+/// triple-quote bodies come out entirely unimportant/important respectively.
+fn scan_line(line: &str, format: Grammar, cont: &mut Cont) -> Vec<Spanned> {
+    if format.is_plain() {
+        // Plain text has no elements; the whole line is one "other" span.
+        let n = line.chars().count();
+        if n == 0 {
+            return Vec::new();
+        }
+        return vec![Spanned { kind: Kind::Other, start: 0, end: n }];
+    }
+    let chars: Vec<char> = line.chars().collect();
+    let n = chars.len();
+    let mut out: Vec<Spanned> = Vec::new();
+    let mut i = 0usize;
+
+    // Continue an open multi-line element.
+    match *cont {
+        Cont::BlockComment(stop) => {
+            match find(&chars, 0, stop) {
+                Some(k) => {
+                    out.push(Spanned { kind: Kind::Comment, start: 0, end: k + stop.len() });
+                    *cont = Cont::None;
+                    i = k + stop.len();
+                }
+                None => {
+                    out.push(Spanned { kind: Kind::Comment, start: 0, end: n });
+                    return out;
+                }
+            }
+        }
+        Cont::MultiStr(stop) => {
+            match find(&chars, 0, stop) {
+                Some(k) => {
+                    out.push(Spanned { kind: Kind::Str, start: 0, end: k + stop.len() });
+                    *cont = Cont::None;
+                    i = k + stop.len();
+                }
+                None => {
+                    out.push(Spanned { kind: Kind::Str, start: 0, end: n });
+                    return out;
+                }
+            }
+        }
+        Cont::VerbatimStr => {
+            match find_verbatim_close(&chars, 0) {
+                Some(k) => {
+                    out.push(Spanned { kind: Kind::Str, start: 0, end: k + 1 });
+                    *cont = Cont::None;
+                    i = k + 1;
+                }
+                None => {
+                    out.push(Spanned { kind: Kind::Str, start: 0, end: n });
+                    return out;
+                }
+            }
+        }
+        Cont::None => {}
+    }
+
+    // Python: leading whitespace before content is the `Indent` element
+    // (important, u2 `py-indent`); a `#` after it makes the whole prefix part
+    // of the comment (`\s*#` in BC's PYTHON grammar). Whitespace running to
+    // end of line is ordinary unimportant whitespace.
+    if format == Grammar::Python && i == 0 && n > 0 && chars[0].is_whitespace() {
+        let mut j = 0;
+        while j < n && chars[j].is_whitespace() {
+            j += 1;
+        }
+        if j == n {
+            out.push(Spanned { kind: Kind::Whitespace, start: 0, end: n });
+            return out;
+        }
+        if chars[j] == '#' {
+            out.push(Spanned { kind: Kind::Comment, start: 0, end: n });
+            return out;
+        }
+        out.push(Spanned { kind: Kind::Indent, start: 0, end: j });
+        i = j;
+    }
+
+    while i < n {
+        let c = chars[i];
+        // Whitespace runs are unimportant everywhere.
+        if c.is_whitespace() {
+            let j = i;
+            while i < n && chars[i].is_whitespace() {
+                i += 1;
+            }
+            out.push(Spanned { kind: Kind::Whitespace, start: j, end: i });
+            continue;
+        }
+        // Line comments.
+        if (format == Grammar::Cpp || format == Grammar::JavaScript)
+            && c == '/'
+            && i + 1 < n
+            && chars[i + 1] == '/'
+        {
+            out.push(Spanned { kind: Kind::Comment, start: i, end: n });
+            return out;
+        }
+        // Block comments: `/* ... */`, possibly spanning lines.
+        if (format == Grammar::Cpp || format == Grammar::JavaScript)
+            && c == '/'
+            && i + 1 < n
+            && chars[i + 1] == '*'
+        {
+            match find(&chars, i + 2, "*/") {
+                Some(k) => {
+                    out.push(Spanned { kind: Kind::Comment, start: i, end: k + 2 });
+                    i = k + 2;
+                }
+                None => {
+                    out.push(Spanned { kind: Kind::Comment, start: i, end: n });
+                    *cont = Cont::BlockComment("*/");
+                    return out;
+                }
+            }
+            continue;
+        }
+        // Python `#` comments.
+        if format == Grammar::Python && c == '#' {
+            out.push(Spanned { kind: Kind::Comment, start: i, end: n });
+            return out;
+        }
+        // Strings. Triple quotes are checked before single quotes (longer
+        // start marker wins).
+        if format == Grammar::Python && (c == '\'' || c == '"') {
+            let triple: &'static str = if c == '\'' { "'''" } else { "\"\"\"" };
+            let tc: Vec<char> = triple.chars().collect();
+            if starts_with(&chars, i, &tc) {
+                match find(&chars, i + 3, triple) {
+                    Some(k) => {
+                        out.push(Spanned { kind: Kind::Str, start: i, end: k + 3 });
+                        i = k + 3;
+                    }
+                    None => {
+                        out.push(Spanned { kind: Kind::Str, start: i, end: n });
+                        *cont = Cont::MultiStr(triple);
+                        return out;
+                    }
+                }
+                continue;
+            }
+            if let Some(k) = scan_quoted(&chars, i, c, true) {
+                out.push(Spanned { kind: Kind::Str, start: i, end: k });
+                i = k;
+                continue;
+            }
+        }
+        if format == Grammar::JavaScript && (c == '\'' || c == '"') {
+            if let Some(k) = scan_quoted(&chars, i, c, true) {
+                out.push(Spanned { kind: Kind::Str, start: i, end: k });
+                i = k;
+                continue;
+            }
+        }
+        if format == Grammar::Cpp {
+            if c == '@' && i + 1 < n && chars[i + 1] == '"' {
+                match find_verbatim_close(&chars, i + 2) {
+                    Some(k) => {
+                        out.push(Spanned { kind: Kind::Str, start: i, end: k + 1 });
+                        i = k + 1;
+                    }
+                    None => {
+                        out.push(Spanned { kind: Kind::Str, start: i, end: n });
+                        *cont = Cont::VerbatimStr;
+                        return out;
+                    }
+                }
+                continue;
+            }
+            if c == '\'' || c == '"' {
+                if let Some(k) = scan_quoted(&chars, i, c, true) {
+                    out.push(Spanned { kind: Kind::Str, start: i, end: k });
+                    i = k;
+                    continue;
+                }
+            }
+            // Preprocessor directives: a `#` followed by a known directive
+            // word. An unrecognised `#` is an ordinary character.
+            if c == '#' {
+                if let Some(k) = match_word_list(&chars, i + 1, CPP_DIRECTIVES) {
+                    out.push(Spanned { kind: Kind::Directive, start: i, end: k });
+                    i = k;
+                    continue;
+                }
+            }
+        }
+        // JS regex literal: `/.../flags` with at least one flag. The flag
+        // requirement is what keeps `a / b / c` from being read as a regex
+        // (u2 `js-regex-literal`, `js-regex-ws`).
+        if format == Grammar::JavaScript && c == '/' {
+            if let Some(k) = scan_js_regex(&chars, i) {
+                out.push(Spanned { kind: Kind::Str, start: i, end: k });
+                i = k;
+                continue;
+            }
+        }
+        // Word runs: numbers, keywords, identifiers.
+        if is_word_char(c, format) {
+            let j = i;
+            if c.is_ascii_digit() {
+                i = scan_number(&chars, i, format);
+                out.push(Spanned { kind: Kind::Number, start: j, end: i });
+            } else {
+                i = scan_word(&chars, i, format);
+                let text: String = chars[j..i].iter().collect();
+                let kind = if matches_keyword(format, &text) && word_boundary(&chars, i) {
+                    Kind::Keyword
+                } else {
+                    Kind::Identifier
+                };
+                out.push(Spanned { kind, start: j, end: i });
+            }
+            continue;
+        }
+        // Operators (longest item first), then any other character.
+        if let Some(k) = match_word_list(&chars, i, operators(format)) {
+            out.push(Spanned { kind: Kind::Operator, start: i, end: k });
+            i = k;
+            continue;
+        }
+        out.push(Spanned { kind: Kind::Other, start: i, end: i + 1 });
+        i += 1;
+    }
+    out
+}
+
+fn find(chars: &[char], from: usize, stop: &str) -> Option<usize> {
+    let stop: Vec<char> = stop.chars().collect();
+    if stop.is_empty() || chars.len() < stop.len() {
+        return None;
+    }
+    (from..=chars.len() - stop.len()).find(|&k| chars[k..k + stop.len()] == stop[..])
+}
+
+fn starts_with(chars: &[char], at: usize, prefix: &[char]) -> bool {
+    chars.len() >= at + prefix.len() && chars[at..at + prefix.len()] == *prefix
+}
+
+/// Scan a `'`/`"` string starting at `at` (which holds the quote). `escape`
+/// enables backslash escapes. Returns the index *past* the closing quote, or
+/// None when the line ends first (StopEOL strings simply end at the line end,
+/// which the caller renders as a string to EOL).
+fn scan_quoted(chars: &[char], at: usize, quote: char, escape: bool) -> Option<usize> {
+    let mut j = at + 1;
+    while j < chars.len() {
+        if escape && chars[j] == '\\' {
+            j += 2;
+            continue;
+        }
+        if chars[j] == quote {
+            return Some(j + 1);
+        }
+        j += 1;
+    }
+    None
+}
+
+/// End of a C++ verbatim `@"..."` string: a `"` not doubled.
+fn find_verbatim_close(chars: &[char], from: usize) -> Option<usize> {
+    let mut j = from;
+    while j < chars.len() {
+        if chars[j] == '"' {
+            if j + 1 < chars.len() && chars[j + 1] == '"' {
+                j += 2;
+                continue;
+            }
+            return Some(j);
+        }
+        j += 1;
+    }
+    None
+}
+
+/// JS regex literal starting at `at` (which holds `/`): a closed `/.../` with
+/// at least one `gimuysd`-flag character after it, no newline possible (we
+/// are within one line), backslash escapes honoured.
+fn scan_js_regex(chars: &[char], at: usize) -> Option<usize> {
+    let mut j = at + 1;
+    let mut closed = None;
+    while j < chars.len() {
+        match chars[j] {
+            '\\' => j += 2,
+            '/' => {
+                closed = Some(j);
+                break;
+            }
+            _ => j += 1,
+        }
+    }
+    let close = closed?;
+    let mut k = close + 1;
+    let mut flags = 0;
+    while k < chars.len() && "gimuysd".contains(chars[k]) {
+        flags += 1;
+        k += 1;
+    }
+    if flags == 0 {
+        return None;
+    }
+    Some(k)
+}
+
+fn is_word_char(c: char, format: Grammar) -> bool {
+    c.is_ascii_alphanumeric() || c == '_' || (format == Grammar::JavaScript && c == '$')
+}
+
+fn scan_word(chars: &[char], at: usize, format: Grammar) -> usize {
+    let mut j = at;
+    while j < chars.len() && is_word_char(chars[j], format) {
+        j += 1;
+    }
+    j
+}
+
+/// Number shapes, close enough for classification (verbatim text is what the
+/// verdict compares): decimal digits, optional hex prefix forms (`0x...`),
+/// optional fraction and exponent.
+fn scan_number(chars: &[char], at: usize, format: Grammar) -> usize {
+    let hex = format != Grammar::Python
+        && chars[at] == '0'
+        && at + 1 < chars.len()
+        && (chars[at + 1] == 'x' || chars[at + 1] == 'X');
+    if hex {
+        let mut j = at + 2;
+        while j < chars.len() && chars[j].is_ascii_hexdigit() {
+            j += 1;
+        }
+        return j;
+    }
+    let mut j = scan_word(chars, at, format);
+    // Fraction and exponent may extend past the identifier-ish run (`.` is
+    // not a word character).
+    if j < chars.len() && chars[j] == '.' && j + 1 < chars.len() && chars[j + 1].is_ascii_digit() {
+        j += 1;
+        j = scan_word(chars, j, format);
+    }
+    if j < chars.len() && (chars[j] == 'e' || chars[j] == 'E') {
+        let mut k = j + 1;
+        if k < chars.len() && (chars[k] == '+' || chars[k] == '-') {
+            k += 1;
+        }
+        if k < chars.len() && chars[k].is_ascii_digit() {
+            j = scan_word(chars, k, format);
+        }
+    }
+    j
+}
+
+fn word_boundary(chars: &[char], at: usize) -> bool {
+    at >= chars.len() || !is_word_char(chars[at], Grammar::JavaScript)
+}
+
+/// Longest item of `list` matching at `at`; the returned index is past the
+/// item. A word-shaped item must end on a word boundary.
+fn match_word_list(chars: &[char], at: usize, list: &[&str]) -> Option<usize> {
+    let mut best: Option<usize> = None;
+    for item in list {
+        let ic: Vec<char> = item.chars().collect();
+        if !starts_with(chars, at, &ic) {
+            continue;
+        }
+        let end = at + ic.len();
+        let boundary = ic.last().map(|c| !is_word_char(*c, Grammar::JavaScript)).unwrap_or(true)
+            || word_boundary(chars, end);
+        if !boundary {
+            continue;
+        }
+        if best.map(|b| end > b).unwrap_or(true) {
+            best = Some(end);
+        }
+    }
+    best
+}
+
+fn matches_keyword(format: Grammar, word: &str) -> bool {
+    let list: &[&str] = match format {
+        Grammar::PlainText => &[],
+        Grammar::Cpp => CPP_KEYWORDS,
+        Grammar::Python => PYTHON_KEYWORDS,
+        Grammar::JavaScript => JS_KEYWORDS,
+    };
+    list.contains(&word)
+}
+
+fn operators(format: Grammar) -> &'static [&'static str] {
+    match format {
+        // Longest first so multi-character operators win.
+        Grammar::Python => &[
+            "**=", "//=", "...", "**", "//", "<<", ">>", "<=", ">=", "==", "!=", "->", ":=", "+=",
+            "-=", "*=", "/=", "%=", "&=", "|=", "^=", "<<=", ">>=", "+", "-", "*", "/", "%", "@",
+            "<", ">", "=", "!", "&", "|", "^", "~", "(", ")", "[", "]", "{", "}", ",", ":", ".",
+            ";",
+        ],
+        Grammar::JavaScript => &[
+            "===", "!==", "**=", "...", "&&=", "||=", "??=", "<<=", ">>=", ">>>", "**", "==", "!=",
+            "<=", ">=", "&&", "||", "??", "?.", "+=", "-=", "*=", "/=", "%=", "&=", "|=", "^=",
+            "<<", ">>", "=>", "++", "--", "+", "-", "*", "/", "%", "&", "|", "^", "~", "!", "<",
+            ">", "=", "?", ":", ";", ",", ".", "(", ")", "[", "]", "{", "}",
+        ],
+        Grammar::Cpp => &["{", "}", "(", ")", "[", "]", ".", ":", ",", ";", "!", "?", "|", "&", "+", "-", "/", "*", "=", ">", "<", "%", "^", "~", "@"],
+        Grammar::PlainText => &[],
+    }
+}
+
+/// Keyword lists are public language facts used only for element
+/// classification. They cannot change verdicts (see the module header): every
+/// non-comment, non-whitespace class is important and compared by exact text.
+const CPP_KEYWORDS: &[&str] = &[
+    "alignas", "alignof", "and", "and_eq", "asm", "auto", "bitand", "bitor", "bool", "break",
+    "case", "catch", "char", "char8_t", "char16_t", "char32_t", "class", "compl", "concept",
+    "const", "consteval", "constexpr", "constinit", "const_cast", "continue", "co_await",
+    "co_return", "co_yield", "decltype", "default", "delete", "do", "double", "dynamic_cast",
+    "else", "enum", "explicit", "export", "extern", "false", "float", "for", "friend", "goto",
+    "if", "inline", "int", "long", "mutable", "namespace", "new", "noexcept", "not", "not_eq",
+    "nullptr", "operator", "or", "or_eq", "private", "protected", "public", "register",
+    "reinterpret_cast", "requires", "return", "short", "signed", "sizeof", "static",
+    "static_assert", "static_cast", "struct", "switch", "template", "this", "thread_local",
+    "throw", "true", "try", "typedef", "typeid", "typename", "union", "unsigned", "using",
+    "virtual", "void", "volatile", "wchar_t", "while", "xor", "xor_eq",
+];
+
+const CPP_DIRECTIVES: &[&str] = &[
+    "define", "defined", "elif", "else", "endif", "error", "if", "ifdef", "ifndef", "import",
+    "include", "line", "pragma", "undef", "warning",
+];
+
+const PYTHON_KEYWORDS: &[&str] = &[
+    "False", "None", "True", "and", "as", "assert", "async", "await", "break", "class",
+    "continue", "def", "del", "elif", "else", "except", "finally", "for", "from", "global",
+    "if", "import", "in", "is", "lambda", "nonlocal", "not", "or", "pass", "raise", "return",
+    "try", "while", "with", "yield",
+];
+
+const JS_KEYWORDS: &[&str] = &[
+    "abstract", "any", "as", "async", "await", "boolean", "break", "case", "catch", "class",
+    "const", "continue", "debugger", "declare", "default", "delete", "do", "else", "enum",
+    "export", "extends", "false", "finally", "for", "from", "function", "get", "if", "implements",
+    "import", "in", "instanceof", "interface", "is", "let", "namespace", "new", "null", "number",
+    "of", "package", "private", "protected", "public", "readonly", "return", "set", "static",
+    "string", "super", "switch", "symbol", "this", "throw", "true", "try", "type", "typeof",
+    "undefined", "unknown", "var", "void", "while", "with", "yield",
+];
+
+/// The alignment-time key for one line, kept for the tests that assert two
+/// lines share an alignment class.
+///
+/// The aligner itself no longer compares these keys directly: `align` builds
+/// its own [`crate::align::AnchorKey`]s, in which a line with important content
+/// anchors on its important text while a line with none takes a key unique to
+/// itself (BC places such lines by similarity rather than by identity — see
+/// `align::pair_block`). This enum still names that class distinction, and
+/// [`Plan::line_is_unimportant`] is the predicate the aligner actually uses.
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+pub enum AlignKey {
+    /// A line with no important content at all: comments, blanks, whitespace.
+    /// All such lines align with each other (u2 `comment-vs-empty`,
+    /// `blank-vs-ws`, `comment-syntax-swap`; U1 `comment`).
+    Unimportant,
+    /// The verbatim concatenation of the line's important element texts
+    /// (plain text: whitespace-stripped lower-cased line).
+    Seq(String),
+}
+
+/// What the engine needs to know about one line, precomputed per side.
+#[derive(Debug, Clone)]
+struct LineFacts {
+    key: AlignKey,
+    /// Concatenation of the important element texts. Two aligned lines are
+    /// `similar` iff these are equal, `different` otherwise.
+    important: String,
+}
+
+fn plain_facts(line: &str) -> LineFacts {
+    let seq: String = line
+        .chars()
+        .filter(|c| !c.is_whitespace())
+        .flat_map(|c| c.to_lowercase())
+        .collect();
+    let key = if seq.is_empty() {
+        AlignKey::Unimportant
+    } else {
+        AlignKey::Seq(seq.clone())
+    };
+    LineFacts { key, important: seq }
+}
+
+fn syntax_facts(line: &str, format: Grammar, cont: &mut Cont) -> LineFacts {
+    let spans = scan_line(line, format, cont);
+    let mut important = String::new();
+    let chars: Vec<char> = line.chars().collect();
+    for s in &spans {
+        if matches!(s.kind, Kind::Comment | Kind::Whitespace) {
+            continue;
+        }
+        important.extend(&chars[s.start..s.end]);
+    }
+    let key = if important.is_empty() {
+        AlignKey::Unimportant
+    } else {
+        AlignKey::Seq(important.clone())
+    };
+    LineFacts { key, important }
+}
+
+/// Everything the alignment and classification need, computed once per side so
+/// the cross-line tokenizer state is threaded in document order.
+///
+/// Building the plan is the ONLY place tokenization happens; `align` pairs by
+/// [`AlignKey`] and [`Plan::verdict`] classifies each matched pair.
+#[derive(Debug, Clone)]
+pub struct Plan {
+    pub format: Grammar,
+    left_lines: Vec<String>,
+    right_lines: Vec<String>,
+    left: Vec<LineFacts>,
+    right: Vec<LineFacts>,
+}
+
+impl Plan {
+    pub fn build(left: &[String], right: &[String], format: Grammar) -> Plan {
+        let mut cont_l = Cont::None;
+        let mut cont_r = Cont::None;
+        let facts = |lines: &[String], cont: &mut Cont| -> Vec<LineFacts> {
+            lines
+                .iter()
+                .map(|l| match format {
+                    Grammar::PlainText => plain_facts(l),
+                    _ => syntax_facts(l, format, cont),
+                })
+                .collect()
+        };
+        Plan {
+            format,
+            left_lines: left.to_vec(),
+            right_lines: right.to_vec(),
+            left: facts(left, &mut cont_l),
+            right: facts(right, &mut cont_r),
+        }
+    }
+
+    pub fn left_key(&self, i: usize) -> &AlignKey {
+        &self.left[i].key
+    }
+
+    pub fn right_key(&self, j: usize) -> &AlignKey {
+        &self.right[j].key
+    }
+
+    pub fn left_len(&self) -> usize {
+        self.left.len()
+    }
+
+    pub fn right_len(&self) -> usize {
+        self.right.len()
+    }
+
+    /// True when the line carries no important content (comment, blank or
+    /// whitespace-only). One-sided such lines are reported
+    /// `leftsimilar`/`rightsimilar` instead of orphans (u2b).
+    pub fn line_is_unimportant(&self, left_side: bool, i: usize) -> bool {
+        let f = if left_side { &self.left[i] } else { &self.right[i] };
+        matches!(f.key, AlignKey::Unimportant)
+    }
+
+    /// Per-line unimportance mask for one side, in one pass.
+    ///
+    /// The `statistics` layout splits the original-line counters by importance
+    /// (`IOriginal`/`UOriginal`, m52 probe), which the group list alone cannot
+    /// answer — a `same` row says nothing about whether its left line is a
+    /// comment.
+    pub fn unimportant_mask(lines: &[String], grammar: Grammar) -> Vec<bool> {
+        let mut cont = Cont::None;
+        lines
+            .iter()
+            .map(|l| match grammar {
+                Grammar::PlainText => plain_facts(l).key == AlignKey::Unimportant,
+                _ => {
+                    let f = syntax_facts(l, grammar, &mut cont);
+                    f.key == AlignKey::Unimportant
+                }
+            })
+            .collect()
+    }
+
+    /// The normalized important text of one line: every whitespace and comment
+    /// element removed, everything else verbatim (plain text is
+    /// whitespace-stripped and lower-cased). Two lines are `similar` exactly
+    /// when these are equal while the raw lines differ, and the closeness
+    /// pairing in `align` ranks candidates by their longest common
+    /// subsequence over this text.
+    pub fn important_text(&self, left_side: bool, i: usize) -> &str {
+        let f = if left_side { &self.left[i] } else { &self.right[i] };
+        &f.important
+    }
+
+    /// The text the closeness pass measures similarity on.
+    ///
+    /// Plain text uses the **verbatim line**: the m51b probe
+    /// (`runs/m51b-probe-20261014T163003Z`, `cs-check`) shows BC zipping
+    /// `[bbbb, xx] vs [X, Y]` into two zero-score pairs, which lower-cased
+    /// text (`xx` scoring 1 against `X`) would never produce — while the
+    /// anchor layer above stays case-insensitive so case-swapped twins can
+    /// still align as `similar` (disambig/case-swap-align). Syntax formats
+    /// keep the verbatim important text: comments and whitespace carry no
+    /// weight there, which is what the recorded m26 comment pairings show.
+    pub fn closeness_text(&self, left_side: bool, i: usize) -> &str {
+        match self.format {
+            Grammar::PlainText => {
+                if left_side {
+                    &self.left_lines[i]
+                } else {
+                    &self.right_lines[i]
+                }
+            }
+            _ => {
+                let f = if left_side { &self.left[i] } else { &self.right[i] };
+                &f.important
+            }
+        }
+    }
+
+    /// The text BC's pair scorer fetches (`FUN_140e723a0` → the line-text
+    /// accessor): the verbatim line with only leading/trailing whitespace
+    /// trimmed — comments and case are kept.
+    ///
+    /// This is deliberately NOT [`Self::closeness_text`]: scoring syntax lines
+    /// on comment-stripped text is measurably worse than on the verbatim line
+    /// (docs/11 §15, configs C/E vs D — 105 vs 95 of 120 fuzz cases).
+    pub fn score_text(&self, left_side: bool, i: usize) -> &str {
+        let line = if left_side {
+            &self.left_lines[i]
+        } else {
+            &self.right_lines[i]
+        };
+        line.trim()
+    }
+
+    /// Classify a matched pair.
+    pub fn verdict(&self, li: usize, ri: usize) -> Verdict {
+        if self.left_lines[li] == self.right_lines[ri] {
+            return Verdict::Same;
+        }
+        if self.left[li].important == self.right[ri].important {
+            return Verdict::Similar;
+        }
+        Verdict::Different
+    }
+}
+
+/// `rules-based ignore-unimportant` for two in-memory files: true when every
+/// difference between them is unimportant under the M2 importance rules.
+///
+/// Used by the folder comparison (`dir` crate) so both paths share one
+/// definition of "unimportant". The grammar is chosen from `name`'s extension
+/// exactly as the text comparison does, so `a.c` gets the C/C++ rules and an
+/// unknown extension compares as plain text (u2 `foo-*`).
+///
+/// Decoding mirrors the text pipeline: UTF-8 with replacement, line-split on
+/// LF/CRLF/CR. A file that does not decode cleanly is not "all unimportant":
+/// replacement characters make the important text differ, which is the honest
+/// conservative answer, and no error is invented for bytes the Oracle reads.
+pub fn folder_rules_based_ignoring_unimportant(left: &[u8], right: &[u8], name: &str) -> bool {
+    let grammar = Grammar::for_path(name);
+    let dl = crate::lines::decode(left);
+    let dr = crate::lines::decode(right);
+    let ll = crate::lines::split_text(&dl.text);
+    let rl = crate::lines::split_text(&dr.text);
+    if ll.len() != rl.len() {
+        // A line-count change is always an important structural difference.
+        return false;
+    }
+    let plan = Plan::build(&ll, &rl, grammar);
+    (0..ll.len()).all(|i| !matches!(plan.verdict(i, i), Verdict::Different))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn v(l: &str, r: &str, format: Grammar) -> Verdict {
+        let ls = vec![l.to_string()];
+        let rs = vec![r.to_string()];
+        Plan::build(&ls, &rs, format).verdict(0, 0)
+    }
+
+    fn same_key(l: &str, r: &str, format: Grammar) -> bool {
+        let ls = vec![l.to_string()];
+        let rs = vec![r.to_string()];
+        let p = Plan::build(&ls, &rs, format);
+        p.left_key(0) == p.right_key(0)
+    }
+
+    // ---------------------------------------------------------------
+    // Grammar selection
+    // ---------------------------------------------------------------
+
+    #[test]
+    fn masks_select_the_implemented_grammars() {
+        for ext in ["c", "cc", "cpp", "cs", "h", "hpp", "m", "C", "H"] {
+            assert_eq!(Grammar::for_path(&format!("a.{ext}")), Grammar::Cpp, "{ext}");
+        }
+        assert_eq!(Grammar::for_path("a.py"), Grammar::Python);
+        assert_eq!(Grammar::for_path("a.js"), Grammar::JavaScript);
+        assert_eq!(Grammar::for_path(r"D:\x\y.PY"), Grammar::Python);
+    }
+
+    #[test]
+    fn unknown_and_unimplemented_extensions_are_plain_text() {
+        // u2 foo-*: BC treats an unknown extension as plain text.
+        for ext in ["txt", "text", "foo", "md", ""] {
+            assert_eq!(Grammar::for_path(&format!("a.{ext}")), Grammar::PlainText, "{ext}");
+        }
+        assert_eq!(Grammar::for_path("no_extension"), Grammar::PlainText);
+        // Known but unimplemented formats fall back too (known difference).
+        assert_eq!(Grammar::for_path("a.java"), Grammar::PlainText);
+        assert_eq!(Grammar::for_path("a.sql"), Grammar::PlainText);
+    }
+
+    // ---------------------------------------------------------------
+    // U1 table: single-class .c pairs
+    // ---------------------------------------------------------------
+
+    #[test]
+    fn u1_important_classes_stay_important() {
+        let g = Grammar::Cpp;
+        assert_eq!(v("#include <stdio.h>", "#include <stdlib.h>", g), Verdict::Different);
+        assert_eq!(v("int s = a + b;", "int s = a - b;", g), Verdict::Different);
+        assert_eq!(v("int alpha1;", "int alpha2;", g), Verdict::Different);
+        assert_eq!(v("int x = 10;", "int x = 20;", g), Verdict::Different);
+        assert_eq!(v("char *m = \"abc\";", "char *m = \"abd\";", g), Verdict::Different);
+        assert_eq!(v("unsigned int x;", "signed int x;", g), Verdict::Different);
+        assert_eq!(v("int Alpha;", "int alpha;", g), Verdict::Different);
+        assert_eq!(v("int same;", "int same;", g), Verdict::Same);
+    }
+
+    #[test]
+    fn u1_comment_and_whitespace_stay_unimportant() {
+        let g = Grammar::Cpp;
+        assert_eq!(v("// alpha", "// beta", g), Verdict::Similar);
+        assert_eq!(v("int  x;", "int x;", g), Verdict::Similar);
+        assert_eq!(v("int x;   ", "int x;", g), Verdict::Similar);
+    }
+
+    // ---------------------------------------------------------------
+    // U2 table
+    // ---------------------------------------------------------------
+
+    #[test]
+    fn u2_mixed_lines_fold_on_the_comment_part() {
+        let g = Grammar::Cpp;
+        assert_eq!(v("int x = 1; // note", "int x = 1; // other", g), Verdict::Similar);
+        assert_eq!(v("/* head */ int x;", "/* tail */ int x;", g), Verdict::Similar);
+        assert!(same_key("int x = 1; // note", "int x = 1; // other", g));
+    }
+
+    #[test]
+    fn u2_block_comments_span_lines() {
+        let ls: Vec<String> = ["/*", "alpha body", "*/", "int x;"]
+            .iter().map(|s| s.to_string()).collect();
+        let rs: Vec<String> = ["/*", "beta body", "*/", "int x;"]
+            .iter().map(|s| s.to_string()).collect();
+        let p = Plan::build(&ls, &rs, Grammar::Cpp);
+        assert_eq!(p.verdict(0, 0), Verdict::Same);
+        assert_eq!(p.verdict(1, 1), Verdict::Similar, "block body is unimportant");
+        assert!(p.line_is_unimportant(true, 1));
+        assert_eq!(p.verdict(2, 2), Verdict::Same);
+        assert_eq!(p.verdict(3, 3), Verdict::Same);
+    }
+
+    #[test]
+    fn u2_string_interiors_are_important() {
+        let g = Grammar::Cpp;
+        assert_eq!(v("char *a = \"a b\";", "char *a = \"a  b\";", g), Verdict::Different);
+        assert_eq!(v("char *a = \"ABC\";", "char *a = \"abc\";", g), Verdict::Different);
+        assert_eq!(v("char *a = \"abc", "char *a = \"abd", g), Verdict::Different);
+        assert_eq!(v("char *a = \"a\\\"b\";", "char *a = \"a\\\"c\";", g), Verdict::Different);
+    }
+
+    #[test]
+    fn u2_numbers_keep_their_shapes() {
+        let g = Grammar::Cpp;
+        assert_eq!(v("int a = 0x10;", "int a = 0x20;", g), Verdict::Different);
+        assert_eq!(v("double a = 1.5e3;", "double a = 1.5e4;", g), Verdict::Different);
+        // Identical numbers with different spelling still differ by text.
+        assert_eq!(v("int a = 0x10;", "int a = 16;", g), Verdict::Different);
+    }
+
+    #[test]
+    fn u2_python_indent_is_important_but_trailing_ws_is_not() {
+        let g = Grammar::Python;
+        assert_eq!(v("x = 1", "    x = 1", g), Verdict::Different);
+        assert_eq!(v("x = 1   ", "x = 1", g), Verdict::Similar);
+        assert_eq!(v("x = 1  # alpha", "x = 1  # beta", g), Verdict::Similar);
+        assert_eq!(v("# alpha", "# beta", g), Verdict::Similar);
+        // A comment after leading whitespace is one comment element.
+        assert!(same_key("  # a", "  # b", g));
+    }
+
+    #[test]
+    fn u2_python_triple_quotes_span_lines() {
+        let ls: Vec<String> = ["'''", "a b", "'''"].iter().map(|s| s.to_string()).collect();
+        let rs: Vec<String> = ["'''", "a  b", "'''"].iter().map(|s| s.to_string()).collect();
+        let p = Plan::build(&ls, &rs, Grammar::Python);
+        assert_eq!(p.verdict(0, 0), Verdict::Same);
+        assert_eq!(p.verdict(1, 1), Verdict::Different, "string body is important");
+        assert_eq!(p.verdict(2, 2), Verdict::Same);
+    }
+
+    #[test]
+    fn u2_js_regex_literals_are_strings() {
+        let g = Grammar::JavaScript;
+        assert_eq!(v("var r = /ab/g;", "var r = /ac/g;", g), Verdict::Different);
+        assert_eq!(v("var r = /a b/g;", "var r = /ab/g;", g), Verdict::Different);
+        // Division is not a regex: both sides tokenize as operators and the
+        // difference is still important.
+        assert_eq!(v("var q = a / b;", "var q = a / c;", g), Verdict::Different);
+        assert_eq!(v("// alpha", "// beta", g), Verdict::Similar);
+        assert_eq!(v("var t = `a b`;", "var t = `a c`;", g), Verdict::Different);
+    }
+
+    #[test]
+    fn u2_unknown_extensions_behave_like_plain_text() {
+        let g = Grammar::PlainText;
+        assert_eq!(v("Alpha", "alpha", g), Verdict::Similar);
+        // No comment rules in plain text.
+        assert_eq!(v("// alpha", "// beta", g), Verdict::Different);
+        assert_eq!(v("int x = 10;", "long x = 20;", g), Verdict::Different);
+    }
+
+    // ---------------------------------------------------------------
+    // Alignment classes
+    // ---------------------------------------------------------------
+
+    #[test]
+    fn all_unimportant_lines_share_one_class() {
+        let g = Grammar::Cpp;
+        assert!(same_key("// a", "// b", g));
+        assert!(same_key("// a", "", g));
+        assert!(same_key("", "   ", g));
+        assert!(same_key("// a", "/* a */", g));
+        assert!(!same_key("// a", "x;", g));
+        assert!(!same_key("", "x;", g));
+    }
+
+    #[test]
+    fn plain_text_class_is_case_and_whitespace_insensitive() {
+        let g = Grammar::PlainText;
+        assert!(same_key("a ", "a", g));
+        assert!(same_key("Alpha", "aLPHA", g));
+        assert!(same_key("a\tb", "a b", g));
+        assert!(!same_key("a", "b", g));
+    }
+
+    #[test]
+    fn cpp_class_is_verbatim_on_important_parts() {
+        let g = Grammar::Cpp;
+        assert!(same_key("int  x;", "int x;", g));
+        assert!(same_key("x = 1; // one", "x = 1; // two", g));
+        // Leading whitespace is unimportant under every grammar (the Python
+        // Indent element is the only important whitespace, tested above).
+        assert!(same_key("    x = 1;", "x = 1;", g));
+        assert!(!same_key("int Alpha;", "int alpha;", g));
+    }
+
+    #[test]
+    fn cpp_verbatim_string_uses_doubled_quote_escape() {
+        let g = Grammar::Cpp;
+        // @"a""b" is one string whose content includes a quote.
+        assert_eq!(v("string s = @\"a\"\"b\";", "string s = @\"a\"\"c\";", g), Verdict::Different);
+        assert_eq!(v("string s = @\"a\"\"b\";", "string s = @\"a\"\"b\";", g), Verdict::Same);
+    }
+
+    #[test]
+    fn scan_line_kinds_smoke() {
+        let mut cont = Cont::None;
+        let spans = scan_line("int x = 0x1f; // note", Grammar::Cpp, &mut cont);
+        let kinds: Vec<Kind> = spans.iter().map(|s| s.kind).collect();
+        assert_eq!(kinds, vec![Kind::Keyword, Kind::Whitespace, Kind::Identifier, Kind::Whitespace, Kind::Operator, Kind::Whitespace, Kind::Number, Kind::Operator, Kind::Whitespace, Kind::Comment]);
+        assert_eq!(cont, Cont::None);
+    }
+
+    #[test]
+    fn directive_and_operator_multi_char_first() {
+        let mut cont = Cont::None;
+        let spans = scan_line("#include <a.h>", Grammar::Cpp, &mut cont);
+        assert_eq!(spans[0].kind, Kind::Directive);
+        assert_eq!(spans[0].end, "#include".len());
+        let spans = scan_line("x = a ** b", Grammar::Python, &mut cont);
+        let op = spans
+            .iter()
+            .find(|s| s.kind == Kind::Operator && s.end - s.start == 2)
+            .expect("** must tokenize as one operator");
+        assert_eq!(op.end - op.start, 2, "longest operator wins");
+    }
+
+    #[test]
+    fn unterminated_block_comment_closes_on_a_later_line() {
+        let lines: Vec<String> = ["/*", "still", "*/ x;"].iter().map(|s| s.to_string()).collect();
+        let p = Plan::build(&lines, &lines, Grammar::Cpp);
+        assert!(p.line_is_unimportant(true, 0));
+        assert!(p.line_is_unimportant(true, 1));
+        assert!(!p.line_is_unimportant(true, 2));
+    }
+}

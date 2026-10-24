@@ -1,0 +1,41 @@
+Version Compare
+Produced: 2026/10/20 3:18:41
+
+Mode:  All
+Left file: D:\Rea\verify\ver\v-sbs-dll-L.exe     Right file: D:\Rea\verify\ver\v-sbs-dll-R.dll
+Name                         Value                                                                                Name               Value
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Code                                                                                                              Code
+\Data                        50,678,944 bytes                                                                  <> \Data              834,804 bytes
+PE Header                                                                                                         PE Header
++Operating System            Windows NT 6.0                                                                    <> +Operating System  Windows NT 10.0
++Processor                   AMD64                                                                             =  +Processor         AMD64
++Creation Date               2026/3/21 2:52:34                                                                 <> +Creation Date     2032/11/5 2:33:51
++Flags                       Executable, Addresses larger than 2 GB, Debug info stripped                       <> +Flags             Executable, Addresses larger than 2 GB, DLL
++Linker Version              8.0                                                                               <> +Linker Version    14.38
++Image Base                  0x0000000000400000                                                                <> +Image Base        0x0000000180000000
+|                                                                                                              -+ +Image Version     10.0
++Checksum                    0x0305D366                                                                        <> +Checksum          0x000CEF52
++User Interface              Windows GUI 6.0                                                                   <> +User Interface    Windows console 10.0
+\DLL Flags                   High entropy 64-bit addresses, Dynamic base, NX compatible, Terminal server aware <> \DLL Flags         High entropy 64-bit addresses, Dynamic base, NX compatible, Control Flow Guard
+Fixed                                                                                                             Fixed
++File Version                5.2.1.32035                                                                       <> +File Version      10.0.26100.8246
++Product Version             5.2.1.32035                                                                       <> +Product Version   10.0.26100.8246
++Operating System            Windows NT, Windows 32-bit                                                        =  +Operating System  Windows NT, Windows 32-bit
+\File Type                   Application                                                                       <> \File Type         DLL
+Translation                                                                                                       Translation
+\Languages                   英语(美国), 01252  (ANSI - 拉丁语 I)                                                     <> \Languages         英语(美国), UTF-16LE
+Variable                                                                                                          Variable
++Language                    英语(美国), 01252  (ANSI - 拉丁语 I)                                                     <> +Language          英语(美国), UTF-16LE
++Company Name                Scooter Software                                                                  <> +Company Name      Microsoft Corporation
++File Description            Beyond Compare                                                                    <> +File Description  Windows NT BASE API Client DLL
++File Version                5.2.1.32035                                                                       <> +File Version      10.0.26100.8246 (WinBuild.160101.0800)
+|                                                                                                              -+ +Internal Name     kernel32
++Legal Copyright             Copyright © 2026 Scooter Software, Inc.                                           <> +Legal Copyright   © Microsoft Corporation. All rights reserved.
++Legal Trademarks            Beyond Compare ® is a registered trademark of Scooter Software, Inc.              +- |
++Original Filename           BCompare.exe                                                                      <> +Original Filename kernel32
++Product Name                Beyond Compare                                                                    <> +Product Name      Microsoft® Windows® Operating System
++Product Version             5.2                                                                               <> \Product Version   10.0.26100.8246
++Other (CompileDate)         Friday, March 20, 2026 01:51 PM                                                   +-
+\Other (Subversion Revision) 32035                                                                             +-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

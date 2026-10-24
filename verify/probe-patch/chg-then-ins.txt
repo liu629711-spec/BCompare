@@ -1,0 +1,6 @@
+diff -r D:\Rea\verify\probe-patch\chg-then-ins-L.txt D:\Rea\verify\probe-patch\chg-then-ins-R.txt
+2c2,3
+< x
+---
+> y
+> NEW

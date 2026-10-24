@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:24:11">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:24:11">
+		<filename1>D:\Rea\verify\golden\m53b-sql-escape-L.sql</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-sql-escape-R.sql</filename2>
+		<linecomp status="different">
+			<text ltid="1">x = 'a\'b';</text>
+			<text rtid="1">x = 'a\'c';</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

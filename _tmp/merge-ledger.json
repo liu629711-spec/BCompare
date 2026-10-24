@@ -1,0 +1,155 @@
+{
+  "view": "Text Merge",
+  "counts": {
+    "difference_sections": 2,
+    "conflict_sections": 0
+  },
+  "sections": [
+    {
+      "kind": "equal",
+      "base": [
+        0,
+        1
+      ],
+      "left": [
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "output_source": "center"
+    },
+    {
+      "kind": "take-left",
+      "base": [
+        1,
+        2
+      ],
+      "left": [
+        1,
+        2
+      ],
+      "right": [
+        1,
+        2
+      ],
+      "output_source": "left"
+    },
+    {
+      "kind": "equal",
+      "base": [
+        2,
+        4
+      ],
+      "left": [
+        2,
+        4
+      ],
+      "right": [
+        2,
+        4
+      ],
+      "output_source": "center"
+    },
+    {
+      "kind": "take-right",
+      "base": [
+        4,
+        5
+      ],
+      "left": [
+        4,
+        5
+      ],
+      "right": [
+        4,
+        5
+      ],
+      "output_source": "right"
+    },
+    {
+      "kind": "equal",
+      "base": [
+        5,
+        8
+      ],
+      "left": [
+        5,
+        8
+      ],
+      "right": [
+        5,
+        8
+      ],
+      "output_source": "center"
+    }
+  ],
+  "grid": [
+    {
+      "section": 0,
+      "kind": "equal",
+      "left": 0,
+      "center": 0,
+      "right": 0,
+      "output_text": "line one"
+    },
+    {
+      "section": 1,
+      "kind": "take-left",
+      "left": 1,
+      "center": 1,
+      "right": 1,
+      "output_text": "line two edited by left"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 2,
+      "center": 2,
+      "right": 2,
+      "output_text": "line three"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 3,
+      "center": 3,
+      "right": 3,
+      "output_text": "line four"
+    },
+    {
+      "section": 3,
+      "kind": "take-right",
+      "left": 4,
+      "center": 4,
+      "right": 4,
+      "output_text": "line five changed by right"
+    },
+    {
+      "section": 4,
+      "kind": "equal",
+      "left": 5,
+      "center": 5,
+      "right": 5,
+      "output_text": "line six"
+    },
+    {
+      "section": 4,
+      "kind": "equal",
+      "left": 6,
+      "center": 6,
+      "right": 6,
+      "output_text": "line seven"
+    },
+    {
+      "section": 4,
+      "kind": "equal",
+      "left": 7,
+      "center": 7,
+      "right": 7,
+      "output_text": "line eight"
+    }
+  ]
+}

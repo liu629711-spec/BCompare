@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:49">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:49">
+		<filename1>D:\Rea\verify\golden\m53p-perl-pod-block-L.pl</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-perl-pod-block-R.pl</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">=pod</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">body one</text>
+			<text rtid="2">body two</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">=cut</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">code();</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

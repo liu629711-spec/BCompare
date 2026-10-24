@@ -1,0 +1,7 @@
+Registry Compare
+Produced: 2026/10/19 20:46:18
+
+Left file: D:\Rea\verify\reg\r-default-sum-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-default-sum-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+1 same item(s)
+1 important difference item(s)

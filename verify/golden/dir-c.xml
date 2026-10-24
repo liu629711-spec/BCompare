@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:24:20">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:24:20">
+		<filename1>D:\Rea\verify\golden\dir-c-L.c</filename1>
+		<filename2>D:\Rea\verify\golden\dir-c-R.c</filename2>
+		<linecomp status="different">
+			<text ltid="1">#include &lt;stdio.h></text>
+			<text rtid="1">#include &lt;stdlib.h></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

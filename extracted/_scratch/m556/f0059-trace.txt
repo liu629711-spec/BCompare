@@ -1,0 +1,26 @@
+======================================================================
+f0059 python
+  L: ['', 'tmp gamma', 'tmp gamma', '# x beta gamma', 'x beta']
+  R: ['', 'tmp gamma', '# x beta gamma', 'tmp gamma', 'x int', 'tmp gamma']
+  tl: ['', 'tmpgamma', 'tmpgamma', '', 'xbeta']
+  tr: ['', 'tmpgamma', '', 'tmpgamma', 'xint', 'tmpgamma']
+  scan pairs: []
+  scan intervals: [(0, 0, 4, 5)]
+  interval L[0, 1, 2, 3, 4] x R[0, 1, 2, 3, 4, 5] -> handler [(0, 0), (1, 1), (2, 3), (4, 4)]
+    unique pairs: []
+    lis: []
+  want: [['same', 1, 1], ['same', 2, 2], ['rightsimilar', None, 3], ['same', 3, 4], ['leftsimilar', 4, None], ['different', 5, 5], ['rightorphan', None, 6]]
+  got : [['leftsimilar', 1, None], ['leftorphan', 2, None], ['leftorphan', 3, None], ['leftsimilar', 4, None], ['leftorphan', 5, None], ['rightsimilar', None, 1], ['rightorphan', None, 2], ['rightsimilar', None, 3], ['rightorphan', None, 4], ['rightorphan', None, 5], ['rightorphan', None, 6]]
+======================================================================
+f0062 cpp
+  L: ['x', 'node', '', 'yy', 'BETA DELTA GAMMA ITEM', 'yy alpha tmp', '// delta']
+  R: ['// delta', 'NODE', '', 'yy', 'BETA DELTA GAMMA ITEM', 'yy alpha tmp', '// DELTA']
+  tl: ['x', 'node', '', 'yy', 'BETADELTAGAMMAITEM', 'yyalphatmp', '']
+  tr: ['', 'NODE', '', 'yy', 'BETADELTAGAMMAITEM', 'yyalphatmp', '']
+  scan pairs: []
+  scan intervals: [(0, 0, 6, 6)]
+  interval L[0, 1, 2, 3, 4, 5, 6] x R[0, 1, 2, 3, 4, 5, 6] -> handler [(0, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6)]
+    unique pairs: [(3, 3), (4, 4), (5, 5)]
+    lis: [(3, 3), (4, 4), (5, 5)]
+  want: [['rightsimilar', None, 1], ['different', 1, 2], ['leftorphan', 2, None], ['same', 3, 3], ['same', 4, 4], ['same', 5, 5], ['same', 6, 6], ['similar', 7, 7]]
+  got : [['leftorphan', 1, None], ['leftorphan', 2, None], ['leftsimilar', 3, None], ['leftorphan', 4, None], ['leftorphan', 5, None], ['leftorphan', 6, None], ['leftsimilar', 7, None], ['rightsimilar', None, 1], ['rightorphan', None, 2], ['rightsimilar', None, 3], ['rightorphan', None, 4], ['rightorphan', None, 5], ['rightorphan', None, 6], ['rightsimilar', None, 7]]

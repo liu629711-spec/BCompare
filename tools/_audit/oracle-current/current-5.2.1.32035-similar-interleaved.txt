@@ -1,0 +1,11 @@
+文本比较(T)
+已产生： 2026/10/13 13:00:05
+
+模式：  全部
+左边文件： D:\Rea\tools\_audit\oracle-current\similar-L.txt
+右边文件： D:\Rea\tools\_audit\oracle-current\similar-R.txt
+1   alpha
+  1 ALPHA
+---------
+2 2 beta
+---------

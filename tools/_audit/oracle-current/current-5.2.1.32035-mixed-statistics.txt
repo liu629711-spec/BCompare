@@ -1,0 +1,4 @@
+文本比较(T)
+已产生： 2026/10/13 13:00:03
+源文件,比较文件,I最初,I添加,I删除,I改变,U最初,U添加,U删除,U改变,来源错误,比较错误,错误
+D:\Rea\tools\_audit\oracle-current\mixed-L.txt,D:\Rea\tools\_audit\oracle-current\mixed-R.txt,5,0,1,1,0,0,0,1

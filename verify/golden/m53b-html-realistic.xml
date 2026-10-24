@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:52">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:52">
+		<filename1>D:\Rea\verify\golden\m53b-html-realistic-L.html</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-html-realistic-R.html</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">&lt;!DOCTYPE html></text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">&lt;!-- page header --></text>
+			<text rtid="2">&lt;!-- page header (v2) --></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">&lt;html></text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="4">  &lt;body class="main"></text>
+			<text rtid="4">  &lt;body class="Main"></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="5" rtid="5">    &lt;p>Hello&lt;/p></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">  &lt;/body></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="7" rtid="7">&lt;/html></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,1 @@
+diff -r D:\Rea\verify\layouts\identical-L.txt D:\Rea\verify\layouts\identical-R.txt

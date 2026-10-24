@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:08">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:08">
+		<filename1>D:\Rea\verify\golden\m53e-cobol-linenum-L.cbl</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-cobol-linenum-R.cbl</filename2>
+		<linecomp status="similar">
+			<text ltid="1">000100 IDENTIFICATION DIVISION.</text>
+			<text rtid="1">000200 IDENTIFICATION DIVISION.</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

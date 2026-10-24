@@ -1,0 +1,8 @@
+Version Compare
+Produced: 2026/10/20 3:18:43
+
+Ignoring Unimportant
+Left file: D:\Rea\verify\ver\v-opt-ignore-unimp-L.exe
+Right file: D:\Rea\verify\ver\v-opt-ignore-unimp-R.exe
+16 same item(s)
+10 important difference item(s)

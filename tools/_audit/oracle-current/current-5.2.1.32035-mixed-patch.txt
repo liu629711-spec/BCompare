@@ -1,0 +1,8 @@
+diff -r D:\Rea\tools\_audit\oracle-current\mixed-L.txt D:\Rea\tools\_audit\oracle-current\mixed-R.txt
+2,4c2,3
+< case diff
+< real diff 1
+< real diff 2
+---
+> CASE DIFF
+> real diff 9

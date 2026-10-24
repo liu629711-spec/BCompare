@@ -1,0 +1,11 @@
+Text Compare
+Produced: 2026/10/13 13:04:30
+
+Mode:  All
+Left file: D:\Rea\verify\layouts\insert-L.txt     Right file: D:\Rea\verify\layouts\insert-R.txt
+a =  a
+------
+  -+ b
+------
+c =  c
+------

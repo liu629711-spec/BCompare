@@ -1,0 +1,14 @@
+Text Compare
+Produced: 2026/10/12 22:57:29
+
+Mode:  All
+Left file: D:\Rea\verify\left.txt     Right file: D:\Rea\verify\right.txt
+line one   =  line one
+------------------------------
+line two   <> line TWO changed
+------------------------------
+line three =  line three
+common        common
+------------------------------
+           -+ added at end
+------------------------------

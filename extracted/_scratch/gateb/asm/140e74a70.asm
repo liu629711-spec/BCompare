@@ -1,0 +1,9 @@
+function: FUN_140e74a70
+entry: 140e74a70
+
+140e74a70  MOVZX RDX,DL
+140e74a74  MOV RAX,qword ptr [RCX + RDX*0x8 + 0xb0]
+140e74a7c  SUB R8D,dword ptr [RCX + RDX*0x4 + 0x18]
+140e74a81  MOVSXD R8,R8D
+140e74a84  MOV EAX,dword ptr [RAX + R8*0x4]
+140e74a88  RET

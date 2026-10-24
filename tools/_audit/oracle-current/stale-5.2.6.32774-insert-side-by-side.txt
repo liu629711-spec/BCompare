@@ -1,0 +1,12 @@
+Text Compare
+Produced: 2026/10/13 13:00:14
+
+Mode:  All
+Left file: D:\Rea\tools\_audit\oracle-current\insert-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\insert-R.txt
+a =  a
+------
+  -+ b
+------
+c =  c
+------

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <!-- P2 high DPI (docs/20 §3): Per-Monitor v2 so WPF gets true pixel sizing;
+       the down-level fallback keeps PerMonitor on older Windows. Declared
+       capability only — scale verification needs a >100% display (the test
+       bench reports 96 DPI / 100%; recorded as an open verification item).
+       No supportedOS block: its GUIDs are unverified here, and they do not
+       affect DPI behavior. -->
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">PerMonitorV2, PerMonitor</dpiAwareness>
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+    </windowsSettings>
+  </application>
+</assembly>

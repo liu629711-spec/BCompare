@@ -1,0 +1,6 @@
+recorded (identical emitter): base 269/290  nwf 268/290
+gains: ['f0057.oracle.xml', 'f0083.oracle.xml']
+losses: ['f0028.oracle.xml', 'f0040.oracle.xml', 'f0092.oracle.xml']
+fuzz (identical emitter): base 85/120  nwf 94/120
+gains: ['f0002', 'f0013', 'f0043', 'f0052', 'f0057', 'f0075', 'f0083', 'f0088', 'f0094', 'f0095', 'f0112', 'f0116']
+losses: ['f0028', 'f0040', 'f0092']

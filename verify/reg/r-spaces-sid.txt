@@ -1,0 +1,12 @@
+Registry Compare
+Produced: 2026/10/19 20:46:13
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-spaces-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-spaces-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name   Type   Data   Name   Type   Data
+---------------------------------------
+ trail REG_SZ 2    =  trail REG_SZ 2
+a b    REG_SZ 1    = a b    REG_SZ 1
+lead   REG_SZ 1    = lead   REG_SZ 1
+---------------------------------------

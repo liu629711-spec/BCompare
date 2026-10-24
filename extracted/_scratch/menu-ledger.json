@@ -1,0 +1,482 @@
+[
+  {
+    "menu": "Session",
+    "label": "New Session",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "New Tab",
+    "shortcut": "Ctrl\u002BT"
+  },
+  {
+    "menu": "Session",
+    "label": "New Window",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Open Session",
+    "shortcut": "Ctrl\u002BShift\u002BO"
+  },
+  {
+    "menu": "Session",
+    "label": "Load Workspace",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Save Workspace As...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Save Session",
+    "shortcut": "Ctrl\u002BShift\u002BS"
+  },
+  {
+    "menu": "Session",
+    "label": "Save Session As...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Session Settings...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Locked",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Clear Session",
+    "shortcut": "Ctrl\u002BShift\u002BC"
+  },
+  {
+    "menu": "Session",
+    "label": "Close Tab",
+    "shortcut": "Ctrl\u002BW"
+  },
+  {
+    "menu": "Session",
+    "label": "Swap Sides",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Reload Files",
+    "shortcut": "F5"
+  },
+  {
+    "menu": "Session",
+    "label": "Recompare Files",
+    "shortcut": "Ctrl\u002BF5"
+  },
+  {
+    "menu": "Session",
+    "label": "Text Compare Report...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Text Compare Info",
+    "shortcut": "Ctrl\u002BI"
+  },
+  {
+    "menu": "Session",
+    "label": "Compare Files Using",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Merge Files",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Compare Parent Folders",
+    "shortcut": ""
+  },
+  {
+    "menu": "Session",
+    "label": "Exit",
+    "shortcut": "Ctrl\u002BQ"
+  },
+  {
+    "menu": "File",
+    "label": "Open File...",
+    "shortcut": "Ctrl\u002BO"
+  },
+  {
+    "menu": "File",
+    "label": "Open Clipboard",
+    "shortcut": "Ctrl\u002BShift\u002BV"
+  },
+  {
+    "menu": "File",
+    "label": "Open With",
+    "shortcut": ""
+  },
+  {
+    "menu": "File",
+    "label": "Save File",
+    "shortcut": "Ctrl\u002BS"
+  },
+  {
+    "menu": "File",
+    "label": "Save File As...",
+    "shortcut": "F12"
+  },
+  {
+    "menu": "File",
+    "label": "Explorer",
+    "shortcut": ""
+  },
+  {
+    "menu": "Edit",
+    "label": "Undo",
+    "shortcut": "Ctrl\u002BZ"
+  },
+  {
+    "menu": "Edit",
+    "label": "Redo",
+    "shortcut": "Ctrl\u002BY"
+  },
+  {
+    "menu": "Edit",
+    "label": "Align With...",
+    "shortcut": "F7"
+  },
+  {
+    "menu": "Edit",
+    "label": "Isolate",
+    "shortcut": ""
+  },
+  {
+    "menu": "Edit",
+    "label": "Replacement...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Edit",
+    "label": "Copy to Right",
+    "shortcut": "Ctrl\u002BR"
+  },
+  {
+    "menu": "Edit",
+    "label": "Copy Line to Right",
+    "shortcut": "Ctrl\u002BShift\u002BR"
+  },
+  {
+    "menu": "Edit",
+    "label": "Increase Indent",
+    "shortcut": "Ctrl\u002BShift\u002BI"
+  },
+  {
+    "menu": "Edit",
+    "label": "Decrease Indent",
+    "shortcut": "Ctrl\u002BShift\u002BU"
+  },
+  {
+    "menu": "Edit",
+    "label": "Cut",
+    "shortcut": "Ctrl\u002BX"
+  },
+  {
+    "menu": "Edit",
+    "label": "Copy",
+    "shortcut": "Ctrl\u002BC"
+  },
+  {
+    "menu": "Edit",
+    "label": "Paste",
+    "shortcut": "Ctrl\u002BV"
+  },
+  {
+    "menu": "Edit",
+    "label": "Delete",
+    "shortcut": ""
+  },
+  {
+    "menu": "Edit",
+    "label": "Select All",
+    "shortcut": "Ctrl\u002BA"
+  },
+  {
+    "menu": "Edit",
+    "label": "Select Section",
+    "shortcut": "Ctrl\u002BD"
+  },
+  {
+    "menu": "Edit",
+    "label": "Compare Selection to Clipboard",
+    "shortcut": ""
+  },
+  {
+    "menu": "Edit",
+    "label": "Convert File",
+    "shortcut": ""
+  },
+  {
+    "menu": "Search",
+    "label": "Next Difference",
+    "shortcut": "Ctrl\u002BShift\u002BN"
+  },
+  {
+    "menu": "Search",
+    "label": "Previous Difference",
+    "shortcut": "Ctrl\u002BShift\u002BP"
+  },
+  {
+    "menu": "Search",
+    "label": "Next Difference Section",
+    "shortcut": "Ctrl\u002BN"
+  },
+  {
+    "menu": "Search",
+    "label": "Previous Difference Section",
+    "shortcut": "Ctrl\u002BP"
+  },
+  {
+    "menu": "Search",
+    "label": "Next Replacement",
+    "shortcut": "Ctrl\u002BAlt\u002BShift\u002BN"
+  },
+  {
+    "menu": "Search",
+    "label": "Previous Replacement",
+    "shortcut": "Ctrl\u002BAlt\u002BShift\u002BP"
+  },
+  {
+    "menu": "Search",
+    "label": "Next Edit",
+    "shortcut": ""
+  },
+  {
+    "menu": "Search",
+    "label": "Previous Edit",
+    "shortcut": ""
+  },
+  {
+    "menu": "Search",
+    "label": "Find...",
+    "shortcut": "Ctrl\u002BF"
+  },
+  {
+    "menu": "Search",
+    "label": "Replace...",
+    "shortcut": "Ctrl\u002BH"
+  },
+  {
+    "menu": "Search",
+    "label": "Find Next",
+    "shortcut": "F3"
+  },
+  {
+    "menu": "Search",
+    "label": "Find Previous",
+    "shortcut": "Shift\u002BF3"
+  },
+  {
+    "menu": "Search",
+    "label": "Go To...",
+    "shortcut": "Ctrl\u002BG"
+  },
+  {
+    "menu": "Search",
+    "label": "Toggle Bookmark",
+    "shortcut": ""
+  },
+  {
+    "menu": "Search",
+    "label": "Go to Bookmark",
+    "shortcut": ""
+  },
+  {
+    "menu": "Search",
+    "label": "Clear Bookmarks",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Show All",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Show Differences",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Show Same",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Show Context",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Ignore Unimportant Differences",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Ignored",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Visible Whitespace",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Line Numbers",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Syntax Highlighting",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Word Wrap",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Side-by-Side Layout",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Over-Under Layout",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Webpages",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Thumbnail",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Text Details",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Hex Details",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Alignment Details",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Ruler",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "File Info",
+    "shortcut": ""
+  },
+  {
+    "menu": "View",
+    "label": "Toolbar",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Options...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "File Formats...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Profiles...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Export Settings...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Import Settings...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Restore Factory Defaults...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Save Snapshot...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "Edit Text File",
+    "shortcut": ""
+  },
+  {
+    "menu": "Tools",
+    "label": "View Patch...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "Contents",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "Context Sensitive Help",
+    "shortcut": "F1"
+  },
+  {
+    "menu": "Help",
+    "label": "Scooter Software on the Web",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "Check for Updates",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "Support",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "Enter Key...",
+    "shortcut": ""
+  },
+  {
+    "menu": "Help",
+    "label": "About Beyond Compare",
+    "shortcut": ""
+  }
+]

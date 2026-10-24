@@ -1,0 +1,6 @@
+BASE recorded 269 / 290  fuzz 85 / 120
+strip        recorded 273/290  fuzz 104/120
+strip_lower  recorded 273/290  fuzz 102/120
+nospace      recorded 274/290  fuzz 103/120
+verbatim     recorded 272/290  fuzz 103/120
+close        recorded 268/290  fuzz 94/120

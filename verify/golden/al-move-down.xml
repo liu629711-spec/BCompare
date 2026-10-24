@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:24:25">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:24:25">
+		<filename1>D:\Rea\verify\golden\al-move-down-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-move-down-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="2">b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="2">c</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="3">d</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="4">b</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

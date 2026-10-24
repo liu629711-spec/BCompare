@@ -1,0 +1,2029 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "session_files": [],
+ "tops": {
+  "Session": [
+   {
+    "name": "New Session",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "New Tab\tCtrl+T",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "t"
+   },
+   {
+    "name": "New Window",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "Open Session\tCtrl+Shift+O",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Load Workspace",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "k"
+   },
+   {
+    "name": "Save Workspace As...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "v"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Save Session\tCtrl+Shift+S",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "Save Session As...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "Session Settings...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "Locked",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "l"
+   },
+   {
+    "name": "Clear Session\tCtrl+Shift+C",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "Close Tab\tCtrl+W",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Swap Sides",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "Back\tAlt+Left",
+    "ct": 50011,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Forward\tAlt+Right",
+    "ct": 50011,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Browse for Folder",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "Up One Level",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Folder Merge Info\tCtrl+I",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Compare to Output",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "Merge Parent Folders",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Exit\tCtrl+Q",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   }
+  ],
+  "Actions": [
+   {
+    "name": "Compare Contents...",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "c"
+   },
+   {
+    "name": "Merge...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "m"
+   },
+   {
+    "name": "Copy to Output...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "y"
+   },
+   {
+    "name": "Exclude",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "e"
+   },
+   {
+    "name": "Copy Filename",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "i"
+   },
+   {
+    "name": "Ignored",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "g"
+   },
+   {
+    "name": "Refresh Selection\tShift+F5",
+    "ct": 50011,
+    "enabled": false,
+    "acc": "s"
+   }
+  ],
+  "Edit": [
+   {
+    "name": "Expand All",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "Collapse All",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Select All\tCtrl+A",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "Select All Files\tCtrl+Shift+A",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "Select Newer",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "Select Orphans",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "Invert Selection",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "Refresh\tF5",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "Full Refresh\tCtrl+F5",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   }
+  ],
+  "Search": [
+   {
+    "name": "Next Difference\tCtrl+N",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "Previous Difference\tCtrl+P",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "Find Filename...\tCtrl+F",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "Find Next Filename\tF3",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "x"
+   },
+   {
+    "name": "Find Previous Filename\tShift+F3",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "v"
+   }
+  ],
+  "View": [
+   {
+    "name": "Show All",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Changes",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Conflicts",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Left Changes",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Right Changes",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Mergeable",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "Show Unchanged",
+    "ct": 50011,
+    "enabled": true,
+    "acc": ""
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Always Show Folders",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "Compare Files and Folder Structure",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "Only Compare Files",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "Ignore Folder Structure",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Ignore Unimportant Differences",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "Ignore Same Changes",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   },
+   {
+    "name": "Suppress Filters",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Center Pane",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "n"
+   },
+   {
+    "name": "Columns",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "Legend\tCtrl+Alt+L",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "l"
+   },
+   {
+    "name": "Log",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "Toolbar",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "t"
+   }
+  ],
+  "Tools": [
+   {
+    "name": "Options...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "o"
+   },
+   {
+    "name": "File Formats...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "f"
+   },
+   {
+    "name": "Profiles...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "p"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Export Settings...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "Import Settings...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "i"
+   },
+   {
+    "name": "Restore Factory Defaults...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "r"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Save Snapshot...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "h"
+   },
+   {
+    "name": "Edit Text File",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "d"
+   },
+   {
+    "name": "View Patch...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   }
+  ],
+  "Help": [
+   {
+    "name": "Contents",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "c"
+   },
+   {
+    "name": "Context Sensitive Help\tF1",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "h"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "Scooter Software on the Web",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "w"
+   },
+   {
+    "name": "Check for Updates",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "u"
+   },
+   {
+    "name": "Support",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "s"
+   },
+   {
+    "name": "Enter Key...",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "e"
+   },
+   {
+    "name": "",
+    "ct": 50038,
+    "enabled": false,
+    "acc": ""
+   },
+   {
+    "name": "About Beyond Compare",
+    "ct": 50011,
+    "enabled": true,
+    "acc": "a"
+   }
+  ]
+ },
+ "home_tree": [
+  {
+   "d": 0,
+   "ct": "Window",
+   "name": "New Folder Merge - Folder Merge - Beyond Compare",
+   "cls": "TViewForm",
+   "aid": "",
+   "rect": [
+    26,
+    26,
+    1456,
+    864
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TDirMergeView",
+   "aid": "1642908",
+   "rect": [
+    34,
+    84,
+    1440,
+    798
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiDock",
+   "aid": "1446240",
+   "rect": [
+    34,
+    84,
+    1440,
+    89
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "ToolBar",
+   "name": "MainBar",
+   "cls": "TUiToolbar",
+   "aid": "1118718",
+   "rect": [
+    34,
+    84,
+    1440,
+    88
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiComboBox",
+   "aid": "1053126",
+   "rect": [
+    77,
+    138,
+    294,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    80,
+    141,
+    271,
+    19
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    355,
+    139,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiTreeButton",
+   "aid": "856778",
+   "rect": [
+    95,
+    86,
+    78,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Home",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    36,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    173,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "All",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    179,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "MenuItem",
+   "name": "Diffs",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    238,
+    86,
+    69,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Same",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    307,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    366,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "MenuItem",
+   "name": "Structure",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    372,
+    86,
+    75,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    447,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Minor",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    453,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Same OK",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    512,
+    86,
+    66,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    578,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Rules",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    584,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    643,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Merge",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    649,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "To Output",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    708,
+    86,
+    71,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    779,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Expand",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    785,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Collapse",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    844,
+    86,
+    62,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Select",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    906,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Files",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    965,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Refresh",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1024,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1083,
+    86,
+    6,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Swap",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1089,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Stop",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1148,
+    86,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Separator",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    36,
+    125,
+    1436,
+    6
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    36,
+    142,
+    41,
+    17
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Filters",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    371,
+    131,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "Peek",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    430,
+    131,
+    59,
+    39
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "StatusBar",
+   "name": "",
+   "cls": "TUiStatusBar",
+   "aid": "791114",
+   "rect": [
+    34,
+    857,
+    1440,
+    25
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    34,
+    859,
+    38,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    74,
+    859,
+    151,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "Editing disabled",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    227,
+    859,
+    129,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    358,
+    859,
+    151,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    511,
+    859,
+    36,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    549,
+    859,
+    150,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "Editing disabled",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    701,
+    859,
+    129,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    832,
+    859,
+    151,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    985,
+    859,
+    36,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1023,
+    859,
+    150,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "Editing disabled",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1175,
+    859,
+    129,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Text",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1306,
+    859,
+    152,
+    23
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TLogFrame",
+   "aid": "922188",
+   "rect": [
+    34,
+    757,
+    1440,
+    100
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiVirtualListBox",
+   "aid": "791124",
+   "rect": [
+    61,
+    757,
+    1413,
+    100
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "44241128",
+   "rect": [
+    1455,
+    759,
+    17,
+    96
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "上一行",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    1455,
+    759,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "下一行",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    1455,
+    838,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiBodyControl",
+   "aid": "397412",
+   "rect": [
+    63,
+    759,
+    1392,
+    96
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "988164",
+   "rect": [
+    34,
+    757,
+    27,
+    100
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiPanel",
+   "aid": "922178",
+   "rect": [
+    34,
+    173,
+    1440,
+    580
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "ToolBar",
+   "name": "",
+   "cls": "TUiToolbar",
+   "aid": "1249992",
+   "rect": [
+    34,
+    198,
+    1440,
+    25
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "397414",
+   "rect": [
+    277,
+    198,
+    1147,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    280,
+    201,
+    1124,
+    19
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    1408,
+    199,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "RadioButton",
+   "name": "Other:",
+   "cls": "TUiRadioButton",
+   "aid": "725086",
+   "rect": [
+    221,
+    199,
+    56,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "RadioButton",
+   "name": "Right",
+   "cls": "TUiRadioButton",
+   "aid": "462938",
+   "rect": [
+    161,
+    199,
+    50,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "RadioButton",
+   "name": "Left",
+   "cls": "TUiRadioButton",
+   "aid": "397398",
+   "rect": [
+    110,
+    199,
+    41,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    34,
+    210,
+    10,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    44,
+    202,
+    58,
+    17
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    102,
+    210,
+    8,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    151,
+    210,
+    10,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    211,
+    210,
+    10,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1424,
+    199,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1447,
+    199,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "ToolBar",
+   "name": "",
+   "cls": "TUiToolbar",
+   "aid": "1249886",
+   "rect": [
+    34,
+    173,
+    1440,
+    25
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "12652560",
+   "rect": [
+    992,
+    173,
+    422,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    995,
+    176,
+    399,
+    19
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    1398,
+    174,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "4460220",
+   "rect": [
+    513,
+    173,
+    403,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    516,
+    176,
+    380,
+    19
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    900,
+    174,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ComboBox",
+   "name": "",
+   "cls": "TUiSpecComboBox",
+   "aid": "1380918",
+   "rect": [
+    34,
+    173,
+    403,
+    25
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Edit",
+   "name": "",
+   "cls": "Edit",
+   "aid": "1001",
+   "rect": [
+    37,
+    176,
+    380,
+    19
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "打开",
+   "cls": "",
+   "aid": "DropDown",
+   "rect": [
+    421,
+    174,
+    15,
+    23
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    437,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    460,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    483,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    506,
+    185,
+    7,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    916,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    939,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    962,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Custom",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    985,
+    185,
+    7,
+    1
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1414,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Button",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1437,
+    174,
+    23,
+    22
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TDirTreeView",
+   "aid": "660038",
+   "rect": [
+    34,
+    223,
+    1440,
+    530
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "ScrollBar",
+   "name": "",
+   "cls": "TUiScrollBar",
+   "aid": "1774124",
+   "rect": [
+    1455,
+    247,
+    17,
+    504
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "上一行",
+   "cls": "",
+   "aid": "UpButton",
+   "rect": [
+    1455,
+    247,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 5,
+   "ct": "Button",
+   "name": "下一行",
+   "cls": "",
+   "aid": "DownButton",
+   "rect": [
+    1455,
+    734,
+    17,
+    17
+   ]
+  },
+  {
+   "d": 4,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiBodyControl",
+   "aid": "725576",
+   "rect": [
+    36,
+    247,
+    1419,
+    504
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "Pane",
+   "name": "",
+   "cls": "TUiMainDock",
+   "aid": "723944",
+   "rect": [
+    34,
+    57,
+    1440,
+    27
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "",
+   "cls": "TUiMainMenu",
+   "aid": "462952",
+   "rect": [
+    34,
+    57,
+    1440,
+    27
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Session",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    36,
+    59,
+    56,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Actions",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    92,
+    59,
+    54,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Edit",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    146,
+    59,
+    34,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Search",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    180,
+    59,
+    51,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "View",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    231,
+    59,
+    39,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Tools",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    270,
+    59,
+    44,
+    23
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "Help",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    314,
+    59,
+    39,
+    23
+   ]
+  },
+  {
+   "d": 1,
+   "ct": "TitleBar",
+   "name": "",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    50,
+    29,
+    1424,
+    28
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "MenuBar",
+   "name": "系统",
+   "cls": "",
+   "aid": "MenuBar",
+   "rect": [
+    34,
+    34,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 3,
+   "ct": "MenuItem",
+   "name": "系统",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    34,
+    34,
+    22,
+    22
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "最小化",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1335,
+    27,
+    47,
+    30
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "最大化",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1382,
+    27,
+    46,
+    30
+   ]
+  },
+  {
+   "d": 2,
+   "ct": "Button",
+   "name": "关闭",
+   "cls": "",
+   "aid": "",
+   "rect": [
+    1428,
+    27,
+    47,
+    30
+   ]
+  }
+ ],
+ "title": "New Folder Merge - Folder Merge - Beyond Compare",
+ "active_view": [
+  "TDirMergeView",
+  "TDirTreeView"
+ ]
+}

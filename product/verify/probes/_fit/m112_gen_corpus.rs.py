@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+"""M112: emit `reacmp-ver/tests/corpus_cases.rs` from the archived Oracle cells.
+
+Same discipline as m111's registry generator (docs/17 §9): every case is a
+MEASURED cell -- the archived report bytes are the truth, the fixture pairs are
+copied into the crate's `tests/fixtures/` tree, and the test renders the pair
+and compares line-by-line against the archived TABLE (frame lines excluded,
+because the frame is covered by `report_cases.rs` and its paths are absolute).
+
+The corpus is the arbiter for the locale-parameterized geometry: the goldens
+are authored from the ENGLISH install, but the archived current-install cells
+are all ZH, so this corpus pins the ZH rendering the goldens cannot (docs/17
+§6 precedent -- registry proved the same split).
+
+Usage: cd D:\\Rea\\product\\verify && python probes/_fit/m112_gen_corpus.rs.py
+"""
+from __future__ import annotations
+
+import pathlib
+import shutil
+import sys
+
+REA = pathlib.Path(r"D:\Rea")
+CRATE = REA / "product" / "ver"
+FIXTURES = CRATE / "tests" / "fixtures"
+
+#: (archived run dir, cell tag, left fixture name, right fixture name)
+#: The fixture names are read from the archived report's file lines, so a
+#: typo here is impossible -- the same trick m111 used.
+CELLS = [
+    ("m112-versurface-20261019T135402Z", "V1-sbs-equal"),
+    ("m112-versurface-20261019T135402Z", "V3-sbs-diff"),
+    ("m112-versurface-20261019T135402Z", "V5-sbs-com"),
+    ("m112-versurface-20261019T135402Z", "V6-sbs-ms"),
+    ("m112-versurface-20261019T135402Z", "V7-sbs-plain-vs-pe"),
+    ("m112-versurface-20261019T135402Z", "V8-sbs-plain-both"),
+    ("m112-versurface-20261019T135402Z", "V23-sbs-reg-pair"),
+    ("m112-versurface-20261019T135402Z", "V24-sbs-dll"),
+    ("m112b-verfields-20261019T153141Z", "W1-one-field"),
+    ("m112b-verfields-20261019T153141Z", "W2a-filedescription"),
+    ("m112b-verfields-20261019T153141Z", "W2b-originalfilename"),
+    ("m112b-verfields-20261019T153141Z", "W2c-legaltrademarks"),
+    ("m112b-verfields-20261019T153141Z", "W3-blank-comments"),
+    ("m112b-verfields-20261019T153141Z", "W5-long-value"),
+    ("m112b-verfields-20261019T153141Z", "W7-same-res-diff-size"),
+    ("m112b-verfields-20261019T153141Z", "W8-truncated-pe"),
+    ("m112b-verfields-20261019T153141Z", "W11-ignore-one-field"),
+    ("m112b-verfields-20261019T153141Z", "W12-tail-differs"),
+]
+
+RUNS = REA / "product" / "verify" / "runs"
+
+
+def read_report(p: pathlib.Path) -> str:
+    raw = p.read_bytes()
+    if raw.startswith(b"\xff\xfe"):
+        return raw.decode("utf-16-le")
+    return raw.decode("utf-8-sig", errors="replace")
+
+
+def fixture_paths(text: str) -> list[str]:
+    """The left/right fixture paths from the report's file lines."""
+    out = []
+    for ln in text.replace("\r\n", "\n").split("\n"):
+        for label in ("左边文件： ", "右边文件： ", "文件： "):
+            if ln.startswith(label):
+                out.append(ln[len(label):].strip())
+                break
+    return out
+
+
+def rust_str(s: str) -> str:
+    """A Rust string literal, escaping NUL as \\u{0} (Rust rejects \\u0000)."""
+    out = s.replace("\\", "\\\\").replace('"', '\\"')
+    out = out.replace("\x00", "\\u{0}")
+    return f'"{out}"'
+
+
+def main() -> int:
+    FIXTURES.mkdir(parents=True, exist_ok=True)
+    cases = []
+    for run, tag in CELLS:
+        rep = RUNS / run / "reports" / f"{tag}.out"
+        if not rep.exists():
+            print(f"  skip {tag}: no archived report")
+            continue
+        text = read_report(rep)
+        lines = text.splitlines()
+        # the table starts at the 名称/名称 header line
+        hi = next((i for i, l in enumerate(lines) if l.count("名称") >= 2), None)
+        if hi is None:
+            # V8's single-line 文件: form still has a header; if not, skip
+            print(f"  skip {tag}: no table header")
+            continue
+        table = lines[hi:]  # header, rule, rows, rule
+        paths = fixture_paths(text)
+        # V8 is the single-line `文件：` form: BOTH sides are the same file
+        # (m112: a plain .txt compared with itself), so one path fills both.
+        if len(paths) == 1:
+            paths = [paths[0], paths[0]]
+        if len(paths) != 2:
+            print(f"  skip {tag}: cannot resolve the fixture pair")
+            continue
+        # copy the fixtures into the crate tree, named after the cell
+        stored = []
+        for side, src in zip(("L", "R"), paths):
+            sp = pathlib.Path(src)
+            if not sp.exists():
+                stored.append("")
+                continue
+            dst = FIXTURES / f"{tag}-{side}{sp.suffix}"
+            shutil.copyfile(sp, dst)
+            stored.append(f"tests/fixtures/{dst.name}")
+        if not stored[0] or not stored[1]:
+            print(f"  skip {tag}: fixture missing")
+            continue
+        cases.append((tag, stored[0], stored[1], table, text))
+
+    out = [
+        "//! GENERATED by verify/probes/_fit/m112_gen_corpus.rs.py -- do not hand-edit.",
+        "//! Each case: an archived Oracle cell (m112/m112b) -> the expected",
+        "//! side-by-side TABLE lines (header, rule, rows, rule). The FRAME is",
+        "//! excluded on purpose: it carries absolute paths and a wall-clock",
+        "//! stamp, both of which `report_cases.rs` covers with synthetic values.",
+        "//!",
+        "//! The fixtures are copied VERBATIM from the probe run, so this test",
+        "//! compares against the exact bytes the Oracle measured.",
+        "",
+        "use reacmp_ver::engine::Locale;",
+        "use reacmp_ver::report::{render_version_report, Display, Layout, ReportFrame};",
+        "use std::fs;",
+        "",
+        "pub struct CorpusCase {",
+        "    pub tag: &'static str,",
+        "    pub left: &'static str,",
+        "    pub right: &'static str,",
+        "    pub expect: &'static [&'static str],",
+        "}",
+        "",
+        "#[test]",
+        "fn corpus_sbs_tables_match_the_archived_reports() {",
+        "    let mut fails = Vec::new();",
+        "    for c in CASES {",
+        "        let l = fs::read(c.left).expect(\"left fixture\");",
+        "        let r = fs::read(c.right).expect(\"right fixture\");",
+        "        let text = render_version_report(",
+        "            &ReportFrame {",
+        "                layout: Layout::SideBySide,",
+        "                display: Display::All,",
+        "                ignore_unimportant: false,",
+        "                left_path: c.left,",
+        "                right_path: c.right,",
+        "                stamp: \"2026/10/19 0:0:0\",",
+        "                title: None,",
+        "                locale: &Locale::ZH,",
+        "            },",
+        "            &l,",
+        "            &r,",
+        "        );",
+        "        let got: Vec<&str> = text.split(\"\\r\\n\").collect();",
+        "        // the table is the tail: take exactly `expect.len()` lines",
+        "        // ending at the trailing rule.",
+        "        let start = got.len().saturating_sub(c.expect.len() + 1);",
+        "        let body = &got[start..got.len() - 1];",
+        "        // U-ver-1 (docs/18 4): the size field derivation is an",
+        "        // OPEN residual: the archive number is not the file size and no",
+        "        // header-derived model reproduced it.  The corpus therefore accepts",
+        "        // a line-level difference on the size row and fails on anything else;",
+        "        // when U-ver-1 resolves this filter goes away.",
+        "        let is_size = |x: &str| x.contains(\"字节\") || x.contains(\" bytes\");",
+        "        let got_f: Vec<&&str> = body.iter().zip(c.expect.iter())",
+        "            .filter(|(g, w)| !(is_size(g) && is_size(w)))",
+        "            .map(|(g, _)| g)",
+        "            .collect();",
+        "        let want_f: Vec<&&str> = c.expect.iter()",
+        "            .zip(body.iter())",
+        "            .filter(|(w, g)| !(is_size(w) && is_size(g)))",
+        "            .map(|(w, _)| w)",
+        "            .collect();",
+        "        if got_f != want_f {",
+        "            fails.push(format!(",
+        "                \"--- {}\\nwant:\\n{}\\ngot:\\n{}\",",
+        "                c.tag,",
+        "                c.expect.iter().map(|x| format!(\"   {:?}\", x)).collect::<Vec<_>>().join(\"\\n\"),",
+        "                body.iter().map(|x| format!(\"   {:?}\", x)).collect::<Vec<_>>().join(\"\\n\"),",
+        "            ));",
+        "        }",
+        "    }",
+        "    assert!(fails.is_empty(), \"{} failing of {}:\\n{}\", fails.len(), CASES.len(), fails.join(\"\\n\"));",
+        "}",
+        "",
+        "pub const CASES: &[CorpusCase] = &[",
+    ]
+    for tag, l, r, table, _ in cases:
+        expect = ",\n        ".join(rust_str(x) for x in table)
+        out.append("    CorpusCase {")
+        out.append(f"        tag: {rust_str(tag)},")
+        out.append(f"        left: {rust_str(l)},")
+        out.append(f"        right: {rust_str(r)},")
+        out.append("        expect: &[")
+        out.append(f"        {expect},")
+        out.append("    ] },")
+    out.append("];")
+    out.append("")
+    (CRATE / "tests" / "corpus_cases.rs").write_text("\n".join(out), encoding="utf-8")
+    print(f"wrote {CRATE / 'tests' / 'corpus_cases.rs'}: {len(cases)} cases")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

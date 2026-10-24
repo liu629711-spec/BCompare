@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:28">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:28">
+		<filename1>D:\Rea\verify\golden\m53b-xml-attr-value-case-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-attr-value-case-R.xml</filename2>
+		<linecomp status="different">
+			<text ltid="1">&lt;a b="x"/></text>
+			<text rtid="1">&lt;a b="X"/></text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

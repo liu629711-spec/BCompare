@@ -1,0 +1,5 @@
+2026/10/13 12:29:50  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 12:29:50  >> log verbose "D:\Rea\verify\oracle\log-interleaved.txt"
+2026/10/13 12:29:50  >> text-report layout:interleaved output-to:"D:\Rea\verify\oracle\report-interleaved.txt" "D:\Rea\verify\left.txt" "D:\Rea\verify\right.txt"
+2026/10/13 12:29:50  >> 
+2026/10/13 12:29:50  Script completed in 0.04 seconds

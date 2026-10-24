@@ -1,0 +1,10 @@
+Text Compare
+Produced: 2026/10/13 13:04:36
+
+Mode:  All
+Left file: D:\Rea\verify\layouts\similar-L.txt     Right file: D:\Rea\verify\layouts\similar-R.txt
+1   alpha
+  1 ALPHA
+---------
+2 2 beta
+---------

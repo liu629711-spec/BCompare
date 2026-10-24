@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/16 2:35:12">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/16 2:35:12">
+		<filename1>D:\Rea\extracted\_scratch\pytok\c-unterm-leak-L.c</filename1>
+		<filename2>D:\Rea\extracted\_scratch\pytok\c-unterm-leak-R.c</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a = "x /*</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">int y;</text>
+			<text rtid="2">int Y;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">int z;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

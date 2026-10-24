@@ -1,0 +1,67 @@
+{
+  "roots": [
+    {
+      "class": "TTextSessionAlignmentFrame",
+      "name": "TextSessionAlignmentFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextAlignment",
+        "Caption": "Alignment"
+      },
+      "children": [
+        {
+          "class": "TLineAlignDefFrame",
+          "name": "Frame",
+          "flags": [
+            "inline"
+          ],
+          "props": {
+            "Left": 0,
+            "Top": 0,
+            "Width": 425,
+            "Height": 104,
+            "TabOrder": 0
+          },
+          "children": []
+        }
+      ]
+    }
+  ],
+  "consumed": 202,
+  "size": 914,
+  "flat": [
+    {
+      "class": "TTextSessionAlignmentFrame",
+      "name": "TextSessionAlignmentFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextAlignment",
+        "Caption": "Alignment"
+      }
+    },
+    {
+      "class": "TLineAlignDefFrame",
+      "name": "Frame",
+      "flags": [
+        "inline"
+      ],
+      "props": {
+        "Left": 0,
+        "Top": 0,
+        "Width": 425,
+        "Height": 104,
+        "TabOrder": 0
+      }
+    }
+  ]
+}

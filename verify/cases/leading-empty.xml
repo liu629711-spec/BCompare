@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:32:44">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:32:44">
+		<filename1>D:\Rea\verify\cases\leading-empty-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\leading-empty-R.txt</filename2>
+		<linecomp status="leftsimilar">
+			<text ltid="1"></text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="1">foo</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

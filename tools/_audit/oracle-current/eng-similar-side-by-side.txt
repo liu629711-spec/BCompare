@@ -1,0 +1,10 @@
+Text Compare
+Produced: 2026/10/13 13:01:26
+
+Mode:  All
+Left file: D:\Rea\tools\_audit\oracle-current\similar-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\similar-R.txt
+alpha <> ALPHA
+--------------
+beta  =  beta
+--------------

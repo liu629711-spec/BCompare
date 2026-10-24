@@ -1,0 +1,35 @@
+=== follow 140de25c8 ===
+  -> 140de2690 <code>
+       vtable[0] = 140de3b10 <code>
+       vtable[1] = 140de3b60 <code>
+       vtable[2] = 140de3b80 <code>
+       vtable[3] = 140de3ce0 <code>
+       vtable[4] = 140de38d0 <code>
+       vtable[5] = 140de3cf0 <code>
+       vtable[6] = 140de3d10 <code>
+       vtable[7] = 140de3d30 <code>
+       vtable[8] = 100000000000e <unmapped>
+       vtable[9] = 140006b800000 <unmapped>
+  -> 140de3b10 <code>
+       vtable[0] = 38ec834853565755 <unmapped>
+       vtable[1] = 8948cb8948ec8b48 <unmapped>
+       vtable[2] = fffe1bc80d8b48d6 <unmapped>
+       vtable[3] = 212ee8c0334d01b2 <unmapped>
+       vtable[4] = 8d4810438948fffe <unmapped>
+       vtable[5] = c04ee8f28948204d <unmapped>
+       vtable[6] = 8d4810438b48ffff <unmapped>
+       vtable[7] = 758d48000000c8b8 <unmapped>
+       vtable[8] = 658d48a548a54820 <unmapped>
+       vtable[9] = ccccc35d5f5e5b38 <unmapped>
+  -> 38ec834853565755 <unmapped>
+    vtable[0] @ 38ec834853565755 <unreadable: MemoryAccessException>
+    vtable[1] @ 38ec83485356575d <unreadable: MemoryAccessException>
+    vtable[2] @ 38ec834853565765 <unreadable: MemoryAccessException>
+    vtable[3] @ 38ec83485356576d <unreadable: MemoryAccessException>
+    vtable[4] @ 38ec834853565775 <unreadable: MemoryAccessException>
+    vtable[5] @ 38ec83485356577d <unreadable: MemoryAccessException>
+    vtable[6] @ 38ec834853565785 <unreadable: MemoryAccessException>
+    vtable[7] @ 38ec83485356578d <unreadable: MemoryAccessException>
+    vtable[8] @ 38ec834853565795 <unreadable: MemoryAccessException>
+    vtable[9] @ 38ec83485356579d <unreadable: MemoryAccessException>
+

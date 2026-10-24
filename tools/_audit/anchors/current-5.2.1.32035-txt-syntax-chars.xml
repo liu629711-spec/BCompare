@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:08:16">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 14:08:16">
+		<filename1>D:\Rea\verify\golden\txt-syntax-chars-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\txt-syntax-chars-R.txt</filename2>
+		<linecomp status="different">
+			<text ltid="1">int x = 10; // c</text>
+			<text rtid="1">long x = 20; // c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

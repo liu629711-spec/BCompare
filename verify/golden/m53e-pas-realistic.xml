@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:01">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:01">
+		<filename1>D:\Rea\verify\golden\m53e-pas-realistic-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-realistic-R.pas</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">program Hello;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2"/>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="3">{ prints a greeting }</text>
+			<text rtid="3">{ prints a greeting (v2) }</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">begin</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="5">  writeln('hello world');</text>
+			<text rtid="5">  writeln('HELLO WORLD');</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">end.</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

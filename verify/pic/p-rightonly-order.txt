@@ -1,0 +1,9 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:44
+
+左边文件： D:\Rea\verify\pic\p-rightonly-order-L.png
+右边文件： D:\Rea\verify\pic\p-rightonly-order-R.png
+12 个相同像素
+24 个不重要的差异像素
+16 个右边独有像素
+12 个重要差异像素

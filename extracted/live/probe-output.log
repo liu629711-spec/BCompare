@@ -1,0 +1,17 @@
+=== Beyond Compare Find Dialog Probe ===
+BC EXE: D:/bc-official/app/BCompare.exe
+Output: extracted\live\textfind-en
+Files: D:/Rea/tools/textcolor/content-left.txt, D:/Rea/tools/textcolor/content-right.txt
+
+[1] Launching BCompare...
+Command: "D:/bc-official/app/BCompare.exe" "D:/Rea/tools/textcolor/content-left.txt" "D:/Rea/tools/textcolor/content-right.txt"
+Note: Could not assign to Job Object: Failed to assign process to job object
+Continuing without strict process containment...
+Waiting for BCompare main window...
+Traceback (most recent call last):
+  File "D:\Rea\tools\live-probe-find.py", line 477, in <module>
+    main()
+    ~~~~^^
+  File "D:\Rea\tools\live-probe-find.py", line 162, in main
+    raise RuntimeError("Could not find BCompare main window")
+RuntimeError: Could not find BCompare main window

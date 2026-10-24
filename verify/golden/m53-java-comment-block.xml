@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:01">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:01">
+		<filename1>D:\Rea\verify\golden\m53-java-comment-block-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-comment-block-R.java</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">/* head</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">body one</text>
+			<text rtid="2">body two</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">*/ int y = 1;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

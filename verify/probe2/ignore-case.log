@@ -1,0 +1,5 @@
+2026/10/13 9:26:18  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 9:26:18  >> log verbose "D:\Rea\verify\probe2\ignore-case.log"
+2026/10/13 9:26:18  >> text-report layout:xml options:ignore-case output-to:"D:\Rea\verify\probe2\ignore-case.xml" "D:\Rea\verify\probe2\L.txt" "D:\Rea\verify\probe2\R.txt"
+2026/10/13 9:26:18  Fatal Scripting Error: Unexpected argument(s) "ignore-case"
+2026/10/13 9:26:18  Script completed in 0.03 seconds

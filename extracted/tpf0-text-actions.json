@@ -1,0 +1,300 @@
+{
+  "roots": [
+    {
+      "class": "TTextActions",
+      "name": "TextActions",
+      "flags": [
+        "inherited"
+      ],
+      "props": {},
+      "children": [
+        {
+          "class": "TUiActionList",
+          "name": "List",
+          "flags": [
+            "inherited"
+          ],
+          "props": {},
+          "children": [
+            {
+              "class": "TUiAction",
+              "name": "SelectAllAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Select All|Selects all visible lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "FileFormatAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "ImageIndex": {
+                  "ident": "imgTextFormatEdit"
+                }
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "ExistsNextAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Next Existing Line|Positions at next existing line, skipping over gaps."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "ExistsPrevAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Previous Existing Line|Positions at previous existing line, skipping over gaps."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "FavCompareAllAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Show All|Shows same, left orphan, right orphan and difference lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "FavDiffAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Show Differences|Shows left orphan, right orphan and difference lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "FavSameAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Show Same|Shows same lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "FavCompareNoneAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Show None|Shows no lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "TogSameAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Toggle Same|Shows or hides same lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "TogLeftOrphanAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Toggle Left Orphans|Shows or hides left orphan lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "TogRightOrphanAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Toggle Right Orphans|Shows or hides right orphan lines."
+              },
+              "children": []
+            },
+            {
+              "class": "TUiAction",
+              "name": "TogDiffAction",
+              "flags": [
+                "inherited"
+              ],
+              "props": {
+                "Hint": "Toggle Differences|Shows or hides difference lines."
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "consumed": 1094,
+  "size": 28722,
+  "flat": [
+    {
+      "class": "TTextActions",
+      "name": "TextActions",
+      "flags": [
+        "inherited"
+      ],
+      "props": {}
+    },
+    {
+      "class": "TUiActionList",
+      "name": "List",
+      "flags": [
+        "inherited"
+      ],
+      "props": {}
+    },
+    {
+      "class": "TUiAction",
+      "name": "SelectAllAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Select All|Selects all visible lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "FileFormatAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "ImageIndex": {
+          "ident": "imgTextFormatEdit"
+        }
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "ExistsNextAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Next Existing Line|Positions at next existing line, skipping over gaps."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "ExistsPrevAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Previous Existing Line|Positions at previous existing line, skipping over gaps."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "FavCompareAllAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Show All|Shows same, left orphan, right orphan and difference lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "FavDiffAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Show Differences|Shows left orphan, right orphan and difference lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "FavSameAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Show Same|Shows same lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "FavCompareNoneAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Show None|Shows no lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "TogSameAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Toggle Same|Shows or hides same lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "TogLeftOrphanAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Toggle Left Orphans|Shows or hides left orphan lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "TogRightOrphanAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Toggle Right Orphans|Shows or hides right orphan lines."
+      }
+    },
+    {
+      "class": "TUiAction",
+      "name": "TogDiffAction",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "Hint": "Toggle Differences|Shows or hides difference lines."
+      }
+    }
+  ]
+}

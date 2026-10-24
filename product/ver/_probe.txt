@@ -1,0 +1,2 @@
+PROBE V1-sbs-equal: eng ld=25 rn=62 rd=87 rule=121 | ln=24 lv=34 rn_c=24 rv=34 | want ld=28 m=99 rn=100 rd=128 rule=191
+PROBE V3-sbs-diff: eng ld=25 rn=63 rd=88 rule=122 | ln=24 lv=34 rn_c=24 rv=34 | want ld=28 m=99 rn=101 rd=129 rule=192

@@ -1,0 +1,2262 @@
+{
+ "Home": {
+  "active_view": null,
+  "toolbars": [],
+  "statusbars": []
+ },
+ "Text Compare": {
+  "active_view": null,
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Context"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Format"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Copy"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Section"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Section"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "\tInsert"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.35 seconds"
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "1: 1"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Default text"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "1: 1"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Default text"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ]
+ },
+ "Text Merge": {
+  "active_view": [
+   "TTextMergeView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Context"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same OK"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Favor Left"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Favor Right"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Format"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Conflict"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Left"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Center"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Right"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Conflict"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Conflict"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Other:"
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Right"
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Left"
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Unchanged"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "\tInsert"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.05 seconds"
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    }
+   ]
+  ]
+ },
+ "Hex Compare": {
+  "active_view": [
+   "THexCompareView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Format"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Copy"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Diff"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Diff"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "\tInsert"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.08 seconds"
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ]
+ },
+ "Table Compare": {
+  "active_view": [
+   "TTableCompareView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Format"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Copy"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Diff"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Diff"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.1 seconds"
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "A1"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "A1"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ]
+ },
+ "Picture Compare": {
+  "active_view": [
+   "TPixCompareView",
+   "TUiActivePanelView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Tol"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Range"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Blend"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Format"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Meta"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.09 seconds"
+    }
+   ]
+  ]
+ },
+ "Registry Compare": {
+  "active_view": [
+   "TRegCompareView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Copy"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Diff"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Diff"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Expand"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Collapse"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.03 seconds"
+    }
+   ]
+  ]
+ },
+ "Version Compare": {
+  "active_view": [
+   "TVerCompareView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Diff"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Diff"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.03 seconds"
+    }
+   ]
+  ]
+ },
+ "Folder Compare": {
+  "active_view": [
+   "TDirCompareView",
+   "TDirTreeView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Structure"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Copy"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Expand"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Collapse"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Select"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Files"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Refresh"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Stop"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Filters"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Peek"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "4 file(s), 20 bytes"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "367 GB free on D:\\"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "4 file(s), 20 bytes"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "367 GB free on D:\\"
+    }
+   ]
+  ]
+ },
+ "Folder Merge": {
+  "active_view": [
+   "TDirMergeView",
+   "TDirTreeView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": "Structure"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same OK"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Merge"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "To Output"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Expand"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Collapse"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Select"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Files"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Refresh"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Stop"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Filters"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Peek"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Other:"
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Right"
+    },
+    {
+     "ct": "RadioButton",
+     "cls": "TUiRadioButton",
+     "name": "Left"
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Custom",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ]
+ },
+ "Folder Sync": {
+  "active_view": [
+   "TDirSyncTreeView",
+   "TDirSyncView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Expand"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Collapse"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Select"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Refresh"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Stop"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Peek"
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Editing disabled"
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ]
+ },
+ "Media Compare": {
+  "active_view": [
+   "TMediaCompareView"
+  ],
+  "toolbars": [
+   [
+    {
+     "ct": "Pane",
+     "cls": "TUiTreeButton",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Home"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "All"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Diffs"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Same"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Minor"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Rules"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Next Diff"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Prev Diff"
+    },
+    {
+     "ct": "Separator",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Swap"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Reload"
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": "Play2"
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ],
+   [
+    {
+     "ct": "ComboBox",
+     "cls": "TUiSpecComboBox",
+     "name": ""
+    },
+    {
+     "ct": "Button",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "MenuItem",
+     "cls": "",
+     "name": ""
+    }
+   ]
+  ],
+  "statusbars": [
+   [
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": ""
+    },
+    {
+     "ct": "Text",
+     "cls": "",
+     "name": "Load time: 0.03 seconds"
+    }
+   ]
+  ]
+ }
+}

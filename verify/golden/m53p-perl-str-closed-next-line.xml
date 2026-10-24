@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:52">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:52">
+		<filename1>D:\Rea\verify\golden\m53p-perl-str-closed-next-line-L.pl</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-perl-str-closed-next-line-R.pl</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">$x = "a</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">b"; # one</text>
+			<text rtid="2">b"; # two</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">code();</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

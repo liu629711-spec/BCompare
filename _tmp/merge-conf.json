@@ -1,0 +1,123 @@
+{
+  "view": "Text Merge",
+  "counts": {
+    "difference_sections": 1,
+    "conflict_sections": 1
+  },
+  "sections": [
+    {
+      "kind": "equal",
+      "base": [
+        0,
+        1
+      ],
+      "left": [
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "output_source": "center"
+    },
+    {
+      "kind": "conflict",
+      "base": [
+        1,
+        2
+      ],
+      "left": [
+        1,
+        2
+      ],
+      "right": [
+        1,
+        2
+      ],
+      "output_source": "center"
+    },
+    {
+      "kind": "equal",
+      "base": [
+        2,
+        8
+      ],
+      "left": [
+        2,
+        8
+      ],
+      "right": [
+        2,
+        8
+      ],
+      "output_source": "center"
+    }
+  ],
+  "grid": [
+    {
+      "section": 0,
+      "kind": "equal",
+      "left": 0,
+      "center": 0,
+      "right": 0,
+      "output_text": "line one"
+    },
+    {
+      "section": 1,
+      "kind": "conflict",
+      "left": 1,
+      "center": 1,
+      "right": 1,
+      "output_text": "line two"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 2,
+      "center": 2,
+      "right": 2,
+      "output_text": "line three"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 3,
+      "center": 3,
+      "right": 3,
+      "output_text": "line four"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 4,
+      "center": 4,
+      "right": 4,
+      "output_text": "line five"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 5,
+      "center": 5,
+      "right": 5,
+      "output_text": "line six"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 6,
+      "center": 6,
+      "right": 6,
+      "output_text": "line seven"
+    },
+    {
+      "section": 2,
+      "kind": "equal",
+      "left": 7,
+      "center": 7,
+      "right": 7,
+      "output_text": "line eight"
+    }
+  ]
+}

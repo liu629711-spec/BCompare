@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:23:30">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:23:30">
+		<filename1>D:\Rea\verify\golden\m53b-xml-comment-line-iu-L.xml</filename1>
+		<filename2>D:\Rea\verify\golden\m53b-xml-comment-line-iu-R.xml</filename2>
+		<ignoreunimportant/>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">&lt;a/> &lt;!-- one</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

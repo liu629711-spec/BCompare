@@ -1,0 +1,89 @@
+=== TPF0 流文件数=211，解析对象总数=440，重同步次数=1375106 ===
+尚未解码的值标签（计数）: 
+    0x07 x115
+    0x03 x97
+    0x02 x79
+    0x01 x18
+    0x0E x8
+    0x0B x6
+    0x12 x2
+
+=== BC 使用的类（按出现次数，前 45） ===
+TUiPanel                           77
+TUiAction                          50
+TUiLabel                           19
+TUiActionList                      14
+TUiBtnPanel                        14
+TUiActionTree                      14
+TUiCheckBox                        9
+TUiWindowShape                     9
+TUiStatusBar                       9
+TUiActivePanelView                 7
+TUiBevel                           5
+TUiButton                          5
+TUiVirtualListBox                  4
+TUiActivePanel                     4
+TUiListBox                         4
+TUiOkBtn                           2
+TUiTreeView                        2
+TUiRadioButton                     2
+TLogFrame                          2
+TVerView                           1
+TSessionSaveAsDialog               1
+TTextWeightItemDialog              1
+TLineSessionFormatsFrame           1
+TSccChooseProviderDialog           1
+TTextFormatGrammarFrame            1
+THomeView                          1
+THexActions                        1
+TDirActions                        1
+TTextSessionReplacementsFrame      1
+TWorkspaceSaveAsDialog             1
+TVfsArchivePasswordDialog          1
+TSccOpDialog                       1
+TDirLoadErrorDialog                1
+TOpCopyDialog                      1
+TRegReportDialog                   1
+TOpSyncDialog                      1
+TBcView                            1
+TDirLegendDialog                   1
+TVfsSftpPassphraseDialog           1
+TAboutDialog                       1
+TRegValDialog                      1
+TTextGrammarItemDialog             1
+TFileReportDialog                  1
+TVfsDropboxProfileGeneralFrame     1
+TVfsWebDAVProfileGeneralFrame      1
+
+=== 属性名（按出现次数，前 30） ===
+HelpType                     80
+Caption                      67
+Top                          43
+ClientHeight                 40
+Hint                         39
+TabOrder                     32
+Height                       22
+Width                        15
+Nodes                        14
+BorderStyle                  13
+Left                         12
+PixelsPerInch                11
+Panels                       8
+LeftImageIndex               7
+ImageIndex                   5
+HelpKeyword                  4
+Category                     4
+Items.Strings                4
+BorderIcons                  4
+ActiveControl                3
+FontStyle                    2
+PopupMenu                    2
+OnClick                      1
+ClientWidth                  1
+MacSecondaryShortCutStr      1
+IconType                     1
+CenterImageIndex             1
+OnCreate                     1
+OnResize                     1
+MacShortCutStr               1
+

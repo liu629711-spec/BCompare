@@ -1,0 +1,8 @@
+文本比较(T)
+已产生： 2026/10/13 13:04:20
+
+左边文件： D:\Rea\verify\layouts\insert-L.txt     右边文件： D:\Rea\verify\layouts\insert-R.txt
+2 个相同行
+1 个重要右边独有行
+
+1 个差异部分

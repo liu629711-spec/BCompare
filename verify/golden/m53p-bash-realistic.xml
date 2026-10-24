@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 16:53:56">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 16:53:56">
+		<filename1>D:\Rea\verify\golden\m53p-bash-realistic-L.sh</filename1>
+		<filename2>D:\Rea\verify\golden\m53p-bash-realistic-R.sh</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">#!/bin/bash</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2"># greet the user</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="3">NAME=world</text>
+			<text rtid="3">NAME=World</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="5" rtid="5">greet() {</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="6">    echo "hello $NAME"  # greeting</text>
+			<text rtid="6">    echo "hello $NAME"  # salutation</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="7" rtid="7"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="8" rtid="8">greet</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

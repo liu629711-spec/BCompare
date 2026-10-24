@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 14:38:06">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 14:38:06">
+		<filename1>case-swap-align-L.txt</filename1>
+		<filename2>case-swap-align-R.txt</filename2>
+		<linecomp status="leftorphan">
+			<text ltid="1">a</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">B</text>
+			<text rtid="1">b</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="2">A</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

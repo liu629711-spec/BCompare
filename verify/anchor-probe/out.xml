@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:23:19">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:23:19">
+		<filename1>D:\Rea\verify\anchor-probe\left.txt</filename1>
+		<filename2>D:\Rea\verify\anchor-probe\right.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">alpha</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">beta</text>
+			<text rtid="2">BETA</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="3">	indented</text>
+			<text rtid="3">    indented</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="4"></text>
+			<text rtid="4">X</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="5">EndsWithZ&#26;GARBAGE</text>
+			<text rtid="5">GARBAGE</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

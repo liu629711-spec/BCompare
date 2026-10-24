@@ -1,0 +1,5 @@
+diff -r D:\Rea\verify\probe-patch\chg-1to1-L.txt D:\Rea\verify\probe-patch\chg-1to1-R.txt
+2c2
+< x
+---
+> y

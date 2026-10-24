@@ -1,0 +1,13 @@
+Text Compare
+Produced: 2026/10/13 13:43:41
+
+Mode:  All
+Left file: D:\Rea\verify\layouts\mixed-L.txt     Right file: D:\Rea\verify\layouts\mixed-R.txt
+same line   =  same line
+--------------------------
+case diff   <> CASE DIFF
+real diff 1 <> real diff 9
+real diff 2 +-
+--------------------------
+tail        =  tail
+--------------------------

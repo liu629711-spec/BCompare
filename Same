@@ -1,0 +1,1096 @@
+{
+  "view": "Text Compare",
+  "items": [
+    {
+      "menu": "Session",
+      "label": "New Session",
+      "shortcut": "",
+      "enabled": true,
+      "display": "New Session"
+    },
+    {
+      "menu": "Session",
+      "label": "New Tab",
+      "shortcut": "Ctrl\u002BT",
+      "enabled": true,
+      "display": "New Tab"
+    },
+    {
+      "menu": "Session",
+      "label": "New Window",
+      "shortcut": "",
+      "enabled": true,
+      "display": "New Window"
+    },
+    {
+      "menu": "Session",
+      "label": "Open Session",
+      "shortcut": "Ctrl\u002BShift\u002BO",
+      "enabled": true,
+      "display": "Open Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Load Workspace",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Load Workspace"
+    },
+    {
+      "menu": "Session",
+      "label": "Save Workspace As...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Workspace As..."
+    },
+    {
+      "menu": "Session",
+      "label": "Save Session",
+      "shortcut": "Ctrl\u002BShift\u002BS",
+      "enabled": true,
+      "display": "Save Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Save Session As...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Session As..."
+    },
+    {
+      "menu": "Session",
+      "label": "Session Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Session Settings..."
+    },
+    {
+      "menu": "Session",
+      "label": "Locked",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Locked"
+    },
+    {
+      "menu": "Session",
+      "label": "Clear Session",
+      "shortcut": "Ctrl\u002BShift\u002BC",
+      "enabled": true,
+      "display": "Clear Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Close Tab",
+      "shortcut": "Ctrl\u002BW",
+      "enabled": true,
+      "display": "Close Tab"
+    },
+    {
+      "menu": "Session",
+      "label": "Swap Sides",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Swap Sides"
+    },
+    {
+      "menu": "Session",
+      "label": "Reload Files",
+      "shortcut": "F5",
+      "enabled": true,
+      "display": "Reload Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Recompare Files",
+      "shortcut": "Ctrl\u002BF5",
+      "enabled": true,
+      "display": "Recompare Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Text Compare Report...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Text Compare Report..."
+    },
+    {
+      "menu": "Session",
+      "label": "Text Compare Info",
+      "shortcut": "Ctrl\u002BI",
+      "enabled": true,
+      "display": "Text Compare Info"
+    },
+    {
+      "menu": "Session",
+      "label": "Compare Files Using",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Compare Files Using"
+    },
+    {
+      "menu": "Session",
+      "label": "Merge Files",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Merge Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Compare Parent Folders",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Compare Parent Folders"
+    },
+    {
+      "menu": "Session",
+      "label": "Exit",
+      "shortcut": "Ctrl\u002BQ",
+      "enabled": true,
+      "display": "Exit"
+    },
+    {
+      "menu": "File",
+      "label": "Open File...",
+      "shortcut": "Ctrl\u002BO",
+      "enabled": true,
+      "display": "Open File..."
+    },
+    {
+      "menu": "File",
+      "label": "Open Clipboard",
+      "shortcut": "Ctrl\u002BShift\u002BV",
+      "enabled": true,
+      "display": "Open Clipboard"
+    },
+    {
+      "menu": "File",
+      "label": "Open With",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Open With"
+    },
+    {
+      "menu": "File",
+      "label": "Save File",
+      "shortcut": "Ctrl\u002BS",
+      "enabled": false,
+      "display": "Save File"
+    },
+    {
+      "menu": "File",
+      "label": "Save File As...",
+      "shortcut": "F12",
+      "enabled": true,
+      "display": "Save File As..."
+    },
+    {
+      "menu": "File",
+      "label": "Explorer",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Explorer"
+    },
+    {
+      "menu": "Edit",
+      "label": "Undo",
+      "shortcut": "Ctrl\u002BZ",
+      "enabled": false,
+      "display": "Undo"
+    },
+    {
+      "menu": "Edit",
+      "label": "Redo",
+      "shortcut": "Ctrl\u002BY",
+      "enabled": false,
+      "display": "Redo"
+    },
+    {
+      "menu": "Edit",
+      "label": "Align With...",
+      "shortcut": "F7",
+      "enabled": true,
+      "display": "Align With..."
+    },
+    {
+      "menu": "Edit",
+      "label": "Isolate",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Isolate"
+    },
+    {
+      "menu": "Edit",
+      "label": "Replacement...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Replacement..."
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy to Right",
+      "shortcut": "Ctrl\u002BR",
+      "enabled": true,
+      "display": "Copy to Right"
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy Line to Right",
+      "shortcut": "Ctrl\u002BShift\u002BR",
+      "enabled": true,
+      "display": "Copy Line to Right"
+    },
+    {
+      "menu": "Edit",
+      "label": "Increase Indent",
+      "shortcut": "Ctrl\u002BShift\u002BI",
+      "enabled": true,
+      "display": "Increase Indent"
+    },
+    {
+      "menu": "Edit",
+      "label": "Decrease Indent",
+      "shortcut": "Ctrl\u002BShift\u002BU",
+      "enabled": true,
+      "display": "Decrease Indent"
+    },
+    {
+      "menu": "Edit",
+      "label": "Cut",
+      "shortcut": "Ctrl\u002BX",
+      "enabled": false,
+      "display": "Cut"
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy",
+      "shortcut": "Ctrl\u002BC",
+      "enabled": false,
+      "display": "Copy"
+    },
+    {
+      "menu": "Edit",
+      "label": "Paste",
+      "shortcut": "Ctrl\u002BV",
+      "enabled": false,
+      "display": "Paste"
+    },
+    {
+      "menu": "Edit",
+      "label": "Delete",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Delete"
+    },
+    {
+      "menu": "Edit",
+      "label": "Select All",
+      "shortcut": "Ctrl\u002BA",
+      "enabled": true,
+      "display": "Select All"
+    },
+    {
+      "menu": "Edit",
+      "label": "Select Section",
+      "shortcut": "Ctrl\u002BD",
+      "enabled": true,
+      "display": "Select Section"
+    },
+    {
+      "menu": "Edit",
+      "label": "Compare Selection to Clipboard",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Compare Selection to Clipboard"
+    },
+    {
+      "menu": "Edit",
+      "label": "Convert File",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Convert File"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Difference",
+      "shortcut": "Ctrl\u002BShift\u002BN",
+      "enabled": true,
+      "display": "Next Difference"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Difference",
+      "shortcut": "Ctrl\u002BShift\u002BP",
+      "enabled": true,
+      "display": "Previous Difference"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Difference Section",
+      "shortcut": "Ctrl\u002BN",
+      "enabled": true,
+      "display": "Next Difference Section"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Difference Section",
+      "shortcut": "Ctrl\u002BP",
+      "enabled": true,
+      "display": "Previous Difference Section"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Replacement",
+      "shortcut": "Ctrl\u002BAlt\u002BShift\u002BN",
+      "enabled": true,
+      "display": "Next Replacement"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Replacement",
+      "shortcut": "Ctrl\u002BAlt\u002BShift\u002BP",
+      "enabled": true,
+      "display": "Previous Replacement"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Edit",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Next Edit"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Edit",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Previous Edit"
+    },
+    {
+      "menu": "Search",
+      "label": "Find...",
+      "shortcut": "Ctrl\u002BF",
+      "enabled": true,
+      "display": "Find..."
+    },
+    {
+      "menu": "Search",
+      "label": "Replace...",
+      "shortcut": "Ctrl\u002BH",
+      "enabled": true,
+      "display": "Replace..."
+    },
+    {
+      "menu": "Search",
+      "label": "Find Next",
+      "shortcut": "F3",
+      "enabled": true,
+      "display": "Find Next"
+    },
+    {
+      "menu": "Search",
+      "label": "Find Previous",
+      "shortcut": "Shift\u002BF3",
+      "enabled": true,
+      "display": "Find Previous"
+    },
+    {
+      "menu": "Search",
+      "label": "Go To...",
+      "shortcut": "Ctrl\u002BG",
+      "enabled": true,
+      "display": "Go To..."
+    },
+    {
+      "menu": "Search",
+      "label": "Toggle Bookmark",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Toggle Bookmark"
+    },
+    {
+      "menu": "Search",
+      "label": "Go to Bookmark",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Go to Bookmark"
+    },
+    {
+      "menu": "Search",
+      "label": "Clear Bookmarks",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Clear Bookmarks"
+    },
+    {
+      "menu": "View",
+      "label": "Show All",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show All"
+    },
+    {
+      "menu": "View",
+      "label": "Show Differences",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Differences"
+    },
+    {
+      "menu": "View",
+      "label": "Show Same",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Same"
+    },
+    {
+      "menu": "View",
+      "label": "Show Context",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Context"
+    },
+    {
+      "menu": "View",
+      "label": "Ignore Unimportant Differences",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Ignore Unimportant Differences"
+    },
+    {
+      "menu": "View",
+      "label": "Ignored",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Ignored"
+    },
+    {
+      "menu": "View",
+      "label": "Visible Whitespace",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Visible Whitespace"
+    },
+    {
+      "menu": "View",
+      "label": "Line Numbers",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Line Numbers"
+    },
+    {
+      "menu": "View",
+      "label": "Syntax Highlighting",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Syntax Highlighting"
+    },
+    {
+      "menu": "View",
+      "label": "Word Wrap",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Word Wrap"
+    },
+    {
+      "menu": "View",
+      "label": "Side-by-Side Layout",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Side-by-Side Layout"
+    },
+    {
+      "menu": "View",
+      "label": "Over-Under Layout",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Over-Under Layout"
+    },
+    {
+      "menu": "View",
+      "label": "Webpages",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Webpages"
+    },
+    {
+      "menu": "View",
+      "label": "Thumbnail",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Thumbnail"
+    },
+    {
+      "menu": "View",
+      "label": "Text Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Text Details"
+    },
+    {
+      "menu": "View",
+      "label": "Hex Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Hex Details"
+    },
+    {
+      "menu": "View",
+      "label": "Alignment Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Alignment Details"
+    },
+    {
+      "menu": "View",
+      "label": "Ruler",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Ruler"
+    },
+    {
+      "menu": "View",
+      "label": "File Info",
+      "shortcut": "",
+      "enabled": true,
+      "display": "File Info"
+    },
+    {
+      "menu": "View",
+      "label": "Toolbar",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Toolbar"
+    },
+    {
+      "menu": "Tools",
+      "label": "Options...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Options..."
+    },
+    {
+      "menu": "Tools",
+      "label": "File Formats...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "File Formats..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Profiles...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Profiles..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Export Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Export Settings..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Import Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Import Settings..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Restore Factory Defaults...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Restore Factory Defaults..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Save Snapshot...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Snapshot..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Edit Text File",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Edit Text File"
+    },
+    {
+      "menu": "Tools",
+      "label": "View Patch...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "View Patch..."
+    },
+    {
+      "menu": "Help",
+      "label": "Contents",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Contents"
+    },
+    {
+      "menu": "Help",
+      "label": "Context Sensitive Help",
+      "shortcut": "F1",
+      "enabled": true,
+      "display": "Context Sensitive Help"
+    },
+    {
+      "menu": "Help",
+      "label": "Scooter Software on the Web",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Scooter Software on the Web"
+    },
+    {
+      "menu": "Help",
+      "label": "Check for Updates",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Check for Updates"
+    },
+    {
+      "menu": "Help",
+      "label": "Support",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Support"
+    },
+    {
+      "menu": "Help",
+      "label": "Enter Key...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Enter Key..."
+    },
+    {
+      "menu": "Help",
+      "label": "About Beyond Compare",
+      "shortcut": "",
+      "enabled": true,
+      "display": "About LiuCompare"
+    }
+  ],
+  "toolbars": [
+    {
+      "section": "tb",
+      "index": 0,
+      "items": [
+        {
+          "ct": "Pane",
+          "cls": "TUiTreeButton",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Home"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "All"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Diffs"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Same"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Context"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Minor"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Rules"
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": "Format"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Copy"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Next Section"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Prev Section"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Swap"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Reload"
+        }
+      ]
+    },
+    {
+      "section": "tb",
+      "index": 1,
+      "items": [
+        {
+          "ct": "ComboBox",
+          "cls": "TUiSpecComboBox",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "section": "tb",
+      "index": 2,
+      "items": [
+        {
+          "ct": "ComboBox",
+          "cls": "TUiSpecComboBox",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "statusbars": [
+    {
+      "section": "sb",
+      "index": 0,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Same"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "\tInsert"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Load time: 0.35 seconds"
+        }
+      ]
+    },
+    {
+      "section": "sb",
+      "index": 1,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "1: 1"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Default text"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "section": "sb",
+      "index": 2,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "1: 1"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Default text"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "skeleton": [
+    {
+      "ct": "Pane",
+      "cls": "TTextCompareView",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiDock",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "MainBar",
+      "row": "tb:0"
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:0"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextDetailsEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextDetailsEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:1"
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "",
+      "row": "tb:1"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:2"
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "",
+      "row": "tb:2"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiThumbnail",
+      "name": "",
+      "row": null
+    }
+  ],
+  "content": {
+    "left": "D:\\Rea\\tools\\textcolor\\content-left.txt",
+    "right": "D:\\Rea\\tools\\textcolor\\content-right.txt",
+    "mode": "Same",
+    "display_button": "Same",
+    "rows": [
+      {
+        "status": "same",
+        "ltext": "HEAD line",
+        "rtext": "HEAD line",
+        "ltid": 1,
+        "rtid": 1
+      },
+      {
+        "status": "same",
+        "ltext": "TAIL line",
+        "rtext": "TAIL line",
+        "ltid": 4,
+        "rtid": 4
+      },
+      {
+        "status": "same",
+        "ltext": "TAILER",
+        "rtext": "TAILER",
+        "ltid": 9,
+        "rtid": 6
+      },
+      {
+        "status": "same",
+        "ltext": "M1",
+        "rtext": "M1",
+        "ltid": 10,
+        "rtid": 7
+      },
+      {
+        "status": "same",
+        "ltext": "M2",
+        "rtext": "M2",
+        "ltid": 11,
+        "rtid": 8
+      }
+    ]
+  }
+}

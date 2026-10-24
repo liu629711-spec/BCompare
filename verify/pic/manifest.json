@@ -1,0 +1,362 @@
+{
+ "p-sbs-equal": {
+  "layout": "side-by-side",
+  "note": "P1: frame-only side-by-side on identical images; no count lines",
+  "script": "picture-report layout:side-by-side output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sbs-equal-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sbs-equal-R.png",
+  "exit_code": 0,
+  "bytes": 162,
+  "report": "D:\\Rea\\verify\\pic\\p-sbs-equal.txt"
+ },
+ "p-sbs-diff": {
+  "layout": "side-by-side",
+  "note": "P2/Q4: side-by-side on DIFFERING images is still frame-only",
+  "script": "picture-report layout:side-by-side output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sbs-diff-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sbs-diff-R.png",
+  "exit_code": 0,
+  "bytes": 160,
+  "report": "D:\\Rea\\verify\\pic\\p-sbs-diff.txt"
+ },
+ "p-sum-diff": {
+  "layout": "summary",
+  "note": "P3: summary adds the important count line (d=255 delta)",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sum-diff-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sum-diff-R.png",
+  "exit_code": 0,
+  "bytes": 186,
+  "report": "D:\\Rea\\verify\\pic\\p-sum-diff.txt"
+ },
+ "p-sum-equal": {
+  "layout": "summary",
+  "note": "Q1: identical pair -> only the same count line",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sum-equal-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sum-equal-R.png",
+  "exit_code": 0,
+  "bytes": 182,
+  "report": "D:\\Rea\\verify\\pic\\p-sum-equal.txt"
+ },
+ "p-title": {
+  "layout": "side-by-side",
+  "note": "P11: title: replaces frame line 1",
+  "script": "picture-report layout:side-by-side title:\"PicTitle\" output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-title-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-title-R.png",
+  "exit_code": 0,
+  "bytes": 147,
+  "report": "D:\\Rea\\verify\\pic\\p-title.txt"
+ },
+ "p-sum-4px": {
+  "layout": "summary",
+  "note": "Q2: 60 same + 4 important; zero categories omitted",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sum-4px-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sum-4px-R.png",
+  "exit_code": 0,
+  "bytes": 203,
+  "report": "D:\\Rea\\verify\\pic\\p-sum-4px.txt"
+ },
+ "p-mixed-order": {
+  "layout": "summary",
+  "note": "m83h: same -> unimportant -> left orphan -> important measured order",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-mixed-order-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-mixed-order-R.png",
+  "exit_code": 0,
+  "bytes": 270,
+  "report": "D:\\Rea\\verify\\pic\\p-mixed-order.txt"
+ },
+ "p-rightonly-order": {
+  "layout": "summary",
+  "note": "m83i V1: right orphan sorts BEFORE important",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-rightonly-order-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-rightonly-order-R.png",
+  "exit_code": 0,
+  "bytes": 275,
+  "report": "D:\\Rea\\verify\\pic\\p-rightonly-order.txt"
+ },
+ "p-both-surplus": {
+  "layout": "summary",
+  "note": "m83j: 6x8 vs 8x6 -> 36 same + 12L + 12R, left-before-right",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-both-surplus-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-both-surplus-R.png",
+  "exit_code": 0,
+  "bytes": 240,
+  "report": "D:\\Rea\\verify\\pic\\p-both-surplus.txt"
+ },
+ "p-left-surplus": {
+  "layout": "summary",
+  "note": "R7: left-only surplus counted alone",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-left-surplus-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-left-surplus-R.png",
+  "exit_code": 0,
+  "bytes": 214,
+  "report": "D:\\Rea\\verify\\pic\\p-left-surplus.txt"
+ },
+ "p-half-order": {
+  "layout": "summary",
+  "note": "m83g: same then left orphan in the half-difference pair",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-half-order-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-half-order-R.png",
+  "exit_code": 0,
+  "bytes": 210,
+  "report": "D:\\Rea\\verify\\pic\\p-half-order.txt"
+ },
+ "p-right-only": {
+  "layout": "summary",
+  "note": "m83g: same then right orphan",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-right-only-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-right-only-R.png",
+  "exit_code": 0,
+  "bytes": 210,
+  "report": "D:\\Rea\\verify\\pic\\p-right-only.txt"
+ },
+ "p-bound-25": {
+  "layout": "summary",
+  "note": "U4: delta 25 is unimportant (the measured boundary)",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-bound-25-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-bound-25-R.png",
+  "exit_code": 0,
+  "bytes": 192,
+  "report": "D:\\Rea\\verify\\pic\\p-bound-25.txt"
+ },
+ "p-bound-26": {
+  "layout": "summary",
+  "note": "m83f b26: delta 26 is important (the exact boundary counterpart)",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-bound-26-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-bound-26-R.png",
+  "exit_code": 0,
+  "bytes": 186,
+  "report": "D:\\Rea\\verify\\pic\\p-bound-26.txt"
+ },
+ "p-half-diff": {
+  "layout": "summary",
+  "note": "R5: half-same half-important pair",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-half-diff-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-half-diff-R.png",
+  "exit_code": 0,
+  "bytes": 208,
+  "report": "D:\\Rea\\verify\\pic\\p-half-diff.txt"
+ },
+ "p-alpha-ignored": {
+  "layout": "summary",
+  "note": "U8: alpha differs only -> 64 same (alpha is ignored)",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-alpha-ignored-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-alpha-ignored-R.png",
+  "exit_code": 0,
+  "bytes": 190,
+  "report": "D:\\Rea\\verify\\pic\\p-alpha-ignored.txt"
+ },
+ "p-gray-delta": {
+  "layout": "summary",
+  "note": "U9: gray colour type, delta 32 -> important",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-gray-delta-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-gray-delta-R.png",
+  "exit_code": 0,
+  "bytes": 190,
+  "report": "D:\\Rea\\verify\\pic\\p-gray-delta.txt"
+ },
+ "p-perchannel": {
+  "layout": "summary",
+  "note": "U7: per-channel max, not sum (+16/-16 on different channels)",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-perchannel-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-perchannel-R.png",
+  "exit_code": 0,
+  "bytes": 190,
+  "report": "D:\\Rea\\verify\\pic\\p-perchannel.txt"
+ },
+ "p-bmp-diff": {
+  "layout": "summary",
+  "note": "Q5: 24-bit uncompressed BMP pair decodes and counts",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-bmp-diff-L.bmp",
+  "right": "D:\\Rea\\verify\\pic\\p-bmp-diff-R.bmp",
+  "exit_code": 0,
+  "bytes": 186,
+  "report": "D:\\Rea\\verify\\pic\\p-bmp-diff.txt"
+ },
+ "p-bmp32": {
+  "layout": "summary",
+  "note": "U10: BMP at delta 32 -> important",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-bmp32-L.bmp",
+  "right": "D:\\Rea\\verify\\pic\\p-bmp32-R.bmp",
+  "exit_code": 0,
+  "bytes": 180,
+  "report": "D:\\Rea\\verify\\pic\\p-bmp32.txt"
+ },
+ "p-gif-invalid": {
+  "layout": "summary",
+  "note": "V3a: GIF signature -> both sides Invalid image, no counts",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-gif-invalid-L.gif",
+  "right": "D:\\Rea\\verify\\pic\\p-gif-invalid-R.gif",
+  "exit_code": 0,
+  "bytes": 226,
+  "report": "D:\\Rea\\verify\\pic\\p-gif-invalid.txt"
+ },
+ "p-nonimage": {
+  "layout": "side-by-side",
+  "note": "P12: non-image payload -> both sides Unsupported Type",
+  "script": "picture-report layout:side-by-side output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-nonimage-L.bin",
+  "right": "D:\\Rea\\verify\\pic\\p-nonimage-R.bin",
+  "exit_code": 0,
+  "bytes": 238,
+  "report": "D:\\Rea\\verify\\pic\\p-nonimage.txt"
+ },
+ "p-unsupported-both": {
+  "layout": "summary",
+  "note": "m83g: Unsupported Type on both sides; summary has no count lines",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-unsupported-both-L.bin",
+  "right": "D:\\Rea\\verify\\pic\\p-unsupported-both-R.bin",
+  "exit_code": 0,
+  "bytes": 251,
+  "report": "D:\\Rea\\verify\\pic\\p-unsupported-both.txt"
+ },
+ "p-mixed-error": {
+  "layout": "summary",
+  "note": "Q7: healthy PNG vs non-image -> right error + left orphan surplus",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-mixed-error-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-mixed-error-R.bin",
+  "exit_code": 0,
+  "bytes": 231,
+  "report": "D:\\Rea\\verify\\pic\\p-mixed-error.txt"
+ },
+ "p-opt-dmism": {
+  "layout": "summary",
+  "note": "O2: display-mismatches accepted, byte-identical to default (O1)",
+  "script": "picture-report layout:summary options:display-mismatches output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-dmism-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-dmism-R.png",
+  "exit_code": 0,
+  "bytes": 238,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-dmism.txt"
+ },
+ "p-opt-dmatch": {
+  "layout": "summary",
+  "note": "O3: display-matches accepted, byte-identical to default",
+  "script": "picture-report layout:summary options:display-matches output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-dmatch-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-dmatch-R.png",
+  "exit_code": 0,
+  "bytes": 240,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-dmatch.txt"
+ },
+ "p-opt-ignore": {
+  "layout": "summary",
+  "note": "O4: ignore-unimportant adds the header and renames the label",
+  "script": "picture-report layout:summary options:ignore-unimportant output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-ignore-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-ignore-R.png",
+  "exit_code": 0,
+  "bytes": 269,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-ignore.txt"
+ },
+ "p-ignore-line": {
+  "layout": "summary",
+  "note": "m83g: the header line sits BEFORE the file lines",
+  "script": "picture-report layout:summary options:ignore-unimportant output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-ignore-line-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-ignore-line-R.png",
+  "exit_code": 0,
+  "bytes": 235,
+  "report": "D:\\Rea\\verify\\pic\\p-ignore-line.txt"
+ },
+ "p-ignore-order": {
+  "layout": "summary",
+  "note": "m83i V2: ignored-unimportant label with full four-category order",
+  "script": "picture-report layout:summary options:ignore-unimportant output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-ignore-order-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-ignore-order-R.png",
+  "exit_code": 0,
+  "bytes": 275,
+  "report": "D:\\Rea\\verify\\pic\\p-ignore-order.txt"
+ },
+ "p-opt-two-valid": {
+  "layout": "summary",
+  "note": "m83o C1: options:display-mismatches,ignore-unimportant is valid",
+  "script": "picture-report layout:summary options:display-mismatches,ignore-unimportant output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-two-valid-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-two-valid-R.png",
+  "exit_code": 0,
+  "bytes": 219,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-two-valid.txt"
+ },
+ "p-opt-empty": {
+  "layout": "summary",
+  "note": "m83o C3: options: (empty value) is accepted like the default",
+  "script": "picture-report layout:summary options: output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-empty-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-empty-R.png",
+  "exit_code": 0,
+  "bytes": 188,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-empty.txt"
+ },
+ "p-layout-case": {
+  "layout": "summary",
+  "note": "m83o C4: layout:SUMMARY (uppercase) is accepted",
+  "script": "picture-report layout:SUMMARY output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-layout-case-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-layout-case-R.png",
+  "exit_code": 0,
+  "bytes": 192,
+  "report": "D:\\Rea\\verify\\pic\\p-layout-case.txt"
+ },
+ "p-opt-default": {
+  "layout": "summary",
+  "note": "O1: default summary counts on the mixed-importance pair",
+  "script": "picture-report layout:summary output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-opt-default-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-opt-default-R.png",
+  "exit_code": 0,
+  "bytes": 242,
+  "report": "D:\\Rea\\verify\\pic\\p-opt-default.txt"
+ },
+ "p-sbs-opt-dm": {
+  "layout": "side-by-side",
+  "note": "P6: side-by-side + display-mismatches is still frame-only",
+  "script": "picture-report layout:side-by-side options:display-mismatches output-to:\"%3\" \"%1\" \"%2\"",
+  "left": "D:\\Rea\\verify\\pic\\p-sbs-opt-dm-L.png",
+  "right": "D:\\Rea\\verify\\pic\\p-sbs-opt-dm-R.png",
+  "exit_code": 0,
+  "bytes": 164,
+  "report": "D:\\Rea\\verify\\pic\\p-sbs-opt-dm.txt"
+ },
+ "p-shell-sbs": {
+  "layout": "side-by-side",
+  "note": "P8: zero files -> BOM shell with Base folder line (side-by-side form)",
+  "script": "picture-report layout:side-by-side output-to:\"%3\"",
+  "left": "",
+  "right": "",
+  "exit_code": 0,
+  "bytes": 77,
+  "report": "D:\\Rea\\verify\\pic\\p-shell-sbs.txt"
+ },
+ "p-shell-sum": {
+  "layout": "summary",
+  "note": "O5: zero files summary form is the same shell shape",
+  "script": "picture-report layout:summary output-to:\"%3\"",
+  "left": "",
+  "right": "",
+  "exit_code": 0,
+  "bytes": 77,
+  "report": "D:\\Rea\\verify\\pic\\p-shell-sum.txt"
+ }
+}

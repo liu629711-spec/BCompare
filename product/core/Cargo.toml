@@ -1,0 +1,15 @@
+[package]
+name = "reacmp-core"
+version = "0.1.0"
+edition = "2021"
+description = "ReaCompare text-comparison core: line parse, Myers alignment, importance (spec-level), XML + text reports"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate. The empty `[workspace]` table makes this package its own
+# workspace root, so a Cargo.toml appearing at D:\Rea or D:\Rea\product (owned by
+# a parallel task) can never absorb it.
+[workspace]
+
+[dependencies]
+# Intentionally empty. The core has no third-party dependencies, so `cargo test`
+# is hermetic and works offline.

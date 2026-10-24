@@ -1,0 +1,17 @@
+Registry Compare
+Produced: 2026/10/19 20:46:09
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-multi-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-multi-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name Type   Data   Name Type   Data
+-----------------------------------
+0a                 0a
+\v   REG_SZ 1    = \v   REG_SZ 1
+a0                 a0
+\v   REG_SZ 1    = \v   REG_SZ 1
+aa                 aa
+\v   REG_SZ 1    = \v   REG_SZ 1
+ab                 ab
+\v   REG_SZ 1    = \v   REG_SZ 1
+-----------------------------------

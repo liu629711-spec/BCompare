@@ -1,0 +1,37 @@
+{
+  "roots": [
+    {
+      "class": "TTextSessionImportanceFrame",
+      "name": "TextSessionImportanceFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextImportance",
+        "Caption": "Importance"
+      },
+      "children": []
+    }
+  ],
+  "consumed": 136,
+  "size": 2053,
+  "flat": [
+    {
+      "class": "TTextSessionImportanceFrame",
+      "name": "TextSessionImportanceFrame",
+      "flags": [
+        "inherited"
+      ],
+      "props": {
+        "HelpType": {
+          "ident": "htKeyword"
+        },
+        "HelpKeyword": "SessionTextImportance",
+        "Caption": "Importance"
+      }
+    }
+  ]
+}

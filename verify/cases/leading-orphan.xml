@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:24:35">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:24:35">
+		<filename1>D:\Rea\verify\cases\leading-orphan-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\leading-orphan-R.txt</filename2>
+		<linecomp status="leftorphan">
+			<text ltid="1">added first</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="1">shared</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

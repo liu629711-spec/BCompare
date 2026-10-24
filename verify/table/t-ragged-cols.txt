@@ -1,0 +1,10 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:19
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-ragged-cols-L.csv     右边文件： D:\Rea\verify\table\t-ragged-cols-R.csv
+A B C    A B C
+--------------
+a 1   <> a 1 x
+b 2   =  b 2
+--------------

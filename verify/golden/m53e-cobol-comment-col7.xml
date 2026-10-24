@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:09">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:09">
+		<filename1>D:\Rea\verify\golden\m53e-cobol-comment-col7-L.cbl</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-cobol-comment-col7-R.cbl</filename2>
+		<linecomp status="similar">
+			<text ltid="1">000100* note</text>
+			<text rtid="1">000300* other</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">000200       DISPLAY 'X'.</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

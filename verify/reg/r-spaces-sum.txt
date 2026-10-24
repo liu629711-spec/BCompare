@@ -1,0 +1,6 @@
+Registry Compare
+Produced: 2026/10/19 20:46:14
+
+Left file: D:\Rea\verify\reg\r-spaces-sum-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-spaces-sum-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+3 same item(s)

@@ -1,0 +1,17 @@
+{
+  "provenance": "reference 5.2.6.32774 (D:/bc-official/app/BCompare.exe), probe extracted/live/textfind-en (tools/live-text-find-probe.py, 2026-10-22). Colors read from the pixel DIFF between find-again and find-next stages (the current-match repaint region), dominant new-color census. Corpus tools/textcolor/content-left|right.txt, query 'totally'. See docs/19 \u00a76.13.",
+  "find_mark_normal": {
+    "rgb": [255, 227, 162],
+    "note": "pale YELLOW fill under every non-current match (distinct from the diff pale-red (255,227,227); measured in the left-pane current-match band)"
+  },
+  "find_mark_current": {
+    "rgb": [219, 127, 50],
+    "note": "ORANGE = current-match boundary/accent pixels (measured); tier-1 renders current match as a solid orange band + normal matches yellow"
+  },
+  "find_frame_geometry": {
+    "height_px": 37,
+    "combo_x": 75, "combo_width": 655, "combo_height": 25,
+    "prev_width": 46, "next_width": 48, "button_height": 30,
+    "note": "TTextFindFrame measured rects (find-open tree): full content width, y=128. The 750x82 DFM TFILEFINDFRAME is the EXPANDED (Replace/Sides/Advanced) variant; tier-1 = the measured collapsed default bar."
+  }
+}

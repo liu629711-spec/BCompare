@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 2:40:41">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 2:40:41">
+		<filename1>D:\Rea\verify\golden\m2-py-string-case-L.py</filename1>
+		<filename2>D:\Rea\verify\golden\m2-py-string-case-R.py</filename2>
+		<linecomp status="different">
+			<text ltid="1">x = "Abc"</text>
+			<text rtid="1">x = "abc"</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

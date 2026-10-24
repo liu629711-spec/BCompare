@@ -1,0 +1,5 @@
+2026/10/13 12:29:49  *** Beyond Compare 5 Evaluation -- 29 days remaining ***
+2026/10/13 12:29:49  >> log verbose "D:\Rea\verify\oracle\log-summary.txt"
+2026/10/13 12:29:49  >> text-report layout:summary output-to:"D:\Rea\verify\oracle\report-summary.txt" "D:\Rea\verify\left.txt" "D:\Rea\verify\right.txt"
+2026/10/13 12:29:49  >> 
+2026/10/13 12:29:49  Script completed in 0.05 seconds

@@ -1,0 +1,123 @@
+# build artifacts
+target/
+obj/
+*.exe.bak
+
+# big caches / generated run data
+product/verify/runs/
+ghidra-project/
+*_profile/
+
+# python
+__pycache__/
+*.pyc
+
+# OS/editor cruft
+Thumbs.db
+Desktop.ini
+
+# windows reserved name artifact (accidental shell redirect target)
+nul
+
+# dotnet build outputs at any depth
+**/bin/Debug/
+**/bin/Release/
+**/obj/
+
+# third-party binary fixture copies - NOT committed (copyright).
+# Byte-identical copies of BCompare.exe / BComp.com / cmd.exe /
+# notepad.exe used verbatim as replay fixtures. Restore locally
+# with: python tools/fetch_fixtures.py
+# (manifest=verify/FIXTURE-MANIFEST.json)
+/product/cli/tests/verfix/ver-cmd.exe
+/product/cli/tests/verfix/ver-diff-L.com
+/product/cli/tests/verfix/ver-notepad.exe
+/product/cli/tests/verfix/ver-same-L.com
+/product/cli/tests/verfix/ver-same-R.com
+/product/ver/tests/fixtures/V1-sbs-equal-L.exe
+/product/ver/tests/fixtures/V1-sbs-equal-R.exe
+/product/ver/tests/fixtures/V23-sbs-reg-pair-L.com
+/product/ver/tests/fixtures/V23-sbs-reg-pair-R.com
+/product/ver/tests/fixtures/V24-sbs-dll-L.exe
+/product/ver/tests/fixtures/V3-sbs-diff-L.exe
+/product/ver/tests/fixtures/V3-sbs-diff-R.exe
+/product/ver/tests/fixtures/V5-sbs-com-L.exe
+/product/ver/tests/fixtures/V5-sbs-com-R.com
+/product/ver/tests/fixtures/V6-sbs-ms-L.exe
+/product/ver/tests/fixtures/V6-sbs-ms-R.exe
+/product/ver/tests/fixtures/V7-sbs-plain-vs-pe-R.exe
+/product/ver/tests/fixtures/W1-one-field-L.exe
+/product/ver/tests/fixtures/W11-ignore-one-field-L.exe
+/product/ver/tests/fixtures/W12-tail-differs-L.exe
+/product/ver/tests/fixtures/W2a-filedescription-L.exe
+/product/ver/tests/fixtures/W2b-originalfilename-L.exe
+/product/ver/tests/fixtures/W2c-legaltrademarks-L.exe
+/product/ver/tests/fixtures/W3-blank-comments-L.exe
+/product/ver/tests/fixtures/W5-long-value-L.exe
+/product/ver/tests/fixtures/W7-same-res-diff-size-L.exe
+/product/ver/tests/fixtures/W8-truncated-pe-R.exe
+/verify/ver/v-one-field-L.exe
+/verify/ver/v-opt-dmatch-L.exe
+/verify/ver/v-opt-dmatch-R.exe
+/verify/ver/v-opt-dmism-L.exe
+/verify/ver/v-opt-dmism-R.exe
+/verify/ver/v-opt-ignore-unimp-L.exe
+/verify/ver/v-opt-ignore-unimp-R.exe
+/verify/ver/v-sbs-com-L.exe
+/verify/ver/v-sbs-com-R.com
+/verify/ver/v-sbs-diff-L.exe
+/verify/ver/v-sbs-diff-R.exe
+/verify/ver/v-sbs-dll-L.exe
+/verify/ver/v-sbs-equal-L.exe
+/verify/ver/v-sbs-equal-R.exe
+/verify/ver/v-sbs-ms-L.exe
+/verify/ver/v-sbs-ms-R.exe
+/verify/ver/v-sbs-plain-vs-pe-R.exe
+/verify/ver/v-sbs-reg-pair-L.com
+/verify/ver/v-sbs-reg-pair-R.com
+/verify/ver/v-sum-diff-L.exe
+/verify/ver/v-sum-diff-R.exe
+/verify/ver/v-sum-equal-L.exe
+/verify/ver/v-sum-equal-R.exe
+/verify/ver/v-title-L.exe
+/verify/ver/v-title-R.exe
+/verify/ver/v-w11-ignore-one-field-L.exe
+/verify/ver/v-w12-tail-differs-L.exe
+/verify/ver/v-w2a-filedescription-L.exe
+/verify/ver/v-w2b-originalfilename-L.exe
+/verify/ver/v-w2c-legaltrademarks-L.exe
+/verify/ver/v-w3-blank-comments-L.exe
+/verify/ver/v-w5-long-value-L.exe
+/verify/ver/v-w7-same-res-diff-size-L.exe
+/verify/ver/v-w8-truncated-pe-R.exe
+/tools/ghidra/ghidra_11.2.1.zip
+
+# byte-patched derivatives of BComp.com (version-info fields);
+# regenerate via product/verify/probes/m112b_ver_fields_probe.py
+/product/ver/tests/fixtures/W1-one-field-R.exe
+/product/ver/tests/fixtures/W11-ignore-one-field-R.exe
+/product/ver/tests/fixtures/W2a-filedescription-R.exe
+/product/ver/tests/fixtures/W2b-originalfilename-R.exe
+/product/ver/tests/fixtures/W2c-legaltrademarks-R.exe
+/product/ver/tests/fixtures/W3-blank-comments-R.exe
+/product/ver/tests/fixtures/W5-long-value-R.exe
+/verify/ver/v-one-field-R.exe
+/verify/ver/v-w11-ignore-one-field-R.exe
+/verify/ver/v-w2a-filedescription-R.exe
+/verify/ver/v-w2b-originalfilename-R.exe
+/verify/ver/v-w2c-legaltrademarks-R.exe
+/verify/ver/v-w3-blank-comments-R.exe
+/verify/ver/v-w5-long-value-R.exe
+/product/ver/tests/fixtures/W12-tail-differs-R.exe
+/product/ver/tests/fixtures/W7-same-res-diff-size-R.exe
+/product/ver/tests/fixtures/W8-truncated-pe-L.exe
+/verify/ver/v-w12-tail-differs-R.exe
+/verify/ver/v-w7-same-res-diff-size-R.exe
+/verify/ver/v-w8-truncated-pe-L.exe
+
+# Beyond Compare's OWN verbatim content — excluded from this PUBLIC repo:
+#   help/ = shipped documentation (full literary copy)
+#   extracted/resources, extracted/rcdata = raw extracted binary assets (icons/bitmaps)
+/help/
+/extracted/resources/
+/extracted/rcdata/

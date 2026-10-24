@@ -1,0 +1,11 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:20
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-eof-phantom-L.csv     右边文件： D:\Rea\verify\table\t-eof-phantom-R.csv
+A B    A B
+----------
+a 1 =  a 1
+b 2 =  b 2
+    -+
+----------

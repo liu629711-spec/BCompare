@@ -1,0 +1,5 @@
+diff -r D:\Rea\tools\_audit\oracle-current\orphans-L.txt D:\Rea\tools\_audit\oracle-current\orphans-R.txt
+1d0
+< only-left
+2a2
+> only-right

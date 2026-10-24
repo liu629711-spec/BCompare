@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:12">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:12">
+		<filename1>D:\Rea\verify\golden\m53e-cobol-star-not-col7-L.cbl</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-cobol-star-not-col7-R.cbl</filename2>
+		<linecomp status="different">
+			<text ltid="1">000100       DISPLAY X * Y.</text>
+			<text rtid="1">000100       DISPLAY X * Z.</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

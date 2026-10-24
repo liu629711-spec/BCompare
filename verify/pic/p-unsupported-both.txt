@@ -1,0 +1,7 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:50
+
+左边文件： D:\Rea\verify\pic\p-unsupported-both-L.bin
+右边文件： D:\Rea\verify\pic\p-unsupported-both-R.bin
+左边错误： 不被支持的类型
+右边错误： 不被支持的类型

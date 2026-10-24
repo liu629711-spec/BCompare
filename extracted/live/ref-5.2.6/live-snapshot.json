@@ -1,0 +1,325 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "pid": 14980,
+ "waited_s": 2.5,
+ "windows": [
+  {
+   "hwnd": 8722764,
+   "class": "TPUtilWindow",
+   "title": "Home",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 1314910,
+   "class": "tooltips_class32",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 2955264,
+   "class": "TViewForm",
+   "title": "Home - Beyond Compare",
+   "visible": true,
+   "rect": [
+    52,
+    52,
+    1508,
+    916
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 1247886,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 3541684,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 1509160,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 1836816,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 2361100,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 4981446,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 3015010,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 793316,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 4984810,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 4723002,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 984800,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 4197966,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 923312,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 1972672,
+   "class": "GDI+ Hook Window Class",
+   "title": "GDI+ Window (BCompare.exe)",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 2365168,
+   "class": "TApplication",
+   "title": "",
+   "visible": true,
+   "rect": [
+    960,
+    540,
+    960,
+    540
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 3081532,
+   "class": "TPUtilWindow",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 3673452,
+   "class": "madToolsMsgHandlerWindow$51fc$7ff69428b370",
+   "title": "",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 2038344,
+   "class": "MSCTFIME UI",
+   "title": "MSCTFIME UI",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 5839198,
+   "class": "IME",
+   "title": "Default IME",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  },
+  {
+   "hwnd": 11013982,
+   "class": "IME",
+   "title": "Default IME",
+   "visible": false,
+   "rect": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "has_menu": false
+  }
+ ],
+ "child_classes": {
+  "THomeView": 1,
+  "TUiDock": 1,
+  "TUiPanel": 8,
+  "TUiEdit": 1,
+  "THomeTaskBtn": 12,
+  "TFormattedSpecFrame": 3,
+  "TUiSearchEdit": 1,
+  "TEditButton.TGlyph": 1,
+  "TUiBitBtn": 2,
+  "TUiTreeView": 1,
+  "TUiMainDock": 1,
+  "TUiMainMenu": 1,
+  "TTextFindResultsPanel": 1,
+  "TUiSimpleTreeView": 1,
+  "TUiBodyControl": 1,
+  "TUiTabHeader": 1
+ },
+ "menus": {}
+}

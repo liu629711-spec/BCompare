@@ -1,0 +1,366 @@
+{
+ "current-5.2.1.32035": {
+  "le-crlf-vs-lf": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-crlf-vs-cr": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-crcrlf": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-mixed": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-no-final-nl": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf8-bom": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf16le": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf16be": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-latin1": {
+   "status_ok": true,
+   "byte_ok": false
+  },
+  "enc-ctrlz-eof": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-nul-binary": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-trailing": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-leading": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-tab-vs-space": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-internal": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-txt": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-c-ident": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-c-string": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "num-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "op-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "dir-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "comment-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "kw-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "txt-syntax-chars": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-insert": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-delete": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-replace-block": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-move-down": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-swap-blocks": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-duplicates": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-identical": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-empty-left": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-empty-both": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-similar-then-diff": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-ctrl-chars": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-entities": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-quotes": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-unicode": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-tabs": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-long-line": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-all": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-mismatches": {
+   "status_ok": true,
+   "byte_ok": false
+  },
+  "opt-display-context": {
+   "status_ok": true,
+   "byte_ok": false
+  },
+  "opt-display-matches": {
+   "status_ok": true,
+   "byte_ok": false
+  },
+  "opt-ignore-unimportant": {
+   "status_ok": true,
+   "byte_ok": true
+  }
+ },
+ "stale-5.2.6.32774": {
+  "le-crlf-vs-lf": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-crlf-vs-cr": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-crcrlf": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-mixed": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "le-no-final-nl": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf8-bom": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf16le": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-utf16be": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-latin1": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-ctrlz-eof": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "enc-nul-binary": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-trailing": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-leading": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-tab-vs-space": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "ws-internal": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-txt": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-c-ident": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "case-c-string": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "num-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "op-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "dir-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "comment-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "kw-c": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "txt-syntax-chars": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-insert": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-delete": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-replace-block": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-move-down": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-swap-blocks": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-duplicates": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-identical": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-empty-left": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-empty-both": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "al-similar-then-diff": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-ctrl-chars": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-entities": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-quotes": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-unicode": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-tabs": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "xml-long-line": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-all": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-mismatches": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-context": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-display-matches": {
+   "status_ok": true,
+   "byte_ok": true
+  },
+  "opt-ignore-unimportant": {
+   "status_ok": true,
+   "byte_ok": true
+  }
+ }
+}

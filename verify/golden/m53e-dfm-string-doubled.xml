@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:15">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:15">
+		<filename1>D:\Rea\verify\golden\m53e-dfm-string-doubled-L.dfm</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-dfm-string-doubled-R.dfm</filename2>
+		<linecomp status="different">
+			<text ltid="1">Caption = 'It''s'</text>
+			<text rtid="1">Caption = 'It''x'</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

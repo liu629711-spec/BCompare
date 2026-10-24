@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:41:02">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:41:02">
+		<filename1>D:\Rea\verify\golden\m53e-vb-comment-quote-L.bas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-vb-comment-quote-R.bas</filename2>
+		<linecomp status="similar">
+			<text ltid="1">x = 1 ' alpha</text>
+			<text rtid="1">x = 1 ' beta</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

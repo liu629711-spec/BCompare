@@ -1,0 +1,12 @@
+[18:06:57] -> open_binary {"path": "D:/bc-official/app/BCompare.exe", "provider_id": "ghidra"}
+[18:06:57] <- open_binary in 0.2s
+[18:06:57] -> search_strings {"pattern": "TogDiff", "mode": "literal"}
+[18:31:33] <- search_strings in 1476.0s
+[18:31:33] -> xrefs {"address": "0x140da6c08"}
+[18:31:33] <- xrefs in 0.0s
+[18:32:03] wrote D:\Rea\extracted\e2e-result.json
+seed hits: [{"address": "0x140da6c08", "value": "TogDiff"}, {"address": "0x140da8ef8", "value": "TogDiffMod"}]
+seed address: 0x140da6c08
+xrefs: {"evidence_id":"ev_373512c16501894b654499199588c35e891d8a90fd08030f137d4870c1cb4054","subject":{"name":"D:\\bc-official\\app\\BCompare.exe","digest":{"sha256":"4e44c526722d6420e89b372460c519e293c417723305b83ed0eff853db16ce5d"},"format":"pe","architecture":"x86_64","local_path":"D:\\bc-official\\app\\BCompare.exe"},"provider":{"id":"ghidra","name":"Ghidra","version":"12.1.4"},"analysis_profile":{"provider":{"id":"ghidra","name":"Ghidra","version":"12.1.4"},"parameters":{"target_kind":"executable","target_format":"pe","executable_role":"application","managed":false,"native_aot_metadata":{"contract_revision":"rtr-9.1-x64-pe-read-only-v3","source_bytes":134217728,"work_units":67108864,"working_memory_bytes":67108864,"report_bytes":4194304},"architecture":"x86_64","available_architectures":["x8
+target function: None
+RESULTS {"seed_search_seconds": 1476.0364916324615, "seed_hits": [{"address": "0x140da6c08", "value": "TogDiff"}, {"address": "0x140da8ef8", "value": "TogDiffMod"}], "seed_address": "0x140da6c08", "xref_secon

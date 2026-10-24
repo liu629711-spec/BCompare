@@ -1,0 +1,14 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "L": "D:\\Rea\\_scratch_merge\\lc.txt",
+ "R": "D:\\Rea\\_scratch_merge\\rc.txt",
+ "C": "D:\\Rea\\_scratch_merge\\base.txt",
+ "rect-step0": [
+  26,
+  26,
+  1456,
+  864
+ ],
+ "title": 0,
+ "n_editors": 4
+}

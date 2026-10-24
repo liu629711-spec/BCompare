@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/21 20:14:37">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/21 20:14:37">
+		<filename1>D:\Rea\_tmp\c_L.txt</filename1>
+		<filename2>D:\Rea\_tmp\c_R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">HEAD line</text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="2">beta</text>
+			<text rtid="2">BETA</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="3">TOTALLY other words here</text>
+			<text rtid="3">TOTALLY differing words here</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">TAIL line</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="5">X1</text>
+			<text rtid="5">Y1</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="6">X2</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="7">X3</text>
+		</linecomp>
+		<linecomp status="leftorphan">
+			<text ltid="8">X4</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="9" rtid="6">TAILER</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="10" rtid="7">M1</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="11" rtid="8">M2</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="9">M3</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

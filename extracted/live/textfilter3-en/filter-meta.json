@@ -1,0 +1,194 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "left": "D:\\Rea\\tools\\textcolor\\content-left.txt",
+ "right": "D:\\Rea\\tools\\textcolor\\content-right.txt",
+ "buttons": [
+  "Diffs",
+  "Minor"
+ ],
+ "steps": [
+  {
+   "tag": "step0-initial",
+   "png": "step0-initial.png",
+   "win_rect": [
+    26,
+    26,
+    1456,
+    864
+   ],
+   "title": "content-left.txt <--> content-right.txt - Text Compare - Beyond Compare",
+   "text_names": [
+    "",
+    "Same",
+    "\tInsert",
+    "Load time: 0.24 seconds",
+    "1: 1",
+    "Default text",
+    "",
+    "1: 1",
+    "Default text",
+    ""
+   ],
+   "filter_buttons": [
+    {
+     "name": "All",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Diffs",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Same",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Context",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Minor",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Rules",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    }
+   ]
+  },
+  {
+   "tag": "click-Diffs",
+   "png": "click-Diffs.png",
+   "win_rect": [
+    26,
+    26,
+    1456,
+    864
+   ],
+   "title": "content-left.txt <--> content-right.txt - Text Compare - Beyond Compare",
+   "text_names": [
+    "Shows left orphan, right orphan and difference lines.",
+    "Shows left orphan, right orphan and difference lines.",
+    "Shows left orphan, right orphan and difference lines.",
+    "Shows left orphan, right orphan and difference lines.",
+    "2: 1",
+    "Default text",
+    "",
+    "2: 1",
+    "Default text",
+    ""
+   ],
+   "filter_buttons": [
+    {
+     "name": "All",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Diffs",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Same",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Context",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Minor",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Rules",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    }
+   ]
+  },
+  {
+   "tag": "click-Minor",
+   "png": "click-Minor.png",
+   "win_rect": [
+    26,
+    26,
+    1456,
+    864
+   ],
+   "title": "content-left.txt <--> content-right.txt - Text Compare - Beyond Compare",
+   "text_names": [
+    "Treats unimportant differences as same.",
+    "Treats unimportant differences as same.",
+    "Treats unimportant differences as same.",
+    "Treats unimportant differences as same.",
+    "3: 1",
+    "Default text",
+    "",
+    "3: 1",
+    "Default text",
+    ""
+   ],
+   "filter_buttons": [
+    {
+     "name": "All",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Diffs",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Same",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Context",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Minor",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    },
+    {
+     "name": "Rules",
+     "ct": "Button",
+     "cls": "",
+     "toggle": null
+    }
+   ]
+  }
+ ]
+}

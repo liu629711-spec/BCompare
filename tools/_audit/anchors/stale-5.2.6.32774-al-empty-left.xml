@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:08:45">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 14:08:45">
+		<filename1>D:\Rea\verify\golden\al-empty-left-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\al-empty-left-R.txt</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="1">only</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

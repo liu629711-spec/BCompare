@@ -1,0 +1,2 @@
+140dc5d80	BcAlign.pas alignment engine A (called by BcAlign core)
+140dc4500	BcAlign.pas alignment engine B (called by BcAlign core)

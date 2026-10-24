@@ -1,0 +1,5 @@
+HEAD
+S0
+S1
+NEW
+END

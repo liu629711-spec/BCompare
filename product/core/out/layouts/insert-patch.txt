@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\layouts\insert-L.txt D:\Rea\verify\layouts\insert-R.txt
+0a2
+> b

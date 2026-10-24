@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:00">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:00">
+		<filename1>D:\Rea\verify\golden\m53-java-case-keyword-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-case-keyword-R.java</filename2>
+		<linecomp status="different">
+			<text ltid="1">if (x) { return; }</text>
+			<text rtid="1">IF (x) { RETURN; }</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:32:42">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:32:42">
+		<filename1>D:\Rea\verify\cases\multiline-change-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\multiline-change-R.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">a</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">b</text>
+			<text rtid="2">X</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="3">Y</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="4">c</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

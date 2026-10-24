@@ -1,0 +1,6 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:47
+
+左边文件： D:\Rea\verify\pic\p-half-diff-L.png     右边文件： D:\Rea\verify\pic\p-half-diff-R.png
+32 个相同像素
+32 个重要差异像素

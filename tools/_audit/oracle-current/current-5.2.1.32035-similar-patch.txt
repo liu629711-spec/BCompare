@@ -1,0 +1,5 @@
+diff -r D:\Rea\tools\_audit\oracle-current\similar-L.txt D:\Rea\tools\_audit\oracle-current\similar-R.txt
+1c1
+< alpha
+---
+> ALPHA

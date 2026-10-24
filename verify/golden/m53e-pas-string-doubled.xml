@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:40:59">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:40:59">
+		<filename1>D:\Rea\verify\golden\m53e-pas-string-doubled-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-string-doubled-R.pas</filename2>
+		<linecomp status="different">
+			<text ltid="1">x := 'It''s';</text>
+			<text rtid="1">x := 'It''s!';</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

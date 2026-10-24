@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/16 1:50:34">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/16 1:50:34">
+		<filename1>D:\Rea\product\verify\runs\u2-probe-20261013T172214Z\fixtures\py-triple-quote-L.py</filename1>
+		<filename2>D:\Rea\product\verify\runs\u2-probe-20261013T172214Z\fixtures\py-triple-quote-R.py</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">'''</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">a b</text>
+			<text rtid="2">a  b</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">'''</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

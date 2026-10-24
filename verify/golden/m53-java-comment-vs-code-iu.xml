@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:03">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:03">
+		<filename1>D:\Rea\verify\golden\m53-java-comment-vs-code-iu-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-comment-vs-code-iu-R.java</filename2>
+		<ignoreunimportant/>
+		<linecomp status="different">
+			<text ltid="1">// note</text>
+			<text rtid="1">x;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

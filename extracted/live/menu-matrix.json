@@ -1,0 +1,341 @@
+{
+ "Home": {
+  "title": "Home - Beyond Compare",
+  "active_view": [
+   "THomeView"
+  ],
+  "top_menus": [
+   "Session",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 8,
+   "View": 3,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 27
+ },
+ "Text Compare": {
+  "title": "left.txt <--> right.txt - Text Compare - Beyond Compare",
+  "active_view": [
+   "TTextCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 21,
+   "File": 6,
+   "Edit": 17,
+   "Search": 16,
+   "View": 20,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 96
+ },
+ "Text Merge": {
+  "title": "New Text Merge - Text Merge - Beyond Compare",
+  "active_view": [
+   "TTextMergeView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 19,
+   "File": 3,
+   "Edit": 17,
+   "Search": 21,
+   "View": 28,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 104
+ },
+ "Hex Compare": {
+  "title": "h-int-600-L.bin <--> h-int-600-R.bin - Hex Compare - Beyond Compare",
+  "active_view": [
+   "THexCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 20,
+   "File": 6,
+   "Edit": 8,
+   "Search": 7,
+   "View": 13,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 70
+ },
+ "Table Compare": {
+  "title": "t-dups-positional-L.csv <--> t-dups-positional-R.csv - Table Compare - Beyond Compare",
+  "active_view": [
+   "TTableCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 20,
+   "File": 6,
+   "Edit": 18,
+   "Search": 11,
+   "View": 14,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 85
+ },
+ "Picture Compare": {
+  "title": "p-alpha-ignored-L.png <--> p-alpha-ignored-R.png - Picture Compare - Beyond Compare",
+  "active_view": [
+   "TPixCompareView",
+   "TUiActivePanelView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 20,
+   "File": 4,
+   "Edit": 1,
+   "View": 16,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 57
+ },
+ "Registry Compare": {
+  "title": "New Registry Compare - Registry Compare - Beyond Compare",
+  "active_view": [
+   "TRegCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 21,
+   "File": 2,
+   "Edit": 9,
+   "Search": 5,
+   "View": 12,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 65
+ },
+ "Version Compare": {
+  "title": "New Version Compare - Version Compare - Beyond Compare",
+  "active_view": [
+   "TVerCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 20,
+   "File": 2,
+   "Edit": 2,
+   "Search": 5,
+   "View": 10,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 55
+ },
+ "Folder Compare": {
+  "title": null,
+  "active_view": [
+   "TDirCompareView",
+   "TDirTreeView"
+  ],
+  "top_menus": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 23,
+   "Actions": 23,
+   "Edit": 9,
+   "Search": 5,
+   "View": 22,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 98
+ },
+ "Folder Merge": {
+  "title": "New Folder Merge - Folder Merge - Beyond Compare",
+  "active_view": [
+   "TDirMergeView",
+   "TDirTreeView"
+  ],
+  "top_menus": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 21,
+   "Actions": 7,
+   "Edit": 9,
+   "Search": 5,
+   "View": 19,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 77
+ },
+ "Folder Sync": {
+  "title": "New Folder Sync - Folder Sync - Beyond Compare",
+  "active_view": [
+   "TDirSyncTreeView",
+   "TDirSyncView"
+  ],
+  "top_menus": [
+   "Session",
+   "Actions",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 18,
+   "Actions": 3,
+   "Edit": 6,
+   "Search": 5,
+   "View": 6,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 54
+ },
+ "Media Compare": {
+  "title": "New Media Compare - Media Compare - Beyond Compare",
+  "active_view": [
+   "TMediaCompareView"
+  ],
+  "top_menus": [
+   "Session",
+   "File",
+   "Edit",
+   "Search",
+   "View",
+   "Tools",
+   "Help"
+  ],
+  "item_counts": {
+   "Session": 21,
+   "File": 3,
+   "Edit": 2,
+   "Search": 5,
+   "View": 10,
+   "Tools": 9,
+   "Help": 7
+  },
+  "total_items": 57
+ },
+ "_meta": {
+  "top_menu_variants": {
+   "Session|View|Tools|Help": [
+    "Home"
+   ],
+   "Session|File|Edit|Search|View|Tools|Help": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "Session|File|Edit|View|Tools|Help": [
+    "Picture Compare"
+   ],
+   "Session|Actions|Edit|Search|View|Tools|Help": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  "file_to_actions_views": [
+   "Folder Compare",
+   "Folder Merge",
+   "Folder Sync"
+  ],
+  "no_search_views": [
+   "Picture Compare"
+  ],
+  "tools_constant_counts": [
+   9
+  ],
+  "help_constant_counts": [
+   7
+  ],
+  "total_items_range": [
+   27,
+   104
+  ],
+  "views_total": 12
+ }
+}

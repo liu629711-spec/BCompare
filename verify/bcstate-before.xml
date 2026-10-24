@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 5 from Scooter Software -->
+<BCState Version="2" MinVersion="2">
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPositions>
+			<TDirScriptDialog Value="669;288;1251;744"/>
+		</FormPositions>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="32774"/>
+		<LastChecked Value="2026-10-12 22:53:50"/>
+	</TCheckForUpdatesState>
+	<TTextCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\Rea\verify\left.txt"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10;;;F"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="D:\Rea\verify\right.txt"/>
+		</RightMRUSpecs>
+	</TTextCompareState>
+</BCState>

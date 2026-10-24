@@ -1,0 +1,11 @@
+文本比较(T)
+已产生： 2026/10/13 13:04:19
+
+模式：  全部
+左边文件： D:\Rea\verify\layouts\insert-L.txt     右边文件： D:\Rea\verify\layouts\insert-R.txt
+a =  a
+------
+  -+ b
+------
+c =  c
+------

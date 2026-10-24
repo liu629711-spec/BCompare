@@ -1,0 +1,53 @@
+{
+ "exe": "D:\\bc-official\\app\\BCompare.exe",
+ "top_menus": {
+  "Session": {
+   "children": [
+    {
+     "d": 0,
+     "ct": "MenuItem",
+     "name": "Session",
+     "cls": "",
+     "aid": ""
+    }
+   ],
+   "expand_error": null
+  },
+  "View": {
+   "children": [
+    {
+     "d": 0,
+     "ct": "MenuItem",
+     "name": "View",
+     "cls": "",
+     "aid": ""
+    }
+   ],
+   "expand_error": null
+  },
+  "Tools": {
+   "children": [
+    {
+     "d": 0,
+     "ct": "MenuItem",
+     "name": "Tools",
+     "cls": "",
+     "aid": ""
+    }
+   ],
+   "expand_error": null
+  },
+  "Help": {
+   "children": [
+    {
+     "d": 0,
+     "ct": "MenuItem",
+     "name": "Help",
+     "cls": "",
+     "aid": ""
+    }
+   ],
+   "expand_error": null
+  }
+ }
+}

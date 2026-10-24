@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:24:38">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:24:38">
+		<filename1>D:\Rea\verify\cases\empty-vs-content-L.txt</filename1>
+		<filename2>D:\Rea\verify\cases\empty-vs-content-R.txt</filename2>
+		<linecomp status="rightorphan">
+			<text rtid="1">only line</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

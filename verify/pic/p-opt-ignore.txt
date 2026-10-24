@@ -1,0 +1,8 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:51
+
+正在忽略不重要
+左边文件： D:\Rea\verify\pic\p-opt-ignore-L.png     右边文件： D:\Rea\verify\pic\p-opt-ignore-R.png
+12 个相同像素
+2 个忽略的不重要差异像素
+2 个重要差异像素

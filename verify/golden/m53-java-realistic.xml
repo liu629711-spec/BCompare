@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:53:07">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:53:07">
+		<filename1>D:\Rea\verify\golden\m53-java-realistic-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-realistic-R.java</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">package com.example;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2"/>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">import java.util.List;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4"/>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="5">// Service facade</text>
+			<text rtid="5">// Service facade (v2)</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">public class Greeter {</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="7" rtid="7">    private static final String TAG = "greeter";</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="8" rtid="8"/>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="9">    public String greet(String name) {</text>
+			<text rtid="9">    public string greet(String Name) {</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="10" rtid="10">        if (name == null) {</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="11" rtid="11">            return "hello anonymous";</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="12" rtid="12">        }</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="13" rtid="13">        // trailing note</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="14" rtid="14">        return "hello " + name;</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="15" rtid="15">    }</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="16" rtid="16">}</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

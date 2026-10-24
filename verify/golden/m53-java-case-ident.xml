@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 1:52:59">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 1:52:59">
+		<filename1>D:\Rea\verify\golden\m53-java-case-ident-L.java</filename1>
+		<filename2>D:\Rea\verify\golden\m53-java-case-ident-R.java</filename2>
+		<linecomp status="different">
+			<text ltid="1">int value = 1;</text>
+			<text rtid="1">int Value = 1;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

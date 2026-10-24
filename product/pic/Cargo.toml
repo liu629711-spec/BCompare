@@ -1,0 +1,18 @@
+[package]
+name = "reacmp-pic"
+version = "0.1.0"
+edition = "2021"
+description = "ReaCompare picture comparison: minimal PNG/BMP decode and pixel-diff counting"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate, like its siblings: the empty `[workspace]` table keeps it its
+# own workspace root so nothing placed above it can absorb it.
+#
+# Dependencies are intentionally EMPTY -- the same hermetic rule as
+# `reacmp-core`/`reacmp-dir`/`reacmp-vfs`: `cargo test` must work offline with
+# no registry access. That is why PNG decoding (which needs DEFLATE) is
+# implemented here rather than pulled from a crate: a registry dependency in
+# this tree would make the offline gate depend on a cache existing.
+[workspace]
+
+[dependencies]

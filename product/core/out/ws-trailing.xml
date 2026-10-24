@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 13:41:36">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 13:41:36">
+		<filename1>D:\Rea\verify\golden\ws-trailing-L.txt</filename1>
+		<filename2>D:\Rea\verify\golden\ws-trailing-R.txt</filename2>
+		<linecomp status="similar">
+			<text ltid="1">a </text>
+			<text rtid="1">a</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">b</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

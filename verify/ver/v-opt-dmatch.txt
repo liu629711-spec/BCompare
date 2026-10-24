@@ -1,0 +1,6 @@
+Version Compare
+Produced: 2026/10/20 3:18:45
+
+Left file: D:\Rea\verify\ver\v-opt-dmatch-L.exe     Right file: D:\Rea\verify\ver\v-opt-dmatch-R.exe
+16 same item(s)
+10 important difference item(s)

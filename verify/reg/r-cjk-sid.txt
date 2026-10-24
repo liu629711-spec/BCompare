@@ -1,0 +1,17 @@
+Registry Compare
+Produced: 2026/10/19 20:46:11
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-cjk-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-cjk-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name Type   Data   Name Type   Data
+-----------------------------------
+0                  0
+\v   REG_SZ 1    = \v   REG_SZ 1
+a                  a
+\v   REG_SZ 1    = \v   REG_SZ 1
+Z                  Z
+\v   REG_SZ 1    = \v   REG_SZ 1
+中                  中
+\v   REG_SZ 1    = \v   REG_SZ 1
+-----------------------------------

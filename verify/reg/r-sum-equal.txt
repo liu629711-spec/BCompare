@@ -1,0 +1,7 @@
+Registry Compare
+Produced: 2026/10/19 20:46:07
+
+Left file: D:\Rea\verify\reg\r-sum-equal-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+Right file: D:\Rea\verify\reg\r-sum-equal-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+1 same item(s)
+1 important left orphan item(s)

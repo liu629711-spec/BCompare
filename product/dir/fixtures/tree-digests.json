@@ -1,0 +1,128 @@
+{
+ "attributes": {
+  "left": "trees/attributes/L",
+  "note": "DOS attribute differences (attrib: criteria only)",
+  "right": "trees/attributes/R",
+  "tree_sha256": {
+   "L": "480282608e77aff2d633bb243cea345562e309a2d5279d09bfe664b6e77bc4e7",
+   "R": "480282608e77aff2d633bb243cea345562e309a2d5279d09bfe664b6e77bc4e7"
+  }
+ },
+ "baseline": {
+  "left": "trees/baseline/L",
+  "note": "one entry per top-level status token",
+  "right": "trees/baseline/R",
+  "tree_sha256": {
+   "L": "be6c41998b07ee03d1beb8798b3c1fc708ec66fe735f3fc7ed0c6d6c7cd36a7d",
+   "R": "27edae196d88e41c0b373638b77eb607986b3e38af8e17fefd9969575f1a120b"
+  }
+ },
+ "conflict": {
+  "left": "trees/conflict/L",
+  "note": "same-name file-versus-directory conflicts",
+  "right": "trees/conflict/R",
+  "tree_sha256": {
+   "L": "69bb9dee4cde0758dfd66e5e2522f27d64545fa405eb5cec60daf7753b895a5c",
+   "R": "f0db4cdafb42edd5163f0663221447fc346375abc45dae80f018e6be4e6dcc8a"
+  }
+ },
+ "criteria": {
+  "left": "trees/criteria/L",
+  "note": "same-size+same-mtime content difference, with controls",
+  "right": "trees/criteria/R",
+  "tree_sha256": {
+   "L": "ab4db6a913fe564ceb55c7bb1bc7b1586ab192f1043ea30ffe0ac16e32ad913f",
+   "R": "46487061a40dc6a135c706e36ab9cd8095b1e3d931d03dad593f62c1a67bf61b"
+  }
+ },
+ "deep": {
+  "left": "trees/deep/L",
+  "note": "12 levels of nesting; the leaf path exceeds the legacy MAX_PATH",
+  "right": "trees/deep/R",
+  "tree_sha256": {
+   "L": "e286c6c5e63dee6835fe6b394f9d2f56345db618caab0a1a42fd86bf0b665551",
+   "R": "e3119499166b245ddaee32d1dfde152ed175fbebffc93e9aa1b4d506acd5b4b3"
+  }
+ },
+ "empty": {
+  "left": "trees/empty/L",
+  "note": "empty directories: present on both sides, and on one side only",
+  "right": "trees/empty/R",
+  "tree_sha256": {
+   "L": "37425908392fc1a7311eda7fe90402fda68711b1b29b2ff499a038682073752a",
+   "R": "3f6873966723b9f4f24347072c85c42a84ce92226760be68294e93fb63276d64"
+  }
+ },
+ "links": {
+  "left": "trees/links/L",
+  "note": "NTFS junctions; BC documents follow-symlinks as covering junctions too",
+  "right": "trees/links/R",
+  "tree_sha256": {
+   "L": "8f3e64abb2d116fb86a8911b905ddbb54dc53836a0247d2fd23e2f57ede7d8bb",
+   "R": "aca48918d067cc10e36649394a496963c9b16cf7f15f6eb736763169126d6610"
+  }
+ },
+ "many": {
+  "left": "trees/many/L",
+  "note": "60 siblings with a mix of same, diff, ltonly and rtonly rows",
+  "right": "trees/many/R",
+  "tree_sha256": {
+   "L": "2ab7473c618883a3c268a853ac78586b2e0c154d9bc092a6f1cacdb56434ebab",
+   "R": "dd6ea686de2a707c0d0464f0c00f8daca6d5ffc89a79981352bddd720fe76e98"
+  }
+ },
+ "names": {
+  "left": "trees/names/L",
+  "note": "names requiring XML escaping plus other legal-but-awkward names",
+  "right": "trees/names/R",
+  "tree_sha256": {
+   "L": "ab54a75576840ebed7e6092b1e73bf4e837c40f2d36f2229cca942b515432270",
+   "R": "a900d5705304792fc840048beb5d70fa3a775ba237a34fed5bf5ed02c579034e"
+  }
+ },
+ "orphan-dirs": {
+  "left": "trees/orphan-dirs/L",
+  "note": "directory present on one side only, with nested content",
+  "right": "trees/orphan-dirs/R",
+  "tree_sha256": {
+   "L": "999cf9dd1dd2fc43f9f383d47f32616caf83fa822f84ec7e46c9fc6b22d7ba34",
+   "R": "ef72c5001cf6f58f1083c4a700d3fd912026a62f21082388000825c0bfea99d3"
+  }
+ },
+ "posix-metadata": {
+  "left": "trees/posix-metadata/L",
+  "note": "sizes/mtimes equal, only ACL/owner shapes differ: the inert trio",
+  "right": "trees/posix-metadata/R",
+  "tree_sha256": {
+   "L": "80438926864fb5585199c8fd75bbe822b88245b95f2654b5c7c5d91e4e369d91",
+   "R": "2abb21f7ecefa24b6c0b970ca9defe9724361d191598ae1a5789fec3a21c62dd"
+  }
+ },
+ "rules-based": {
+  "left": "trees/rules-based/L",
+  "note": "C files differing by comment only, whitespace only, and a real change",
+  "right": "trees/rules-based/R",
+  "tree_sha256": {
+   "L": "1a07466a2cf3ea7bccd0d9f9f9940ec94caaef82f9003eb2314fdae680d11835",
+   "R": "83e86cf947e2745704e61af0993f2c153ede07bcbaf7893d48cd99fbeeed7fa1"
+  }
+ },
+ "tolerance": {
+  "left": "trees/tolerance/L",
+  "note": "timestamp differences at and around the documented tolerances",
+  "right": "trees/tolerance/R",
+  "tree_sha256": {
+   "L": "0fb45b959e5b1be6acd25f7f4007db9e926e24726886e5d48dd051d4dfeb93df",
+   "R": "3bedd99bf06b190a7d1753797c172e02f7e882abbe4d52620cd0666b3b29f7d5"
+  }
+ },
+ "versioned": {
+  "left": "trees/versioned/L",
+  "note": "PE version resources: equal, higher-on-left, higher-on-right, one side unversioned; masked.* are real PEs outside the measured extension gate and must be reported `same` (U9), included.vxd/.386 are admitted names",
+  "right": "trees/versioned/R",
+  "tree_sha256": {
+   "L": "302b6703ab6f2ec181564a8109a3fccb454d4cae25aa1793d7b17245f63747a7",
+   "R": "9d5994d1ab11c46f5c300c7a9c830064d594ba5f69c7c8c9396378bf85388339"
+  }
+ }
+}

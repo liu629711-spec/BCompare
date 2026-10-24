@@ -1,0 +1,12 @@
+表格比较(B)
+已产生： 2026/10/18 14:37:12
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-int-rawline-L.txt     右边文件： D:\Rea\verify\table\t-int-rawline-R.txt
+    A
+------
+1 1 ab
+------
+2   cd
+  2 cX
+------

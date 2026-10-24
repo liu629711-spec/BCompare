@@ -1,0 +1,3 @@
+/*
+body
+*/ SELECT 1;

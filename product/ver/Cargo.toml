@@ -1,0 +1,17 @@
+[package]
+name = "reacmp-ver"
+version = "0.1.0"
+edition = "2021"
+description = "ReaCompare version comparison: PE version-resource decode and field-diff reporting"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate, like its siblings: the empty `[workspace]` table keeps it its
+# own workspace root so nothing placed above it can absorb it.
+#
+# Dependencies are intentionally EMPTY -- the same hermetic rule as
+# `reacmp-core`/`reacmp-dir`/`reacmp-vfs`/`reacmp-pic`/`reacmp-reg`: `cargo test`
+# must work offline with no registry access. The PE version resource needs no
+# compression or crypto, so nothing here would justify breaking that rule.
+[workspace]
+
+[dependencies]

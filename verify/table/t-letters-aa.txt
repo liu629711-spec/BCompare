@@ -1,0 +1,10 @@
+表格比较(B)
+已产生： 2026/10/18 5:30:21
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-letters-aa-L.csv     右边文件： D:\Rea\verify\table\t-letters-aa-R.csv
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC
+----------------------------------------------------------------------------------------------------------------------------
+h h h h h h h h h h h h h h h h h h h h h h h h h h h  h  h  =  h h h h h h h h h h h h h h h h h h h h h h h h h h h  h  h
+x x x x x x x x x x x x x x x x x x x x x x x x x x x  x  x  <> y y y y y y y y y y y y y y y y y y y y y y y y y y y  y  z
+----------------------------------------------------------------------------------------------------------------------------

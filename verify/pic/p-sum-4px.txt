@@ -1,0 +1,6 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:43
+
+左边文件： D:\Rea\verify\pic\p-sum-4px-L.png     右边文件： D:\Rea\verify\pic\p-sum-4px-R.png
+60 个相同像素
+4 个重要差异像素

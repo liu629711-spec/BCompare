@@ -1,0 +1,9 @@
+Text Compare
+Produced: 2026/10/13 13:01:28
+
+Left file: D:\Rea\tools\_audit\oracle-current\similar-L.txt
+Right file: D:\Rea\tools\_audit\oracle-current\similar-R.txt
+1 same line(s)
+1 unimportant difference line(s)
+
+1 difference section(s)

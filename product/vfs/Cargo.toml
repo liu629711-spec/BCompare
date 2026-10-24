@@ -1,0 +1,15 @@
+[package]
+name = "reacmp-vfs"
+version = "0.1.0"
+edition = "2021"
+description = "Read-only FileSystem abstraction (VFS seam) for ReaCompare folder comparison"
+license = "MIT OR Apache-2.0"
+
+# Standalone crate. The empty `[workspace]` table makes this package its own
+# workspace root so a Cargo.toml appearing at D:\Rea or D:\Rea\product (owned by
+# a parallel task) can never absorb it.
+[workspace]
+
+[dependencies]
+# Intentionally empty: the VFS seam has no third-party dependencies, so
+# `cargo test` is hermetic and works offline.

@@ -1,0 +1,95 @@
+{
+ "h-sbs-equal": {
+  "layout": "side-by-side",
+  "note": "Y1: all-same report -> zone width 1 (` = ` once), single block rule",
+  "exit_code": 0,
+  "bytes": 823,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-equal.txt"
+ },
+ "h-sbs-insert": {
+  "layout": "side-by-side",
+  "note": "Y2: one inserted byte -> orphan slot keeps row positions; `<>` zone width 2",
+  "exit_code": 0,
+  "bytes": 971,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-insert.txt"
+ },
+ "h-sbs-append": {
+  "layout": "side-by-side",
+  "note": "Y3: right-only rows with a blank left column, `<>` once at the boundary",
+  "exit_code": 0,
+  "bytes": 906,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-append.txt"
+ },
+ "h-sbs-delete": {
+  "layout": "side-by-side",
+  "note": "Y4: left-only row; the block rule uses the GLOBAL max width (70)",
+  "exit_code": 0,
+  "bytes": 944,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-delete.txt"
+ },
+ "h-sbs-many": {
+  "layout": "side-by-side",
+  "note": "Y5: marker text only on each block's FIRST row",
+  "exit_code": 0,
+  "bytes": 1046,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-many.txt"
+ },
+ "h-int-insert": {
+  "layout": "interleaved",
+  "note": "Y6: diff rows split per side; merged same rows carry both offsets",
+  "exit_code": 0,
+  "bytes": 815,
+  "report": "D:\\Rea\\verify\\hex\\h-int-insert.txt"
+ },
+ "h-sum-diff": {
+  "layout": "summary",
+  "note": "Y7: same + difference lines only, in the measured order",
+  "exit_code": 0,
+  "bytes": 202,
+  "report": "D:\\Rea\\verify\\hex\\h-sum-diff.txt"
+ },
+ "h-int-title": {
+  "layout": "interleaved",
+  "note": "V3: interleaved title replaces frame line 1; the last block emits all left rows before the right line (V3 block ordering)",
+  "exit_code": 0,
+  "bytes": 1015,
+  "report": "D:\\Rea\\verify\\hex\\h-int-title.txt",
+  "title": "HexIntTitle"
+ },
+ "h-int-600": {
+  "layout": "interleaved",
+  "note": "Z7: offsets stay 8 hex digits past 0xFFFF",
+  "exit_code": 0,
+  "bytes": 4307,
+  "report": "D:\\Rea\\verify\\hex\\h-int-600.txt"
+ },
+ "h-sbs-600": {
+  "layout": "side-by-side",
+  "note": "Y12: 600-byte pair, first changed row at 0x258",
+  "exit_code": 0,
+  "bytes": 5789,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-600.txt"
+ },
+ "h-sbs-empty-left": {
+  "layout": "side-by-side",
+  "note": "Y13: empty side collapses its column; ` <> ` then the right field",
+  "exit_code": 0,
+  "bytes": 311,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-empty-left.txt"
+ },
+ "h-sbs-title": {
+  "layout": "side-by-side",
+  "note": "Y11: title replaces frame line 1; a same+orphan leftover row is ONE block",
+  "exit_code": 0,
+  "bytes": 890,
+  "report": "D:\\Rea\\verify\\hex\\h-sbs-title.txt",
+  "title": "HexTitle"
+ },
+ "h-sum-mixed": {
+  "layout": "summary",
+  "note": "V5: all four count categories (m70e2, both installs): 56/31/1/1",
+  "exit_code": 0,
+  "bytes": 255,
+  "report": "D:\\Rea\\verify\\hex\\h-sum-mixed.txt"
+ }
+}

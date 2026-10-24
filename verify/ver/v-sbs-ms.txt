@@ -1,0 +1,38 @@
+Version Compare
+Produced: 2026/10/20 3:18:38
+
+Mode:  All
+Left file: D:\Rea\verify\ver\v-sbs-ms-L.exe     Right file: D:\Rea\verify\ver\v-sbs-ms-R.exe
+Name               Value                                                                                                    Name               Value
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Code                                                                                                                        Code
+\Data              359,052 bytes                                                                                         <> \Data              338,552 bytes
+PE Header                                                                                                                   PE Header
++Operating System  Windows NT 10.0                                                                                       =  +Operating System  Windows NT 10.0
++Processor         AMD64                                                                                                 =  +Processor         AMD64
++Creation Date     2057/4/19 18:21:51                                                                                    <> +Creation Date     2091/9/7 7:01:06
++Flags             Executable, Addresses larger than 2 GB                                                                =  +Flags             Executable, Addresses larger than 2 GB
++Linker Version    14.38                                                                                                 =  +Linker Version    14.38
++Image Base        0x0000000140000000                                                                                    =  +Image Base        0x0000000140000000
++Image Version     10.0                                                                                                  =  +Image Version     10.0
++Checksum          0x00066094                                                                                            <> +Checksum          0x00053D2C
++User Interface    Windows GUI 10.0                                                                                      <> +User Interface    Windows console 10.0
+\DLL Flags         High entropy 64-bit addresses, Dynamic base, NX compatible, Control Flow Guard, Terminal server aware =  \DLL Flags         High entropy 64-bit addresses, Dynamic base, NX compatible, Control Flow Guard, Terminal server aware
+Fixed                                                                                                                       Fixed
++File Version      10.0.26100.8115                                                                                       =  +File Version      10.0.26100.8115
++Product Version   10.0.26100.8115                                                                                       =  +Product Version   10.0.26100.8115
++Operating System  Windows NT, Windows 32-bit                                                                            =  +Operating System  Windows NT, Windows 32-bit
+\File Type         Application                                                                                           =  \File Type         Application
+Translation                                                                                                                 Translation
+\Languages         英语(美国), UTF-16LE                                                                                      =  \Languages         英语(美国), UTF-16LE
+Variable                                                                                                                    Variable
++Language          英语(美国), UTF-16LE                                                                                      =  +Language          英语(美国), UTF-16LE
++Company Name      Microsoft Corporation                                                                                 =  +Company Name      Microsoft Corporation
++File Description  Notepad                                                                                               <> +File Description  Windows Command Processor
++File Version      10.0.26100.8115 (WinBuild.160101.0800)                                                                =  +File Version      10.0.26100.8115 (WinBuild.160101.0800)
++Internal Name     Notepad                                                                                               <> +Internal Name     cmd
++Legal Copyright   © Microsoft Corporation. All rights reserved.                                                         =  +Legal Copyright   © Microsoft Corporation. All rights reserved.
++Original Filename NOTEPAD.EXE                                                                                           <> +Original Filename Cmd.Exe
++Product Name      Microsoft® Windows® Operating System                                                                  =  +Product Name      Microsoft® Windows® Operating System
+\Product Version   10.0.26100.8115                                                                                       =  \Product Version   10.0.26100.8115
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

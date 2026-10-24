@@ -1,0 +1,4 @@
+/*
+beta body
+*/
+int x;

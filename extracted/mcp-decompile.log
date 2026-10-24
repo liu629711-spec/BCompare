@@ -1,0 +1,11 @@
+[18:35:38] -> open_binary {"path": "D:/bc-official/app/BCompare.exe", "provider_id": "ghidra"}
+[18:35:38] <- open_binary in 0.2s
+[18:35:38] -> analyze_function {"address": "0x140da4b8f"}
+[18:35:38] <- analyze_function in 0.0s
+[18:35:38] -> analyze_function {"address": "0x140da4b96"}
+[18:35:38] <- analyze_function in 0.0s
+[18:35:38] wrote D:\Rea\extracted\decompile-result.json
+--- 0x140da4b8f (0.0s, 159 chars) ---
+Input validation error: Invalid arguments for tool analyze_function: procedure: Invalid input: expected string, received undefined, Unrecognized key: "address"
+--- 0x140da4b96 (0.0s, 159 chars) ---
+Input validation error: Invalid arguments for tool analyze_function: procedure: Invalid input: expected string, received undefined, Unrecognized key: "address"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport>
+	<filecomparison>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">same line</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">case diff</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="6" rtid="6">real diff 2</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

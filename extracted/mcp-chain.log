@@ -1,0 +1,6 @@
+[19:37:29] -> open_binary {"path": "D:/bc-official/app/BCompare.exe", "provider_id": "ghidra"}
+[19:37:29] <- open_binary in 0.2s
+[19:37:29] -> analyze_function {"procedure": "0x140da4b8f"}
+[20:10:46] <- analyze_function in 1996.6s
+[20:10:46] wrote chain-result.json
+retained evidence: None

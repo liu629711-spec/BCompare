@@ -1,0 +1,7716 @@
+{
+ "handlers": [
+  {
+   "handler": "AboutExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa97c0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "AcceptClick",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnAccept",
+    "OnClick"
+   ],
+   "address": "0x1418176c0",
+   "unit": "ViewSession.pas",
+   "size": 50,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "AddClick",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f741c0",
+   "unit": "FrameFileFormat.pas",
+   "size": 86,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AdvancedClick",
+   "forms": [
+    "TFILEFINDFRAME",
+    "THEXFINDFRAME",
+    "TSCCOPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417f9c3b",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "AffectListBoxClickCheck",
+   "forms": [
+    "TEXPORTDIALOG"
+   ],
+   "events": [
+    "OnClickCheck"
+   ],
+   "address": "0x140f24cd0",
+   "unit": "DlgExport.pas",
+   "size": 56,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "AffectListBoxDrawItem",
+   "forms": [
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x140f197e0",
+   "unit": "DlgImport.pas",
+   "size": 64,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AffectListBoxGetNotLast",
+   "forms": [
+    "TEXPORTDIALOG"
+   ],
+   "events": [
+    "OnGetNotLast"
+   ],
+   "address": "0x140f24d10",
+   "unit": "DlgExport.pas",
+   "size": 1,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "AffectListBoxValidateLevel",
+   "forms": [
+    "TEXPORTDIALOG"
+   ],
+   "events": [
+    "OnValidateLevel"
+   ],
+   "address": "0x140f24d20",
+   "unit": "DlgExport.pas",
+   "size": 192,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "AlignSortClick",
+   "forms": [
+    "TTABLESESSIONROWSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141c184f0",
+   "unit": "FrameTableSessionRows.pas",
+   "size": 123,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "AlignWithsCloneClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b192a0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 45,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsDeleteClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b19120",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 165,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsEditClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b191f0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 136,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsNewClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnAddItem",
+    "OnClick"
+   ],
+   "address": "0x141b18e10",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 45,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b18ad0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 24,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableDeleteItem",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnDeleteItem"
+   ],
+   "address": "0x141b18af0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 141,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableDragDrop",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b18b80",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 18,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableDragOver",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b18ba0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 83,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableGetCells",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x141b18c00",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 49,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableGetImageIndex",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x141b18c40",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 312,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "AlignWithsTableKeyDown",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b18d80",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 112,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ApplyClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9a350",
+   "unit": "DlgProgOptions.pas",
+   "size": 464,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "ArchiveTableModifyApply",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnModifyApply"
+   ],
+   "address": "0x140f9beb0",
+   "unit": "DlgProgOptions.pas",
+   "size": 30,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ArchiveTotalCmdrPackerClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9bed0",
+   "unit": "DlgProgOptions.pas",
+   "size": 647,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "AuthCodeEditChange",
+   "forms": [
+    "TVFSDROPBOXAUTHCODEDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1418ee117",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "AuthFileEditBrowse",
+   "forms": [
+    "TVFSFTPPROFILEGLOBALFRAME",
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141af5690",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "AuthTypeEditChange",
+   "forms": [
+    "TVFSAMAZONS3PROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141af0d68",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "AutoNameEditChange",
+   "forms": [
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f27fa7",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "BackClick",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG",
+    "TTOTALCMDRPACKERDIALOG",
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f1b370",
+   "unit": "DlgImport.pas",
+   "size": 78,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BackupDirEditBrowse",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f9be80",
+   "unit": "DlgProgOptions.pas",
+   "size": 44,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "BlendEditChange",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141be92d0",
+   "unit": "ViewPix.pas",
+   "size": 319,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BodyFontClick",
+   "forms": [
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbc290",
+   "unit": "DlgReport.pas",
+   "size": 161,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BottomPanelPaint",
+   "forms": [
+    "TABOUTDIALOG"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x140f76a00",
+   "unit": "FrameFileFormat.pas",
+   "size": 30,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BrowseClick",
+   "forms": [
+    "TVFSFTPPROFILELOGINFRAME",
+    "TVFSSVNPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141af4200",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "BtnClick",
+   "forms": [
+    "TDOWNLOADUPDATEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f11b90",
+   "unit": "HTTPGet.pas",
+   "size": 784,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BtnPanelPaint",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x140f9e410",
+   "unit": "DlgProgOptions.pas",
+   "size": 108,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "BuyClick",
+   "forms": [
+    "TNAGDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140d9fe40",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "BytesEditChange",
+   "forms": [
+    "TREGVALDIALOG"
+   ],
+   "events": [
+    "OnChange",
+    "OnChanged"
+   ],
+   "address": "0x141bf12e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "BytesUIntBaseClick",
+   "forms": [
+    "TREGVALDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141bf0693",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CalendarChange",
+   "forms": [
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140ff5e6b",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CancelClick",
+   "forms": [
+    "TDIROPPROGRESSFRAME",
+    "TDIRSCRIPTDIALOG",
+    "TDIRSYNCVIEW",
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9e480",
+   "unit": "DlgProgOptions.pas",
+   "size": 6024,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CategoryClick",
+   "forms": [
+    "TTEXTGRAMMARITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9a610",
+   "unit": "DlgProgOptions.pas",
+   "size": 1243,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "CategoryPanelPaint",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x140f9a1b0",
+   "unit": "DlgProgOptions.pas",
+   "size": 365,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CategorySearchEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9abb0",
+   "unit": "DlgProgOptions.pas",
+   "size": 202,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CenterSplitterCanResize",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnCanResize"
+   ],
+   "address": "0x141be6850",
+   "unit": "ViewPix.pas",
+   "size": 106,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CenterSplitterMoved",
+   "forms": [
+    "TPIXVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x141b9eb20",
+   "unit": "ViewText.pas",
+   "size": 124,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CheckForUpdatesExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa550",
+   "unit": "ActnGeneral.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CheckedChangeClick",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f19440",
+   "unit": "DlgImport.pas",
+   "size": 586,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ClassEditGetImageIndex",
+   "forms": [
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x1417fbfa0",
+   "unit": "DlgSessionSaveAs.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ClearMemoryClick",
+   "forms": [
+    "TDIRSYNCSESSIONOPSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b5db87",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CloseTabExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CmdLineEditBrowse",
+   "forms": [
+    "TEXTERNALFORMATGENERALFRAME",
+    "TOPENWITHITEMDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f807e0",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 341,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CmdLineEditGetArgs",
+   "forms": [
+    "TOPENWITHITEMDIALOG"
+   ],
+   "events": [
+    "OnGetArgs"
+   ],
+   "address": "0x140f809e0",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 196,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ColListClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141b26a60",
+   "unit": "ViewDirBase.pas",
+   "size": 28,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CollapseAllClick",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f316a0",
+   "unit": "DlgProfileManager.pas",
+   "size": 137,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ColorTabSheetShow",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnShow"
+   ],
+   "address": "0x140f9af10",
+   "unit": "DlgProgOptions.pas",
+   "size": 52,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandDisplayFilterModeEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9c7d0",
+   "unit": "DlgProgOptions.pas",
+   "size": 202,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandMenuAllowedAllClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c8a0",
+   "unit": "DlgProgOptions.pas",
+   "size": 202,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandSearchEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9c2a0",
+   "unit": "DlgProgOptions.pas",
+   "size": 30,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CommandShortCutDefaultClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c750",
+   "unit": "DlgProgOptions.pas",
+   "size": 119,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandShortCutEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9c6b0",
+   "unit": "DlgProgOptions.pas",
+   "size": 59,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandShortCutEditKeyDown",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f9c6f0",
+   "unit": "DlgProgOptions.pas",
+   "size": 23,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandShortCutRemoveClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c710",
+   "unit": "DlgProgOptions.pas",
+   "size": 54,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c2c0",
+   "unit": "DlgProgOptions.pas",
+   "size": 374,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CommandTableCompareItems",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnCompareItems"
+   ],
+   "address": "0x140f9c460",
+   "unit": "DlgProgOptions.pas",
+   "size": 170,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableGetCells",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x140f9c530",
+   "unit": "DlgProgOptions.pas",
+   "size": 71,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableGetChecked",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetChecked"
+   ],
+   "address": "0x140f9c580",
+   "unit": "DlgProgOptions.pas",
+   "size": 108,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableGetHasChecked",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetHasChecked"
+   ],
+   "address": "0x140f9c5f0",
+   "unit": "DlgProgOptions.pas",
+   "size": 27,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableGetImageIndex",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f9c610",
+   "unit": "DlgProgOptions.pas",
+   "size": 84,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandTableToggleChecked",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnToggleChecked"
+   ],
+   "address": "0x140f9c670",
+   "unit": "DlgProgOptions.pas",
+   "size": 53,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandToolbarAllowedAllClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c970",
+   "unit": "DlgProgOptions.pas",
+   "size": 14,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "CommandViewClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c230",
+   "unit": "DlgProgOptions.pas",
+   "size": 58,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CommandViewEditGetImageIndex",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f9c270",
+   "unit": "DlgProgOptions.pas",
+   "size": 38,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CompareCmdLineEditGetArgs",
+   "forms": [
+    "TEXTERNALFORMATGENERALFRAME"
+   ],
+   "events": [
+    "OnGetArgs"
+   ],
+   "address": "0x1418063f0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ConfigClick",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x140f74540",
+   "unit": "FrameFileFormat.pas",
+   "size": 80,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ContentFindREItemClick",
+   "forms": [
+    "TDIROTHERFILTERITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b10710",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ContextHelpExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa4c0",
+   "unit": "ActnGeneral.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ConvertAppEditBrowse",
+   "forms": [
+    "TEDITFILEFORMATCONVERSIONFRAME",
+    "TFILEFORMATCONVERSIONFRAME"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141803bf0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ConvertAppEditGetArgs",
+   "forms": [
+    "TEDITFILEFORMATCONVERSIONFRAME",
+    "TFILEFORMATCONVERSIONFRAME"
+   ],
+   "events": [
+    "OnGetArgs"
+   ],
+   "address": "0x1418037d1",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ConvertKindEditChange",
+   "forms": [
+    "TFILEFORMATCONVERSIONFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141803b50",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CopyClick",
+   "forms": [
+    "TDIRSESSIONSPECSFRAME",
+    "TFILESESSIONSPECSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141802380",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "CopyToClipboardClick",
+   "forms": [
+    "TREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fc2360",
+   "unit": "DlgReport.pas",
+   "size": 228,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "CreateClick",
+   "forms": [
+    "TDIRLOADERRORDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b0dd9e",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DOSAttrsClickCheck",
+   "forms": [
+    "TDIRSESSIONCOMPARISONFRAME"
+   ],
+   "events": [
+    "OnClickCheck"
+   ],
+   "address": "0x141b153ba",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DataModuleCreate",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnCreate"
+   ],
+   "address": "0x140fa97a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DataModuleDestroy",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnDestroy"
+   ],
+   "address": "0x140fa97b0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DebugIdentifyControlExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa340",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DebugRaiseExceptionExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa350",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "DefaultClick",
+   "forms": [
+    "TDIRSESSIONNAMEFILTERFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1b3d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DefaultTypeClick",
+   "forms": [
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140ff6a80",
+   "unit": "OpSync.pas",
+   "size": 144,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "DeleteClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TTABLESORTDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f29070",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DetailsColorsPanelPaint",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141be7e60",
+   "unit": "ViewPix.pas",
+   "size": 272,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "DetailsPanelResize",
+   "forms": [
+    "TMEDIAVIEW",
+    "TREGVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW",
+    "TVERVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b9e9e0",
+   "unit": "ViewText.pas",
+   "size": 198,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DetectClick",
+   "forms": [
+    "TTABLECOLRESIZEDIALOG",
+    "TTABLEFMTFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141c05c7c",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DirAcceptClick",
+   "forms": [
+    "TPROFILEFILEOPENDIALOG"
+   ],
+   "events": [
+    "OnAcceptClick"
+   ],
+   "address": "0x1417f63e0",
+   "unit": "DlgProfileFileOpen.pas",
+   "size": 163,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DirEditBrowse",
+   "forms": [
+    "TDIRLOADERRORDIALOG",
+    "TOPCOPYTODIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TSNAPSHOTDIALOG",
+    "TTEXTFINDINFILESDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f70f90",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DirEditChange",
+   "forms": [
+    "TOPCOPYTODIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TSNAPSHOTDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f710d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DirEditUpdateTitles",
+   "forms": [
+    "TDIRLOADERRORDIALOG",
+    "TOPCOPYTODIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TSNAPSHOTDIALOG",
+    "TTEXTFINDINFILESDIALOG"
+   ],
+   "events": [
+    "OnUpdateTitles"
+   ],
+   "address": "0x140f718c0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DirElementEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnSelect"
+   ],
+   "address": "0x140f9b440",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DirElementTreeViewChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9b1f0",
+   "unit": "DlgProgOptions.pas",
+   "size": 589,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DirFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9b470",
+   "unit": "DlgProgOptions.pas",
+   "size": 179,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DirUpOneLevelClick",
+   "forms": [
+    "TPROFILEFILEOPENDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417f6600",
+   "unit": "DlgProfileFileOpen.pas",
+   "size": 290,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "DirUseClick",
+   "forms": [
+    "TSNAPSHOTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f70f60",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DontShowAgainClick",
+   "forms": [
+    "TTABSCONFIRMCLOSEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140ed8848",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "DragTimerTimer",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnTimer"
+   ],
+   "address": "0x141be6610",
+   "unit": "ViewPix.pas",
+   "size": 265,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditBrowse",
+   "forms": [
+    "TDIRSESSIONSPECSFRAME",
+    "TFILESESSIONSPECSFRAME"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141802210",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditCancelClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f30990",
+   "unit": "DlgProfileManager.pas",
+   "size": 649,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditChange",
+   "forms": [
+    "TFILEFORMATSAVEASDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f2a3d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditClick",
+   "forms": [
+    "TFILEFORMATSAVEASDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x140f2a3e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditDefaultClick",
+   "forms": [
+    "TPROFILEMANAGERDIALOG",
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONROWSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f318e0",
+   "unit": "DlgProfileManager.pas",
+   "size": 16,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditDropDown",
+   "forms": [
+    "TDIRSESSIONSPECSFRAME",
+    "TFILESESSIONSPECSFRAME"
+   ],
+   "events": [
+    "OnDropDown"
+   ],
+   "address": "0x1418022d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditKeyDown",
+   "forms": [
+    "TFILEFORMATSAVEASDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f2a6d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditKeyPress",
+   "forms": [
+    "TPROFILESAVEASDIALOG"
+   ],
+   "events": [
+    "OnKeyPress"
+   ],
+   "address": "0x140f2bbc0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditPanelResize",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x140f318c0",
+   "unit": "DlgProfileManager.pas",
+   "size": 31,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditResClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f7dcd0",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 16,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditSaveAsClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f31c20",
+   "unit": "DlgProfileManager.pas",
+   "size": 39,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditSaveClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f31b80",
+   "unit": "DlgProfileManager.pas",
+   "size": 123,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditTextFileExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa1a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditUpdateTitles",
+   "forms": [
+    "TDIRSESSIONSPECSFRAME",
+    "TFILESESSIONSPECSFRAME"
+   ],
+   "events": [
+    "OnUpdateTitles"
+   ],
+   "address": "0x1418022f0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditorChanged",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnChanged"
+   ],
+   "address": "0x141c0f160",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "EditorColDetectSize",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnColDetectSize"
+   ],
+   "address": "0x141c0f290",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 172,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorDrawCellPrep",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnDrawCellPrep"
+   ],
+   "address": "0x141c0f340",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 248,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorGetCellStr",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnGetCellStr"
+   ],
+   "address": "0x141c0f480",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 31,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorGetColName",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnGetColName"
+   ],
+   "address": "0x141c0f4a0",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 15,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorGetColWidth",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnGetColWidth"
+   ],
+   "address": "0x141c0f4b0",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 28,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorGetGutterImageIndex",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME"
+   ],
+   "events": [
+    "OnGetGutterImageIndex"
+   ],
+   "address": "0x141c125a0",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 85,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorGetItemNum",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnGetItemNum"
+   ],
+   "address": "0x141c0f4d0",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 176,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorKeyDown",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141c0f590",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 12,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EditorPanelResize",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b9e850",
+   "unit": "ViewText.pas",
+   "size": 396,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "EditorSetColWidth",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnSetColWidth"
+   ],
+   "address": "0x141c0f5a0",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 17,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "EnterKeyExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa5b0",
+   "unit": "ActnGeneral.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ErrorCountLinkClick",
+   "forms": [
+    "TDIROPPROGRESSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b135f5",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ExitClick",
+   "forms": [
+    "TPIXFULLSCREENDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141bda84e",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ExitExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b90",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ExpandAllClick",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f31540",
+   "unit": "DlgProfileManager.pas",
+   "size": 314,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ExploreSettingsDirLinkClick",
+   "forms": [
+    "TSUPPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f2720b",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ExportClick",
+   "forms": [
+    "TSUPPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f27540",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ExportExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9d40",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FileEditorFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9bd20",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileElementEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange",
+    "OnSelect"
+   ],
+   "address": "0x140f9bba0",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileElementTreeViewChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9b840",
+   "unit": "DlgProgOptions.pas",
+   "size": 850,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileFontStyleEditDrawItem",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x140f9bcf0",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileFormatCheckedClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b17f1a",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FileFormatEditClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b19480",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 197,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatListViewCanCheck",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnCanCheck"
+   ],
+   "address": "0x141b19320",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 26,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatListViewCancelEdit",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnCancelEdit"
+   ],
+   "address": "0x141b192d0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 26,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatListViewChecked",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnChecked"
+   ],
+   "address": "0x141b192f0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 47,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatListViewClick",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b19340",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 105,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatListViewCustomDrawItem",
+   "forms": [
+    "TDIRSESSIONMISCFRAME"
+   ],
+   "events": [
+    "OnCustomDrawItem"
+   ],
+   "address": "0x141b193b0",
+   "unit": "FrameDirSessionComparison.pas",
+   "size": 166,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatManagerExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9ce0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FileFormatsListBoxDrawItem",
+   "forms": [
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x140f19b70",
+   "unit": "DlgImport.pas",
+   "size": 116,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileFormatsListBoxGetImageIndex",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f19bf0",
+   "unit": "DlgImport.pas",
+   "size": 64,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FileHexFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9bd80",
+   "unit": "DlgProgOptions.pas",
+   "size": 52,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileItemNumFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9bbd0",
+   "unit": "DlgProgOptions.pas",
+   "size": 248,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FileListFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9bd50",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilenameEditBrowse",
+   "forms": [
+    "TIMPORTDIALOG",
+    "TTOTALCMDRPACKERDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f197a0",
+   "unit": "DlgImport.pas",
+   "size": 61,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FilterEditChange",
+   "forms": [
+    "TPROFILEFILEOPENDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1417f6990",
+   "unit": "DlgProfileFileOpen.pas",
+   "size": 213,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetDeleteClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9dfa0",
+   "unit": "DlgProgOptions.pas",
+   "size": 261,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetEditClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x140f9e0e0",
+   "unit": "DlgProgOptions.pas",
+   "size": 40,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetNewClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnAddItem",
+    "OnClick"
+   ],
+   "address": "0x140f9dc00",
+   "unit": "DlgProgOptions.pas",
+   "size": 21,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9d3f0",
+   "unit": "DlgProgOptions.pas",
+   "size": 212,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableDeleteItemQuery",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDeleteItemQuery"
+   ],
+   "address": "0x140f9d520",
+   "unit": "DlgProgOptions.pas",
+   "size": 141,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableDragDrop",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x140f9d5b0",
+   "unit": "DlgProgOptions.pas",
+   "size": 18,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableDragOver",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x140f9d5d0",
+   "unit": "DlgProgOptions.pas",
+   "size": 172,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableGetCells",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x140f9d6b0",
+   "unit": "DlgProgOptions.pas",
+   "size": 312,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FilterPresetTableKeyDown",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f9db50",
+   "unit": "DlgProgOptions.pas",
+   "size": 144,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FindBytesEditChanged",
+   "forms": [
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnChanged",
+    "OnClick"
+   ],
+   "address": "0x141bba770",
+   "unit": "FrameHexFind.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FindMRUPopupPopup",
+   "forms": [
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141bbaa40",
+   "unit": "FrameHexFind.pas",
+   "size": 279,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FindNextClick",
+   "forms": [
+    "TFILEFINDFRAME",
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141809aa0",
+   "unit": "FrameFileFind.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FindPrevClick",
+   "forms": [
+    "TFILEFINDFRAME",
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141809ac0",
+   "unit": "FrameFileFind.pas",
+   "size": 88,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "FindREItemClick",
+   "forms": [
+    "TDIRALIGNWITHITEMDIALOG",
+    "TDIRFINDDIALOG",
+    "TFILEFINDFRAME",
+    "TTEXTFINDINFILESDIALOG",
+    "TTEXTINSIGITEMDIALOG",
+    "TTEXTREPLACEMENTITEMDIALOG",
+    "TTEXTWEIGHTITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1418096b0",
+   "unit": "FrameFileFind.pas",
+   "size": 565,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "FindStrEditChange",
+   "forms": [
+    "TFILEFINDFRAME"
+   ],
+   "events": [
+    "OnChange",
+    "OnClick"
+   ],
+   "address": "0x1418091b0",
+   "unit": "FrameFileFind.pas",
+   "size": 788,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "FmtFrameResize",
+   "forms": [
+    "TTABLEFORMATTYPEFRAME"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141c0c210",
+   "unit": "DlgTableSort.pas",
+   "size": 26,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FooterChange",
+   "forms": [
+    "TTABLEVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141c2d8f0",
+   "unit": "ViewTable.pas",
+   "size": 213,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FooterListClick",
+   "forms": [
+    "TTABLEVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141c2d560",
+   "unit": "ViewTable.pas",
+   "size": 74,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FooterScroll",
+   "forms": [
+    "TTABLEVIEW"
+   ],
+   "events": [
+    "OnScroll"
+   ],
+   "address": "0x141c274d0",
+   "unit": "ViewTable.pas",
+   "size": 541,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ForceClick",
+   "forms": [
+    "TOPMERGEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b3be8a",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormActivate",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnActivate"
+   ],
+   "address": "0x140f2fa70",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormClose",
+   "forms": [
+    "TABOUTDIALOG",
+    "TCHECKFORUPDATESDIALOG",
+    "TDIRSCRIPTDIALOG",
+    "TDOWNLOADUPDATEDIALOG",
+    "TFILECONFIRMSAVEDIALOG",
+    "THEXGOTODIALOG",
+    "TIMPORTDIALOG",
+    "TOPCOMPAREDIALOG",
+    "TOPCOMPARERESULTSDIALOG",
+    "TOPCOPYDIALOG",
+    "TOPMERGEDIALOG",
+    "TOPMOVEBOTHDIALOG",
+    "TOPMOVEDIALOG",
+    "TOPSYNCDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROGOPTIONSDIALOG",
+    "TQUICKCOMPAREDIALOG",
+    "TREPORTSETUPDIALOG",
+    "TSCCOPDIALOG",
+    "TTEXTFINDINFILESDIALOG",
+    "TTIPDIALOG"
+   ],
+   "events": [
+    "OnClose"
+   ],
+   "address": "0x140f11b70",
+   "unit": "HTTPGet.pas",
+   "size": 30,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FormCloseQuery",
+   "forms": [
+    "TBROWSEMACHINEDIALOG",
+    "TBROWSEREGISTRYDIALOG",
+    "TDIRLOADERRORDIALOG",
+    "TDIRSCRIPTDIALOG",
+    "TDOWNLOADUPDATEDIALOG",
+    "TFILEFORMATMANAGERDIALOG",
+    "TJOBSCANCELDIALOG",
+    "TOPBASEDIALOG",
+    "TOPFILTEREDDIALOG",
+    "TOPMERGEDIALOG",
+    "TOPSYNCDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TQUICKCOMPAREDIALOG",
+    "TSNAPSHOTDIALOG"
+   ],
+   "events": [
+    "OnCloseQuery"
+   ],
+   "address": "0x140f11940",
+   "unit": "HTTPGet.pas",
+   "size": 363,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FormCreate",
+   "forms": [
+    "TABOUTDIALOG",
+    "TBETAEXPIREDDIALOG",
+    "TDIRLEGENDDIALOG",
+    "TDIRNAMEFILTERPRESETDIALOG",
+    "TDIROTHERFILTERITEMDIALOG",
+    "TDIRSCRIPTDIALOG",
+    "TDOWNLOADUPDATEDIALOG",
+    "TEXPORTDIALOG",
+    "TFILECONFIRMSAVEDIALOG",
+    "TFILEFORMATMANAGERDIALOG",
+    "TFILEFORMATSAVEASDIALOG",
+    "THEXGOTODIALOG",
+    "TIMPORTDIALOG",
+    "TJOBSCANCELDIALOG",
+    "TKEYUPGRADEDIALOG",
+    "TOPCOMPARERESULTSDIALOG",
+    "TOPENWITHITEMDIALOG",
+    "TOPEXCLUDEDIALOG",
+    "TOPFILTEREDDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TPROGOPTIONSDIALOG",
+    "TQUICKCOMPAREDIALOG",
+    "TREGBROWSEDIALOG",
+    "TREGVALDIALOG",
+    "TREPORTDIALOG",
+    "TREPORTPREVIEWDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TSNAPSHOTDIALOG",
+    "TSUPPORTDIALOG",
+    "TTABLESORTDIALOG",
+    "TTEXTGOTODIALOG",
+    "TTEXTGRAMMARITEMDIALOG",
+    "TTEXTWEIGHTITEMDIALOG",
+    "TTIPDIALOG",
+    "TTOTALCMDRPACKERDIALOG",
+    "TVFSGENERATESSHKEYSDIALOG",
+    "TVFSGENERATESSLCERTDIALOG",
+    "TVFSSVNLOGINDIALOG",
+    "TWORKSPACEMANAGERDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnCreate"
+   ],
+   "address": "0x140d9d0b0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormDestroy",
+   "forms": [
+    "TABOUTDIALOG",
+    "TBROWSEREGISTRYDIALOG",
+    "TDIRLEGENDDIALOG",
+    "TEXPORTDIALOG",
+    "TFILEFORMATMANAGERDIALOG",
+    "TFILEFORMATSAVEASDIALOG",
+    "TIMPORTDIALOG",
+    "TOPCOMPARERESULTSDIALOG",
+    "TOPFILTEREDDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TPROGOPTIONSDIALOG",
+    "TREPORTDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TTABLESORTDIALOG",
+    "TTOTALCMDRPACKERDIALOG",
+    "TWORKSPACEMANAGERDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnDestroy"
+   ],
+   "address": "0x140f19340",
+   "unit": "DlgImport.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FormDropFiles",
+   "forms": [
+    "TDIRLOADERRORDIALOG"
+   ],
+   "events": [
+    "OnDropFiles"
+   ],
+   "address": "0x141b0e1a0",
+   "unit": "DlgDirOpErrors.pas",
+   "size": 34,
+   "confidence": "boundary-guess"
+  },
+  {
+   "handler": "FormHide",
+   "forms": [
+    "TDIRLEGENDDIALOG"
+   ],
+   "events": [
+    "OnHide"
+   ],
+   "address": "0x141b0bea0",
+   "unit": "DlgDirLegend.pas",
+   "size": 2138,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "FormKeyDown",
+   "forms": [
+    "TCHECKFORUPDATESDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TREPORTPREVIEWDIALOG",
+    "TTABLESORTDIALOG",
+    "TTABSCONFIRMCLOSEDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140ed8b70",
+   "unit": "BcViews.pas",
+   "size": 62,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "FormKeyPress",
+   "forms": [
+    "TOPCOMPARERESULTSDIALOG"
+   ],
+   "events": [
+    "OnKeyPress"
+   ],
+   "address": "0x140fdf850",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormResize",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TOPFILTEREDDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TREPORTPREVIEWDIALOG",
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x140f2fc30",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormShortCut",
+   "forms": [
+    "TDIRSCRIPTDIALOG",
+    "TFILEFORMATMANAGERDIALOG",
+    "TPIXFULLSCREENDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnShortCut"
+   ],
+   "address": "0x140f2fc80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "FormShow",
+   "forms": [
+    "TABOUTDIALOG",
+    "TBROWSEMACHINEDIALOG",
+    "TBROWSEREGISTRYDIALOG",
+    "TCHECKFORUPDATESDIALOG",
+    "TDIRALIGNWITHITEMDIALOG",
+    "TDIRFINDDIALOG",
+    "TDIRLEGENDDIALOG",
+    "TDIRNAMEFILTERPRESETDIALOG",
+    "TDIROTHERFILTERITEMDIALOG",
+    "TDIRSCRIPTDIALOG",
+    "TDOWNLOADUPDATEDIALOG",
+    "TEXPORTDIALOG",
+    "TFILECONFIRMSAVEDIALOG",
+    "TFILEFORMATSAVEASDIALOG",
+    "THEXGOTODIALOG",
+    "THEXLAYOUTDIALOG",
+    "TIMPORTDIALOG",
+    "TNAGDIALOG",
+    "TOPCOMPARERESULTSDIALOG",
+    "TOPCONFIRMREPLACEFILEDIALOG",
+    "TOPENWITHITEMDIALOG",
+    "TOPNEWFOLDERDIALOG",
+    "TPIXFULLSCREENDIALOG",
+    "TPIXREPLACEMENTITEMDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TPROGOPTIONSDIALOG",
+    "TQUICKCOMPAREDIALOG",
+    "TREGBROWSEDIALOG",
+    "TREGISTERDIALOG",
+    "TREGVALDIALOG",
+    "TREPORTDIALOG",
+    "TREPORTPREVIEWDIALOG",
+    "TREPORTSETUPDIALOG",
+    "TSCCCHOOSEPROVIDERDIALOG",
+    "TSCCOPDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TSNAPSHOTDIALOG",
+    "TSOURCECONTROLMANAGERDIALOG",
+    "TTABLESORTDIALOG",
+    "TTABSCONFIRMCLOSEDIALOG",
+    "TTEXTFINDINFILESDIALOG",
+    "TTEXTGOTODIALOG",
+    "TTEXTGRAMMARITEMDIALOG",
+    "TTEXTINSIGITEMDIALOG",
+    "TTEXTREPLACEMENTITEMDIALOG",
+    "TTEXTWEIGHTITEMDIALOG",
+    "TTIPDIALOG",
+    "TTOTALCMDRPACKERDIALOG",
+    "TVFSAMAZONS3LOGINDIALOG",
+    "TVFSARCHIVEPASSWORDDIALOG",
+    "TVFSDROPBOXAUTHCODEDIALOG",
+    "TVFSFTPLOGINDIALOG",
+    "TVFSGENERATESSLCERTDIALOG",
+    "TVFSHTTPLOGINDIALOG",
+    "TVFSSFTPPASSPHRASEDIALOG",
+    "TVFSSFTPVALIDATEKEYDIALOG",
+    "TVFSVALIDATESSLCERTDIALOG",
+    "TWORKSPACEMANAGERDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnShow"
+   ],
+   "address": "0x140d9e160",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ForwardClick",
+   "forms": [
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141813010",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "GapExpandedClick",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141ba4200",
+   "unit": "ViewText.pas",
+   "size": 63,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "GapListClick",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141ba41c0",
+   "unit": "ViewText.pas",
+   "size": 49,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "GapShowBarsClick",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141ba4240",
+   "unit": "ViewText.pas",
+   "size": 726,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "GrammarCloneClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7e710",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 199,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarDeleteClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7e980",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 24,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarEditClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME",
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b7e8e0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 73,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarListBoxClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7df30",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 160,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarListBoxDragDrop",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b7dfd0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 18,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarListBoxDragOver",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b7dff0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 522,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarListBoxKeyDown",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b7e200",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 117,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarMoveDownClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7e2a0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 163,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarMoveUpClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7e930",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 73,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "GrammarNewClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7e800",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 180,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "HandleClick",
+   "forms": [
+    "TOPENWITHITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f80173",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "HasNamesClick",
+   "forms": [
+    "TTABLESORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141c08c50",
+   "unit": "DlgTableSort.pas",
+   "size": 16,
+   "confidence": "boundary-guess"
+  },
+  {
+   "handler": "HeaderFontClick",
+   "forms": [
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbbef0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "HelpContentsExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa470",
+   "unit": "ActnGeneral.pas",
+   "size": 48,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "HostEditExit",
+   "forms": [
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnExit"
+   ],
+   "address": "0x141af5250",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "HostPortEditChange",
+   "forms": [
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141af5280",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ImageMouseDown",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseDown"
+   ],
+   "address": "0x141be8370",
+   "unit": "ViewPix.pas",
+   "size": 1681,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImageMouseMove",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseMove"
+   ],
+   "address": "0x141be8a90",
+   "unit": "ViewPix.pas",
+   "size": 40,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImageMouseUp",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseUp"
+   ],
+   "address": "0x141be8ac0",
+   "unit": "ViewPix.pas",
+   "size": 493,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImageMouseWheel",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseWheel"
+   ],
+   "address": "0x141be8cc0",
+   "unit": "ViewPix.pas",
+   "size": 116,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImageMouseWheelHorz",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseWheelHorz"
+   ],
+   "address": "0x141be8d40",
+   "unit": "ViewPix.pas",
+   "size": 72,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImagePaint",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141be8d90",
+   "unit": "ViewPix.pas",
+   "size": 19,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImagePanelPaint",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141be6a40",
+   "unit": "ViewPix.pas",
+   "size": 406,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ImportExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9d60",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "InThumbnailGetColors",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnGetColors"
+   ],
+   "address": "0x141ba4bc0",
+   "unit": "ViewText.pas",
+   "size": 62,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "InThumbnailGetPriority",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnGetPriority"
+   ],
+   "address": "0x141ba4e00",
+   "unit": "ViewText.pas",
+   "size": 290,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "IncludeFilteredClick",
+   "forms": [
+    "TOPBASEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fdc290",
+   "unit": "OpBase.pas",
+   "size": 30,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "InputPanelResize",
+   "forms": [
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b9e810",
+   "unit": "ViewText.pas",
+   "size": 63,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "InsigsCloneClick",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b82cd0",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 82,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsDeleteClick",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b82b50",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 172,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsEditClick",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b82c20",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 143,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsListBoxClick",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b82410",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 160,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsListBoxDragDrop",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b824b0",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 18,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsListBoxDragOver",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b824d0",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 522,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsListBoxKeyDown",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b826e0",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 112,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "InsigsNewClick",
+   "forms": [
+    "TTEXTSESSIONIMPORTANCEFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b82770",
+   "unit": "FrameTextSessionImportance.pas",
+   "size": 163,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "IsProClick",
+   "forms": [
+    "TABOUTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f76760",
+   "unit": "FrameFileFormat.pas",
+   "size": 664,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "IsRegExpClick",
+   "forms": [
+    "TOPRENAMEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140ff07d0",
+   "unit": "OpSync.pas",
+   "size": 26,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "IsSrcClick",
+   "forms": [
+    "TTEXTREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14103c1f7",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "JobCancelClick",
+   "forms": [
+    "TFILEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14181f6e0",
+   "unit": "ViewSession.pas",
+   "size": 286,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "KeyTypeEditChange",
+   "forms": [
+    "TVFSGENERATESSHKEYSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141ae7510",
+   "unit": "VfsZipForgeResourceImpl.pas",
+   "size": 210,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "KindClick",
+   "forms": [
+    "THEXGOTODIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141bb65ea",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "KindEditChange",
+   "forms": [
+    "TDIROTHERFILTERITEMDIALOG",
+    "TREGVALDIALOG",
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnChange",
+    "OnClick"
+   ],
+   "address": "0x141b11130",
+   "unit": "DlgDirOtherFilterItem.pas",
+   "size": 779,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "KindEditGetImageIndex",
+   "forms": [
+    "TREGVALDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x141bf0fb0",
+   "unit": "DlgRegVal.pas",
+   "size": 529,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "KnowledgeBaseSearchClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183c1c0",
+   "unit": "ViewHome.pas",
+   "size": 48,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LinkClick",
+   "forms": [
+    "TKEYUPGRADEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140d9cedc",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxClick",
+   "forms": [
+    "TBROWSEMACHINEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417e2050",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxDblClick",
+   "forms": [
+    "TBROWSEMACHINEDIALOG"
+   ],
+   "events": [
+    "OnDblClick"
+   ],
+   "address": "0x1417d6c98",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxDrawItem",
+   "forms": [
+    "TDIRLEGENDDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x141b0c7a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxDrawPrep",
+   "forms": [
+    "TLOGFRAME"
+   ],
+   "events": [
+    "OnDrawPrep"
+   ],
+   "address": "0x140fb79b0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxGetText",
+   "forms": [
+    "TLOGFRAME",
+    "TOPFILTEREDDIALOG"
+   ],
+   "events": [
+    "OnGetText"
+   ],
+   "address": "0x140fb6f56",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxHintShowPrep",
+   "forms": [
+    "TDIRLEGENDDIALOG"
+   ],
+   "events": [
+    "OnHintShowPrep"
+   ],
+   "address": "0x141b0b681",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListBoxKeyDown",
+   "forms": [
+    "TBROWSEMACHINEDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x1417e1a9c",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListClick",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141c111b5",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListPanelResize",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x140f2fd10",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListTableDeleteItem",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDeleteItem"
+   ],
+   "address": "0x140f74240",
+   "unit": "FrameFileFormat.pas",
+   "size": 276,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ListTableDeleteItemQuery",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDeleteItemQuery"
+   ],
+   "address": "0x140f743b0",
+   "unit": "FrameFileFormat.pas",
+   "size": 161,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ListTableGetCells",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x140f74480",
+   "unit": "FrameFileFormat.pas",
+   "size": 41,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ListViewCanCheck",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnCanCheck"
+   ],
+   "address": "0x140f7c950",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewCancelEdit",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnCancelEdit"
+   ],
+   "address": "0x140f28670",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewChecked",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnChecked"
+   ],
+   "address": "0x140f7c9f0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewCustomDrawItem",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnCustomDrawItem"
+   ],
+   "address": "0x140f7cad0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewCustomDrawSubItem",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnCustomDrawSubItem"
+   ],
+   "address": "0x140f7cc00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewDblClick",
+   "forms": [
+    "TPROFILEFILEOPENDIALOG"
+   ],
+   "events": [
+    "OnDblClick"
+   ],
+   "address": "0x1417f6760",
+   "unit": "DlgProfileFileOpen.pas",
+   "size": 195,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ListViewDragDrop",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x140f7cc70",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewDragOver",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x140f7cd00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewEdited",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnEdited"
+   ],
+   "address": "0x140f28910",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewEditing",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnEditing"
+   ],
+   "address": "0x140f28940",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewKeyDown",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f7cfd0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ListViewSelectItem",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnSelectItem"
+   ],
+   "address": "0x140f28ef0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "LocalCreateDirClick",
+   "forms": [
+    "TPROFILEBROWSEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417f0880",
+   "unit": "DlgProfileBrowse.pas",
+   "size": 509,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LocalTreeViewChange",
+   "forms": [
+    "TPROFILEBROWSEDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1417f1710",
+   "unit": "DlgProfileBrowse.pas",
+   "size": 14,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LocalTreeViewClick",
+   "forms": [
+    "TPROFILEBROWSEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417f1720",
+   "unit": "DlgProfileBrowse.pas",
+   "size": 61,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LocalTreeViewEdited",
+   "forms": [
+    "TPROFILEBROWSEDIALOG"
+   ],
+   "events": [
+    "OnEdited"
+   ],
+   "address": "0x1417f1760",
+   "unit": "DlgProfileBrowse.pas",
+   "size": 23,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogAutoSaveFilenameEditBrowse",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f9d3e0",
+   "unit": "DlgProgOptions.pas",
+   "size": 14,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogClearClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b26a80",
+   "unit": "ViewDirBase.pas",
+   "size": 23,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogCopyClick",
+   "forms": [
+    "TDIRSCRIPTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417d6010",
+   "unit": "BcStartup.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "LogCopyToClipboardClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b26ac0",
+   "unit": "ViewDirBase.pas",
+   "size": 38,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogHideClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b27a30",
+   "unit": "ViewDirBase.pas",
+   "size": 21,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogSaveClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b26aa0",
+   "unit": "ViewDirBase.pas",
+   "size": 21,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "LogSelectAllClick",
+   "forms": [
+    "TDIRSCRIPTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1417d6030",
+   "unit": "BcStartup.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "LogSplitterCanResize",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnCanResize"
+   ],
+   "address": "0x141b23810",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "LogSplitterMoved",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x141b238c0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MacCommandLineToolsExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9a00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MacTabToWindowExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa400",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowActivateAllExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa420",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowArrangeAllExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa430",
+   "unit": "ActnGeneral.pas",
+   "size": 28,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowMergeAllExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa410",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowMinimizeAllExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa370",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowMinimizeExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa360",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowNextExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa3a0",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowPrevExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa3b0",
+   "unit": "ActnGeneral.pas",
+   "size": 19,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowZoomAllExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa390",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MacWindowZoomExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa380",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MachineEditBrowse",
+   "forms": [
+    "TREGBROWSEDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141beef90",
+   "unit": "DlgRegBrowse.pas",
+   "size": 102,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "MachineEditChange",
+   "forms": [
+    "TREGBROWSEDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141bef020",
+   "unit": "DlgRegBrowse.pas",
+   "size": 282,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "MachineKindClick",
+   "forms": [
+    "TREGBROWSEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141beeee0",
+   "unit": "DlgRegBrowse.pas",
+   "size": 140,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "MainPanelResize",
+   "forms": [
+    "THEXVIEW",
+    "THOMEVIEW",
+    "TMEDIAVIEW",
+    "TREGVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW",
+    "TVERVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141838930",
+   "unit": "ViewHome.pas",
+   "size": 298,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ManageCancelClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183bf60",
+   "unit": "ViewHome.pas",
+   "size": 49,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageDefaultClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183b600",
+   "unit": "ViewHome.pas",
+   "size": 292,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageHideClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183b2b0",
+   "unit": "ViewHome.pas",
+   "size": 594,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "ManageLockClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183bb70",
+   "unit": "ViewHome.pas",
+   "size": 126,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageMaximizeClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183afc0",
+   "unit": "ViewHome.pas",
+   "size": 31,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageOpenClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183b5e0",
+   "unit": "ViewHome.pas",
+   "size": 31,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManagePanelPaint",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141839d30",
+   "unit": "ViewHome.pas",
+   "size": 793,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ManagePanelResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141839a40",
+   "unit": "ViewHome.pas",
+   "size": 104,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ManagePinClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183af90",
+   "unit": "ViewHome.pas",
+   "size": 40,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageSaveAsClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183bf20",
+   "unit": "ViewHome.pas",
+   "size": 19,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ManageSaveClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183be70",
+   "unit": "ViewHome.pas",
+   "size": 139,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "MarginEditChange",
+   "forms": [
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140fbb5a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MarginMaxClick",
+   "forms": [
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbb790",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MaskEditChange",
+   "forms": [
+    "TOPRENAMEDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140fef598",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MergeCmdLineEditGetArgs",
+   "forms": [
+    "TEXTERNALFORMATGENERALFRAME"
+   ],
+   "events": [
+    "OnGetArgs"
+   ],
+   "address": "0x141805da2",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "MonthEditChange",
+   "forms": [
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140ff6b10",
+   "unit": "OpSync.pas",
+   "size": 133,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "MoveDownClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f7da70",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 68,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "MoveUpClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f7da10",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 85,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "NameEditChange",
+   "forms": [
+    "TOPNEWFOLDERDIALOG",
+    "TPROFILEFILEOPENDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1417f6910",
+   "unit": "DlgProfileFileOpen.pas",
+   "size": 121,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "NameFilterClick",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b27a50",
+   "unit": "ViewDirBase.pas",
+   "size": 14,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "NavListClick",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141ba4640",
+   "unit": "ViewText.pas",
+   "size": 63,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "NeverAlignDiffsClick",
+   "forms": [
+    "TLINEALIGNDEFFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141810210",
+   "unit": "FrameLineAlignDef.pas",
+   "size": 61,
+   "confidence": "boundary-guess"
+  },
+  {
+   "handler": "NewClick",
+   "forms": [
+    "TTABLESORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f7d130",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 339,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "NewListClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnPopup"
+   ],
+   "address": "0x140f31340",
+   "unit": "DlgProfileManager.pas",
+   "size": 354,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "NewSubfolderClick",
+   "forms": [
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f2c740",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "NextClick",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG",
+    "TTOTALCMDRPACKERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140001320",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "NonTagPanelResize",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141be6720",
+   "unit": "ViewPix.pas",
+   "size": 202,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "OffsetResetClick",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141be8db0",
+   "unit": "ViewPix.pas",
+   "size": 58,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "OkClick",
+   "forms": [
+    "TDIRALIGNWITHITEMDIALOG",
+    "TDIRFINDDIALOG",
+    "TFILEFORMATSAVEASDIALOG",
+    "TOPCOPYTODIALOG",
+    "TOPSYNCDIALOG",
+    "TPROFILEFILEOPENDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TQUICKCOMPAREDIALOG",
+    "TREGISTERDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TSNAPSHOTDIALOG",
+    "TTEXTFINDINFILESDIALOG",
+    "TTEXTGRAMMARITEMDIALOG",
+    "TTEXTINSIGITEMDIALOG",
+    "TTEXTREPLACEMENTITEMDIALOG",
+    "TTEXTWEIGHTITEMDIALOG",
+    "TVFSGENERATESSHKEYSDIALOG",
+    "TVFSGENERATESSLCERTDIALOG",
+    "TWORKSPACESAVEASDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140d9ddfc",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OpenWithCloneClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9d250",
+   "unit": "DlgProgOptions.pas",
+   "size": 35,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithDeleteClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9d0c0",
+   "unit": "DlgProgOptions.pas",
+   "size": 177,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithEditClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x140f9d1a0",
+   "unit": "DlgProgOptions.pas",
+   "size": 136,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithNewClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnAddItem",
+    "OnClick"
+   ],
+   "address": "0x140f9cdb0",
+   "unit": "DlgProgOptions.pas",
+   "size": 41,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9c980",
+   "unit": "DlgProgOptions.pas",
+   "size": 24,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableDeleteItem",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDeleteItem"
+   ],
+   "address": "0x140f9c9a0",
+   "unit": "DlgProgOptions.pas",
+   "size": 172,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableDeleteItemQuery",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDeleteItemQuery"
+   ],
+   "address": "0x140f9ca80",
+   "unit": "DlgProgOptions.pas",
+   "size": 141,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableDragDrop",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x140f9cb10",
+   "unit": "DlgProgOptions.pas",
+   "size": 18,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableDragOver",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x140f9cb30",
+   "unit": "DlgProgOptions.pas",
+   "size": 139,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableGetCells",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x140f9cbe0",
+   "unit": "DlgProgOptions.pas",
+   "size": 312,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OpenWithTableKeyDown",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f9cd20",
+   "unit": "DlgProgOptions.pas",
+   "size": 112,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OptionsClick",
+   "forms": [
+    "TLOGFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fb75a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OrientationClick",
+   "forms": [
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbbb00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersClick",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b281b0",
+   "unit": "ViewDirBase.pas",
+   "size": 138,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OtherFiltersCloneClick",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1c232",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersDeleteClick",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1d050",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersEditClick",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b1d120",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersListBoxClick",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1c890",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersListBoxDragDrop",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b1c930",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersListBoxDragOver",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b1c950",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersListBoxKeyDown",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b1cb60",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersNewClick",
+   "forms": [
+    "TDIRSESSIONOTHERFILTERSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1cbf0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OtherFiltersPanelResize",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b237d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OutThumbnailGetColors",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnGetColors"
+   ],
+   "address": "0x141ba4c00",
+   "unit": "ViewText.pas",
+   "size": 506,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OutThumbnailGetPriority",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnGetPriority"
+   ],
+   "address": "0x141ba4f30",
+   "unit": "ViewText.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "OutputFilenameEditBrowse",
+   "forms": [
+    "TVFSGENERATESSLCERTDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141aef9f0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "OutputSplitterMoved",
+   "forms": [
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x141ba40a0",
+   "unit": "ViewText.pas",
+   "size": 130,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "PageMouseDown",
+   "forms": [
+    "TREPORTPREVIEWDIALOG"
+   ],
+   "events": [
+    "OnMouseDown"
+   ],
+   "address": "0x140fbe7f0",
+   "unit": "DlgReport.pas",
+   "size": 97,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PageMouseMove",
+   "forms": [
+    "TREPORTPREVIEWDIALOG"
+   ],
+   "events": [
+    "OnMouseMove"
+   ],
+   "address": "0x140fbe860",
+   "unit": "DlgReport.pas",
+   "size": 42,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PageMouseUp",
+   "forms": [
+    "TREPORTPREVIEWDIALOG"
+   ],
+   "events": [
+    "OnMouseUp"
+   ],
+   "address": "0x140fbe890",
+   "unit": "DlgReport.pas",
+   "size": 85,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PanelPaint",
+   "forms": [
+    "TREPORTPREVIEWDIALOG"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x140fbd2be",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PassphraseEditChange",
+   "forms": [
+    "TVFSGENERATESSHKEYSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141ae7610",
+   "unit": "VfsZipForgeResourceImpl.pas",
+   "size": 67,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PathEditBrowse",
+   "forms": [
+    "TREGBROWSEDIALOG",
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f73ff0",
+   "unit": "FrameFileFormat.pas",
+   "size": 413,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PathEditChange",
+   "forms": [
+    "TREGBROWSEDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141bee569",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PathKindClick",
+   "forms": [
+    "TREGBROWSEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141bef4e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PauseClick",
+   "forms": [
+    "TDIROPPROGRESSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b13ce0",
+   "unit": "FrameDirOpProgress.pas",
+   "size": 95,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "PermissionsChangedClick",
+   "forms": [
+    "TOPUNIXATTRIBDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b429a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PermissionsEditChange",
+   "forms": [
+    "TOPUNIXATTRIBDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141b41dc9",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PixElementEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick",
+    "OnSelect"
+   ],
+   "address": "0x140f9be50",
+   "unit": "DlgProgOptions.pas",
+   "size": 40,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "PixElementTreeViewChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9bdc0",
+   "unit": "DlgProgOptions.pas",
+   "size": 142,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "PresetEditChange",
+   "forms": [
+    "TDIRSYNCSESSIONOPSFRAME",
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141b5e6d0",
+   "unit": "ViewDirSync.pas",
+   "size": 37,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PresetEditGetImageIndex",
+   "forms": [
+    "TDIRSYNCSESSIONOPSFRAME",
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x141b5e700",
+   "unit": "ViewDirSync.pas",
+   "size": 34,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PresetsNewClick",
+   "forms": [
+    "TDIRSESSIONNAMEFILTERFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b1aee4",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "PreviewClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG",
+    "TREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9ad80",
+   "unit": "DlgProgOptions.pas",
+   "size": 193,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "PrintClick",
+   "forms": [
+    "TREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbe5d0",
+   "unit": "DlgReport.pas",
+   "size": 123,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PrivateKeyFileEditBrowse",
+   "forms": [
+    "TVFSGENERATESSHKEYSDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141ae7660",
+   "unit": "VfsZipForgeResourceImpl.pas",
+   "size": 102,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "PrivateKeyFileEditChange",
+   "forms": [
+    "TVFSGENERATESSHKEYSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141ae7700",
+   "unit": "VfsZipForgeResourceImpl.pas",
+   "size": 1043,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ProfileManagerExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9d00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ProfilesListBoxDrawItem",
+   "forms": [
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x140f19c30",
+   "unit": "DlgImport.pas",
+   "size": 148,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ProfilesListBoxGetImageIndex",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f19de0",
+   "unit": "DlgImport.pas",
+   "size": 71,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ProfilesListBoxGetNotLast",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetNotLast"
+   ],
+   "address": "0x140f1a2a0",
+   "unit": "DlgImport.pas",
+   "size": 4082,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ProgramOptionsExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9bb0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ProtocolEditChange",
+   "forms": [
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141af4fb0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ProviderListBoxDblClick",
+   "forms": [
+    "TSCCCHOOSEPROVIDERDIALOG"
+   ],
+   "events": [
+    "OnDblClick"
+   ],
+   "address": "0x140f724d1",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ProxyTypeEditChange",
+   "forms": [
+    "TVFSFTPPROFILEPROXYFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141afc1f8",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "REItemClick",
+   "forms": [
+    "TTEXTGRAMMARITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b746f0",
+   "unit": "DlgTextGrammarItem.pas",
+   "size": 742,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "RecursiveClick",
+   "forms": [
+    "TOPDOSATTRIBDIALOG",
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fdddfa",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "RefreshClick",
+   "forms": [
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141812b7d",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "RegisterClick",
+   "forms": [
+    "TNAGDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140d9f2f7",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "RegisterLinkLblURLClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnURLClick"
+   ],
+   "address": "0x14183c210",
+   "unit": "ViewHome.pas",
+   "size": 21,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "RemoveClick",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f744b0",
+   "unit": "FrameFileFormat.pas",
+   "size": 141,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "RenameClick",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f290c0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplaceAllClick",
+   "forms": [
+    "TFILEFINDFRAME",
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141809b60",
+   "unit": "FrameFileFind.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ReplaceClick",
+   "forms": [
+    "TFILEFINDFRAME",
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141809b40",
+   "unit": "FrameFileFind.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ReplaceMRUPopupPopup",
+   "forms": [
+    "THEXFINDFRAME"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141bba9b0",
+   "unit": "FrameHexFind.pas",
+   "size": 110,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ReplaceREItemClick",
+   "forms": [
+    "TDIRALIGNWITHITEMDIALOG",
+    "TFILEFINDFRAME",
+    "TTEXTREPLACEMENTITEMDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141809a80",
+   "unit": "FrameFileFind.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ReplacementsCloneClick",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b84e59",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsDeleteClick",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b85cb0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsEditClick",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b85d80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsNewClick",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnAddItem",
+    "OnClick"
+   ],
+   "address": "0x141b85970",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableClick",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b85630",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableDeleteItem",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnDeleteItem"
+   ],
+   "address": "0x141b85650",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableDragDrop",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b856e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableDragOver",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b85700",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableGetCells",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x141b85760",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableGetImageIndex",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x141b857a0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ReplacementsTableKeyDown",
+   "forms": [
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b858e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "RestoreExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9d80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "RightPanelResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141839740",
+   "unit": "ViewHome.pas",
+   "size": 147,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "RulesExecute",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141816440",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SSHCreateKeysClick",
+   "forms": [
+    "TVFSFTPPROFILEGLOBALFRAME",
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141af5b40",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SSLClientCertFileEditBrowse",
+   "forms": [
+    "TVFSWEBDAVPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x141b00af0",
+   "unit": "DlgDirAlignWithItem.pas",
+   "size": 116,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SSLCreateCertClick",
+   "forms": [
+    "TVFSFTPPROFILEGLOBALFRAME",
+    "TVFSFTPPROFILELOGINFRAME",
+    "TVFSWEBDAVPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141af5be0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SaveClick",
+   "forms": [
+    "TLOGFRAME",
+    "TREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fb7730",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SaveSnapshotExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9da0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ScriptSharedDirEditBrowse",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f9e110",
+   "unit": "DlgProgOptions.pas",
+   "size": 420,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ScrollBoxKeyDown",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141be7f70",
+   "unit": "ViewPix.pas",
+   "size": 478,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ScrollBoxMouseWheel",
+   "forms": [
+    "TREPORTPREVIEWDIALOG"
+   ],
+   "events": [
+    "OnMouseWheel"
+   ],
+   "address": "0x140fbe8f0",
+   "unit": "DlgReport.pas",
+   "size": 116,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ScrollBoxScroll",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnScroll"
+   ],
+   "address": "0x141be8170",
+   "unit": "ViewPix.pas",
+   "size": 231,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SelOnlyClick",
+   "forms": [
+    "TOPSYNCDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140ff4390",
+   "unit": "OpSync.pas",
+   "size": 47,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SelectAllClick",
+   "forms": [
+    "TFILEFINDFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141808305",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SessionClassEditGetImageIndex",
+   "forms": [
+    "TQUICKCOMPAREDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f1ffd0",
+   "unit": "DlgQuickCompare.pas",
+   "size": 63,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionOpenExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b00",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SessionsClearClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183d910",
+   "unit": "ViewHome.pas",
+   "size": 354,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsCollapseAllClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183dd60",
+   "unit": "ViewHome.pas",
+   "size": 55,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsDeleteClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183dac0",
+   "unit": "ViewHome.pas",
+   "size": 29,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsEditClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183db10",
+   "unit": "ViewHome.pas",
+   "size": 110,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsExpandAllClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183db80",
+   "unit": "ViewHome.pas",
+   "size": 435,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsFolderOpenClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183c400",
+   "unit": "ViewHome.pas",
+   "size": 476,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "SessionsListBoxDrawItem",
+   "forms": [
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnDrawItem"
+   ],
+   "address": "0x140f19820",
+   "unit": "DlgImport.pas",
+   "size": 207,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsListBoxGetImageIndex",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetImageIndex"
+   ],
+   "address": "0x140f19a00",
+   "unit": "DlgImport.pas",
+   "size": 169,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsListBoxGetNotLast",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetNotLast"
+   ],
+   "address": "0x140f19ab0",
+   "unit": "DlgImport.pas",
+   "size": 126,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsListBoxGetOverlayIndex",
+   "forms": [
+    "TEXPORTDIALOG",
+    "TIMPORTDIALOG"
+   ],
+   "events": [
+    "OnGetOverlayIndex"
+   ],
+   "address": "0x140f19b30",
+   "unit": "DlgImport.pas",
+   "size": 64,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsNewListClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick",
+    "OnPopup"
+   ],
+   "address": "0x14183d0a0",
+   "unit": "ViewHome.pas",
+   "size": 348,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "SessionsPanelPaint",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141839cd0",
+   "unit": "ViewHome.pas",
+   "size": 92,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsPanelResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141838a60",
+   "unit": "ViewHome.pas",
+   "size": 27,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsRenameClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183dae0",
+   "unit": "ViewHome.pas",
+   "size": 48,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsSearchEditChange",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x14183af50",
+   "unit": "ViewHome.pas",
+   "size": 50,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsSplitterCanResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnCanResize"
+   ],
+   "address": "0x141838a80",
+   "unit": "ViewHome.pas",
+   "size": 98,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsSplitterMoved",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x141838ee0",
+   "unit": "ViewHome.pas",
+   "size": 2133,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsTreeViewCancelEdit",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnCancelEdit"
+   ],
+   "address": "0x14183a250",
+   "unit": "ViewHome.pas",
+   "size": 36,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsTreeViewChange",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x14183a280",
+   "unit": "ViewHome.pas",
+   "size": 98,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsTreeViewCollapsed",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnCollapsed"
+   ],
+   "address": "0x14183a2f0",
+   "unit": "ViewHome.pas",
+   "size": 39,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SessionsTreeViewDblClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnDblClick"
+   ],
+   "address": "0x14183a320",
+   "unit": "ViewHome.pas",
+   "size": 1084,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "SessionsTreeViewDragDrop",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x14183a880",
+   "unit": "ViewHome.pas",
+   "size": 359,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewDragOver",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x14183aa10",
+   "unit": "ViewHome.pas",
+   "size": 665,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewEdited",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnEdited"
+   ],
+   "address": "0x14183ad00",
+   "unit": "ViewHome.pas",
+   "size": 149,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewEditing",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnEditing"
+   ],
+   "address": "0x14183ada0",
+   "unit": "ViewHome.pas",
+   "size": 98,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewExpanded",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnExpanded"
+   ],
+   "address": "0x14183ae10",
+   "unit": "ViewHome.pas",
+   "size": 119,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewKeyDown",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x14183ae90",
+   "unit": "ViewHome.pas",
+   "size": 128,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SessionsTreeViewKeyPress",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnKeyPress"
+   ],
+   "address": "0x14183af20",
+   "unit": "ViewHome.pas",
+   "size": 42,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SetupClick",
+   "forms": [
+    "TREPORTDIALOG",
+    "TREPORTSETUPDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fbab64",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SharedSessionFilenameEditBrowse",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f9e390",
+   "unit": "DlgProgOptions.pas",
+   "size": 121,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SheetEditChange",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONROWSFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141c11e80",
+   "unit": "FrameTableSessionColumns.pas",
+   "size": 26,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ShellExtItemPosTableModifyInit",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnModifyInit"
+   ],
+   "address": "0x140f9ace0",
+   "unit": "DlgProgOptions.pas",
+   "size": 38,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ShortCutEditChange",
+   "forms": [
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f29170",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ShortCutRemoveClick",
+   "forms": [
+    "TOPENWITHITEMDIALOG",
+    "TWORKSPACEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f29190",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ShowFilteredClick",
+   "forms": [
+    "TOPBASEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fd7cc6",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ShowLicenseLinkClick",
+   "forms": [
+    "TABOUTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f7513f",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ShowSilentCheckOutClick",
+   "forms": [
+    "TSOURCECONTROLMANAGERDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f733b1",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SideClick",
+   "forms": [
+    "TPIXFULLSCREENDIALOG",
+    "TTABLEGOTODIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141bdabb0",
+   "unit": "ViewMedia.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SideEditClick",
+   "forms": [
+    "TDIRFINDDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b0a6a0",
+   "unit": "DlgDirFind.pas",
+   "size": 851,
+   "confidence": "boundary-guess"
+  },
+  {
+   "handler": "SidesChangedClick",
+   "forms": [
+    "TOPBASEDIALOG",
+    "TOPCOPYTOOUTPUTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fdc120",
+   "unit": "OpBase.pas",
+   "size": 224,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SigAllClick",
+   "forms": [
+    "TTAGSESSIONFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141811eb0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SigNoneClick",
+   "forms": [
+    "TTAGSESSIONFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141811c18",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SigsListBoxGetNotLast",
+   "forms": [
+    "TTAGSESSIONFRAME"
+   ],
+   "events": [
+    "OnGetNotLast"
+   ],
+   "address": "0x141811e80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SomethingChangedClick",
+   "forms": [
+    "TDIRALIGNWITHITEMDIALOG",
+    "TDIRFINDDIALOG",
+    "TDIRNAMEFILTERPRESETDIALOG",
+    "TDIROTHERFILTERITEMDIALOG",
+    "TDIRREPORTDIALOG",
+    "TDIRSESSIONCOMPARISONFRAME",
+    "TDIRSESSIONHANDLINGFRAME",
+    "TDIRSESSIONMISCFRAME",
+    "TDIRSESSIONNAMEFILTERFRAME",
+    "TDIRSESSIONOTHERFILTERSFRAME",
+    "TDIRSESSIONSPECSFRAME",
+    "TDIRSYNCSESSIONHANDLINGFRAME",
+    "TDIRSYNCSESSIONOPSFRAME",
+    "TEDITFILEFORMATCONVERSIONFRAME",
+    "TEXPORTDIALOG",
+    "TEXTERNALFORMATGENERALFRAME",
+    "TFILEFINDFRAME",
+    "TFILEFORMATCONVERSIONFRAME",
+    "TFILEFORMATGENERALFRAME",
+    "TFILESESSIONFORMATSFRAME",
+    "TFILESESSIONSPECSFRAME",
+    "THEXFINDFRAME",
+    "THEXLAYOUTDIALOG",
+    "THEXSESSIONFRAME",
+    "TIMPORTDIALOG",
+    "TLINEALIGNDEFFRAME",
+    "TLINEFILEFORMATCONVERSIONFRAME",
+    "TLINESESSIONFORMATSFRAME",
+    "TOPENWITHITEMDIALOG",
+    "TPIXREPLACEMENTITEMDIALOG",
+    "TPIXSESSIONREPLACEMENTSFRAME",
+    "TPROGOPTIONSDIALOG",
+    "TREGFINDFRAME",
+    "TREPORTDIALOG",
+    "TSOURCECONTROLMANAGERDIALOG",
+    "TTABLECOLHANDLINGDIALOG",
+    "TTABLEFMTFRAME",
+    "TTABLEFORMATTYPEFRAME",
+    "TTABLEREPORTDIALOG",
+    "TTABLERGNFRAME",
+    "TTAGSESSIONFRAME",
+    "TTEXTFINDINFILESDIALOG",
+    "TTEXTFORMATCONVERSIONFRAME",
+    "TTEXTFORMATGRAMMARFRAME",
+    "TTEXTFORMATMISCFRAME",
+    "TTEXTGRAMMARITEMDIALOG",
+    "TTEXTINSIGITEMDIALOG",
+    "TTEXTREPLACEMENTITEMDIALOG",
+    "TTEXTREPORTDIALOG",
+    "TTEXTSESSIONALIGNMENTFRAME",
+    "TTEXTSESSIONIMPORTANCEFRAME",
+    "TTEXTSESSIONREPLACEMENTSFRAME",
+    "TTEXTWEIGHTITEMDIALOG",
+    "TTOTALCMDRPACKERDIALOG",
+    "TVFSAMAZONS3PROFILEGENERALFRAME",
+    "TVFSDROPBOXPROFILEGENERALFRAME",
+    "TVFSFTPPROFILECONNECTIONFRAME",
+    "TVFSFTPPROFILEGLOBALFRAME",
+    "TVFSFTPPROFILELISTINGFRAME",
+    "TVFSFTPPROFILELOGINFRAME",
+    "TVFSFTPPROFILEPROXYFRAME",
+    "TVFSFTPPROFILESERVERFRAME",
+    "TVFSFTPPROFILETRANSFERFRAME",
+    "TVFSGENERATESSHKEYSDIALOG",
+    "TVFSGENERATESSLCERTDIALOG",
+    "TVFSOAUTHPROFILEGENERALFRAME",
+    "TVFSSVNPROFILEGENERALFRAME",
+    "TVFSWEBDAVPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnChange",
+    "OnChanged",
+    "OnClick",
+    "OnClickCheck",
+    "OnItemsDeleted",
+    "OnModifyApply",
+    "OnSelect"
+   ],
+   "address": "0x140f19350",
+   "unit": "DlgImport.pas",
+   "size": 226,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SourceControlManagerExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9d20",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SpecEditBrowse",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x1418156d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SpecEditChange",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1418156e0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SpecEditDropDown",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnDropDown"
+   ],
+   "address": "0x1418156f0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SpecEditEnter",
+   "forms": [
+    "TVFSARCHIVEPASSWORDDIALOG"
+   ],
+   "events": [
+    "OnEnter"
+   ],
+   "address": "0x140e1e250",
+   "unit": "VfsArchiveResourceImpl.pas",
+   "size": 122,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SpecEditExit",
+   "forms": [
+    "TVFSARCHIVEPASSWORDDIALOG"
+   ],
+   "events": [
+    "OnExit"
+   ],
+   "address": "0x140e1def3",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SpecPanelResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x1418397e0",
+   "unit": "ViewHome.pas",
+   "size": 595,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SplitterCanResize",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnCanResize"
+   ],
+   "address": "0x140f31730",
+   "unit": "DlgProfileManager.pas",
+   "size": 79,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SplitterMoved",
+   "forms": [
+    "TFILEFORMATMANAGERDIALOG",
+    "THEXVIEW",
+    "TMEDIAVIEW",
+    "TPIXVIEW",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TREGVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW",
+    "TVERVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x140f31780",
+   "unit": "DlgProfileManager.pas",
+   "size": 312,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "SplitterPaint",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141be6c90",
+   "unit": "ViewPix.pas",
+   "size": 692,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "StatusBarResize",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b266e0",
+   "unit": "ViewDirBase.pas",
+   "size": 561,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "StatusEditChange",
+   "forms": [
+    "TDIRSYNCSESSIONOPSFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141b5e730",
+   "unit": "ViewDirSync.pas",
+   "size": 30,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "StickerClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183c280",
+   "unit": "ViewHome.pas",
+   "size": 16,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "StopTimerTimer",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnTimer"
+   ],
+   "address": "0x141b23dd0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SupportExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa570",
+   "unit": "ActnGeneral.pas",
+   "size": 53,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "SwapClick",
+   "forms": [
+    "TDIRSESSIONSPECSFRAME",
+    "TFILESESSIONSPECSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141801ce4",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "SwapExecute",
+   "forms": [
+    "TDIRSYNCVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141816460",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TLSVersionMaxEditChange",
+   "forms": [
+    "TVFSFTPPROFILECONNECTIONFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141af85b2",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TLSVersionMinEditChange",
+   "forms": [
+    "TVFSFTPPROFILECONNECTIONFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141af8b80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TabNewExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9a50",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TabNextExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa3d0",
+   "unit": "ActnGeneral.pas",
+   "size": 17,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TabPrevExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa3f0",
+   "unit": "ActnGeneral.pas",
+   "size": 1,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TagSplitterCanResize",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnCanResize"
+   ],
+   "address": "0x141be6930",
+   "unit": "ViewPix.pas",
+   "size": 75,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TagSplitterMoved",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMoved"
+   ],
+   "address": "0x141be6980",
+   "unit": "ViewPix.pas",
+   "size": 181,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TaskDragDrop",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x14183bfa0",
+   "unit": "ViewHome.pas",
+   "size": 126,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TaskDragOver",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x14183c020",
+   "unit": "ViewHome.pas",
+   "size": 16,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TaskIsFavClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183a110",
+   "unit": "ViewHome.pas",
+   "size": 33,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TaskPopupPopup",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x14183dda0",
+   "unit": "ViewHome.pas",
+   "size": 34,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TextInputFontClick",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f9d280",
+   "unit": "DlgProgOptions.pas",
+   "size": 235,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThemeModeEditChange",
+   "forms": [
+    "TPROGOPTIONSDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f9ad10",
+   "unit": "DlgProgOptions.pas",
+   "size": 103,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThrobberBoxPaint",
+   "forms": [
+    "TVFSDROPBOXPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x141af2be0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ThrobberTimerTimer",
+   "forms": [
+    "TVFSDROPBOXPROFILEGENERALFRAME"
+   ],
+   "events": [
+    "OnTimer"
+   ],
+   "address": "0x141af2516",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ThumbnailGetColors",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW"
+   ],
+   "events": [
+    "OnGetColors"
+   ],
+   "address": "0x141bc6c20",
+   "unit": "ViewHex.pas",
+   "size": 134,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThumbnailGetPriority",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW"
+   ],
+   "events": [
+    "OnGetPriority"
+   ],
+   "address": "0x141bc6cb0",
+   "unit": "ViewHex.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThumbnailHideClick",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141ba49a0",
+   "unit": "ViewText.pas",
+   "size": 112,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThumbnailLock",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnLock"
+   ],
+   "address": "0x141ba4f50",
+   "unit": "ViewText.pas",
+   "size": 106,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "ThumbnailRequestMoveBy",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnRequestMoveBy"
+   ],
+   "address": "0x141ba5060",
+   "unit": "ViewText.pas",
+   "size": 320,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "ThumbnailRequestMoveTo",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnRequestMoveTo"
+   ],
+   "address": "0x141ba5240",
+   "unit": "ViewText.pas",
+   "size": 22,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThumbnailScrollClick",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141ba4680",
+   "unit": "ViewText.pas",
+   "size": 53,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "ThumbnailUnlock",
+   "forms": [
+    "THEXVIEW",
+    "TTABLEVIEW",
+    "TTEXTVIEW"
+   ],
+   "events": [
+    "OnUnlock"
+   ],
+   "address": "0x141b9eba0",
+   "unit": "ViewText.pas",
+   "size": 262,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TidyClick",
+   "forms": [
+    "TTABLESESSIONCOLUMNSFRAME",
+    "TTABLESESSIONSHEETSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141c0e851",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TimerTimer",
+   "forms": [
+    "TDOWNLOADUPDATEDIALOG",
+    "TJOBSCANCELDIALOG",
+    "TQUICKCOMPAREDIALOG"
+   ],
+   "events": [
+    "OnTimer"
+   ],
+   "address": "0x140f10e92",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ToDesktopPanelPaint",
+   "forms": [
+    "TCHECKFORUPDATESDIALOG"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x140f1327f",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ToleranceEditChange",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141be8e30",
+   "unit": "ViewPix.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ToleranceGhostClick",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141be8e40",
+   "unit": "ViewPix.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ToolbarListClick",
+   "forms": [
+    "TSESSIONVIEW"
+   ],
+   "events": [
+    "OnPopup"
+   ],
+   "address": "0x141815ee0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewCancelEdit",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnCancelEdit"
+   ],
+   "address": "0x140f2bbd0",
+   "unit": "DlgProfileSaveAs.pas",
+   "size": 399,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "TreeViewChange",
+   "forms": [
+    "TBROWSEREGISTRYDIALOG",
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEBROWSEREMOTEFRAME",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140f2be20",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewCollapsed",
+   "forms": [
+    "TBROWSEREGISTRYDIALOG",
+    "TPROFILEBROWSEREMOTEFRAME"
+   ],
+   "events": [
+    "OnCollapsed"
+   ],
+   "address": "0x1417e38a0",
+   "unit": "DlgBrowseRegistry.pas",
+   "size": 178,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "TreeViewCollapsing",
+   "forms": [
+    "TPROFILEBROWSEREMOTEFRAME"
+   ],
+   "events": [
+    "OnCollapsing"
+   ],
+   "address": "0x1417ec010",
+   "unit": "FrameProfileBrowseRemote.pas",
+   "size": 29,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TreeViewDblClick",
+   "forms": [
+    "TOPCOMPARERESULTSDIALOG",
+    "TPROFILEBROWSEDIALOG"
+   ],
+   "events": [
+    "OnDblClick"
+   ],
+   "address": "0x140fdf1a4",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewDeletion",
+   "forms": [
+    "TPROFILEBROWSEREMOTEFRAME"
+   ],
+   "events": [
+    "OnDeletion"
+   ],
+   "address": "0x1417ec030",
+   "unit": "FrameProfileBrowseRemote.pas",
+   "size": 444,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TreeViewDragDrop",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x140f30100",
+   "unit": "DlgProfileManager.pas",
+   "size": 313,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TreeViewDragOver",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x140f30260",
+   "unit": "DlgProfileManager.pas",
+   "size": 652,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TreeViewEdited",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnEdited"
+   ],
+   "address": "0x140f2c070",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewEditing",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG",
+    "TPROFILESAVEASDIALOG",
+    "TSESSIONSAVEASDIALOG"
+   ],
+   "events": [
+    "OnEditing"
+   ],
+   "address": "0x140f2c0c0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewExpanding",
+   "forms": [
+    "TBROWSEREGISTRYDIALOG",
+    "TPROFILEBROWSEREMOTEFRAME"
+   ],
+   "events": [
+    "OnExpanding"
+   ],
+   "address": "0x1417e3042",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "TreeViewKeyDown",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x140f30660",
+   "unit": "DlgProfileManager.pas",
+   "size": 100,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "TreeViewKeyPress",
+   "forms": [
+    "TPROFILEBROWSEDIALOG",
+    "TPROFILEMANAGERDIALOG"
+   ],
+   "events": [
+    "OnKeyPress"
+   ],
+   "address": "0x140f306d0",
+   "unit": "DlgProfileManager.pas",
+   "size": 477,
+   "confidence": "anchor"
+  },
+  {
+   "handler": "TreeViewSelTimerTimer",
+   "forms": [
+    "TDIRBASEVIEW"
+   ],
+   "events": [
+    "OnTimer"
+   ],
+   "address": "0x141b28240",
+   "unit": "ViewDirBase.pas",
+   "size": 104,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "UpdateAvailableLinkClick",
+   "forms": [
+    "TABOUTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140f76720",
+   "unit": "FrameFileFormat.pas",
+   "size": 61,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "UseClosenessClick",
+   "forms": [
+    "TLINEALIGNDEFFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14180ff7f",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "UseDefaultClick",
+   "forms": [
+    "TTABLECOLHANDLINGDIALOG",
+    "TTABLESESSIONROWSFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141c03e0f",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "UseDefaultsClick",
+   "forms": [
+    "TVFSFTPPROFILEFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141af757c",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "UseOtherSideClick",
+   "forms": [
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140ff6a30",
+   "unit": "OpSync.pas",
+   "size": 77,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "UseRecycleBinClick",
+   "forms": [
+    "TOPDELETEDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140feb1d0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "UsernameEditChange",
+   "forms": [
+    "TVFSFTPLOGINDIALOG",
+    "TVFSFTPPROFILELOGINFRAME"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x1419a78e7",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ViewCertificateClick",
+   "forms": [
+    "TVFSVALIDATESSLCERTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x1418e0639",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ViewPatchExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa330",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "ViewResize",
+   "forms": [
+    "TDIRBASEVIEW",
+    "TMEDIAVIEW",
+    "TPIXVIEW",
+    "TREGVIEW",
+    "TVERVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141b23760",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "VisitSiteExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140faa530",
+   "unit": "ActnGeneral.pas",
+   "size": 21,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WebBevelPaint",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x14183a220",
+   "unit": "ViewHome.pas",
+   "size": 41,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WebBrowserCanNavigate",
+   "forms": [
+    "TCHECKFORUPDATESDIALOG"
+   ],
+   "events": [
+    "OnCanNavigate"
+   ],
+   "address": "0x140f14dc0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WebBrowserClick",
+   "forms": [
+    "TREPORTDIALOG"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x140fc1f30",
+   "unit": "DlgReport.pas",
+   "size": 200,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WebBrowserHistoryChange",
+   "forms": [
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnHistoryChange"
+   ],
+   "address": "0x141812f80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WebBrowserNavigateError",
+   "forms": [
+    "TCHECKFORUPDATESDIALOG"
+   ],
+   "events": [
+    "OnNavigateError"
+   ],
+   "address": "0x140f14e50",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WebBrowserRefresh",
+   "forms": [
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnRefresh"
+   ],
+   "address": "0x141812fb0",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WebBrowserStatusTextChange",
+   "forms": [
+    "TCHECKFORUPDATESDIALOG",
+    "TWEBBROWSERFRAME"
+   ],
+   "events": [
+    "OnStatusTextChange"
+   ],
+   "address": "0x140f14e70",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WebHideClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183c290",
+   "unit": "ViewHome.pas",
+   "size": 303,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "WebPanelPaint",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnPaint"
+   ],
+   "address": "0x14183a050",
+   "unit": "ViewHome.pas",
+   "size": 191,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WebPanelResize",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnResize"
+   ],
+   "address": "0x141839ab0",
+   "unit": "ViewHome.pas",
+   "size": 539,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WebShowClick",
+   "forms": [
+    "THOMEVIEW"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x14183c030",
+   "unit": "ViewHome.pas",
+   "size": 148,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "WeightsDeleteClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick"
+   ],
+   "address": "0x141b7f2f0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 165,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsEditClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnClick",
+    "OnDblClick"
+   ],
+   "address": "0x141b7d421",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WeightsNewClick",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnAddItem",
+    "OnClick"
+   ],
+   "address": "0x141b7efe0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 45,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsTableDeleteItem",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnDeleteItem"
+   ],
+   "address": "0x141b7e9a0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 141,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsTableDragDrop",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnDragDrop"
+   ],
+   "address": "0x141b7ea30",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 18,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsTableDragOver",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnDragOver"
+   ],
+   "address": "0x141b7ea50",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 119,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsTableGetCells",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnGetCells"
+   ],
+   "address": "0x141b7eaf0",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 312,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WeightsTableKeyDown",
+   "forms": [
+    "TTEXTFORMATGRAMMARFRAME"
+   ],
+   "events": [
+    "OnKeyDown"
+   ],
+   "address": "0x141b7ef20",
+   "unit": "DlgTextWeightItem.pas",
+   "size": 152,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WindowNewExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9a80",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WindowShapeMouseDown",
+   "forms": [
+    "TOPBASEDIALOG"
+   ],
+   "events": [
+    "OnMouseDown"
+   ],
+   "address": "0x140fdc210",
+   "unit": "OpBase.pas",
+   "size": 87,
+   "confidence": "interior-same-unit"
+  },
+  {
+   "handler": "WorkingDirEditBrowse",
+   "forms": [
+    "TOPENWITHITEMDIALOG"
+   ],
+   "events": [
+    "OnBrowse"
+   ],
+   "address": "0x140f80ae0",
+   "unit": "DlgFileFormatManager.pas",
+   "size": 81,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "WorkspaceLoadListExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b10",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WorkspaceManagerExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b30",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "WorkspaceSaveAsExecute",
+   "forms": [
+    "TBCACTIONS"
+   ],
+   "events": [
+    "OnExecute"
+   ],
+   "address": "0x140fa9b50",
+   "unit": null,
+   "size": null,
+   "confidence": null
+  },
+  {
+   "handler": "YearEditChange",
+   "forms": [
+    "TOPTOUCHDIALOG"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x140ff6ba0",
+   "unit": "OpSync.pas",
+   "size": 95,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ZoomEditChange",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnChange"
+   ],
+   "address": "0x141be8df0",
+   "unit": "ViewPix.pas",
+   "size": 36,
+   "confidence": "edge-nearest"
+  },
+  {
+   "handler": "ZoomEditMouseWheel",
+   "forms": [
+    "TPIXVIEW"
+   ],
+   "events": [
+    "OnMouseWheel"
+   ],
+   "address": "0x141be8e20",
+   "unit": "ViewPix.pas",
+   "size": 14,
+   "confidence": "edge-nearest"
+  }
+ ]
+}

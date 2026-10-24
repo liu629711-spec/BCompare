@@ -1,0 +1,5 @@
+diff -r D:\Rea\verify\layouts\orphans-L.txt D:\Rea\verify\layouts\orphans-R.txt
+1d0
+< only-left
+2a2
+> only-right

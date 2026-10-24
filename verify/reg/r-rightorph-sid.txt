@@ -1,0 +1,12 @@
+Registry Compare
+Produced: 2026/10/19 20:46:19
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-rightorph-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+Right file: D:\Rea\verify\reg\r-rightorph-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe\A
+Name Type   Data    Name Type   Data
+------------------------------------
+                    Zy
+                 -+ \b   REG_SZ 2
+m    REG_SZ 0    =  m    REG_SZ 0
+------------------------------------

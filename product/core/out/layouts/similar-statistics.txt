@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 13:43:42
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\verify\layouts\similar-L.txt,D:\Rea\verify\layouts\similar-R.txt,2,0,0,0,0,0,0,1

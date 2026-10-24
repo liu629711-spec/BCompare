@@ -1,0 +1,176 @@
+{
+ "view": "Home",
+ "title": "menu-check: Home",
+ "tops": [
+  "Session",
+  "View",
+  "Tools",
+  "Help"
+ ],
+ "top_rows": {
+  "Session": [
+   "Session",
+   "n"
+  ],
+  "View": [
+   "View",
+   "m"
+  ],
+  "Tools": [
+   "Tools",
+   "o"
+  ],
+  "Help": [
+   "Help",
+   "c"
+  ]
+ },
+ "chrome": {},
+ "skeleton": [
+  [
+   "Pane",
+   "THomeView",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Edit",
+   "TUiEdit",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Text Edit"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Version Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Table Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Registry Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Picture Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Media Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Hex Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Text Merge"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Text Compare"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Folder Sync"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Folder Merge"
+  ],
+  [
+   "Button",
+   "THomeTaskBtn",
+   "Folder Compare"
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Pane",
+   "TFormattedSpecFrame",
+   ""
+  ],
+  [
+   "Pane",
+   "TFormattedSpecFrame",
+   ""
+  ],
+  [
+   "Pane",
+   "TFormattedSpecFrame",
+   ""
+  ],
+  [
+   "Pane",
+   "TUiPanel",
+   ""
+  ],
+  [
+   "Edit",
+   "TUiSearchEdit",
+   ""
+  ],
+  [
+   "Pane",
+   "TEditButton.TGlyph",
+   ""
+  ],
+  [
+   "Button",
+   "TUiBitBtn",
+   ""
+  ],
+  [
+   "Button",
+   "TUiBitBtn",
+   ""
+  ],
+  [
+   "Tree",
+   "TUiTreeView",
+   ""
+  ]
+ ]
+}

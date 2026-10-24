@@ -1,0 +1,12 @@
+文本比较(T)
+已产生： 2026/10/13 13:00:07
+
+模式：  全部
+左边文件： D:\Rea\tools\_audit\oracle-current\orphans-L.txt
+右边文件： D:\Rea\tools\_audit\oracle-current\orphans-R.txt
+1   only-left
+--------------
+2 1 shared
+--------------
+  2 only-right
+--------------

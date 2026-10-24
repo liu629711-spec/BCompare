@@ -1,0 +1,4 @@
+Text Compare
+Produced: 2026/10/13 9:43:13
+SourceFile,CompareFile,IOriginal,IAdded,IDeleted,IChanged,UOriginal,UAdded,UDeleted,UChanged,SourceError,CompareError,Error
+D:\Rea\verify\layouts\insert-L.txt,D:\Rea\verify\layouts\insert-R.txt,2,1,0,0,0,0,0,0

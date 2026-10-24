@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/12 23:12:42">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/12 23:12:42">
+		<filename1>D:\Rea\verify\imp-left.c</filename1>
+		<filename2>D:\Rea\verify\imp-right.c</filename2>
+		<linecomp status="different">
+			<text ltid="1">int value = 100;</text>
+			<text rtid="1">int value = 200;</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">char* name = "test";</text>
+			<text rtid="2">char* NAME = "test";</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="3">#include &lt;stdio.h></text>
+			<text rtid="3">#include &lt;stdlib.h></text>
+		</linecomp>
+		<linecomp status="similar">
+			<text ltid="4">void main() { }</text>
+			<text rtid="4">void main( ) { }</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

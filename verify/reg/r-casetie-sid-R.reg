@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\ReaProbe]
+
+[HKEY_CURRENT_USER\Software\ReaProbe\AA]
+"v"="1"
+[HKEY_CURRENT_USER\Software\ReaProbe\Aa]
+"v"="1"
+[HKEY_CURRENT_USER\Software\ReaProbe\aA]
+"v"="1"
+[HKEY_CURRENT_USER\Software\ReaProbe\aa]
+"v"="1"

@@ -1,0 +1,37 @@
+Registry Compare
+Produced: 2026/10/19 20:46:23
+
+Mode:  All
+Left file: D:\Rea\verify\reg\r-zoo-sid-L.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Right file: D:\Rea\verify\reg\r-zoo-sid-R.reg:\\HKEY_CURRENT_USER\Software\ReaProbe
+Name Type   Data   Name Type   Data
+-----------------------------------
+!x                 !x
+\v   REG_SZ 1    = \v   REG_SZ 1
+%x                 %x
+\v   REG_SZ 1    = \v   REG_SZ 1
+&x                 &x
+\v   REG_SZ 1    = \v   REG_SZ 1
+*x                 *x
+\v   REG_SZ 1    = \v   REG_SZ 1
+;x                 ;x
+\v   REG_SZ 1    = \v   REG_SZ 1
+?x                 ?x
+\v   REG_SZ 1    = \v   REG_SZ 1
+^x                 ^x
+\v   REG_SZ 1    = \v   REG_SZ 1
+`x                 `x
+\v   REG_SZ 1    = \v   REG_SZ 1
+{x                 {x
+\v   REG_SZ 1    = \v   REG_SZ 1
+|x                 |x
+\v   REG_SZ 1    = \v   REG_SZ 1
+}x                 }x
+\v   REG_SZ 1    = \v   REG_SZ 1
++x                 +x
+\v   REG_SZ 1    = \v   REG_SZ 1
+<x                 <x
+\v   REG_SZ 1    = \v   REG_SZ 1
+>x                 >x
+\v   REG_SZ 1    = \v   REG_SZ 1
+-----------------------------------

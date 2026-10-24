@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 14:17:16">
+	<foldercomp>
+		<ltpath>D:\Rea\verify\dir\trees\L</ltpath>
+		<rtpath>D:\Rea\verify\dir\trees\R</rtpath>
+		<foldercomp>
+			<rt>
+				<name>emptydir</name>
+				<size>0</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+		</foldercomp>
+		<foldercomp>
+			<lt>
+				<name>sub</name>
+				<size>3</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</lt>
+			<rt>
+				<name>sub</name>
+				<size>3</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+			<filecomp status="same">
+				<lt>
+					<name>inner.txt</name>
+					<size>3</size>
+					<modified>2026/10/13 10:06:12</modified>
+				</lt>
+				<rt>
+					<name>inner.txt</name>
+					<size>3</size>
+					<modified>2026/10/13 10:06:12</modified>
+				</rt>
+			</filecomp>
+		</foldercomp>
+		<filecomp status="same">
+			<lt>
+				<name>diff.txt</name>
+				<size>6</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</lt>
+			<rt>
+				<name>diff.txt</name>
+				<size>6</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="ltonly">
+			<lt>
+				<name>leftonly.txt</name>
+				<size>3</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</lt>
+		</filecomp>
+		<filecomp status="rtonly">
+			<rt>
+				<name>rightonly.txt</name>
+				<size>3</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>same.txt</name>
+				<size>7</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</lt>
+			<rt>
+				<name>same.txt</name>
+				<size>7</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+		</filecomp>
+		<filecomp status="same">
+			<lt>
+				<name>samesize.bin</name>
+				<size>4</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</lt>
+			<rt>
+				<name>samesize.bin</name>
+				<size>4</size>
+				<modified>2026/10/13 10:06:12</modified>
+			</rt>
+		</filecomp>
+	</foldercomp>
+</bcreport>

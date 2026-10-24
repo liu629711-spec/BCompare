@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/17 2:40:56">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/17 2:40:56">
+		<filename1>D:\Rea\verify\golden\m53e-pas-comment-line-iu-L.pas</filename1>
+		<filename2>D:\Rea\verify\golden\m53e-pas-comment-line-iu-R.pas</filename2>
+		<ignoreunimportant/>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">x := 1; // alpha</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

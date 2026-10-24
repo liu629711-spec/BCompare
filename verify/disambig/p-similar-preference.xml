@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 14:38:06">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 14:38:06">
+		<filename1>similar-preference-L.txt</filename1>
+		<filename2>similar-preference-R.txt</filename2>
+		<linecomp status="leftorphan">
+			<text ltid="1">alpha</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="1">beta</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="2">alpha</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">gamma</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

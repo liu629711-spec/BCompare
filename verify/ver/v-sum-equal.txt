@@ -1,0 +1,5 @@
+Version Compare
+Produced: 2026/10/20 3:18:34
+
+Left file: D:\Rea\verify\ver\v-sum-equal-L.exe     Right file: D:\Rea\verify\ver\v-sum-equal-R.exe
+26 same item(s)

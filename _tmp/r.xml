@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/21 19:54:28">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/21 19:54:28">
+		<filename1>D:\Rea\_tmp\a.txt</filename1>
+		<filename2>D:\Rea\_tmp\b.txt</filename2>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">line one</text>
+		</linecomp>
+		<linecomp status="different">
+			<text ltid="2">line two</text>
+			<text rtid="2">line TWO changed</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">line three</text>
+		</linecomp>
+		<linecomp status="rightorphan">
+			<text rtid="4">line four</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

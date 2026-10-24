@@ -1,0 +1,9 @@
+表格比较(B)
+已产生： 2026/10/18 14:37:12
+
+模式：  全部
+左边文件： D:\Rea\verify\table\t-mixed-csvp-L.txt     右边文件： D:\Rea\verify\table\t-mixed-csvp-R.csv
+A     A
+---------
+a;b = a;b
+---------

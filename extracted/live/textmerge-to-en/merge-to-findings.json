@@ -1,0 +1,188 @@
+{
+ "provenance": "live probe 2026-10-23 tools/live-text-merge-to-probe.py + -probe2/3/4.py (kept evidence: launch-A/B, round3-C2/D2, R4-dialog; failed-round intermediates pruned) (ref 5.2.6, Job Object serial, residue 0); fixtures L=line2 edit R=line5 edit C=base8; OUT preset sentinel never surfaced on disk",
+ "merge_to_row": {
+  "uia_radios": [
+   {
+    "name": "Left",
+    "rect_win_rel": [
+     84,
+     467,
+     41,
+     22
+    ]
+   },
+   {
+    "name": "Right",
+    "rect_win_rel": [
+     135,
+     467,
+     50,
+     22
+    ]
+   },
+   {
+    "name": "Other:",
+    "rect_win_rel": [
+     195,
+     467,
+     56,
+     22
+    ]
+   }
+  ],
+  "default": "Other:",
+  "path_field": {
+   "class": "TUiSpecComboBox",
+   "rect_3file_abs": [
+    277,
+    492,
+    1118,
+    25
+   ],
+   "shows": "CURRENT merge-to destination path (measured: switching to Left rewrites the field to the LEFT file path; fresh Other shows the OUT path)",
+   "active_bg_step0": [
+    194,
+    220,
+    245
+   ],
+   "note": "§6.15 'selected_tint' was this field's highlight, not the radio glyph"
+  },
+  "selected_radio_dot_accent": [
+   0,
+   95,
+   184
+  ],
+  "label": "Merge to:"
+ },
+ "radio_switch_effects_4file": {
+  "title_follows_destination": true,
+  "title_examples": {
+   "step0_other": "out.txt - Text Merge - Beyond Compare",
+   "after_click_left": "left.txt - Text Merge - Beyond Compare",
+   "after_click_right": "right.txt - Text Merge - Beyond Compare"
+  },
+  "statusbar_counts_unchanged": true,
+  "output_pane_pixels_unchanged": true,
+  "source_pane_pixels_unchanged": true
+ },
+ "save_target_measured": {
+  "A_left_switch": {
+   "changed": {
+    "left.txt": true,
+    "right.txt": false,
+    "base.txt": false,
+    "out.txt": false
+   },
+   "left_content_after": "merged 8 lines (L-TWO-CHANGED + R-FIVE-CHANGED)",
+   "dialog": null
+  },
+  "B_right_switch": {
+   "changed": {
+    "right.txt": true,
+    "left.txt": false,
+    "base.txt": false,
+    "out.txt": false
+   }
+  },
+  "C_3file_default_other": {
+   "dialog": [
+    "#32770",
+    "Save File on File System As - Output Side"
+   ],
+   "files_changed": false,
+   "esc_dismisses": true
+  },
+  "C2_3file_after_esc_click_left": {
+   "changed": {
+    "left.txt": true,
+    "right.txt": false,
+    "base.txt": false
+   },
+   "dialog": null,
+   "left_content_after": "merged 8 lines",
+   "title": "left.txt - Text Merge - Beyond Compare"
+  }
+ },
+ "title_rule": "basename(current destination path); Other-without-path falls back to basename(center) (3-file step0 title = 'base.txt - Text Merge')",
+ "swap_sides_measured": {
+  "vehicle": "merge toolbar button 'Swap' (toolbar_extra §6.15); menu Session>Swap Sides (popup item, no shortcut)",
+  "click": "physical click_input (UIA invoke produced NO effect - in-case)",
+  "effects": {
+   "left_pane": "now shows previous RIGHT content with LEFT-change band (cyan)",
+   "right_pane": "now shows previous LEFT content with RIGHT-change band (purple)",
+   "center_pane": "unchanged (0 px)",
+   "output": "content identical, tint attribution swaps (took-left cyan <-> took-right purple)"
+  },
+  "pane_diffs_px": {
+   "L_step0_vs_swap": 12564,
+   "R_step0_vs_swap": 12570,
+   "C_step0_vs_swap": 0,
+   "OUT_step0_vs_swap": 38544,
+   "L_step0_vs_R_swap": 6247,
+   "R_step0_vs_L_swap": 6221,
+   "note": "L!=R-exact because band colors + gutters swap with the sides"
+  }
+ },
+ "session_settings_dialog": {
+  "class": "TSessionDialog",
+  "title": "Session Settings - Text Merge",
+  "rect_abs": [
+   454,
+   157,
+   599,
+   602
+  ],
+  "tabs": [
+   "Specs",
+   "Format",
+   "Importance",
+   "Alignment"
+  ],
+  "specs_frame": {
+   "class": "TTextMergeSessionSpecsFrame",
+   "dialog_rel_y": {
+    "left_combo": 257,
+    "copy_swap_buttons": 289,
+    "right_combo": 339,
+    "center_combo": 421,
+    "merge_to_radio_row": 476,
+    "output_combo": 504,
+    "description_memo": 565
+   }
+  },
+  "bottom_bar": {
+   "class": "TUiBtnPanel",
+   "buttons": [
+    "Cancel",
+    "OK"
+   ],
+   "extra_combo": [
+    472,
+    713,
+    205,
+    25
+   ]
+  },
+  "session_menu_popup": {
+   "class": "TTBPopupWindow",
+   "items_with_shortcuts": [
+    "New Tab Ctrl+T",
+    "Open Session Ctrl+Shift+O",
+    "Save Session Ctrl+Shift+S",
+    "Clear Session Ctrl+Shift+C",
+    "Close Tab Ctrl+W",
+    "Reload Files F5",
+    "Recompare Files Ctrl+F5",
+    "Text Merge Info Ctrl+I",
+    "Exit Ctrl+Q"
+   ],
+   "item_count": 19
+  }
+ },
+ "residuals": [
+  "Swap toolbar UIA invoke no-effect (physical click required) - BC-side in-case",
+  "Session Settings OK->re-merge behavior loop unprobed; dialog implementation deferred with anchors saved",
+  "3-file Other+Ctrl+S drives BC's own 'Save File on File System As - Output Side' dialog; our gate does not drive the dialog (recorded)",
+  "radio path-field editability per side unprobed (field content per selection measured only)"
+ ]
+}

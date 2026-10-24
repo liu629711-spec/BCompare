@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/14 2:40:34">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/14 2:40:34">
+		<filename1>D:\Rea\verify\golden\m2-block-comment-body-iu-L.c</filename1>
+		<filename2>D:\Rea\verify\golden\m2-block-comment-body-iu-R.c</filename2>
+		<ignoreunimportant/>
+		<linecomp status="same">
+			<text ltid="1" rtid="1">/*</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="2" rtid="2">alpha body</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="3" rtid="3">*/</text>
+		</linecomp>
+		<linecomp status="same">
+			<text ltid="4" rtid="4">int x;</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

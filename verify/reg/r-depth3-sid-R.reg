@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\ReaProbe\A\B\C]
+"x"="1"
+[HKEY_CURRENT_USER\Software\ReaProbe]

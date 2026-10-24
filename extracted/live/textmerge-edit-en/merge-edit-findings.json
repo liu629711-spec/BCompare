@@ -1,0 +1,10 @@
+{
+ "provenance": "live probe 2026-10-23 tools/live-text-merge-edit-probe.py (ref 5.2.6, textmerge-edit-en, Job Object serial, residue 0); fixture lc/rc/base + out_preset.txt (PRESETPANE_LINE_A/B)",
+ "title_rule": "4-file form: title = '{output-file} - Text Merge - Beyond Compare' (measured 'out_preset.txt - ...'); 3-file form uses the center file (§6.15)",
+ "editable_pane_rule": "exactly one TTextEditor footer lacks 'Editing disabled' = the OUTPUT pane (editor0 in UIA tree order = first child though screen-BOTTOM: tree order != visual order, §6.12 family); all three source panes footer-marked disabled",
+ "Q1_output_initial_content": "AUTO-MERGE, NOT the OUT file: preset OUT (2 lines PRESETPANE_*) was never displayed nor saved; after Ctrl+S the file held the full auto-merge (8 base lines; conflict row = center 'line two') + the typed marker. The 4th command-line file = save TARGET only.",
+ "Q2_save_timing": "EXPLICIT SAVE ONLY: open did not touch the file (OUT_after_step0 == preset), typing did not write (OUT_after_typed_nosave == preset), Ctrl+S wrote directly with NO dialog (post_ctrls_windows = TApplication wrapper only; file already has a name from arg #4)",
+ "output_initial_state_detail": "auto-merge materialization = per-section output_source (equal/take -> that side; UNRESOLVED conflict -> center), cross-validates engine merge3 output_lines; conflict fixture's output = base's 8 lines verbatim (single conflict section, both sides edited line2)",
+ "marker_placement": "click at pane bottom places caret after last line; typing appended ZZEDITMARKER7 on a new trailing line (file ends '...eight\nZZEDITMARKER7', no trailing newline after marker)",
+ "ui_exposure_note": "BC exposes NO line content / no ValuePattern on the panes (measured; our D3 inversion may expose the output document via UIA value without violating BC compat)"
+}

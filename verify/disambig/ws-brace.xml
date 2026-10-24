@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcreport created="2026/10/13 9:37:05">
+	<ltpath/>
+	<rtpath/>
+	<filecomparison created="2026/10/13 9:37:05">
+		<filename1>D:\Rea\verify\disambig\ws-brace-L.txt</filename1>
+		<filename2>D:\Rea\verify\disambig\ws-brace-R.txt</filename2>
+		<linecomp status="similar">
+			<text ltid="1">if (x) {</text>
+			<text rtid="1">if (x){</text>
+		</linecomp>
+	</filecomparison>
+</bcreport>

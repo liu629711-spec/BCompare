@@ -1,0 +1,2112 @@
+{
+  "view": "Text Compare",
+  "items": [
+    {
+      "menu": "Session",
+      "label": "New Session",
+      "shortcut": "",
+      "enabled": true,
+      "display": "New Session"
+    },
+    {
+      "menu": "Session",
+      "label": "New Tab",
+      "shortcut": "Ctrl\u002BT",
+      "enabled": true,
+      "display": "New Tab"
+    },
+    {
+      "menu": "Session",
+      "label": "New Window",
+      "shortcut": "",
+      "enabled": true,
+      "display": "New Window"
+    },
+    {
+      "menu": "Session",
+      "label": "Open Session",
+      "shortcut": "Ctrl\u002BShift\u002BO",
+      "enabled": true,
+      "display": "Open Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Load Workspace",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Load Workspace"
+    },
+    {
+      "menu": "Session",
+      "label": "Save Workspace As...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Workspace As..."
+    },
+    {
+      "menu": "Session",
+      "label": "Save Session",
+      "shortcut": "Ctrl\u002BShift\u002BS",
+      "enabled": true,
+      "display": "Save Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Save Session As...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Session As..."
+    },
+    {
+      "menu": "Session",
+      "label": "Session Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Session Settings..."
+    },
+    {
+      "menu": "Session",
+      "label": "Locked",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Locked"
+    },
+    {
+      "menu": "Session",
+      "label": "Clear Session",
+      "shortcut": "Ctrl\u002BShift\u002BC",
+      "enabled": true,
+      "display": "Clear Session"
+    },
+    {
+      "menu": "Session",
+      "label": "Close Tab",
+      "shortcut": "Ctrl\u002BW",
+      "enabled": true,
+      "display": "Close Tab"
+    },
+    {
+      "menu": "Session",
+      "label": "Swap Sides",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Swap Sides"
+    },
+    {
+      "menu": "Session",
+      "label": "Reload Files",
+      "shortcut": "F5",
+      "enabled": true,
+      "display": "Reload Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Recompare Files",
+      "shortcut": "Ctrl\u002BF5",
+      "enabled": true,
+      "display": "Recompare Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Text Compare Report...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Text Compare Report..."
+    },
+    {
+      "menu": "Session",
+      "label": "Text Compare Info",
+      "shortcut": "Ctrl\u002BI",
+      "enabled": true,
+      "display": "Text Compare Info"
+    },
+    {
+      "menu": "Session",
+      "label": "Compare Files Using",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Compare Files Using"
+    },
+    {
+      "menu": "Session",
+      "label": "Merge Files",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Merge Files"
+    },
+    {
+      "menu": "Session",
+      "label": "Compare Parent Folders",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Compare Parent Folders"
+    },
+    {
+      "menu": "Session",
+      "label": "Exit",
+      "shortcut": "Ctrl\u002BQ",
+      "enabled": true,
+      "display": "Exit"
+    },
+    {
+      "menu": "File",
+      "label": "Open File...",
+      "shortcut": "Ctrl\u002BO",
+      "enabled": true,
+      "display": "Open File..."
+    },
+    {
+      "menu": "File",
+      "label": "Open Clipboard",
+      "shortcut": "Ctrl\u002BShift\u002BV",
+      "enabled": true,
+      "display": "Open Clipboard"
+    },
+    {
+      "menu": "File",
+      "label": "Open With",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Open With"
+    },
+    {
+      "menu": "File",
+      "label": "Save File",
+      "shortcut": "Ctrl\u002BS",
+      "enabled": false,
+      "display": "Save File"
+    },
+    {
+      "menu": "File",
+      "label": "Save File As...",
+      "shortcut": "F12",
+      "enabled": true,
+      "display": "Save File As..."
+    },
+    {
+      "menu": "File",
+      "label": "Explorer",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Explorer"
+    },
+    {
+      "menu": "Edit",
+      "label": "Undo",
+      "shortcut": "Ctrl\u002BZ",
+      "enabled": false,
+      "display": "Undo"
+    },
+    {
+      "menu": "Edit",
+      "label": "Redo",
+      "shortcut": "Ctrl\u002BY",
+      "enabled": false,
+      "display": "Redo"
+    },
+    {
+      "menu": "Edit",
+      "label": "Align With...",
+      "shortcut": "F7",
+      "enabled": true,
+      "display": "Align With..."
+    },
+    {
+      "menu": "Edit",
+      "label": "Isolate",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Isolate"
+    },
+    {
+      "menu": "Edit",
+      "label": "Replacement...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Replacement..."
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy to Right",
+      "shortcut": "Ctrl\u002BR",
+      "enabled": true,
+      "display": "Copy to Right"
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy Line to Right",
+      "shortcut": "Ctrl\u002BShift\u002BR",
+      "enabled": true,
+      "display": "Copy Line to Right"
+    },
+    {
+      "menu": "Edit",
+      "label": "Increase Indent",
+      "shortcut": "Ctrl\u002BShift\u002BI",
+      "enabled": true,
+      "display": "Increase Indent"
+    },
+    {
+      "menu": "Edit",
+      "label": "Decrease Indent",
+      "shortcut": "Ctrl\u002BShift\u002BU",
+      "enabled": true,
+      "display": "Decrease Indent"
+    },
+    {
+      "menu": "Edit",
+      "label": "Cut",
+      "shortcut": "Ctrl\u002BX",
+      "enabled": false,
+      "display": "Cut"
+    },
+    {
+      "menu": "Edit",
+      "label": "Copy",
+      "shortcut": "Ctrl\u002BC",
+      "enabled": false,
+      "display": "Copy"
+    },
+    {
+      "menu": "Edit",
+      "label": "Paste",
+      "shortcut": "Ctrl\u002BV",
+      "enabled": false,
+      "display": "Paste"
+    },
+    {
+      "menu": "Edit",
+      "label": "Delete",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Delete"
+    },
+    {
+      "menu": "Edit",
+      "label": "Select All",
+      "shortcut": "Ctrl\u002BA",
+      "enabled": true,
+      "display": "Select All"
+    },
+    {
+      "menu": "Edit",
+      "label": "Select Section",
+      "shortcut": "Ctrl\u002BD",
+      "enabled": true,
+      "display": "Select Section"
+    },
+    {
+      "menu": "Edit",
+      "label": "Compare Selection to Clipboard",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Compare Selection to Clipboard"
+    },
+    {
+      "menu": "Edit",
+      "label": "Convert File",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Convert File"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Difference",
+      "shortcut": "Ctrl\u002BShift\u002BN",
+      "enabled": true,
+      "display": "Next Difference"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Difference",
+      "shortcut": "Ctrl\u002BShift\u002BP",
+      "enabled": true,
+      "display": "Previous Difference"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Difference Section",
+      "shortcut": "Ctrl\u002BN",
+      "enabled": true,
+      "display": "Next Difference Section"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Difference Section",
+      "shortcut": "Ctrl\u002BP",
+      "enabled": true,
+      "display": "Previous Difference Section"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Replacement",
+      "shortcut": "Ctrl\u002BAlt\u002BShift\u002BN",
+      "enabled": true,
+      "display": "Next Replacement"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Replacement",
+      "shortcut": "Ctrl\u002BAlt\u002BShift\u002BP",
+      "enabled": true,
+      "display": "Previous Replacement"
+    },
+    {
+      "menu": "Search",
+      "label": "Next Edit",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Next Edit"
+    },
+    {
+      "menu": "Search",
+      "label": "Previous Edit",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Previous Edit"
+    },
+    {
+      "menu": "Search",
+      "label": "Find...",
+      "shortcut": "Ctrl\u002BF",
+      "enabled": true,
+      "display": "Find..."
+    },
+    {
+      "menu": "Search",
+      "label": "Replace...",
+      "shortcut": "Ctrl\u002BH",
+      "enabled": true,
+      "display": "Replace..."
+    },
+    {
+      "menu": "Search",
+      "label": "Find Next",
+      "shortcut": "F3",
+      "enabled": true,
+      "display": "Find Next"
+    },
+    {
+      "menu": "Search",
+      "label": "Find Previous",
+      "shortcut": "Shift\u002BF3",
+      "enabled": true,
+      "display": "Find Previous"
+    },
+    {
+      "menu": "Search",
+      "label": "Go To...",
+      "shortcut": "Ctrl\u002BG",
+      "enabled": true,
+      "display": "Go To..."
+    },
+    {
+      "menu": "Search",
+      "label": "Toggle Bookmark",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Toggle Bookmark"
+    },
+    {
+      "menu": "Search",
+      "label": "Go to Bookmark",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Go to Bookmark"
+    },
+    {
+      "menu": "Search",
+      "label": "Clear Bookmarks",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Clear Bookmarks"
+    },
+    {
+      "menu": "View",
+      "label": "Show All",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show All"
+    },
+    {
+      "menu": "View",
+      "label": "Show Differences",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Differences"
+    },
+    {
+      "menu": "View",
+      "label": "Show Same",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Same"
+    },
+    {
+      "menu": "View",
+      "label": "Show Context",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Show Context"
+    },
+    {
+      "menu": "View",
+      "label": "Ignore Unimportant Differences",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Ignore Unimportant Differences"
+    },
+    {
+      "menu": "View",
+      "label": "Ignored",
+      "shortcut": "",
+      "enabled": false,
+      "display": "Ignored"
+    },
+    {
+      "menu": "View",
+      "label": "Visible Whitespace",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Visible Whitespace"
+    },
+    {
+      "menu": "View",
+      "label": "Line Numbers",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Line Numbers"
+    },
+    {
+      "menu": "View",
+      "label": "Syntax Highlighting",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Syntax Highlighting"
+    },
+    {
+      "menu": "View",
+      "label": "Word Wrap",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Word Wrap"
+    },
+    {
+      "menu": "View",
+      "label": "Side-by-Side Layout",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Side-by-Side Layout"
+    },
+    {
+      "menu": "View",
+      "label": "Over-Under Layout",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Over-Under Layout"
+    },
+    {
+      "menu": "View",
+      "label": "Webpages",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Webpages"
+    },
+    {
+      "menu": "View",
+      "label": "Thumbnail",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Thumbnail"
+    },
+    {
+      "menu": "View",
+      "label": "Text Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Text Details"
+    },
+    {
+      "menu": "View",
+      "label": "Hex Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Hex Details"
+    },
+    {
+      "menu": "View",
+      "label": "Alignment Details",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Alignment Details"
+    },
+    {
+      "menu": "View",
+      "label": "Ruler",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Ruler"
+    },
+    {
+      "menu": "View",
+      "label": "File Info",
+      "shortcut": "",
+      "enabled": true,
+      "display": "File Info"
+    },
+    {
+      "menu": "View",
+      "label": "Toolbar",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Toolbar"
+    },
+    {
+      "menu": "Tools",
+      "label": "Options...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Options..."
+    },
+    {
+      "menu": "Tools",
+      "label": "File Formats...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "File Formats..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Profiles...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Profiles..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Export Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Export Settings..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Import Settings...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Import Settings..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Restore Factory Defaults...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Restore Factory Defaults..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Save Snapshot...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Save Snapshot..."
+    },
+    {
+      "menu": "Tools",
+      "label": "Edit Text File",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Edit Text File"
+    },
+    {
+      "menu": "Tools",
+      "label": "View Patch...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "View Patch..."
+    },
+    {
+      "menu": "Help",
+      "label": "Contents",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Contents"
+    },
+    {
+      "menu": "Help",
+      "label": "Context Sensitive Help",
+      "shortcut": "F1",
+      "enabled": true,
+      "display": "Context Sensitive Help"
+    },
+    {
+      "menu": "Help",
+      "label": "Scooter Software on the Web",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Scooter Software on the Web"
+    },
+    {
+      "menu": "Help",
+      "label": "Check for Updates",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Check for Updates"
+    },
+    {
+      "menu": "Help",
+      "label": "Support",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Support"
+    },
+    {
+      "menu": "Help",
+      "label": "Enter Key...",
+      "shortcut": "",
+      "enabled": true,
+      "display": "Enter Key..."
+    },
+    {
+      "menu": "Help",
+      "label": "About Beyond Compare",
+      "shortcut": "",
+      "enabled": true,
+      "display": "About LiuCompare"
+    }
+  ],
+  "toolbars": [
+    {
+      "section": "tb",
+      "index": 0,
+      "items": [
+        {
+          "ct": "Pane",
+          "cls": "TUiTreeButton",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Home"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "All"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Diffs"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Same"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Context"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Minor"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Rules"
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": "Format"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Copy"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Next Section"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Prev Section"
+        },
+        {
+          "ct": "Separator",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Swap"
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": "Reload"
+        }
+      ]
+    },
+    {
+      "section": "tb",
+      "index": 1,
+      "items": [
+        {
+          "ct": "ComboBox",
+          "cls": "TUiSpecComboBox",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "section": "tb",
+      "index": 2,
+      "items": [
+        {
+          "ct": "ComboBox",
+          "cls": "TUiSpecComboBox",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "MenuItem",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Button",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "statusbars": [
+    {
+      "section": "sb",
+      "index": 0,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Same"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "\tInsert"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Load time: 0.35 seconds"
+        }
+      ]
+    },
+    {
+      "section": "sb",
+      "index": 1,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "1: 1"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Default text"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    },
+    {
+      "section": "sb",
+      "index": 2,
+      "items": [
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "1: 1"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": "Default text"
+        },
+        {
+          "ct": "Text",
+          "cls": "",
+          "name": ""
+        }
+      ]
+    }
+  ],
+  "skeleton": [
+    {
+      "ct": "Pane",
+      "cls": "TTextCompareView",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiDock",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "MainBar",
+      "row": "tb:0"
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:0"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextDetailsEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextDetailsEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:1"
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "",
+      "row": "tb:1"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiPanel",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "Pane",
+      "cls": "TTextEditor",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "StatusBar",
+      "cls": "TUiStatusBar",
+      "name": "",
+      "row": "sb:2"
+    },
+    {
+      "ct": "ScrollBar",
+      "cls": "TUiScrollBar",
+      "name": "",
+      "row": null
+    },
+    {
+      "ct": "ToolBar",
+      "cls": "TUiToolbar",
+      "name": "",
+      "row": "tb:2"
+    },
+    {
+      "ct": "Pane",
+      "cls": "TUiThumbnail",
+      "name": "",
+      "row": null
+    }
+  ],
+  "content": {
+    "left": "D:\\Rea\\_tmp\\layout-left.txt",
+    "right": "D:\\Rea\\_tmp\\layout-right.txt",
+    "mode": null,
+    "display_button": "All",
+    "theme": "light",
+    "rows": [
+      {
+        "status": "same",
+        "ltext": "line 001 common stable text segment alpha1",
+        "rtext": "line 001 common stable text segment alpha1",
+        "ltid": 1,
+        "rtid": 1
+      },
+      {
+        "status": "same",
+        "ltext": "line 002 common stable text segment alpha2",
+        "rtext": "line 002 common stable text segment alpha2",
+        "ltid": 2,
+        "rtid": 2
+      },
+      {
+        "status": "same",
+        "ltext": "line 003 common stable text segment alpha3",
+        "rtext": "line 003 common stable text segment alpha3",
+        "ltid": 3,
+        "rtid": 3
+      },
+      {
+        "status": "same",
+        "ltext": "line 004 common stable text segment alpha4",
+        "rtext": "line 004 common stable text segment alpha4",
+        "ltid": 4,
+        "rtid": 4
+      },
+      {
+        "status": "same",
+        "ltext": "line 005 common stable text segment alpha5",
+        "rtext": "line 005 common stable text segment alpha5",
+        "ltid": 5,
+        "rtid": 5
+      },
+      {
+        "status": "same",
+        "ltext": "line 006 common stable text segment alpha6",
+        "rtext": "line 006 common stable text segment alpha6",
+        "ltid": 6,
+        "rtid": 6
+      },
+      {
+        "status": "same",
+        "ltext": "line 007 common stable text segment alpha0",
+        "rtext": "line 007 common stable text segment alpha0",
+        "ltid": 7,
+        "rtid": 7
+      },
+      {
+        "status": "same",
+        "ltext": "line 008 common stable text segment alpha1",
+        "rtext": "line 008 common stable text segment alpha1",
+        "ltid": 8,
+        "rtid": 8
+      },
+      {
+        "status": "same",
+        "ltext": "line 009 common stable text segment alpha2",
+        "rtext": "line 009 common stable text segment alpha2",
+        "ltid": 9,
+        "rtid": 9
+      },
+      {
+        "status": "same",
+        "ltext": "line 010 common stable text segment alpha3",
+        "rtext": "line 010 common stable text segment alpha3",
+        "ltid": 10,
+        "rtid": 10
+      },
+      {
+        "status": "same",
+        "ltext": "line 011 common stable text segment alpha4",
+        "rtext": "line 011 common stable text segment alpha4",
+        "ltid": 11,
+        "rtid": 11
+      },
+      {
+        "status": "same",
+        "ltext": "line 012 common stable text segment alpha5",
+        "rtext": "line 012 common stable text segment alpha5",
+        "ltid": 12,
+        "rtid": 12
+      },
+      {
+        "status": "same",
+        "ltext": "line 013 common stable text segment alpha6",
+        "rtext": "line 013 common stable text segment alpha6",
+        "ltid": 13,
+        "rtid": 13
+      },
+      {
+        "status": "same",
+        "ltext": "line 014 common stable text segment alpha0",
+        "rtext": "line 014 common stable text segment alpha0",
+        "ltid": 14,
+        "rtid": 14
+      },
+      {
+        "status": "same",
+        "ltext": "line 015 common stable text segment alpha1",
+        "rtext": "line 015 common stable text segment alpha1",
+        "ltid": 15,
+        "rtid": 15
+      },
+      {
+        "status": "same",
+        "ltext": "line 016 common stable text segment alpha2",
+        "rtext": "line 016 common stable text segment alpha2",
+        "ltid": 16,
+        "rtid": 16
+      },
+      {
+        "status": "same",
+        "ltext": "line 017 common stable text segment alpha3",
+        "rtext": "line 017 common stable text segment alpha3",
+        "ltid": 17,
+        "rtid": 17
+      },
+      {
+        "status": "same",
+        "ltext": "line 018 common stable text segment alpha4",
+        "rtext": "line 018 common stable text segment alpha4",
+        "ltid": 18,
+        "rtid": 18
+      },
+      {
+        "status": "same",
+        "ltext": "line 019 common stable text segment alpha5",
+        "rtext": "line 019 common stable text segment alpha5",
+        "ltid": 19,
+        "rtid": 19
+      },
+      {
+        "status": "same",
+        "ltext": "line 020 common stable text segment alpha6",
+        "rtext": "line 020 common stable text segment alpha6",
+        "ltid": 20,
+        "rtid": 20
+      },
+      {
+        "status": "same",
+        "ltext": "line 021 common stable text segment alpha0",
+        "rtext": "line 021 common stable text segment alpha0",
+        "ltid": 21,
+        "rtid": 21
+      },
+      {
+        "status": "same",
+        "ltext": "line 022 common stable text segment alpha1",
+        "rtext": "line 022 common stable text segment alpha1",
+        "ltid": 22,
+        "rtid": 22
+      },
+      {
+        "status": "same",
+        "ltext": "line 023 common stable text segment alpha2",
+        "rtext": "line 023 common stable text segment alpha2",
+        "ltid": 23,
+        "rtid": 23
+      },
+      {
+        "status": "same",
+        "ltext": "line 024 common stable text segment alpha3",
+        "rtext": "line 024 common stable text segment alpha3",
+        "ltid": 24,
+        "rtid": 24
+      },
+      {
+        "status": "same",
+        "ltext": "line 025 common stable text segment alpha4",
+        "rtext": "line 025 common stable text segment alpha4",
+        "ltid": 25,
+        "rtid": 25
+      },
+      {
+        "status": "same",
+        "ltext": "line 026 common stable text segment alpha5",
+        "rtext": "line 026 common stable text segment alpha5",
+        "ltid": 26,
+        "rtid": 26
+      },
+      {
+        "status": "same",
+        "ltext": "line 027 common stable text segment alpha6",
+        "rtext": "line 027 common stable text segment alpha6",
+        "ltid": 27,
+        "rtid": 27
+      },
+      {
+        "status": "same",
+        "ltext": "line 028 common stable text segment alpha0",
+        "rtext": "line 028 common stable text segment alpha0",
+        "ltid": 28,
+        "rtid": 28
+      },
+      {
+        "status": "same",
+        "ltext": "line 029 common stable text segment alpha1",
+        "rtext": "line 029 common stable text segment alpha1",
+        "ltid": 29,
+        "rtid": 29
+      },
+      {
+        "status": "same",
+        "ltext": "line 030 common stable text segment alpha2",
+        "rtext": "line 030 common stable text segment alpha2",
+        "ltid": 30,
+        "rtid": 30
+      },
+      {
+        "status": "same",
+        "ltext": "line 031 common stable text segment alpha3",
+        "rtext": "line 031 common stable text segment alpha3",
+        "ltid": 31,
+        "rtid": 31
+      },
+      {
+        "status": "same",
+        "ltext": "line 032 common stable text segment alpha4",
+        "rtext": "line 032 common stable text segment alpha4",
+        "ltid": 32,
+        "rtid": 32
+      },
+      {
+        "status": "same",
+        "ltext": "line 033 common stable text segment alpha5",
+        "rtext": "line 033 common stable text segment alpha5",
+        "ltid": 33,
+        "rtid": 33
+      },
+      {
+        "status": "same",
+        "ltext": "line 034 common stable text segment alpha6",
+        "rtext": "line 034 common stable text segment alpha6",
+        "ltid": 34,
+        "rtid": 34
+      },
+      {
+        "status": "same",
+        "ltext": "line 035 common stable text segment alpha0",
+        "rtext": "line 035 common stable text segment alpha0",
+        "ltid": 35,
+        "rtid": 35
+      },
+      {
+        "status": "same",
+        "ltext": "line 036 common stable text segment alpha1",
+        "rtext": "line 036 common stable text segment alpha1",
+        "ltid": 36,
+        "rtid": 36
+      },
+      {
+        "status": "same",
+        "ltext": "line 037 common stable text segment alpha2",
+        "rtext": "line 037 common stable text segment alpha2",
+        "ltid": 37,
+        "rtid": 37
+      },
+      {
+        "status": "same",
+        "ltext": "line 038 common stable text segment alpha3",
+        "rtext": "line 038 common stable text segment alpha3",
+        "ltid": 38,
+        "rtid": 38
+      },
+      {
+        "status": "same",
+        "ltext": "line 039 common stable text segment alpha4",
+        "rtext": "line 039 common stable text segment alpha4",
+        "ltid": 39,
+        "rtid": 39
+      },
+      {
+        "status": "different",
+        "ltext": "line 040 common stable text segment alpha5",
+        "rtext": "line 040 DIFFERENT right side text bravo40",
+        "ltid": 40,
+        "rtid": 40
+      },
+      {
+        "status": "different",
+        "ltext": "line 041 common stable text segment alpha6",
+        "rtext": "line 041 DIFFERENT right side text bravo41",
+        "ltid": 41,
+        "rtid": 41
+      },
+      {
+        "status": "different",
+        "ltext": "line 042 common stable text segment alpha0",
+        "rtext": "line 042 DIFFERENT right side text bravo42",
+        "ltid": 42,
+        "rtid": 42
+      },
+      {
+        "status": "same",
+        "ltext": "line 043 common stable text segment alpha1",
+        "rtext": "line 043 common stable text segment alpha1",
+        "ltid": 43,
+        "rtid": 43
+      },
+      {
+        "status": "same",
+        "ltext": "line 044 common stable text segment alpha2",
+        "rtext": "line 044 common stable text segment alpha2",
+        "ltid": 44,
+        "rtid": 44
+      },
+      {
+        "status": "leftorphan",
+        "ltext": "only-left LLLLLLLLLLLLLLLLLLLL",
+        "rtext": null,
+        "ltid": 45,
+        "rtid": null
+      },
+      {
+        "status": "same",
+        "ltext": "line 046 common stable text segment alpha4",
+        "rtext": "line 046 common stable text segment alpha4",
+        "ltid": 46,
+        "rtid": 45
+      },
+      {
+        "status": "same",
+        "ltext": "line 047 common stable text segment alpha5",
+        "rtext": "line 047 common stable text segment alpha5",
+        "ltid": 47,
+        "rtid": 46
+      },
+      {
+        "status": "same",
+        "ltext": "line 048 common stable text segment alpha6",
+        "rtext": "line 048 common stable text segment alpha6",
+        "ltid": 48,
+        "rtid": 47
+      },
+      {
+        "status": "same",
+        "ltext": "line 049 common stable text segment alpha0",
+        "rtext": "line 049 common stable text segment alpha0",
+        "ltid": 49,
+        "rtid": 48
+      },
+      {
+        "status": "same",
+        "ltext": "line 050 common stable text segment alpha1",
+        "rtext": "line 050 common stable text segment alpha1",
+        "ltid": 50,
+        "rtid": 49
+      },
+      {
+        "status": "same",
+        "ltext": "line 051 common stable text segment alpha2",
+        "rtext": "line 051 common stable text segment alpha2",
+        "ltid": 51,
+        "rtid": 50
+      },
+      {
+        "status": "same",
+        "ltext": "line 052 common stable text segment alpha3",
+        "rtext": "line 052 common stable text segment alpha3",
+        "ltid": 52,
+        "rtid": 51
+      },
+      {
+        "status": "same",
+        "ltext": "line 053 common stable text segment alpha4",
+        "rtext": "line 053 common stable text segment alpha4",
+        "ltid": 53,
+        "rtid": 52
+      },
+      {
+        "status": "same",
+        "ltext": "line 054 common stable text segment alpha5",
+        "rtext": "line 054 common stable text segment alpha5",
+        "ltid": 54,
+        "rtid": 53
+      },
+      {
+        "status": "same",
+        "ltext": "line 055 common stable text segment alpha6",
+        "rtext": "line 055 common stable text segment alpha6",
+        "ltid": 55,
+        "rtid": 54
+      },
+      {
+        "status": "same",
+        "ltext": "line 056 common stable text segment alpha0",
+        "rtext": "line 056 common stable text segment alpha0",
+        "ltid": 56,
+        "rtid": 55
+      },
+      {
+        "status": "same",
+        "ltext": "line 057 common stable text segment alpha1",
+        "rtext": "line 057 common stable text segment alpha1",
+        "ltid": 57,
+        "rtid": 56
+      },
+      {
+        "status": "same",
+        "ltext": "line 058 common stable text segment alpha2",
+        "rtext": "line 058 common stable text segment alpha2",
+        "ltid": 58,
+        "rtid": 57
+      },
+      {
+        "status": "same",
+        "ltext": "line 059 common stable text segment alpha3",
+        "rtext": "line 059 common stable text segment alpha3",
+        "ltid": 59,
+        "rtid": 58
+      },
+      {
+        "status": "rightorphan",
+        "ltext": null,
+        "rtext": "only-right RRRRRRRRRRRRRRRRRRRR",
+        "ltid": null,
+        "rtid": 59
+      },
+      {
+        "status": "same",
+        "ltext": "line 061 common stable text segment alpha5",
+        "rtext": "line 061 common stable text segment alpha5",
+        "ltid": 60,
+        "rtid": 60
+      },
+      {
+        "status": "same",
+        "ltext": "line 062 common stable text segment alpha6",
+        "rtext": "line 062 common stable text segment alpha6",
+        "ltid": 61,
+        "rtid": 61
+      },
+      {
+        "status": "same",
+        "ltext": "line 063 common stable text segment alpha0",
+        "rtext": "line 063 common stable text segment alpha0",
+        "ltid": 62,
+        "rtid": 62
+      },
+      {
+        "status": "same",
+        "ltext": "line 064 common stable text segment alpha1",
+        "rtext": "line 064 common stable text segment alpha1",
+        "ltid": 63,
+        "rtid": 63
+      },
+      {
+        "status": "same",
+        "ltext": "line 065 common stable text segment alpha2",
+        "rtext": "line 065 common stable text segment alpha2",
+        "ltid": 64,
+        "rtid": 64
+      },
+      {
+        "status": "same",
+        "ltext": "line 066 common stable text segment alpha3",
+        "rtext": "line 066 common stable text segment alpha3",
+        "ltid": 65,
+        "rtid": 65
+      },
+      {
+        "status": "same",
+        "ltext": "line 067 common stable text segment alpha4",
+        "rtext": "line 067 common stable text segment alpha4",
+        "ltid": 66,
+        "rtid": 66
+      },
+      {
+        "status": "same",
+        "ltext": "line 068 common stable text segment alpha5",
+        "rtext": "line 068 common stable text segment alpha5",
+        "ltid": 67,
+        "rtid": 67
+      },
+      {
+        "status": "same",
+        "ltext": "line 069 common stable text segment alpha6",
+        "rtext": "line 069 common stable text segment alpha6",
+        "ltid": 68,
+        "rtid": 68
+      },
+      {
+        "status": "same",
+        "ltext": "line 070 common stable text segment alpha0",
+        "rtext": "line 070 common stable text segment alpha0",
+        "ltid": 69,
+        "rtid": 69
+      },
+      {
+        "status": "same",
+        "ltext": "line 071 common stable text segment alpha1",
+        "rtext": "line 071 common stable text segment alpha1",
+        "ltid": 70,
+        "rtid": 70
+      },
+      {
+        "status": "same",
+        "ltext": "line 072 common stable text segment alpha2",
+        "rtext": "line 072 common stable text segment alpha2",
+        "ltid": 71,
+        "rtid": 71
+      },
+      {
+        "status": "same",
+        "ltext": "line 073 common stable text segment alpha3",
+        "rtext": "line 073 common stable text segment alpha3",
+        "ltid": 72,
+        "rtid": 72
+      },
+      {
+        "status": "same",
+        "ltext": "line 074 common stable text segment alpha4",
+        "rtext": "line 074 common stable text segment alpha4",
+        "ltid": 73,
+        "rtid": 73
+      },
+      {
+        "status": "same",
+        "ltext": "line 075 common stable text segment alpha5",
+        "rtext": "line 075 common stable text segment alpha5",
+        "ltid": 74,
+        "rtid": 74
+      },
+      {
+        "status": "same",
+        "ltext": "line 076 common stable text segment alpha6",
+        "rtext": "line 076 common stable text segment alpha6",
+        "ltid": 75,
+        "rtid": 75
+      },
+      {
+        "status": "same",
+        "ltext": "line 077 common stable text segment alpha0",
+        "rtext": "line 077 common stable text segment alpha0",
+        "ltid": 76,
+        "rtid": 76
+      },
+      {
+        "status": "same",
+        "ltext": "line 078 common stable text segment alpha1",
+        "rtext": "line 078 common stable text segment alpha1",
+        "ltid": 77,
+        "rtid": 77
+      },
+      {
+        "status": "same",
+        "ltext": "line 079 common stable text segment alpha2",
+        "rtext": "line 079 common stable text segment alpha2",
+        "ltid": 78,
+        "rtid": 78
+      },
+      {
+        "status": "same",
+        "ltext": "line 080 common stable text segment alpha3",
+        "rtext": "line 080 common stable text segment alpha3",
+        "ltid": 79,
+        "rtid": 79
+      },
+      {
+        "status": "same",
+        "ltext": "line 081 common stable text segment alpha4",
+        "rtext": "line 081 common stable text segment alpha4",
+        "ltid": 80,
+        "rtid": 80
+      },
+      {
+        "status": "same",
+        "ltext": "line 082 common stable text segment alpha5",
+        "rtext": "line 082 common stable text segment alpha5",
+        "ltid": 81,
+        "rtid": 81
+      },
+      {
+        "status": "same",
+        "ltext": "line 083 common stable text segment alpha6",
+        "rtext": "line 083 common stable text segment alpha6",
+        "ltid": 82,
+        "rtid": 82
+      },
+      {
+        "status": "same",
+        "ltext": "line 084 common stable text segment alpha0",
+        "rtext": "line 084 common stable text segment alpha0",
+        "ltid": 83,
+        "rtid": 83
+      },
+      {
+        "status": "same",
+        "ltext": "line 085 common stable text segment alpha1",
+        "rtext": "line 085 common stable text segment alpha1",
+        "ltid": 84,
+        "rtid": 84
+      },
+      {
+        "status": "same",
+        "ltext": "line 086 common stable text segment alpha2",
+        "rtext": "line 086 common stable text segment alpha2",
+        "ltid": 85,
+        "rtid": 85
+      },
+      {
+        "status": "same",
+        "ltext": "line 087 common stable text segment alpha3",
+        "rtext": "line 087 common stable text segment alpha3",
+        "ltid": 86,
+        "rtid": 86
+      },
+      {
+        "status": "same",
+        "ltext": "line 088 common stable text segment alpha4",
+        "rtext": "line 088 common stable text segment alpha4",
+        "ltid": 87,
+        "rtid": 87
+      },
+      {
+        "status": "same",
+        "ltext": "line 089 common stable text segment alpha5",
+        "rtext": "line 089 common stable text segment alpha5",
+        "ltid": 88,
+        "rtid": 88
+      },
+      {
+        "status": "same",
+        "ltext": "line 090 common stable text segment alpha6",
+        "rtext": "line 090 common stable text segment alpha6",
+        "ltid": 89,
+        "rtid": 89
+      },
+      {
+        "status": "same",
+        "ltext": "line 091 common stable text segment alpha0",
+        "rtext": "line 091 common stable text segment alpha0",
+        "ltid": 90,
+        "rtid": 90
+      },
+      {
+        "status": "same",
+        "ltext": "line 092 common stable text segment alpha1",
+        "rtext": "line 092 common stable text segment alpha1",
+        "ltid": 91,
+        "rtid": 91
+      },
+      {
+        "status": "same",
+        "ltext": "line 093 common stable text segment alpha2",
+        "rtext": "line 093 common stable text segment alpha2",
+        "ltid": 92,
+        "rtid": 92
+      },
+      {
+        "status": "same",
+        "ltext": "line 094 common stable text segment alpha3",
+        "rtext": "line 094 common stable text segment alpha3",
+        "ltid": 93,
+        "rtid": 93
+      },
+      {
+        "status": "same",
+        "ltext": "line 095 common stable text segment alpha4",
+        "rtext": "line 095 common stable text segment alpha4",
+        "ltid": 94,
+        "rtid": 94
+      },
+      {
+        "status": "same",
+        "ltext": "line 096 common stable text segment alpha5",
+        "rtext": "line 096 common stable text segment alpha5",
+        "ltid": 95,
+        "rtid": 95
+      },
+      {
+        "status": "same",
+        "ltext": "line 097 common stable text segment alpha6",
+        "rtext": "line 097 common stable text segment alpha6",
+        "ltid": 96,
+        "rtid": 96
+      },
+      {
+        "status": "same",
+        "ltext": "line 098 common stable text segment alpha0",
+        "rtext": "line 098 common stable text segment alpha0",
+        "ltid": 97,
+        "rtid": 97
+      },
+      {
+        "status": "same",
+        "ltext": "line 099 common stable text segment alpha1",
+        "rtext": "line 099 common stable text segment alpha1",
+        "ltid": 98,
+        "rtid": 98
+      },
+      {
+        "status": "same",
+        "ltext": "line 100 common stable text segment alpha2",
+        "rtext": "line 100 common stable text segment alpha2",
+        "ltid": 99,
+        "rtid": 99
+      },
+      {
+        "status": "same",
+        "ltext": "line 101 common stable text segment alpha3",
+        "rtext": "line 101 common stable text segment alpha3",
+        "ltid": 100,
+        "rtid": 100
+      },
+      {
+        "status": "same",
+        "ltext": "line 102 common stable text segment alpha4",
+        "rtext": "line 102 common stable text segment alpha4",
+        "ltid": 101,
+        "rtid": 101
+      },
+      {
+        "status": "same",
+        "ltext": "line 103 common stable text segment alpha5",
+        "rtext": "line 103 common stable text segment alpha5",
+        "ltid": 102,
+        "rtid": 102
+      },
+      {
+        "status": "same",
+        "ltext": "line 104 common stable text segment alpha6",
+        "rtext": "line 104 common stable text segment alpha6",
+        "ltid": 103,
+        "rtid": 103
+      },
+      {
+        "status": "same",
+        "ltext": "line 105 common stable text segment alpha0",
+        "rtext": "line 105 common stable text segment alpha0",
+        "ltid": 104,
+        "rtid": 104
+      },
+      {
+        "status": "same",
+        "ltext": "line 106 common stable text segment alpha1",
+        "rtext": "line 106 common stable text segment alpha1",
+        "ltid": 105,
+        "rtid": 105
+      },
+      {
+        "status": "same",
+        "ltext": "line 107 common stable text segment alpha2",
+        "rtext": "line 107 common stable text segment alpha2",
+        "ltid": 106,
+        "rtid": 106
+      },
+      {
+        "status": "same",
+        "ltext": "line 108 common stable text segment alpha3",
+        "rtext": "line 108 common stable text segment alpha3",
+        "ltid": 107,
+        "rtid": 107
+      },
+      {
+        "status": "same",
+        "ltext": "line 109 common stable text segment alpha4",
+        "rtext": "line 109 common stable text segment alpha4",
+        "ltid": 108,
+        "rtid": 108
+      },
+      {
+        "status": "same",
+        "ltext": "line 110 common stable text segment alpha5",
+        "rtext": "line 110 common stable text segment alpha5",
+        "ltid": 109,
+        "rtid": 109
+      },
+      {
+        "status": "same",
+        "ltext": "line 111 common stable text segment alpha6",
+        "rtext": "line 111 common stable text segment alpha6",
+        "ltid": 110,
+        "rtid": 110
+      },
+      {
+        "status": "same",
+        "ltext": "line 112 common stable text segment alpha0",
+        "rtext": "line 112 common stable text segment alpha0",
+        "ltid": 111,
+        "rtid": 111
+      },
+      {
+        "status": "same",
+        "ltext": "line 113 common stable text segment alpha1",
+        "rtext": "line 113 common stable text segment alpha1",
+        "ltid": 112,
+        "rtid": 112
+      },
+      {
+        "status": "same",
+        "ltext": "line 114 common stable text segment alpha2",
+        "rtext": "line 114 common stable text segment alpha2",
+        "ltid": 113,
+        "rtid": 113
+      },
+      {
+        "status": "same",
+        "ltext": "line 115 common stable text segment alpha3",
+        "rtext": "line 115 common stable text segment alpha3",
+        "ltid": 114,
+        "rtid": 114
+      },
+      {
+        "status": "same",
+        "ltext": "line 116 common stable text segment alpha4",
+        "rtext": "line 116 common stable text segment alpha4",
+        "ltid": 115,
+        "rtid": 115
+      },
+      {
+        "status": "same",
+        "ltext": "line 117 common stable text segment alpha5",
+        "rtext": "line 117 common stable text segment alpha5",
+        "ltid": 116,
+        "rtid": 116
+      },
+      {
+        "status": "same",
+        "ltext": "line 118 common stable text segment alpha6",
+        "rtext": "line 118 common stable text segment alpha6",
+        "ltid": 117,
+        "rtid": 117
+      },
+      {
+        "status": "same",
+        "ltext": "line 119 common stable text segment alpha0",
+        "rtext": "line 119 common stable text segment alpha0",
+        "ltid": 118,
+        "rtid": 118
+      },
+      {
+        "status": "same",
+        "ltext": "line 120 common stable text segment alpha1",
+        "rtext": "line 120 common stable text segment alpha1",
+        "ltid": 119,
+        "rtid": 119
+      },
+      {
+        "status": "same",
+        "ltext": "line 121 common stable text segment alpha2",
+        "rtext": "line 121 common stable text segment alpha2",
+        "ltid": 120,
+        "rtid": 120
+      },
+      {
+        "status": "same",
+        "ltext": "line 122 common stable text segment alpha3",
+        "rtext": "line 122 common stable text segment alpha3",
+        "ltid": 121,
+        "rtid": 121
+      },
+      {
+        "status": "same",
+        "ltext": "line 123 common stable text segment alpha4",
+        "rtext": "line 123 common stable text segment alpha4",
+        "ltid": 122,
+        "rtid": 122
+      },
+      {
+        "status": "same",
+        "ltext": "line 124 common stable text segment alpha5",
+        "rtext": "line 124 common stable text segment alpha5",
+        "ltid": 123,
+        "rtid": 123
+      },
+      {
+        "status": "same",
+        "ltext": "line 125 common stable text segment alpha6",
+        "rtext": "line 125 common stable text segment alpha6",
+        "ltid": 124,
+        "rtid": 124
+      },
+      {
+        "status": "same",
+        "ltext": "line 126 common stable text segment alpha0",
+        "rtext": "line 126 common stable text segment alpha0",
+        "ltid": 125,
+        "rtid": 125
+      },
+      {
+        "status": "same",
+        "ltext": "line 127 common stable text segment alpha1",
+        "rtext": "line 127 common stable text segment alpha1",
+        "ltid": 126,
+        "rtid": 126
+      },
+      {
+        "status": "same",
+        "ltext": "line 128 common stable text segment alpha2",
+        "rtext": "line 128 common stable text segment alpha2",
+        "ltid": 127,
+        "rtid": 127
+      },
+      {
+        "status": "same",
+        "ltext": "line 129 common stable text segment alpha3",
+        "rtext": "line 129 common stable text segment alpha3",
+        "ltid": 128,
+        "rtid": 128
+      },
+      {
+        "status": "same",
+        "ltext": "line 130 common stable text segment alpha4",
+        "rtext": "line 130 common stable text segment alpha4",
+        "ltid": 129,
+        "rtid": 129
+      },
+      {
+        "status": "same",
+        "ltext": "line 131 common stable text segment alpha5",
+        "rtext": "line 131 common stable text segment alpha5",
+        "ltid": 130,
+        "rtid": 130
+      },
+      {
+        "status": "same",
+        "ltext": "line 132 common stable text segment alpha6",
+        "rtext": "line 132 common stable text segment alpha6",
+        "ltid": 131,
+        "rtid": 131
+      },
+      {
+        "status": "same",
+        "ltext": "line 133 common stable text segment alpha0",
+        "rtext": "line 133 common stable text segment alpha0",
+        "ltid": 132,
+        "rtid": 132
+      },
+      {
+        "status": "same",
+        "ltext": "line 134 common stable text segment alpha1",
+        "rtext": "line 134 common stable text segment alpha1",
+        "ltid": 133,
+        "rtid": 133
+      },
+      {
+        "status": "same",
+        "ltext": "line 135 common stable text segment alpha2",
+        "rtext": "line 135 common stable text segment alpha2",
+        "ltid": 134,
+        "rtid": 134
+      },
+      {
+        "status": "same",
+        "ltext": "line 136 common stable text segment alpha3",
+        "rtext": "line 136 common stable text segment alpha3",
+        "ltid": 135,
+        "rtid": 135
+      },
+      {
+        "status": "same",
+        "ltext": "line 137 common stable text segment alpha4",
+        "rtext": "line 137 common stable text segment alpha4",
+        "ltid": 136,
+        "rtid": 136
+      },
+      {
+        "status": "same",
+        "ltext": "line 138 common stable text segment alpha5",
+        "rtext": "line 138 common stable text segment alpha5",
+        "ltid": 137,
+        "rtid": 137
+      },
+      {
+        "status": "same",
+        "ltext": "line 139 common stable text segment alpha6",
+        "rtext": "line 139 common stable text segment alpha6",
+        "ltid": 138,
+        "rtid": 138
+      },
+      {
+        "status": "same",
+        "ltext": "line 140 common stable text segment alpha0",
+        "rtext": "line 140 common stable text segment alpha0",
+        "ltid": 139,
+        "rtid": 139
+      },
+      {
+        "status": "same",
+        "ltext": "line 141 common stable text segment alpha1",
+        "rtext": "line 141 common stable text segment alpha1",
+        "ltid": 140,
+        "rtid": 140
+      },
+      {
+        "status": "same",
+        "ltext": "line 142 common stable text segment alpha2",
+        "rtext": "line 142 common stable text segment alpha2",
+        "ltid": 141,
+        "rtid": 141
+      },
+      {
+        "status": "same",
+        "ltext": "line 143 common stable text segment alpha3",
+        "rtext": "line 143 common stable text segment alpha3",
+        "ltid": 142,
+        "rtid": 142
+      },
+      {
+        "status": "same",
+        "ltext": "line 144 common stable text segment alpha4",
+        "rtext": "line 144 common stable text segment alpha4",
+        "ltid": 143,
+        "rtid": 143
+      },
+      {
+        "status": "same",
+        "ltext": "line 145 common stable text segment alpha5",
+        "rtext": "line 145 common stable text segment alpha5",
+        "ltid": 144,
+        "rtid": 144
+      },
+      {
+        "status": "same",
+        "ltext": "line 146 common stable text segment alpha6",
+        "rtext": "line 146 common stable text segment alpha6",
+        "ltid": 145,
+        "rtid": 145
+      },
+      {
+        "status": "same",
+        "ltext": "line 147 common stable text segment alpha0",
+        "rtext": "line 147 common stable text segment alpha0",
+        "ltid": 146,
+        "rtid": 146
+      },
+      {
+        "status": "same",
+        "ltext": "line 148 common stable text segment alpha1",
+        "rtext": "line 148 common stable text segment alpha1",
+        "ltid": 147,
+        "rtid": 147
+      },
+      {
+        "status": "same",
+        "ltext": "line 149 common stable text segment alpha2",
+        "rtext": "line 149 common stable text segment alpha2",
+        "ltid": 148,
+        "rtid": 148
+      },
+      {
+        "status": "same",
+        "ltext": "line 150 common stable text segment alpha3",
+        "rtext": "line 150 common stable text segment alpha3",
+        "ltid": 149,
+        "rtid": 149
+      }
+    ]
+  }
+}

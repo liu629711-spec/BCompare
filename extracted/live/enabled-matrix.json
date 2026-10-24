@@ -1,0 +1,2970 @@
+{
+ "captured_state": "empty or freshly loaded new sessions (no edits, no prior nav history)",
+ "note": "view-capability = enabled-set differs across views (static capability mask candidate); state-dependent = disabled in every capture (empty-session / no-undo-stack / no-selection predicates)",
+ "items": [
+  {
+   "menu": "Actions",
+   "item": "Back\tAlt+Left",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Browse for Folder",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Clear Session\tCtrl+Shift+C",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Close Tab\tCtrl+W",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Compare Contents...",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Compare Parent Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Copy Filename",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Copy to Output...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Exclude",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Exit\tCtrl+Q",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Folder Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Folder Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Forward\tAlt+Right",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Compare"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Ignored",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Load Workspace",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Locked",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Merge Base Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Merge...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "New Session",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "New Tab\tCtrl+T",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "New Window",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Open Session\tCtrl+Shift+O",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Refresh Selection\tShift+F5",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Merge",
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Session\tCtrl+Shift+S",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Session As...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Save Workspace As...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Session Settings...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Swap Sides",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Sync Base Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Actions",
+   "item": "Up One Level",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Align With...\tF7",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Collapse All",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Compare Selection to Clipboard",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Conflict",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Convert File",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy\tCtrl+C",
+   "class": "view-capability",
+   "enabled_in": [
+    "Table Compare",
+    "Picture Compare"
+   ],
+   "disabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Version Compare",
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy Cells to Right\tCtrl+Shift+R",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy Line to Right\tCtrl+Shift+R",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Copy to Right\tCtrl+R",
+   "class": "view-capability",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Cut\tCtrl+X",
+   "class": "view-capability",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": [
+    "Text Compare",
+    "Hex Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Decrease Indent\tCtrl+Shift+U",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete",
+   "class": "view-capability",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete Column",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Delete Row",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Expand All",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Export All...",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Full Refresh\tCtrl+F5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Increase Indent\tCtrl+Shift+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Column After",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Column Before",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Row After\tCtrl+Enter",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Insert Row Before\tCtrl+Shift+Enter",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Invert Selection",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Isolate",
+   "class": "view-capability",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Modify...\tF2",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "New Key",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "New Value\tIns",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Paste\tCtrl+V",
+   "class": "view-capability",
+   "enabled_in": [
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": [
+    "Text Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Redo\tCtrl+Y",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Refresh\tF5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Rename\tF2",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Replacement...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Select All\tCtrl+A",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Select All Files\tCtrl+Shift+A",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Newer",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Select Section\tCtrl+D",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Sort...",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Center",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Center Line",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left\tCtrl+L",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left Line\tCtrl+Shift+L",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Left Then Right\tCtrl+B",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right\tCtrl+R",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right Line\tCtrl+Shift+R",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Take Right Then Left\tCtrl+Shift+B",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Edit",
+   "item": "Undo\tCtrl+Z",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Explorer",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "File",
+   "item": "Open Clipboard\tCtrl+Shift+V",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "File",
+   "item": "Open File...\tCtrl+O",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "File",
+   "item": "Open With",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "File",
+   "item": "Open...\tCtrl+O",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "File",
+   "item": "Play",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Save File\tCtrl+S",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare"
+   ]
+  },
+  {
+   "menu": "File",
+   "item": "Save File As...\tF12",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "About Beyond Compare",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Check for Updates",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Contents",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Context Sensitive Help\tF1",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Enter Key...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Scooter Software on the Web",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Help",
+   "item": "Support",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Clear Bookmarks",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Clear Conflict Section, Next",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "Search",
+   "item": "Find Filename...\tCtrl+F",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Find Next\tF3",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Find Next Filename\tF3",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Find Previous\tShift+F3",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Find Previous Filename\tShift+F3",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Find...\tCtrl+F",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Go To...\tCtrl+G",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Go to Bookmark",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Conflict\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Conflict Section\tAlt+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference\tCtrl+Shift+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Bytes\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Cell\tCtrl+Shift+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Item\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Row\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Difference Section\tCtrl+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Edit",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Left Taken",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Replacement\tCtrl+Alt+Shift+N",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Next Right Taken",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Conflict\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Conflict Section\tAlt+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference\tCtrl+Shift+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Bytes\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Cell\tCtrl+Shift+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Item\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Row\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Difference Section\tCtrl+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Edit",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Left Taken",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Replacement\tCtrl+Alt+Shift+P",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Previous Right Taken",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Replace...\tCtrl+H",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Search",
+   "item": "Toggle Bookmark",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Auto Sync",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Sync"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Back\tAlt+Left",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Browse for Folder",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Clear Session\tCtrl+Shift+C",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Close Tab\tCtrl+W",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Base Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Files Using",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Compare Parent Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Compare to Output",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Exit\tCtrl+Q",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Merge Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Folder Sync Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Forward\tAlt+Right",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Hex Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Hex Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Load Workspace",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Locked",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Media Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Media Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Base Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Files",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Merge Parent Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "New Session",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "New Tab\tCtrl+T",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "New Window",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Open Session\tCtrl+Shift+O",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Picture Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Picture Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Play Both",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Media Compare"
+   ]
+  },
+  {
+   "menu": "Session",
+   "item": "Recompare\tCtrl+F5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Recompare Files\tCtrl+F5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Registry Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Registry Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Reload\tF5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Reload Files\tF5",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Save Session\tCtrl+Shift+S",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Save Session As...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Save Workspace As...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Session Settings...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Swap Sides",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Sync Base Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Table Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Table Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Text Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Text Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Text Merge Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Up One Level",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare",
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Version Compare Info\tCtrl+I",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Version Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Session",
+   "item": "Version Compare Report...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Version Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Edit Text File",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Export Settings...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "File Formats...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Import Settings...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Options...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Profiles...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Restore Factory Defaults...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "Save Snapshot...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "Tools",
+   "item": "View Patch...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home",
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Alignment Details",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Always Show Folders",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Auto Scale",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Big Endian Values",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Blend Mode",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Blend Toggle\tF8",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Byte Address = 00000000",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Byte Addresses",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Center Pane",
+   "class": "view-capability",
+   "enabled_in": [
+    "Folder Merge"
+   ],
+   "disabled_in": [
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Collapse All",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Columns",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Compare Files and Folder Structure",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Compare Metadata",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Detached Output Pane",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Expand All",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Favor Left Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Favor Right Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "File Info",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Flip Horizontally",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Flip Vertically",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Full Screen\tF11",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Hex Details",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Registry Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Hide Same Columns",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Folder Structure",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Same Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Ignore Unimportant Differences",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Picture Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Ignored",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Layout...",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Legend\tCtrl+Alt+L",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Line Numbers",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Little Endian Values",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Hex Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Log",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Maximize Session Management",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Mismatch Range Mode",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Only Compare Files",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Over-Under Layout",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Reset Difference Offset",
+   "class": "state-dependent",
+   "enabled_in": [],
+   "disabled_in": [
+    "Picture Compare"
+   ]
+  },
+  {
+   "menu": "View",
+   "item": "Resize Columns to Fit",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Rotate Clockwise",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Rotate Counterclockwise",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Row Numbers",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Ruler",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show All",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Conflicts",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Context",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Differences",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Differences but No Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Newer",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Newer and Left Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Left Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Mergeable",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show No Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Changes",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Newer",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Newer and Right Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Right Orphans",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Same",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Session Management",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Unchanged",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Merge",
+    "Folder Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Show Web Resources",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Home"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Side-by-Side Layout",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Suppress Filters",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Syntax Highlighting",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Text Details",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Thumbnail",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Tolerance Mode",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Toolbar",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Hex Compare",
+    "Table Compare",
+    "Picture Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Folder Compare",
+    "Folder Merge",
+    "Folder Sync",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Visible Whitespace",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge",
+    "Table Compare",
+    "Registry Compare",
+    "Version Compare",
+    "Media Compare"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Webpages",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Word Wrap",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Text Compare",
+    "Text Merge"
+   ],
+   "disabled_in": []
+  },
+  {
+   "menu": "View",
+   "item": "Zoom",
+   "class": "always-enabled",
+   "enabled_in": [
+    "Picture Compare"
+   ],
+   "disabled_in": []
+  }
+ ]
+}

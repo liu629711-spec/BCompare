@@ -1,0 +1,16 @@
+=== staging order (product-faithful close text unless noted) ===
+A  LCS/triple/close (baseline)               recorded 269/290  fuzz 85/120
+A1 LCS/triple/STRIP (text axis)              recorded 269/290  fuzz 85/120
+A2 LCS/NW/STRIP  (text+geom)                 recorded 269/290  fuzz 85/120
+C  decoded/triple/STRIP  (+score)            recorded 270/290  fuzz 88/120
+D  decoded/triple/close (score only)         recorded 268/290  fuzz 82/120
+F  decoded/NW/STRIP  (+geom)                 recorded 274/290  fuzz 105/120
+
+=== same_key variants under F ===
+F sk=key_sentinel                            recorded 274/290  fuzz 105/120
+F sk=important                               recorded 274/290  fuzz 101/120
+F sk=striptext                               recorded 274/290  fuzz 103/120
+
+=== triple clamp variants ===
+C clamp=1                                    recorded 270/290  fuzz 88/120
+C clamp=0                                    recorded 264/290  fuzz 83/120

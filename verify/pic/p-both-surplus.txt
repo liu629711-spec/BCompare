@@ -1,0 +1,7 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:44
+
+左边文件： D:\Rea\verify\pic\p-both-surplus-L.png     右边文件： D:\Rea\verify\pic\p-both-surplus-R.png
+36 个相同像素
+12 个左边独有像素
+12 个右边独有像素

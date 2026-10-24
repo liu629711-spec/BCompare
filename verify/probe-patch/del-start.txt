@@ -1,0 +1,3 @@
+diff -r D:\Rea\verify\probe-patch\del-start-L.txt D:\Rea\verify\probe-patch\del-start-R.txt
+1d0
+< a

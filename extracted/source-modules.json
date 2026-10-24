@@ -1,0 +1,2162 @@
+{
+ "path_count": 271,
+ "function_count": 1337,
+ "modules": {
+  "Source": [
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\ActnGeneral.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcActions.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAlign.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAlignLines.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAsyncSync.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcClearCase.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcColors.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcDropFiles.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcDynImages.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcExplorerMenu.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcExternalSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcFileFormat.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcFileSessionJobs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcForms.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcGeneralPrefs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcImages.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcJobs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcLineSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcLog.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcPrefs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcProfile.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSccPrefs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSpecDlgs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcStartup.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSyntaxElements.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcTagSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcTranslateDFMs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcUpgrade3.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcUpgrade4.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcVersion.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\BcViews.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgBrowseRegistry.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgExport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgFileConfirmSave.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgFileFormatManager.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgImport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileBrowse.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileFileOpen.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileManager.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileSaveAs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProgOptions.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgQuickCompare.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgSessionSaveAs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgTagReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgWorkspaceManager.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFind.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFormat.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFormatConversion.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileSessionFormats.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameLineAlignDef.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameProfile.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameProfileBrowseRemote.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameTagSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewFile.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewGeneral.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewHome.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirColors.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirFilters.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirSessionState.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirTree.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DirTreeView.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirAlignWithItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirFind.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirLegend.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirOpErrors.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirOtherFilterItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirScript.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\FrameDirOpProgress.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\FrameDirSessionComparison.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\DlgOpCompareResults.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpBase.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpCopy.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpMoveBoth.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpSync.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\Sync\\ViewDirSync.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\ViewDir.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Dir\\ViewDirBase.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\DlgHexGoTo.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\DlgHexReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\FrameHexFind.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\HexContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\HexFiltered.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\HexMap.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\HexSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Hex\\ViewHex.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Media\\MediaContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Media\\ViewMedia.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Pix\\PixColors.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Pix\\PixContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Pix\\PixMap.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Pix\\PixRules.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Pix\\ViewPix.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegBrowse.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegVal.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\RegContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\RegMap.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\RegSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Reg\\ViewReg.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsBcd.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsClasses.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsCodePage.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsEditStack.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsFileAPI.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsGraphics.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsLineList.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsLineParse.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsMapTree.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsPersistent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsRegistry.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsSingleInst.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsStrProcs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ss\\SsXML.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\DlgTableReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\DlgTableSort.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSessionColumns.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSessionRows.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSortItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableDetect.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableFiltered.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableMap.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableRules.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\TableSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Table\\ViewTable.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextFindInFiles.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextGoTo.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextGrammarItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextInsigItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextReplacementItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextReport.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextWeightItem.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\FrameTextSessionImportance.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextFiltered.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextFormat.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextMap.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextOutput.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextREParser.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\TextSession.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Text\\ViewText.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiActionTree.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiAutoComplete.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiCodePageEdit.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiComCtrls.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiDropCtrls.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiEdits.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiHexEditor.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiListTable.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiMainControl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiMapTreeView.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpecCtrls.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpeedBar.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpeedHeader.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTabFooter.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTabHeader.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTableEditor.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTextEditor.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiThemes.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiThumb.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiUtils.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiVirtualListBox.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ui\\UiWebBrowser.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ver\\VerContent.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ver\\VerRules.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Ver\\ViewVer.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\Vfs7zipResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsAbArchiveResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsAmazonS3ResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsArchiveResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsEntryImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFileCache.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFtpIndy10Connection.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFtpResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsJobs.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsLocalResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsMain.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsManagerImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsOneDriveResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsPortableDeviceResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsSyncMemoryResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsWebDAVResourceImpl.pas",
+   "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsZipForgeResourceImpl.pas"
+  ],
+  "ThirdParty": [
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfBase.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfDec.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfEnc.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfHufD.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfInW.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfPkMg.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfStrm.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfXlat.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbWavPack.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\CCR",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Delphi\\37.0\\Vcl.ComCtrls.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFlxNumberFormat.TFormatSections.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TArrayAggregate.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TBaseToken.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TRomanToken.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\__FlexCelTypes.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\__FlxXmlReader.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_CalcPack.WorkDayImpl.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UCalc.TFormulaCache.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UConditionalFormatsImpl.TConditionalFormatDXFList.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UConvertBIFF8ToInternal.TFormulaConvertBiff8ToInternal.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UEscherRecords.TEscherImageAnchorRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UEscherRecords.TEscherOPTRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UOle2Impl.TOle2File.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UPxlRecordLoader.TBiff5FormulaConverter.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USST.TSST.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USST.TSSTEntry.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USheetNameList.TSheetNameList.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TInsertTokens.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TMoveTokens.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TTokenManipulator.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXls95RecordLoader.TXls95RecordLoader.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsAdapter.XlsFile.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsBaseRecords.TStringRecordData.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsChartRecords.TChartBaseRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsChartRecords.TChartFBIRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsClientData.TObjRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsClientData.TTXO.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsEscher.TDrawing.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsOtherRecords.TBOFRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsReferences.TReferences.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsReferences.TSupBookRecord.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsRowColEntries.TCellList.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsSheet.TSheet.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxRecords.TXlsxBorderReaderWriter.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxShapeReader.TShapePresets.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxTables.BuiltinTableStyles.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\GraphicEx\\GraphicEx.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\HTTPGet.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdCustomTCPServer.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdIOHandler.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdIOHandlerStack.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdScheduler.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdSchedulerOfThread.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdServerIOHandlerSocket.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdThread.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdCoder3to4.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdCustomHTTPServer.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdGlobalProtocols.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdZLibCompressorBase.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\System\\IdGlobal.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\System\\IdStreamVCL.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBAuthDataStream.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBChSConvBase.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBCustomCertStorage.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBDataStorage.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBEdMath.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBJSON.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBMLDSA.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBPKCS12.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBRandom.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSSHCommon.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSSLClient.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSftp.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBWhirlpool.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBXMLSig.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBZCompressUnit.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\cMicroThreads.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\jcl\\source\\common\\JclFileUtils.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\jcl\\source\\common\\JclStrings.pas",
+   "C:\\BCBuild\\BCompare\\ThirdParty\\scp2\\Source\\UPTShellUtils.pas"
+  ]
+ },
+ "path_to_functions": {
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\ActnGeneral.pas": [
+   "140faa770",
+   "140faa8b0",
+   "140faaa00",
+   "140faac50",
+   "140fab0a0",
+   "140fab620"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcActions.pas": [
+   "140e6d6e0",
+   "140e6e5b0",
+   "140e6e750",
+   "140e6eed0",
+   "140e6f710"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAlign.pas": [
+   "140de3950",
+   "140de3b80",
+   "140de3d30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAlignLines.pas": [
+   "140e71a10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcAsyncSync.pas": [
+   "140dc7310"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcClearCase.pas": [
+   "140ebaff0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcColors.pas": [
+   "140ec0f50",
+   "140ec1070",
+   "140ec1320",
+   "140ec1e30",
+   "140ec3bd0",
+   "140ec4230",
+   "140ec43e0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcDropFiles.pas": [
+   "140ec50a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcDynImages.pas": [
+   "140d7a180"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcExplorerMenu.pas": [
+   "140eca780",
+   "140eca9f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcExternalSession.pas": [
+   "140eccf30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcFileFormat.pas": [
+   "140de90e0",
+   "140de9b20",
+   "140dea0f0",
+   "140dea610",
+   "140dea860",
+   "140dea940",
+   "140dead70",
+   "140deb140",
+   "140deb2f0",
+   "140deb430",
+   "140debc70",
+   "140dec3a0",
+   "140ded300",
+   "140ded530",
+   "140dede10",
+   "140deef00"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcFileSessionJobs.pas": [
+   "140ecdfc0",
+   "140ece510"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcForms.pas": [
+   "140d88a40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcGeneralPrefs.pas": [
+   "140eeddf0",
+   "140eeeea0",
+   "140eef100"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcImages.pas": [
+   "140d7ac40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcJobs.pas": [
+   "140dd32c0",
+   "140dd3420",
+   "140dd3b10",
+   "140dd3eb0",
+   "140dd43b0",
+   "140dd4fa0",
+   "140dd5260",
+   "140dd5370",
+   "140dd55a0",
+   "140dd5cd0",
+   "140dd5fa0",
+   "140dd64b0",
+   "140dd74e0",
+   "140dd7d50",
+   "140dd8520",
+   "140dd9180",
+   "140dd9270",
+   "140dd9940",
+   "140dd9e00",
+   "140dda870",
+   "140ddb1b0",
+   "140ddb330",
+   "140ddc6a0",
+   "140ddcb90",
+   "140ddccb0",
+   "140ddce10",
+   "140ddd360",
+   "140dde980",
+   "140ddf470",
+   "140ddf830"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcLineSession.pas": [
+   "140ef2b70",
+   "140ef43c0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcLog.pas": [
+   "140dc8f60",
+   "140dc9100"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcPrefs.pas": [
+   "140dc1e80",
+   "140dc29f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcProfile.pas": [
+   "140df6490",
+   "140df6c40",
+   "140df7170",
+   "140df7780",
+   "140df7a30",
+   "140df7f10",
+   "140df8450",
+   "140df8660",
+   "140df90c0",
+   "140df9580",
+   "140df99d0",
+   "140dfa560",
+   "140dfa830",
+   "140dfab10",
+   "140dfac30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcReport.pas": [
+   "140efe9a0",
+   "140efef30",
+   "140eff230",
+   "140eff430",
+   "140f001f0",
+   "140f00d40",
+   "140f00f00",
+   "140f06eb0",
+   "140f07a70",
+   "140f095e0",
+   "140f09be0",
+   "140f0ab90",
+   "140f0b3b0",
+   "140f0b5b0",
+   "140f0c570",
+   "140f0c710",
+   "140f0c8d0",
+   "140f0ca40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSccPrefs.pas": [
+   "140e04c10",
+   "140e04df0",
+   "140e05110",
+   "140e07040",
+   "140e07190"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSession.pas": [
+   "140e54ea0",
+   "140e55160",
+   "140e55310",
+   "140e555d0",
+   "140e55ad0",
+   "140e56080",
+   "140e563b0",
+   "140e56630",
+   "140e569e0",
+   "140e56e60",
+   "140e57040",
+   "140e574d0",
+   "140e57b80",
+   "140e57d90",
+   "140e57f20",
+   "140e58490",
+   "140e58860",
+   "140e58aa0",
+   "140e58cf0",
+   "140e59790",
+   "140e59a70",
+   "140e5a140",
+   "140e5a640",
+   "140e5a930",
+   "140e5b330",
+   "140e5c110",
+   "140e5c8d0",
+   "140e5cb40",
+   "140e5cc60",
+   "140e5cf20",
+   "140e5d0b0",
+   "140e5d350",
+   "140e5d480",
+   "140e5dbf0",
+   "140e5dd30",
+   "140e5e390",
+   "140e5e750",
+   "140e5eb40",
+   "140e5f180",
+   "140e5f310",
+   "140e5f3e0",
+   "140e5f4b0",
+   "140e5ff50",
+   "140e604d0",
+   "140e60720",
+   "140e60990",
+   "140e60f50",
+   "140e613d0",
+   "140e62070",
+   "140e62ec0",
+   "140e637c0",
+   "140e63930",
+   "140e63db0",
+   "140e64790",
+   "140e64e60",
+   "140e65010",
+   "140e662f0",
+   "140e664b0",
+   "140e68160",
+   "140e682e0",
+   "140e6b860"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSpecDlgs.pas": [
+   "140f0cf00",
+   "140f0d0f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcStartup.pas": [
+   "1417d8000",
+   "1417d8680"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcSyntaxElements.pas": [
+   "140de4ee0",
+   "140de5040",
+   "140de5730",
+   "140de5840",
+   "140de5a40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcTagSession.pas": [
+   "141061e90",
+   "141062810",
+   "141062940",
+   "141062a70",
+   "141062bf0",
+   "141062e00",
+   "141062fc0",
+   "141063280",
+   "1410638e0",
+   "1410639e0",
+   "141063cf0",
+   "141064f40",
+   "141066350",
+   "141066630",
+   "141066a60",
+   "141066bd0",
+   "141066d30",
+   "141067050",
+   "141067920",
+   "141067e20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcTranslateDFMs.pas": [
+   "140180250"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcUpgrade3.pas": [
+   "140da2ea0",
+   "140da4190"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcUpgrade4.pas": [
+   "140db5b60",
+   "140db8180"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcVersion.pas": [
+   "140dbcfb0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\BcViews.pas": [
+   "140edf520",
+   "140ee1770",
+   "140ee19c0",
+   "140ee26e0",
+   "140ee4190",
+   "140ee4af0",
+   "140ee4c10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgBrowseRegistry.pas": [
+   "1417e3ae0",
+   "1417e44a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgExport.pas": [
+   "140f23d10",
+   "140f241c0",
+   "140f25c10",
+   "140f26220",
+   "140f26580"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgFileConfirmSave.pas": [
+   "1417e93a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgFileFormatManager.pas": [
+   "140f7d010",
+   "140f7d130",
+   "140f7d620",
+   "140f7e080",
+   "140f7f400"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgImport.pas": [
+   "140f1b540",
+   "140f1e870",
+   "140f1e990"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileBrowse.pas": [
+   "1417f05c0",
+   "1417f1520",
+   "1417f17d0",
+   "1417f2170",
+   "1417f3800",
+   "1417f39a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileFileOpen.pas": [
+   "1417f59d0",
+   "1417f6be0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileManager.pas": [
+   "140f2fd60",
+   "140f306d0",
+   "140f31c80",
+   "140f32ef0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProfileSaveAs.pas": [
+   "140f2bbd0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgProgOptions.pas": [
+   "140f964a0",
+   "140f96770",
+   "140f96af0",
+   "140f99910",
+   "140f9a350",
+   "140f9a610",
+   "140f9ad80",
+   "140f9af50",
+   "140f9b530",
+   "140f9bed0",
+   "140f9fe10",
+   "140f9ff50",
+   "140fa0a10",
+   "140fa1a10",
+   "140fa3590",
+   "140fa4cd0",
+   "140fa50a0",
+   "140fa52e0",
+   "140fa54b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgQuickCompare.pas": [
+   "140f1fc00",
+   "140f20500"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgReport.pas": [
+   "140fc1aa0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgSessionSaveAs.pas": [
+   "1417fbfb0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgTagReport.pas": [
+   "14106a3d0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\DlgWorkspaceManager.pas": [
+   "140f29670"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFind.pas": [
+   "1418089d0",
+   "141808ce0",
+   "1418091b0",
+   "1418096b0",
+   "14180a960",
+   "14180ad90"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFormat.pas": [
+   "140f79350"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileFormatConversion.pas": [
+   "141803e20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameFileSessionFormats.pas": [
+   "14180edd0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameLineAlignDef.pas": [
+   "141810330"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameProfile.pas": [
+   "140e005a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameProfileBrowseRemote.pas": [
+   "1417ebd70",
+   "1417ec500",
+   "1417ecd70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameSession.pas": [
+   "141800310",
+   "141800c20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\FrameTagSession.pas": [
+   "141811ee0",
+   "141812060"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewFile.pas": [
+   "141821400",
+   "141822160",
+   "1418236a0",
+   "141825150",
+   "141829090",
+   "14182a010",
+   "14182af90",
+   "14182bf50"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewGeneral.pas": [
+   "140faf9a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewHome.pas": [
+   "14183a320",
+   "14183b2b0",
+   "14183ba60",
+   "14183c400",
+   "14183cdc0",
+   "14183d0a0",
+   "14183fe30",
+   "1418403f0",
+   "141842140"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Bc\\ViewSession.pas": [
+   "141816f20",
+   "141817d30",
+   "141818270",
+   "141818350",
+   "141818430",
+   "141818510",
+   "141818880",
+   "1418196b0",
+   "141819950"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirColors.pas": [
+   "140f3b930"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirFilters.pas": [
+   "140f66050",
+   "140f66aa0",
+   "140f68010",
+   "140f688e0",
+   "140f68c70",
+   "140f691d0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirSession.pas": [
+   "140f593e0",
+   "140f5b570",
+   "140f5b910",
+   "140f5ba70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirSessionState.pas": [
+   "140f34bf0",
+   "140f34cf0",
+   "140f34e00",
+   "140f34ee0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirTree.pas": [
+   "140f41b90",
+   "140f421a0",
+   "140f43580",
+   "140f44ef0",
+   "140f45130",
+   "140f45400",
+   "140f46230",
+   "140f46470",
+   "140f48c20",
+   "140f49f70",
+   "140f4cb50",
+   "140f4cdd0",
+   "140f4ced0",
+   "140f4d030",
+   "140f4d220",
+   "140f4d3d0",
+   "140f4d5d0",
+   "140f4dc40",
+   "140f4dd80",
+   "140f4e020",
+   "140f4e530",
+   "140f4ec30",
+   "140f4ed60",
+   "140f4efb0",
+   "140f4f5f0",
+   "140f4f6e0",
+   "140f4f7f0",
+   "140f4f950",
+   "140f4fa50",
+   "140f4fb50",
+   "140f4fc60",
+   "140f4fd80",
+   "140f4fe80",
+   "140f53320",
+   "140f55bb0",
+   "140f55d80",
+   "140f562c0",
+   "140f56570"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DirTreeView.pas": [
+   "140fc6a70",
+   "140fc6de0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirAlignWithItem.pas": [
+   "141b074b0",
+   "141b079b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirFind.pas": [
+   "141b0a100"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirLegend.pas": [
+   "141b0bea0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirOpErrors.pas": [
+   "141b0efa0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirOtherFilterItem.pas": [
+   "141b11130",
+   "141b11810",
+   "141b11c90",
+   "141b12550"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirReport.pas": [
+   "140fcc870",
+   "140fccbf0",
+   "140fce7d0",
+   "140fd0290"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\DlgDirScript.pas": [
+   "1417ca730"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\FrameDirOpProgress.pas": [
+   "141b13ce0",
+   "141b13e30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\FrameDirSessionComparison.pas": [
+   "141b16240"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\DlgOpCompareResults.pas": [
+   "140fe0420"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpBase.pas": [
+   "140fd8a10",
+   "140fdb880",
+   "140fdcf40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpCopy.pas": [
+   "140fe4fe0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpMoveBoth.pas": [
+   "141b3f8b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Op\\OpSync.pas": [
+   "140ff3860"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\Sync\\ViewDirSync.pas": [
+   "141b62f00",
+   "141b64680"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\ViewDir.pas": [
+   "141b4be30",
+   "141b4c230",
+   "141b4c820",
+   "141b4d690",
+   "141b4ee20",
+   "141b50af0",
+   "141b51220",
+   "141b515e0",
+   "141b552f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Dir\\ViewDirBase.pas": [
+   "141b266e0",
+   "141b26da0",
+   "141b29f10",
+   "141b2e920",
+   "141b2f0d0",
+   "141b2fe70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\DlgHexGoTo.pas": [
+   "141bb6c10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\DlgHexReport.pas": [
+   "14105c9c0",
+   "14105cea0",
+   "14105de30",
+   "14105ecf0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\FrameHexFind.pas": [
+   "141bb9d90",
+   "141bbb680",
+   "141bbb9c0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\HexContent.pas": [
+   "141048040",
+   "141048550",
+   "141048890",
+   "141048b00",
+   "141048f10",
+   "141049030",
+   "1410493b0",
+   "141049990",
+   "141049ea0",
+   "14104a120",
+   "14104a870",
+   "14104aa90",
+   "14104aec0",
+   "14104b0e0",
+   "14104b2d0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\HexFiltered.pas": [
+   "1410549f0",
+   "141054bd0",
+   "141055020",
+   "1410552e0",
+   "141055850",
+   "141055ec0",
+   "141056070"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\HexMap.pas": [
+   "14104e1d0",
+   "14104e6b0",
+   "14104efa0",
+   "14104f1d0",
+   "14104f7d0",
+   "14104ff70",
+   "141050270",
+   "141050420",
+   "141050fe0",
+   "141052850"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\HexSession.pas": [
+   "141058a10",
+   "141058ee0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Hex\\ViewHex.pas": [
+   "141bc3380",
+   "141bc5980",
+   "141bc7fa0",
+   "141bc9470"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Media\\MediaContent.pas": [
+   "1410f7bd0",
+   "1410f8f20",
+   "1410fa750",
+   "1410fb0b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Media\\ViewMedia.pas": [
+   "141bd2950",
+   "141bd2d00",
+   "141bd6330",
+   "141bd6ab0",
+   "141bd8e30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Pix\\PixColors.pas": [
+   "140f8ab20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Pix\\PixContent.pas": [
+   "141183c10",
+   "141185d10",
+   "14118a6e0",
+   "14118be50"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Pix\\PixMap.pas": [
+   "141191d20",
+   "1411925d0",
+   "141194090"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Pix\\PixRules.pas": [
+   "14117f140"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Pix\\ViewPix.pas": [
+   "141be5190",
+   "141be9fb0",
+   "141beae20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegBrowse.pas": [
+   "141beea20",
+   "141bef020"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegReport.pas": [
+   "1411ad9e0",
+   "1411adea0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\DlgRegVal.pas": [
+   "141bf0fb0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\RegContent.pas": [
+   "14119aa10",
+   "14119acb0",
+   "14119ae00",
+   "14119af50",
+   "14119b0f0",
+   "14119b2a0",
+   "14119baa0",
+   "14119bf20",
+   "14119caa0",
+   "14119d2b0",
+   "14119d580",
+   "14119d660",
+   "14119d740",
+   "14119d810",
+   "14119d8f0",
+   "14119d9c0",
+   "14119da90",
+   "14119dc10",
+   "14119e2b0",
+   "14119e380",
+   "14119e4b0",
+   "14119e610",
+   "14119edf0",
+   "14119f070"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\RegMap.pas": [
+   "1411a24c0",
+   "1411a2710",
+   "1411a2d50",
+   "1411a32d0",
+   "1411a3660",
+   "1411a3820",
+   "1411a3d70",
+   "1411a3e90",
+   "1411a4080",
+   "1411a4690",
+   "1411a5cd0",
+   "1411a60f0",
+   "1411a7080",
+   "1411a7280",
+   "1411a76f0",
+   "1411a8400"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\RegSession.pas": [
+   "1411aa5a0",
+   "1411aaa10",
+   "1411aae80",
+   "1411ab1c0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Reg\\ViewReg.pas": [
+   "141bf98e0",
+   "141bfbd20",
+   "141bfc040",
+   "141bfc1f0",
+   "141bfeb90",
+   "141bff410",
+   "141c00350",
+   "141c01c50"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsBcd.pas": [
+   "14052bf80",
+   "14052c070",
+   "14052c160",
+   "14052d680"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsClasses.pas": [
+   "140526060",
+   "1405262e0",
+   "140527250",
+   "140529040",
+   "140529f30",
+   "14052ab00",
+   "14052bd30",
+   "140dc3a90",
+   "140f56cb0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsCodePage.pas": [
+   "14050fae0",
+   "14051b190",
+   "14051b460",
+   "14051b8f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsEditStack.pas": [
+   "1405f1830",
+   "1405f1aa0",
+   "1405f1c10",
+   "1405f1d20",
+   "1405f1e10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsFileAPI.pas": [
+   "140509870",
+   "14050b120",
+   "14050ba20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsGraphics.pas": [
+   "140667220",
+   "140667460"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsLineList.pas": [
+   "14066c190",
+   "14066c2d0",
+   "14066c3b0",
+   "14066c610",
+   "14066c700",
+   "14066c9e0",
+   "14066cac0",
+   "14066d640",
+   "14066d9e0",
+   "14066de20",
+   "14066e470",
+   "14066eb30",
+   "14066eea0",
+   "14066f0b0",
+   "140670060",
+   "140670930",
+   "140671010",
+   "140671200",
+   "1406713a0",
+   "140671600",
+   "140671800",
+   "140671e90",
+   "140671f90",
+   "1406723b0",
+   "1406725b0",
+   "140672920",
+   "140672a90",
+   "140672d70",
+   "140672f60",
+   "140673470"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsLineParse.pas": [
+   "14051e860",
+   "14051ed40",
+   "14051f410",
+   "14051f690",
+   "1405202b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsMapTree.pas": [
+   "140676100",
+   "1406762b0",
+   "140676610",
+   "1406767e0",
+   "140676a40",
+   "140676f30",
+   "140677140",
+   "140677360",
+   "140677630",
+   "140677770",
+   "1406778b0",
+   "140677a30",
+   "140677ca0",
+   "140678560",
+   "140678a60",
+   "140678d60",
+   "140679230",
+   "140679610",
+   "1406796e0",
+   "1406797b0",
+   "140679890",
+   "140679970",
+   "140679b50",
+   "140679c20",
+   "140679d00",
+   "140679dd0",
+   "140679ea0",
+   "14067a070",
+   "14067a150",
+   "14067a290",
+   "14067a360",
+   "14067a540"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsPersistent.pas": [
+   "14067e5f0",
+   "14067eb70",
+   "14067ee50",
+   "14067f010",
+   "14067f1b0",
+   "14067f640",
+   "14067f8a0",
+   "14067fb70",
+   "14067fd40",
+   "14067fee0",
+   "140680410",
+   "140680670",
+   "140680f70",
+   "140681e20",
+   "140681f00",
+   "140682de0",
+   "140683120",
+   "140683320",
+   "1406848e0",
+   "140684a10",
+   "140684af0",
+   "140684c90",
+   "1406852f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsRegistry.pas": [
+   "140502280",
+   "140502bc0",
+   "140502e50",
+   "1405034d0",
+   "140503710"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsSingleInst.pas": [
+   "140ba04b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsStrProcs.pas": [
+   "1404fdac0",
+   "1404fdeb0",
+   "1404fe340"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ss\\SsXML.pas": [
+   "1405e47a0",
+   "1405e4900",
+   "1405e4af0",
+   "1405e4c20",
+   "1405e5040",
+   "1405e5130",
+   "1405e5930",
+   "1405e5b60",
+   "1405e5c60",
+   "1405e5eb0",
+   "1405e9c00",
+   "1405ea160"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\DlgTableReport.pas": [
+   "1417ba560",
+   "1417bd270",
+   "1417bde00"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\DlgTableSort.pas": [
+   "141c08ca0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSessionColumns.pas": [
+   "141c13600",
+   "141c13930",
+   "141c14320"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSessionRows.pas": [
+   "141c18010",
+   "141c18590",
+   "141c18a70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\FrameTableSortItem.pas": [
+   "141c07aa0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableContent.pas": [
+   "14178cab0",
+   "14178cd00",
+   "14178d020",
+   "14178d560",
+   "14178e550"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableDetect.pas": [
+   "1417b4c00",
+   "1417b6380"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableFiltered.pas": [
+   "1417a7da0",
+   "1417a9240",
+   "1417a9360"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableMap.pas": [
+   "14179dfe0",
+   "14179e260",
+   "14179e580",
+   "14179e940",
+   "14179f780",
+   "14179fe60",
+   "1417a2040",
+   "1417a2290",
+   "1417a3950",
+   "1417a4850"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableRules.pas": [
+   "141792810"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\TableSession.pas": [
+   "1417ad100",
+   "1417ad2f0",
+   "1417ad660",
+   "1417ae1a0",
+   "1417b1030"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Table\\ViewTable.pas": [
+   "141c241c0",
+   "141c246f0",
+   "141c27710",
+   "141c2db30",
+   "141c2e150",
+   "141c2e460",
+   "141c30290",
+   "141c32080",
+   "141c332d0",
+   "141c33d20",
+   "141c350f0",
+   "141c36710"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextFindInFiles.pas": [
+   "141b6e800",
+   "141b6f7a0",
+   "141b70190",
+   "141b70890",
+   "141b710a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextGoTo.pas": [
+   "141b71dd0",
+   "141b72360"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextGrammarItem.pas": [
+   "141b74090",
+   "141b754c0",
+   "141b75c40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextInsigItem.pas": [
+   "141b76e70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextReplacementItem.pas": [
+   "141b78d00",
+   "141b79200"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextReport.pas": [
+   "14103cf10",
+   "14103d1d0",
+   "14103d9d0",
+   "14103f540",
+   "1410408c0",
+   "1410423d0",
+   "141042ef0",
+   "141043060",
+   "141043f40"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\DlgTextWeightItem.pas": [
+   "141b7af10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\FrameTextSessionImportance.pas": [
+   "141b84110"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextContent.pas": [
+   "14100c670",
+   "14100ce40",
+   "14100d630",
+   "14100e5b0",
+   "14100ee90",
+   "14100ef90",
+   "14100f0d0",
+   "14100f310",
+   "14100fba0",
+   "141010660",
+   "141010970",
+   "141011db0",
+   "141012190",
+   "1410122b0",
+   "1410123f0",
+   "1410125a0",
+   "141012810",
+   "141012980",
+   "141012ff0",
+   "141014e10"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextFiltered.pas": [
+   "14102de50",
+   "14102e560",
+   "14102e850",
+   "14102f5a0",
+   "14102fed0",
+   "1410305e0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextFormat.pas": [
+   "140ffdf70",
+   "140ffe960",
+   "140ffea50"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextMap.pas": [
+   "1410227d0",
+   "141023e40",
+   "141024010",
+   "141024530",
+   "141024670",
+   "141024e00",
+   "141025090",
+   "141025440",
+   "141025520",
+   "141025910",
+   "141025e10",
+   "141026eb0",
+   "1410270c0",
+   "1410276d0",
+   "141028c10",
+   "141028ec0",
+   "14102a070",
+   "14102a4f0",
+   "14102aad0",
+   "14102af70",
+   "14102b990",
+   "14102bd00",
+   "14102caf0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextOutput.pas": [
+   "141018ec0",
+   "141019590",
+   "141019bd0",
+   "141019dd0",
+   "14101a0d0",
+   "14101a3a0",
+   "14101b030",
+   "14101b740",
+   "14101c120",
+   "14101cd40",
+   "14101d860",
+   "14101ddd0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextREParser.pas": [
+   "141002300",
+   "141007050"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\TextSession.pas": [
+   "141034a10",
+   "141034b70",
+   "141034d30",
+   "141034f20",
+   "141035d80",
+   "1410361c0",
+   "141036bf0",
+   "141037d20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Text\\ViewText.pas": [
+   "141b97be0",
+   "141b9b5c0",
+   "141b9c350",
+   "141ba0ea0",
+   "141ba40a0",
+   "141ba4240",
+   "141ba4f50",
+   "141ba5060",
+   "141ba5260",
+   "141ba5490",
+   "141ba5690",
+   "141ba6220",
+   "141ba90f0",
+   "141ba94b0",
+   "141babb80",
+   "141bac7c0",
+   "141baccd0",
+   "141badc60",
+   "141bb08b0",
+   "141bb2af0",
+   "141bb35f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiActionTree.pas": [
+   "140ba1570",
+   "140ba1740",
+   "140ba1950",
+   "140ba1ac0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiAutoComplete.pas": [
+   "140c5cdf0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiCodePageEdit.pas": [
+   "140c6c980"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiComCtrls.pas": [
+   "140c35b40",
+   "140c39d70",
+   "140c3c2e0",
+   "140c3c5c0",
+   "140c3c760",
+   "140c3e4a0",
+   "140c3e6f0",
+   "140c3e900",
+   "140c3eac0",
+   "140c3f350",
+   "140c3f440",
+   "140c3f700",
+   "140c40410",
+   "140c41640",
+   "140c43300"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiDropCtrls.pas": [
+   "140c71d00",
+   "140c72d90",
+   "140c75510",
+   "140c75b40",
+   "140c75c90",
+   "140c76050"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiEdits.pas": [
+   "140c7ebf0",
+   "140c7ee00"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiHexEditor.pas": [
+   "140c88460",
+   "140c88900",
+   "140c894e0",
+   "140c8af40",
+   "140c8b3c0",
+   "140c8bf50",
+   "140c8c0e0",
+   "140c8c790",
+   "140c8c940",
+   "140c8ca30",
+   "140c8d190",
+   "140c8d2e0",
+   "140c8d5c0",
+   "140c8de60"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiListTable.pas": [
+   "140c99b50",
+   "140c9a040",
+   "140c9c1d0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiMainControl.pas": [
+   "140c817d0",
+   "140c819a0",
+   "140c81b50",
+   "140c81d40",
+   "140c826b0",
+   "140c82b80",
+   "140c833c0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiMapTreeView.pas": [
+   "140ca1520",
+   "140ca1b70",
+   "140ca32d0",
+   "140ca3cc0",
+   "140ca3f10",
+   "140ca4120",
+   "140ca4b90",
+   "140ca4cd0",
+   "140ca4de0",
+   "140ca8050",
+   "140ca81d0",
+   "140ca8950",
+   "140ca9100",
+   "140ca98b0",
+   "140caa020",
+   "140caa530",
+   "140caadf0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpecCtrls.pas": [
+   "140ce5d40",
+   "140ce6f40",
+   "140ce7680",
+   "140ce7d20",
+   "140ce8b40",
+   "140ce9320",
+   "140ce9a90"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpeedBar.pas": [
+   "140ceb130"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiSpeedHeader.pas": [
+   "140c91ac0",
+   "140c92140",
+   "140c92900",
+   "140c92ef0",
+   "140c93190",
+   "140c93b30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTabFooter.pas": [
+   "140ced400",
+   "140cee8b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTabHeader.pas": [
+   "140cf10e0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTableEditor.pas": [
+   "140cf8ff0",
+   "140cf9b60",
+   "140cfaf70",
+   "140cfb810",
+   "140cfc070",
+   "140cfc8b0",
+   "140cfe360",
+   "140cfe490",
+   "140cfed10",
+   "140cfefa0",
+   "140cff240",
+   "140cff440",
+   "140cfff10",
+   "140d00010",
+   "140d00a70",
+   "140d00b70"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiTextEditor.pas": [
+   "140d07e20",
+   "140d083f0",
+   "140d08760",
+   "140d08870",
+   "140d09640",
+   "140d0ac70",
+   "140d0bb00",
+   "140d0d0e0",
+   "140d0ec30",
+   "140d0ef90",
+   "140d0f3f0",
+   "140d0f9c0",
+   "140d10590",
+   "140d112a0",
+   "140d11400",
+   "140d11850",
+   "140d12120",
+   "140d13b80",
+   "140d13df0",
+   "140d14490",
+   "140d15990",
+   "140d16310",
+   "140d16400",
+   "140d16660",
+   "140d16e70",
+   "140d17220",
+   "140d17390",
+   "140d17a60",
+   "140d18ee0",
+   "140d19980",
+   "140d19d10",
+   "140d1a140",
+   "140d1a640",
+   "140d1b3f0",
+   "140d1b680",
+   "140d1b790",
+   "140d1b900",
+   "140d1ba20",
+   "140d1c130",
+   "140d1c570",
+   "140d1c770",
+   "140d1c9c0",
+   "140d1cab0",
+   "140d1cbb0",
+   "140d1cd90",
+   "140d1cea0",
+   "140d1d070",
+   "140d1d370"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiThemes.pas": [
+   "140d1dcc0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiThumb.pas": [
+   "140d1f670",
+   "140d200e0",
+   "140d21220",
+   "140d218a0",
+   "140d21be0",
+   "140d21d20"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiUtils.pas": [
+   "140c4d320",
+   "140c4d440",
+   "140c4d560",
+   "140c4d710",
+   "140c4d8a0",
+   "140c4e690",
+   "140c4f4b0",
+   "140c4f6a0",
+   "140c50340",
+   "140c505a0",
+   "140c51ff0",
+   "140c559f0",
+   "140c59ce0",
+   "140c5a540"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiVirtualListBox.pas": [
+   "140d26620",
+   "140d267f0",
+   "140d26f60"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ui\\UiWebBrowser.pas": [
+   "140d781c0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ver\\VerContent.pas": [
+   "1417c04e0",
+   "1417c37b0",
+   "1417c3f30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ver\\VerRules.pas": [
+   "1417bedc0",
+   "1417bef80"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Ver\\ViewVer.pas": [
+   "141c3f8c0",
+   "141c3fff0",
+   "141c42100"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\Vfs7zipResourceImpl.pas": [
+   "141880be0",
+   "1418816a0",
+   "141881b50",
+   "141881e30",
+   "1418821a0",
+   "141882890",
+   "1418851d0",
+   "1418852f0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsAbArchiveResourceImpl.pas": [
+   "14189ec50"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsAmazonS3ResourceImpl.pas": [
+   "1418e8db0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsArchiveResourceImpl.pas": [
+   "140e22400",
+   "140e22aa0",
+   "140e22c30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsEntryImpl.pas": [
+   "140e316d0",
+   "140e31bc0",
+   "140e32c00",
+   "140e34100",
+   "140e35190",
+   "140e35340",
+   "140e35d40",
+   "140e367a0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFileCache.pas": [
+   "140e2b220",
+   "140e2bb30",
+   "140e2c080",
+   "140e2c280",
+   "140e2c580",
+   "140e2c750"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFtpIndy10Connection.pas": [
+   "141a7e1b0",
+   "141a7e980"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsFtpResourceImpl.pas": [
+   "141a737c0",
+   "141a738b0",
+   "141a739a0",
+   "141a73ad0",
+   "141a73bd0",
+   "141a73e00",
+   "141a74700"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsJobs.pas": [
+   "140e15770",
+   "140e17ac0",
+   "140e19910"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsLocalResourceImpl.pas": [
+   "140e0b640",
+   "140e0ba70",
+   "140e0be00"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsMain.pas": [
+   "140e453e0",
+   "140e469b0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsManagerImpl.pas": [
+   "140e394b0",
+   "140e3b960",
+   "140e3cc10",
+   "140e3dd90",
+   "140e3f5e0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsOneDriveResourceImpl.pas": [
+   "141ab37e0"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsPortableDeviceResourceImpl.pas": [
+   "141abd420",
+   "141abe7e0",
+   "141abea90"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsSyncMemoryResourceImpl.pas": [
+   "141acea30"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsWebDAVResourceImpl.pas": [
+   "141ae0cb0",
+   "141ae1160",
+   "141ae2360"
+  ],
+  "C:\\BCBuild\\BCompare\\Source\\Vfs\\VfsZipForgeResourceImpl.pas": [
+   "141ae5240"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfBase.pas": [
+   "14056e980",
+   "14056ec80",
+   "14056edb0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfDec.pas": [
+   "140578350"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfEnc.pas": [
+   "1418957d0",
+   "1418963c0",
+   "141896c50"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfHufD.pas": [
+   "1405712e0",
+   "140571580",
+   "140571a40",
+   "140571bd0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfInW.pas": [
+   "1405704c0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfPkMg.pas": [
+   "141894fb0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfStrm.pas": [
+   "140574010",
+   "140574360",
+   "140574670",
+   "140574970",
+   "140574be0",
+   "140575130",
+   "140575420",
+   "140575870",
+   "1405759f0",
+   "140575c30",
+   "140576160"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbDfXlat.pas": [
+   "140572540",
+   "1405726e0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Abbrevia\\source\\AbWavPack.pas": [
+   "14059b020"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\CCR": [
+   "141106480",
+   "14112cf40",
+   "14112d170",
+   "14112d5d0",
+   "141130440",
+   "141154440",
+   "141156100",
+   "1411586e0",
+   "14116c2d0",
+   "141179ca0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Delphi\\37.0\\Vcl.ComCtrls.pas": [
+   "140333f50"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFlxNumberFormat.TFormatSections.pas": [
+   "1412e3580"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TArrayAggregate.pas": [
+   "14120d340"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TBaseToken.pas": [
+   "14136c8d0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\_UFormulaTokens.TRomanToken.pas": [
+   "141220700"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\__FlexCelTypes.pas": [
+   "14122bab0",
+   "14127b950"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\Core\\__FlxXmlReader.pas": [
+   "1413d80e0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_CalcPack.WorkDayImpl.pas": [
+   "14173c5c0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UCalc.TFormulaCache.pas": [
+   "14148d330"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UConditionalFormatsImpl.TConditionalFormatDXFList.pas": [
+   "141581d80"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UConvertBIFF8ToInternal.TFormulaConvertBiff8ToInternal.pas": [
+   "141574210"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UEscherRecords.TEscherImageAnchorRecord.pas": [
+   "1414b1870",
+   "1414b1ab0",
+   "1414b1c30",
+   "1414b1f70"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UEscherRecords.TEscherOPTRecord.pas": [
+   "14167ab80",
+   "14167d690",
+   "14167d9b0",
+   "14167ecf0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UOle2Impl.TOle2File.pas": [
+   "141406e10",
+   "141407310",
+   "141408fe0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UPxlRecordLoader.TBiff5FormulaConverter.pas": [
+   "141469a80"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USST.TSST.pas": [
+   "1416eaad0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USST.TSSTEntry.pas": [
+   "1416e8a20"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_USheetNameList.TSheetNameList.pas": [
+   "14142dbf0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TInsertTokens.pas": [
+   "1416e3950"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TMoveTokens.pas": [
+   "1416e5200"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UTokenManipulator.TTokenManipulator.pas": [
+   "1416e65c0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXls95RecordLoader.TXls95RecordLoader.pas": [
+   "14170f160"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsAdapter.XlsFile.pas": [
+   "1417454f0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsBaseRecords.TStringRecordData.pas": [
+   "141457dc0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsChartRecords.TChartBaseRecord.pas": [
+   "1416a2c30"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsChartRecords.TChartFBIRecord.pas": [
+   "1416ba1e0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsClientData.TObjRecord.pas": [
+   "141488a20"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsClientData.TTXO.pas": [
+   "1414a2220",
+   "1414a2470"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsEscher.TDrawing.pas": [
+   "1414dcb10",
+   "1414de7e0",
+   "1414dea00",
+   "1414e03f0",
+   "1414e0550",
+   "1414e40f0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsOtherRecords.TBOFRecord.pas": [
+   "1416cfbc0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsReferences.TReferences.pas": [
+   "1416db0c0",
+   "1416db310"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsReferences.TSupBookRecord.pas": [
+   "1416d7b80"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsRowColEntries.TCellList.pas": [
+   "14169e760",
+   "14169eab0",
+   "14169eff0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsSheet.TSheet.pas": [
+   "1416c9110"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxRecords.TXlsxBorderReaderWriter.pas": [
+   "141571060"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxShapeReader.TShapePresets.pas": [
+   "1414db1c0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\FlexCel\\Source\\XlsAdapter\\_UXlsxTables.BuiltinTableStyles.pas": [
+   "141543860"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\GraphicEx\\GraphicEx.pas": [
+   "140bc35d0",
+   "140bc3960",
+   "140bc3d70"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\HTTPGet.pas": [
+   "140f0f130"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdCustomTCPServer.pas": [
+   "141920730",
+   "141920e80"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdIOHandler.pas": [
+   "141907770",
+   "141907bd0",
+   "141909880"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdIOHandlerStack.pas": [
+   "14190f310",
+   "14190f430"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdScheduler.pas": [
+   "14191a530"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdSchedulerOfThread.pas": [
+   "14191aea0",
+   "14191b160"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdServerIOHandlerSocket.pas": [
+   "14191dd60"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Core\\IdThread.pas": [
+   "14191cf00"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdCoder3to4.pas": [
+   "14193c010"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdCustomHTTPServer.pas": [
+   "141a9b370"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdGlobalProtocols.pas": [
+   "140eb5040",
+   "140eb52b0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\Protocols\\IdZLibCompressorBase.pas": [
+   "141924970"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\System\\IdGlobal.pas": [
+   "140e7dbe0",
+   "140e7f500",
+   "140e7fbb0",
+   "140e7fcc0",
+   "140e80fb0",
+   "140e81470",
+   "140e81670",
+   "140e81770",
+   "140e81870",
+   "140e81aa0",
+   "140e81bb0",
+   "140e81d20",
+   "140e81f00",
+   "140e82260",
+   "140e82440"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\Indy10\\System\\IdStreamVCL.pas": [
+   "140e77280",
+   "140e77420"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBAuthDataStream.pas": [
+   "1418a82d0",
+   "1418a8fd0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBChSConvBase.pas": [
+   "1406a5820"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBCustomCertStorage.pas": [
+   "140843d70"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBDataStorage.pas": [
+   "1418ba3a0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBEdMath.pas": [
+   "1407dbf00",
+   "1407dc650",
+   "1407df300",
+   "1407e1030",
+   "1407e12d0",
+   "1407e15a0",
+   "1407e1950",
+   "1407e1ee0",
+   "1407e23c0",
+   "1407e2ad0",
+   "1407e3060",
+   "1407e3920"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBJSON.pas": [
+   "14097fa60"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBMLDSA.pas": [
+   "1407e7f10",
+   "1407e80b0",
+   "1407e84c0",
+   "1407e8690",
+   "1407e88b0",
+   "1407e8a20",
+   "1407e8b90",
+   "1407e8d40",
+   "1407e8ef0",
+   "1407e9010",
+   "1407e91f0",
+   "1407e9410",
+   "1407e95c0",
+   "1407e9790",
+   "1407e9970",
+   "1407e9b40",
+   "1407e9d00",
+   "1407e9e50",
+   "1407ea2c0",
+   "1407ea840",
+   "1407eac10",
+   "1407eb090",
+   "1407eb2d0",
+   "1407eb6a0",
+   "1407eb980",
+   "1407ebe20",
+   "1407ebfc0",
+   "1407ec170",
+   "1407ec2f0",
+   "1407ec4c0",
+   "1407ec640",
+   "1407ec7c0",
+   "1407ec990",
+   "1407ecbe0",
+   "1407ecd40",
+   "1407ecee0",
+   "1407ed060",
+   "1407ed1e0",
+   "1407ed3b0",
+   "1407ed580",
+   "1407ed700",
+   "1407ed880",
+   "1407eda00",
+   "1407edbd0",
+   "1407edd30",
+   "1407edf20",
+   "1407ee110",
+   "1407ee2f0",
+   "1407ee4c0",
+   "1407ee680",
+   "1407ee9b0",
+   "1407eee40",
+   "1407ef090",
+   "1407ef2f0",
+   "1407ef6c0",
+   "1407efbe0",
+   "1407efe30",
+   "1407f0010",
+   "1407f05b0",
+   "1407f07b0",
+   "1407f09e0",
+   "1407f0d50",
+   "1407f11c0",
+   "1407f1510",
+   "1407f2540",
+   "1407f3a40"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBPKCS12.pas": [
+   "14083c040"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBRandom.pas": [
+   "1406a0480"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSSHCommon.pas": [
+   "1419e2740"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSSLClient.pas": [
+   "1409a2130",
+   "1409cc960",
+   "1409ccc50"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBSftp.pas": [
+   "141a54430",
+   "141a5b050"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBWhirlpool.pas": [
+   "14076f2e0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBXMLSig.pas": [
+   "140b37fa0",
+   "140b3e6d0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\SecureBlackbox\\Sources\\SBZCompressUnit.pas": [
+   "14084b770",
+   "14084be10",
+   "14084c440",
+   "14084c7c0",
+   "14084ca20",
+   "14084ccb0",
+   "14084d180",
+   "14084d3d0",
+   "14084e5d0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\cMicroThreads.pas": [
+   "140d7cf50"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\jcl\\source\\common\\JclFileUtils.pas": [
+   "141849ff0",
+   "14184a5a0"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\jcl\\source\\common\\JclStrings.pas": [
+   "14184d630",
+   "14184d8e0",
+   "14184de50"
+  ],
+  "C:\\BCBuild\\BCompare\\ThirdParty\\scp2\\Source\\UPTShellUtils.pas": [
+   "140cb81a0"
+  ]
+ }
+}

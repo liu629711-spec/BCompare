@@ -1,0 +1,7 @@
+图片比较(P)
+已产生： 2026/10/19 11:04:52
+
+正在忽略不重要
+左边文件： D:\Rea\verify\pic\p-ignore-line-L.png     右边文件： D:\Rea\verify\pic\p-ignore-line-R.png
+32 个相同像素
+32 个左边独有像素
