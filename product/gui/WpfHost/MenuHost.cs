@@ -74,6 +74,18 @@ namespace ReaCompare.Gui
 
     internal static class MenuBuilder
     {
+        // action keys that open our OWN dialogs (docs/21 C/D shared pipeline).
+        // ReportAction expands '%s Report...' per view (measured: all 8 engine
+        // views carry it under the Session menu) — one key, dispatched at
+        // run time by spec.View. Only these get a Click hook; the handler is
+        // resolved from the reference map at click time.
+        internal static readonly HashSet<string> DIALOG_COMMANDS = new HashSet<string>(
+            StringComparer.Ordinal)
+        {
+            "TSESSIONACTIONS.SessionEditAction",   // Session Settings (C)
+            "TSESSIONACTIONS.ReportAction",        // report wizard (D)
+        };
+
         /// <summary>D1 brand policy (docs/20 2026-10-22): presentation strings
         /// that embed the Oracle product name are shown as ours. The capability
         /// is inherited unchanged — same item, same place, same shortcut, same
@@ -83,14 +95,16 @@ namespace ReaCompare.Gui
         public static string ApplyBrand(string s) =>
             s == null ? null : s.Replace("Beyond Compare", "LiuCompare");
 
-        /// <param name="sessionSlot">optional mutable one-element slot:
-        /// MenuMode fills slot[0] AFTER this call (the apply closure needs the
-        /// per-view state objects that only exist later), and the wiring below
-        /// reads it at CLICK time. Clicking is invisible to the UIA tree (Name
-        /// = Header+gesture), so the 845/410/290 ledger and 12-golden replay
-        /// stay byte-identical; the offline ledger path passes null.</param>
+        /// <param name="commandHandlers">optional action-key → handler map for
+        /// menu commands that open our OWN dialogs (Session Settings, the
+        /// report wizard — docs/21 C/D). It is a REFERENCE dictionary wired
+        /// LAZILY: MenuMode passes an empty map, then fills it after the engine
+        /// state exists; a click reads the current value by key. Wiring a Click
+        /// is invisible to the UIA tree (Name = Header+gesture) so the
+        /// 845/410/290 ledger and 12-golden replay stay byte-identical; the
+        /// offline ledger path passes null.</param>
         public static (Menu, List<(string menu, string label, string shortcut, bool enabled)>) Build(
-            MenuSpec spec, Action<Window>[] sessionSlot = null)
+            MenuSpec spec, Dictionary<string, Action<Window>> commandHandlers = null)
         {
             var menu = new Menu();
             var ledger = new List<(string, string, string, bool)>();
@@ -151,12 +165,23 @@ namespace ReaCompare.Gui
                     if (!string.IsNullOrEmpty(act.Key))
                         System.Windows.Automation.AutomationProperties.SetAutomationId(child, act.Key);
                     child.Tag = act;
-                    // measured SessionEditAction ('Session Settings...') opens
-                    // the Specs dialog. Click is invisible to the UIA tree; the
-                    // handler lives in slot[0] (filled by MenuMode after Build)
-                    // and the owner window is resolved at click time.
-                    if (sessionSlot != null && act.Key == "TSESSIONACTIONS.SessionEditAction")
-                        child.Click += (s, e) => sessionSlot[0]?.Invoke(Window.GetWindow(child));
+                    // measured SessionEditAction / ReportAction open our OWN
+                    // dialogs (docs/21 C/D, shared menu→dialog pipeline). Click
+                    // is invisible to the UIA tree; the handler map is a
+                    // REFERENCE wired LAZILY (MenuMode fills it AFTER Build, once
+                    // the engine state exists), so we attach Click for every
+                    // DIALOG_COMMAND key up front and read the map at CLICK time
+                    // (a key not filled yet = no-op, never a crash).
+                    if (commandHandlers != null && act.Key != null
+                        && DIALOG_COMMANDS.Contains(act.Key))
+                    {
+                        var h = act.Key;
+                        child.Click += (s, e) =>
+                        {
+                            if (commandHandlers.TryGetValue(h, out var act2))
+                                act2(Window.GetWindow(child));
+                        };
+                    }
                     mi.Items.Add(child);
                     ledger.Add((topName, label, sc, child.IsEnabled));
                 }

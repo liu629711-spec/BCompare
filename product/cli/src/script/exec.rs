@@ -1287,6 +1287,12 @@ impl Run<'_> {
 
     /// The current local time in the report format, from the process's zone.
     fn now(&self) -> String {
+        // TEST HOOK parity with the text channel (Stamp::from_env_or_now):
+        // REACMP_TIMESTAMP pins the @script report clock (folder/hex channels)
+        // so a GUI-wizard report and a direct CLI run share one time field.
+        if let Some(t) = std::env::var("REACMP_TIMESTAMP").ok().filter(|v| !v.trim().is_empty()) {
+            return t.trim().to_string();
+        }
         let now = std::time::SystemTime::now();
         let millis = reacmp_vfs::Timestamp::from_system_time(now)
             .map(|t| t.unix_millis())
@@ -1963,7 +1969,10 @@ fn escape_xml(text: &str) -> String {
 /// the epoch rather than a panic.
 fn stamp_of(text: &str) -> reacmp_core::Stamp {
     let (date, time) = text.split_once(' ').unwrap_or(("1970/01/01", "0:00:00"));
-    let d: Vec<&str> = date.split('/').collect();
+    // same acceptance as Stamp::from_text: '/' or '-' separated dates (the
+    // REACMP_TIMESTAMP test hook is commonly written with dashes).
+    let nd = date.replace('-', "/");
+    let d: Vec<&str> = nd.split('/').collect();
     let t: Vec<&str> = time.split(':').collect();
     let num = |v: Option<&&str>| -> i64 { v.and_then(|s| s.parse().ok()).unwrap_or(0) };
     reacmp_core::Stamp::from_parts(

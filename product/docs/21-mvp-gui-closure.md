@@ -9,13 +9,13 @@
 | 判据 | 现状 | 缺口 |
 |---|---|---|
 | 功能 1/3/5 全链路（文本/目录/HEX） | 引擎字节级收口 + GUI 列表/双窗格全通 | 工具栏全是 2px 空壳（**用户第一眼可见的最大缺口**） |
-| 功能 11 报告"能出" | 五通道 CLI/脚本全通 | **无 GUI 入口**（挂点已有：8 视图 Session 菜单的 `{View} Report...`） |
+| 功能 11 报告"能出" | 五通道 CLI/脚本全通 | ✅ GUI 入口第一档（2026-10-25，§D 收口：uia-report-check 三臂绿、字节零漂移） |
 | 功能 13 脚本兼容 | CLI 全通 | — |
-| 功能 15 配置 | 引擎四语法全通 | 无会话选项 GUI（Session Settings 对话框，结构锚点已探明） |
-| 功能 2 合并 | 两档 + Merge to/Swap 收口 | Session Settings 的 OK→重合并行为环未测（在案） |
+| 功能 15 配置 | 引擎四语法全通 | ✅ Session Settings Specs 第一档（2026-10-25，§C 收口：活体正负全绿；标签页后续在案） |
+| 功能 2 合并 | 两档 + Merge to/Swap 收口 | OK→重合并行为环已实测（docs/19 §6.22 R5）；合并窗四字段对话框=在案后续（合并窗无菜单栏） |
 | 窗口化 | 打开即比 ✓、品牌/DPI/主题 ✓ | 见上 |
 
-**结论：MVP 收口 = 四件 GUI 件 + 一件顺手接线。** 已按
+**结论：MVP 收口 = 四件 GUI 件 + 一件顺手接线 —— 2026-10-25 全部收口（A/B/C/D 全绿；B 像素三模、C 活体正负、D 三臂均当日桌面窗口期补跑）。** 已按
 [可见收益 × 探针风险] 排序如下。
 
 ## A. 状态栏计数接线（顺手件，最小）
@@ -119,8 +119,10 @@
    色）；dark 色判定逐通道→**亮度均值 ±28**（ClearType 子像素彩边
    (204,219,193) 是渲染器属性非产品填色）。负向注入 ink==0 判据不变、
    牙齿实测保留。
-3. 🔄 **C Session Settings 对话框**（2026-10-25 实现+树级/引擎回归绿；
-   对话框活体环待桌面恢复补跑）：探针先行实测 OK 行为环全环（docs/19 §6.22，
+3. ✅ **C Session Settings 对话框**（2026-10-25 实现+树级/引擎回归绿；
+   **活体环当日桌面恢复后补跑全绿**：正向=开框两字段预填+改 LeftPath+OK
+   原地重比较、窗口存活、标题跟随新对；负向 `REACMP_SSET_NEG=1` 标题停旧值
+   被抓）：探针先行实测 OK 行为环全环（docs/19 §6.22，
    session-settings-en R5：4 模式 ok-yes/ok-no/cancel/text-ok/text-cancel）——
    **核心答案**：OK 原地重比较（主窗句柄存活 main-replaced=false）、标题跟随
    新对（text 环）、双文件视图只 2 字段（n_spec_combos=2）、text 视图不弹
@@ -132,10 +134,26 @@
    实测照抄），Cancel/Esc 丢弃；菜单→对话框管线=SessionEditAction 项挂
    Click（BcMenuItemPeer 改 MenuItemAutomationPeer 恢复 ExpandCollapse 模式，
    纯 UIA 门禁不依赖鼠标）。门禁 tools/uia-session-settings-check.py 就位+
-   桌面预检（env-block exit3 与产品红区分）。**待补跑**：开框/预填/OK 重比较/
-   Cancel 四断言 + 负向 REACMP_SSET_NEG（Screen-saver 阻塞 WPF 弹出子项进 UIA，
-   同 B 像素先例）。合并视图四字段+确认框环随合并窗菜单=在案后续。
-4. **D 报告向导第一档**（1 天级，与 C 共用菜单管线）→ MVP 判据全勾。
+   桌面预检（env-block exit3 与产品红区分）。合并视图四字段+确认框环随
+   合并窗菜单=在案后续。
+4. ✅ **D 报告向导第一档**（2026-10-25 当日完成；MVP 判据最后一件已勾）：
+   ReportWizardDialog.cs（docs/19 §6.23）=自家 WPF 向导、**GUI 是 CLI 薄壳**
+   ——Run 直接 shell-out reacmp.exe（text=三路径 --layout/--opt；hex/folder=
+   生成 @script hex-report/folder-report，语法 exit-0 实锤先行）。layout
+   合法集来自引擎事实（--help 7 名/HEX_LAYOUT_NAMES/FOLDER_LAYOUT_NAMES 各
+   3 名），向导不可能给出引擎会拒的选项。字节零漂移钉死钩子=
+   `REACMP_TIMESTAMP`（core Stamp::from_env_or_now + exec.rs now()/stamp_of
+   同一 env；未设=真实时钟默认路径零改变，core 278+cli 470+golden 全套验证
+   在先）。成功=非模态状态行（子模态框会卡门禁 UIA Invoke，教训入 §6.23）；
+   失败=CLI stderr 原文透出+留在框内。与 C 共用 commandHandlers 管线
+   （MenuBuilder.Build 引用字典+DIALOG_COMMANDS 键集，离线账本传 null=树零
+   变化）。门禁 tools/uia-report-check.py 三臂全绿：正向=向导产物与同参 CLI
+   直跑（同钉死钟）**逐字节相等（1384B）**；负向 `REACMP_REPORT_NEG=1` 谎报
+   成功不落盘被抓；cancel 臂 Cancel 零落盘。**活体全套复验**（peer 基类变更
+   在 B 补跑之后）：d3/interact/find/content/filter×3/theme-dark/overview/
+   merge 族×3(含内建负向)/hex 正负/folder 正负/toolbar 三模/C 正负 = 全部
+   重新绿，零回退。其余五视图（table/picture/registry/version/media）报告
+   通道引擎已有但 GUI 无活会话接线=向导表外保持 inert（诚实壳，在案后续）。
 5. **E folder 展开探针→实现**（P1，MVP 后第一个）。
 6. 里程碑尾：docs/20 §4-4 的"BC vs 我们"人工走查一次（探针基建出对照
    截图），结果记 docs/20 §7。

@@ -44,6 +44,31 @@ impl Stamp {
         }
     }
 
+    /// Parse a `yyyy/mm/dd h:mm:ss` (or `-`-separated) text into a Stamp.
+    /// Unknown parts default to zero rather than inventing a clock.
+    pub fn from_text(s: &str) -> Stamp {
+        let (date, time) = s.split_once(' ').unwrap_or((s, "0:00:00"));
+        let norm = date.replace('-', "/");
+        let d: Vec<&str> = norm.split('/').collect();
+        let t: Vec<&str> = time.split(':').collect();
+        let num = |v: Option<&&str>| -> i64 { v.and_then(|x| x.parse().ok()).unwrap_or(0) };
+        Stamp::from_parts(num(d.first()), num(d.get(1)) as u32, num(d.get(2)) as u32,
+                          num(t.first()) as u32, num(t.get(1)) as u32, num(t.get(2)) as u32)
+    }
+
+    /// TEST HOOK (report wizard gate, docs/21 D): `REACMP_TIMESTAMP=
+    /// 'yyyy/mm/dd h:mm:ss'` pins the report clock so the GUI shell and a
+    /// direct CLI run byte-compare with the SAME time field (the harness
+    /// `normalize.py` TIME rule exists precisely because this field is clock-
+    /// dependent; the gate compares raw bytes with the hook instead). Unset or
+    /// blank = the real clock: the default path is unchanged.
+    pub fn from_env_or_now() -> Stamp {
+        match std::env::var("REACMP_TIMESTAMP") {
+            Ok(v) if !v.trim().is_empty() => Stamp::from_text(v.trim()),
+            _ => Stamp::now_utc(),
+        }
+    }
+
     /// The current UTC time.
     pub fn now_utc() -> Stamp {
         let secs = SystemTime::now()

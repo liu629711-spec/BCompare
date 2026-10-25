@@ -275,7 +275,7 @@ pub fn compare_bytes(
         left_path,
         right_path,
         options,
-        Stamp::now_utc(),
+        Stamp::from_env_or_now(),
         cancel,
     )
 }

@@ -34,12 +34,15 @@ namespace ReaCompare.Gui
             // / docs/19 §6.22 measured: apply in place, title follows the pair
             // in the text view). Every engine channel reads THIS, never the
             // raw argv, so one re-point + re-run replaces the session.
-            // dispTab/opt0/sessionSlot are the supporting mutable state the
-            // live pair needs for re-runs and the title template.
+            // dispTab + the live pair are the supporting mutable state the
+            // in-place re-runs and the title template need. commandHandlers is
+            // the shared menu→dialog pipeline (docs/21 C/D): MenuBuilder wires
+            // Click for every DIALOG_COMMAND key; handlers are filled HERE,
+            // after the state each closure needs exists (late binding).
             string sessLeft = null, sessRight = null;
             string opt0 = "";
             DispatchTable dispTab = null;
-            var sessionSlot = new Action<Window>[1];
+            var commandHandlers = new Dictionary<string, Action<Window>>(StringComparer.Ordinal);
             string dispatchVia = null;
             if (dLeft != null)
             {
@@ -129,11 +132,13 @@ namespace ReaCompare.Gui
                 foreach (var node in skv.EnumerateArray())
                     spec.Skeleton.Add(LoadSkelNode(node));
 
-            // sessionSlot is only wired for dispatched sessions (the live
-            // engine views own a Session Settings apply); the offline ledger
-            // path (gui-self-check / menu-offline) never passes it — its menu
-            // items have NO Click handler at all (UIA tree unchanged).
-            var (menu, ledger) = MenuBuilder.Build(spec, dLeft != null ? sessionSlot : null);
+            // commandHandlers is only wired for dispatched sessions (the live
+            // engine views own Session Settings/report dialogs); the offline
+            // ledger path (gui-self-check / menu-offline) passes null — its
+            // menu items have NO Click handler at all (UIA tree unchanged).
+            // (Report wizard + Session Settings handlers register later, once
+            // the engine window exists — they need `win` as dialog owner.)
+            var (menu, ledger) = MenuBuilder.Build(spec, dLeft != null ? commandHandlers : null);
             ChromeBuilder.BuildRows(spec.Toolbars, out var tbLedger);
             ChromeBuilder.BuildRows(spec.Statusbars, out var sbLedger);
             var skelLedger = new List<Dictionary<string, object>>();
@@ -806,7 +811,7 @@ namespace ReaCompare.Gui
                 // — simulating the fault "OK not bound to the engine channel"
                 // so the gate's title/rows assertions are proven to have
                 // teeth. Never set in product use.
-                sessionSlot[0] = owner =>
+                commandHandlers["TSESSIONACTIONS.SessionEditAction"] = owner =>
                 {
                     if (applyHolder[0] == null) return;
                     var res = SessionSettingsDialog.Show(owner ?? win, view, sessLeft, sessRight);
@@ -814,6 +819,15 @@ namespace ReaCompare.Gui
                         Environment.GetEnvironmentVariable("REACMP_SSET_NEG") != "1")
                         applyHolder[0](res.Left, res.Right);
                 };
+                // Report wizard (docs/21 D): same shared pipeline, a DIFFERENT
+                // action key. The wizard is a thin shell over the CLI report
+                // verbs (byte-exactness is the gate claim), so it needs only
+                // the live pair + engine exe + view. Views without a wired
+                // report channel stay OUT of the wizard's table (inert —
+                // never a faked report).
+                commandHandlers["TSESSIONACTIONS.ReportAction"] = owner =>
+                    ReportWizardDialog.Show(owner ?? win, view,
+                        enginePath ?? ReacmpEngine.DefaultExe(), sessLeft, sessRight);
                 wireFindKeys?.Invoke(win);
                 var app = new Application();
                 win.Show();

@@ -1193,3 +1193,39 @@ Specs 帧=4 个 TUiSpecComboBox（顶序 Left/Right/Center/Output），
 Cancel 定义为"放弃本次 OK、留在设置框"（表现自设计，已标注）。非 merge
 视图（text/hex/folder）无"输出文档脏"概念，BC 是否弹同类确认未测——
 自家第一档按语义只在 merge 视图弹。
+
+### 6.23 报告向导第一档（2026-10-25；docs/21 D，MVP 判据最后一件）
+
+BC 的 ReportDialog 结构本轮**未做探针**（向导=表现自设计、能力=引擎既有
+报告通道，无需 BC 行为锚点——与 C 的"行为环必须先测"区分：C 改变会话
+状态、必须实测；D 只是调 CLI 的壳、产物可与引擎直跑对拍自证）。
+
+**通道事实（引擎侧，全部 exit-0 实锤先行）**：
+- text：三路径 `reacmp L R <out> --layout=<l> [--opt=<o>]`，7 布局
+  （--help：xml/side-by-side/interleaved/over-under/patch/summary/statistics）；
+- hex：@script `hex-report layout:<l> output-to:"<out>" "<L>" "<R>"`，
+  3 布局（HEX_LAYOUT_NAMES）；options/output-options 引擎拒（exit 106）；
+- folder：@script `load "<L>" "<R>"` + `folder-report layout:<l>
+  output-to:"<out>"`，3 布局（FOLDER_LAYOUT_NAMES）。
+向导 layout 集直接来自这些**引擎事实**，不可能给出会被拒的选项。
+
+**REACMP_TIMESTAMP 钉死钩子（测试缝，非 BC 行为，标注在案）**：报告内嵌
+时钟（`Produced:` 行 / `created=` 属性）破坏两次运行字节可比性；harness
+既有 normalize.py TIME 规则是归一化路线，本门禁要强得多的**原始字节相等**，
+故在 core（`Stamp::from_env_or_now`，compare_bytes 唯一调用点改用它）+ cli
+（exec.rs `now()` 头部同源短路、`stamp_of` 兼容 dash）加统一 env 钩子。
+未设/空白=真实时钟，默认路径逐字节不变（core 278+cli 470+12 golden 全绿
+在先）。`from_text`/`stamp_of` 同时接受 `/` 与 `-` 分隔日期。
+
+**GUI 侧（ReportWizardDialog.cs）**：菜单→对话框管线与 C 共用
+（`MenuBuilder.Build(spec, commandHandlers)` 引用字典 + `DIALOG_COMMANDS`
+键集预挂 Click、点击时晚绑定查键；离线账本传 null=UIA 树零变化，12
+golden 逐字节验证）。8 视图的 `%s Report...` 都归一
+`TSESSIONACTIONS.ReportAction`（presence 实测），向导按 spec.View 查通道表，
+表外视图**保持 inert**（table/picture/registry/version/media 引擎有报告
+通道但 GUI 无活会话接线——诚实壳，在案后续）。
+
+**教训入案**：向导反馈全走**非模态状态行**（ReportStatus，成功/失败同路径）
+——首版成功用 MessageBox，门禁在 UIA Invoke 路径上被同线程模态泵死锁（读
+不到也关不掉），实测后整框改状态行；文件是否落盘由门禁独立校验，UI 反馈
+不承担正确性。错误臂把 CLI stderr 原文写进状态行（失败面=不猜结果）。
