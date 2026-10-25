@@ -204,3 +204,34 @@ docs/19 §6.12-B）+ 顶部菜单/工具栏的五区格局照参考 BC（这套�
    B 工具栏渲染第一档 → C Session Settings（探针 OK 行为环先行）→
    D 报告向导（GUI 产物==CLI 直跑逐字节断言）→ E folder 展开），尾部做
    §4-4 人工走查。
+
+## 7. 修订日志（每里程碑 §4-4 走查 + 验收记录）
+
+### 7-1 MVP 收口里程碑尾走查（2026-10-25）✅
+
+工具 `tools/live-walkthrough.py`（Job Object 串行、零残留、桌面预检）出证据：
+`extracted/live/walkthrough-en/` 三对全窗截图（text/folder/hex 同内容夹具
+_tmp/walkthrough-fx）+ walkthrough-meta.json 客观事实层。判定=人工逐对读图，
+脚本只供事实不代判。
+
+**能力层一致（实测）**：三视图菜单项名集合**完全相等**（bc_only=[] 且
+ours_only=[] ×3）；标题=实测模板 `{L} <--> {R} - {View} - <brand>`、品牌行
+双侧命中（D1 全视图落地）；窗口 1456×864 双侧同尺寸（D2）。离线账本
+（845/410/290+12 golden）与活体走查互证。
+
+**表现轴差（全部=§3 已拍板自设计，非缺陷）**：工具栏 BC 图标 27/25/23 钮 vs
+我方文字钮 15/18/13（计数口径不同：BC 含路径框/内嵌钮，§6.21 自设计）；
+folder 状态=BC 圆点 vs 我方五状态文字色+斑马（§6.20）；hex 差异=BC 红蓝
+双色+分隔线 vs 我方逐字节红粉+hatch（§6.19）。
+
+**缺口清单——走查未发现任何未录缺陷（这是本里程碑走查的核心结论）**，
+图上可见差距全部指向在案项：①词级 inline 标记（textcolor-en colors.json
+`word_level_marks_residual` P1 已录）；②窗格顶 per-pane 元信息行/路径框
+（BC 日期+字节+UTF-8/UNIX+路径下拉；=功能 5 行在案"信息行文本"）；
+③folder 底部日志面板（功能 3 行在案"日志框"）；④状态栏差异图例（BC
+"Important Difference/Insert" 图例；归入②表现细节，P1 顺路）。
+**无需新增 backlog 项。**
+
+方法论入案：走查工具首版每次 `rmtree(OUT)` 单视图重跑会清掉别视图证据
+（实测丢了 text/folder 事实层一次）→改增量合并 meta；PNG 可 PrintWindow
+在任意桌面取，但 UIA 事实层与弹层需 Default（预检 exit3 家族沿用）。

@@ -155,8 +155,11 @@
    重新绿，零回退。其余五视图（table/picture/registry/version/media）报告
    通道引擎已有但 GUI 无活会话接线=向导表外保持 inert（诚实壳，在案后续）。
 5. **E folder 展开探针→实现**（P1，MVP 后第一个）。
-6. 里程碑尾：docs/20 §4-4 的"BC vs 我们"人工走查一次（探针基建出对照
-   截图），结果记 docs/20 §7。
+6. ✅ 里程碑尾：docs/20 §4-4 人工走查（2026-10-25 完成）——
+   `tools/live-walkthrough.py` 三对全窗对照图 + 事实层入
+   `extracted/live/walkthrough-en/`，结论记 docs/20 §7-1：**零新缺陷，
+   图上差距全指向在案 P1 项，backlog 无需新增**；菜单名集三视图完全
+   相等（能力层活体互证），品牌/标题/尺寸判据全中。
 
 ## 风险与纪律备忘
 
